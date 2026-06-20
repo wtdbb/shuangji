@@ -13,4 +13,4 @@ if (-not (Test-Path $python)) {
 }
 
 $log = Join-Path $root "logs\we-mp-rss-service.log"
-& $python "main.py" -job True -init True *>> $log
+& $python "main.py" -job True -init False *>> $log
