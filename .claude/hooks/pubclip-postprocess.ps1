@@ -351,8 +351,8 @@ function Set-RoundRegion($ctrl, [int]$radius) {
 }
 
 function Show-MappingReview([string]$Title, [string]$Category, [string]$TargetRel, [string]$Block) {
-    # 仅手动运行(-Source manual)才弹确认框;后台 watch/watch-start/scheduled 一律静默直接写入,避免弹窗轰炸
-    if ($Source -ne 'manual') { return $Block }
+    # 仅实时新剪藏/手动模式弹一次确认框；scheduled/watch-start 不弹，避免弹窗轰炸
+    if ($Source -ne 'manual' -and $Source -ne 'watch') { return $null }
     try {
         Add-Type -AssemblyName System.Windows.Forms | Out-Null
         Add-Type -AssemblyName System.Drawing | Out-Null
@@ -536,6 +536,12 @@ function Add-SectionOnce([string]$Path, [string]$Marker, [string]$Block) {
     Add-Content -Path $Path -Encoding utf8 -Value $Block
 }
 
+function Test-SectionExists([string]$Path, [string]$Marker) {
+    if (-not (Test-Path $Path)) { return $false }
+    $existing = Get-Content $Path -Raw -Encoding utf8
+    return $existing.Contains($Marker)
+}
+
 $state = @{}
 if (Test-Path $stateFile) {
     try {
@@ -629,17 +635,45 @@ foreach ($file in $files) {
 "@
     Add-SectionOnce $dailyFile $title $reportBlock
 
-    # mapping 由用户手动维护:这里不再自动写入 岗位mapping/行业mapping
-    # (只做:原文清洗归档 + 媒体本地化 + 日报草稿)
+    # mapping 导入：
+    # - watch/manual：弹出可编辑窗口，用户确认后导入
+    # - scheduled/watch-start：只补日报和媒体，不弹窗，避免打扰
+    $route = Choose-MappingTarget $category $title $text $company
+    Ensure-RootNote $route.Path $route.Label $route.Kind
+
+    if (-not (Test-SectionExists $route.Path $title)) {
+        $localAttachments = ""
+        $mappingBlock = "`n### $title`n"
+        if (-not [string]::IsNullOrWhiteSpace($sourceUrl)) {
+            $mappingBlock += "- 链接：$sourceUrl`n"
+        }
+        $routeRel = Get-RelPath $route.Path
+        $routeLink = $routeRel -replace '\.md$', ''
+        $mappingBlock += "- 去向:[[$routeLink]]`n"
+        $mappingBlock += @"
+- 分类：$category
+- 公司：$company
+- 关键事件：$event
+- 推断依据：$reason
+- 原文：[[行业报告/公众号原内容/$($file.BaseName)]]
+$localAttachments
+"@
+        if ($Source -eq "watch" -or $Source -eq "manual") {
+            $reviewedBlock = Show-MappingReview $title $category $routeLink $mappingBlock
+            if (-not [string]::IsNullOrWhiteSpace($reviewedBlock)) {
+                Add-SectionOnce $route.Path $title $reviewedBlock
+            }
+        }
+    }
 
     $state[$file.FullName] = $stamp
 }
 
+foreach ($k in @($state.Keys)) {
+    if (-not (Test-Path $k)) { $state.Remove($k) }
+}
 Save-State $state
 exit 0
-
-
-
 
 
 
