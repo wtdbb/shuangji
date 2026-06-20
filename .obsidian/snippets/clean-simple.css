@@ -1,0 +1,47 @@
+/* Clean Simple Vault */
+
+:root {
+  --nav-item-size: 24px;
+  --file-line-height: 1.55;
+  --editor-max-width: 900px;
+}
+
+.status-bar { display: none; }
+.workspace-ribbon { width: 34px; }
+.workspace-tab-header-container { border-bottom: 1px solid var(--background-modifier-border); }
+
+.nav-folder-title,
+.nav-file-title {
+  border-radius: 8px;
+  margin: 1px 4px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.nav-folder-title.is-active,
+.nav-file-title.is-active,
+.nav-folder-title:hover,
+.nav-file-title:hover {
+  background-color: var(--background-modifier-hover);
+}
+
+.nav-folder-title.is-active,
+.nav-file-title.is-active { font-weight: 600; }
+
+.markdown-preview-view,
+.markdown-source-view.mod-cm6 .cm-contentContainer,
+.markdown-source-view.mod-cm6 .cm-scroller {
+  max-width: var(--editor-max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.markdown-preview-view h1 { font-size: 1.8em; }
+.markdown-preview-view h2 { font-size: 1.35em; }
+.markdown-preview-view h3 { font-size: 1.15em; }
+
+.workspace-leaf-content[data-type='outline'] .view-content,
+.workspace-leaf-content[data-type='backlink'] .view-content,
+.workspace-leaf-content[data-type='file-properties'] .view-content {
+  font-size: 0.95em;
+}
