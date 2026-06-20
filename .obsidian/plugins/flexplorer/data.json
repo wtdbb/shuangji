@@ -10,6 +10,7 @@
         "岗位mapping",
         "行业mapping",
         "行业报告",
+        "index.md",
         "图片归档",
         "蒸馏",
         "配置",
@@ -265,7 +266,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "0f4a96fc1a5aea725106f0ccb32d3c70_MD5.webp"
+        "7e4add28ddcdff3114dd9a3ab94c3651_MD5.webp"
       ]
     },
     "岗位mapping": {
@@ -389,41 +390,27 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "index.md",
-        "公众号附件",
         "公众号原内容",
         "日报输出",
         "视频链接"
       ]
-    },
-    "行业报告/index.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "行业报告/公众号原内容": {
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "_公众号收件箱.md"
+        "腾讯网易同时出手，本周新游市场又热闹了.md"
       ]
-    },
-    "行业报告/公众号原内容/_公众号收件箱.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "行业报告/日报输出": {
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "index.md",
-        "2026-06-20 游戏行业猎头日报.md"
+        "公众号日报.md",
+        "index.md"
       ]
-    },
-    "行业报告/日报输出/2026-06-20 游戏行业猎头日报.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "行业报告/日报输出/index.md": {
       "isPinned": false,
@@ -434,13 +421,10 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "index.md",
-        "网易-游戏公司发展史(游策十一).md"
+        "公众号附件",
+        "网易-游戏公司发展史(游策十一).md",
+        "index 1.md"
       ]
-    },
-    "行业报告/视频链接/index.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "行业报告/视频链接/网易-游戏公司发展史(游策十一).md": {
       "isPinned": false,
@@ -545,10 +529,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "图片归档/0f4a96fc1a5aea725106f0ccb32d3c70_MD5.webp": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "配置/自动化/公众号入库流程.md": {
       "isPinned": false,
       "isHidden": false
@@ -561,11 +541,31 @@
       "isPinned": false,
       "isHidden": false
     },
-    "行业报告/公众号附件": {
+    "index.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "行业报告/视频链接/index 1.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "行业报告/公众号原内容/腾讯网易同时出手，本周新游市场又热闹了.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "图片归档/7e4add28ddcdff3114dd9a3ab94c3651_MD5.webp": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "行业报告/视频链接/公众号附件": {
       "isPinned": false,
       "isHidden": false,
       "customOrder": [],
       "sortOrder": "custom"
+    },
+    "行业报告/日报输出/公众号日报.md": {
+      "isPinned": false,
+      "isHidden": false
     }
   },
   "pinnedFiles": [],
