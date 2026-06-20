@@ -357,8 +357,7 @@ function Update-SourceMediaSection([string]$Path, $Downloads) {
 function Rewrite-InlineImages([string]$Path, [string]$SourceUrl, [string]$RawHtml = "") {
     $content = Get-Content $Path -Raw -Encoding utf8
     $orig = $content
-    $extra = New-Object System.Collections.Generic.List[string]
-    $marker = "## 本地媒体归档"
+    $extra = New-Object System.Collections.Generic.List[string]`n    $marker = "## 本地媒体归档"`n    $oldMarker = "## ??????"`n    if ($content.Contains($oldMarker)) { $content = $content.Replace($oldMarker, $marker) }`n    $hasArchive = $content.Contains($marker)`n    $marker = "## 本地媒体归档"
     $hasArchive = $content.Contains($marker)
 
     # 1) 下载正文里已经出现的远程图片/视频，并把图片链接改成本地链接
@@ -715,6 +714,7 @@ foreach ($k in @($state.Keys)) {
 }
 Save-State $state
 exit 0
+
 
 
 
