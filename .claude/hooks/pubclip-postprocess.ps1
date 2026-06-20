@@ -256,9 +256,11 @@ foreach ($file in $files) {
         $localAttachments = "`n- 已下载附件:`n" + (($downloads | ForEach-Object { "  - ![[{0}]]" -f (Get-RelPath $_) }) -join "`n")
     }
 
-    $mappingBlock = @"
-
-### $title
+    $mappingBlock = "`n### $title`n"
+    if (-not [string]::IsNullOrWhiteSpace($sourceUrl)) {
+        $mappingBlock += "- 链接：$sourceUrl`n"
+    }
+    $mappingBlock += @"
 - 分类：$category
 - 公司：$company
 - 关键事件：$event
