@@ -538,7 +538,11 @@ function Choose-MappingTarget([string]$Category, [string]$Title, [string]$Text, 
     if ($Title -match '薪资|薪酬' -or $Text -match '薪资|薪酬') {
         return @{ Path = (Join-Path $indDir "薪资段位.md"); Kind = "行业"; Label = "薪资段位" }
     }
-    if ($Title -match '工作室|团队' -or $Text -match '工作室|团队') {
+    # 新游/产品/市场类文章优先进入行业内报；不要因为正文顺带提到“团队/工作室”就误进工作室分布
+    if ($Title -match '新游|新品|市场|上线|测试|预约|发行|版号|产品' -or $Text -match '新游|新品|市场|上线|测试|预约|发行|版号|TapTap|产品') {
+        return @{ Path = (Join-Path $indDir "行业内报.md"); Kind = "行业"; Label = "行业内报" }
+    }
+    if ($Title -match '工作室|团队|研发组|制作组|分布' -or $Text -match '工作室|团队|研发组|制作组|分布') {
         return @{ Path = (Join-Path $indDir "工作室分布.md"); Kind = "行业"; Label = "工作室分布" }
     }
     if ($Title -match '话术|说话|沟通' -or $Text -match '话术|说话|沟通') {
@@ -695,6 +699,7 @@ foreach ($k in @($state.Keys)) {
 }
 Save-State $state
 exit 0
+
 
 
 
