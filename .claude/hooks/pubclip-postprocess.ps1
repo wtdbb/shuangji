@@ -60,6 +60,27 @@ function Get-ArticleBody([string]$Text) {
     return $Text
 }
 
+function Clean-ClipText([string]$Text) {
+    $lines = $Text -split "\r?\n"
+    $out = New-Object System.Collections.Generic.List[string]
+    $dropRest = $false
+    $junkLine = '^\s*(X|新增人才|有可能重复的简历|继续滑动看下一个|向上滑动看下一个|微信扫一扫赞赏作者|作者提示[:：].*|.+[·•]\s*目录|手游[，,].*目录)\s*$'
+    $tailStart = '继续滑动看下一个|向上滑动看下一个|微信扫一扫赞赏作者|新增人才|有可能重复的简历|声明：文中观点|喜欢文章的朋友请关注|转载.*原创文章|对稿件有异议|新增人才|有可能重复的简历'
+
+    foreach ($line in $lines) {
+        if ($dropRest) { continue }
+        if ($line -match $tailStart) {
+            $dropRest = $true
+            continue
+        }
+        if ($line -match $junkLine) { continue }
+        $out.Add($line)
+    }
+
+    $clean = ($out -join "`n").TrimEnd() + "`n"
+    return $clean
+}
+
 function Test-UsableValue([string]$Value) {
     if ([string]::IsNullOrWhiteSpace($Value)) { return $false }
     if ($Value -match '\{\{.*\}\}') { return $false }
@@ -143,34 +164,72 @@ function Save-State($map) {
     ($obj | ConvertTo-Json -Compress) | Set-Content -Path $stateFile -Encoding utf8
 }
 
+function Get-HashText([string]$Text) {
+    return [BitConverter]::ToString((New-Object System.Security.Cryptography.SHA1Managed).ComputeHash([Text.Encoding]::UTF8.GetBytes($Text))).Replace("-", "").ToLower()
+}
+
+function Get-ExtFromUrl([string]$Url, [string]$DefaultExt = ".bin") {
+    $ext = ""
+    try {
+        $uri = [Uri]$Url
+        $ext = [System.IO.Path]::GetExtension($uri.AbsolutePath)
+    } catch {}
+    if ($ext -match '^\.[A-Za-z0-9]{2,5}$') { return $ext.ToLower() }
+    if ($Url -match '(?:\?|&)(?:wx_fmt|tp|format)=([A-Za-z0-9]+)') {
+        $fmt = $Matches[1].ToLower()
+        if ($fmt -eq 'jpeg') { return '.jpg' }
+        if ($fmt -match '^(jpg|png|gif|webp|mp4|mov|m4v|webm)$') { return ".$fmt" }
+    }
+    return $DefaultExt
+}
+
 function Download-File([string]$Url, [string]$Folder) {
     try {
         $uri = [Uri]$Url
     } catch {
         return $null
     }
-    $name = [System.IO.Path]::GetFileName($uri.AbsolutePath)
-    if ([string]::IsNullOrWhiteSpace($name)) {
-        $hash = [BitConverter]::ToString((New-Object System.Security.Cryptography.SHA1Managed).ComputeHash([Text.Encoding]::UTF8.GetBytes($Url))).Replace("-", "").ToLower()
-        $name = $hash
-    }
-    if ($name -notmatch '\.[A-Za-z0-9]{2,5}$') {
-        $name = $name + ".bin"
-    }
+    $hash = Get-HashText $Url
+    $ext = Get-ExtFromUrl $Url ".bin"
+    $name = "$hash$ext"
     $out = Join-Path $Folder $name
-    $i = 1
-    while (Test-Path $out) {
-        $base = [System.IO.Path]::GetFileNameWithoutExtension($name)
-        $ext = [System.IO.Path]::GetExtension($name)
-        $out = Join-Path $Folder ("{0}_{1}{2}" -f $base, $i, $ext)
-        $i++
-    }
+    if (Test-Path $out) { return $out }
     try {
-        Invoke-WebRequest -Uri $Url -OutFile $out -UseBasicParsing -TimeoutSec 60 | Out-Null
+        Invoke-WebRequest -Uri $Url -OutFile $out -UseBasicParsing -TimeoutSec 60 -Headers @{
+            "User-Agent" = "Mozilla/5.0"
+            "Referer" = "https://mp.weixin.qq.com/"
+        } | Out-Null
         return $out
     } catch {
         return $null
     }
+}
+
+function Decode-UrlText([string]$Value) {
+    if ([string]::IsNullOrWhiteSpace($Value)) { return "" }
+    $v = [System.Net.WebUtility]::HtmlDecode($Value)
+    $v = $v -replace '\\/', '/'
+    $v = $v -replace '\\u0026', '&'
+    $v = $v -replace '&amp;', '&'
+    return $v.Trim()
+}
+
+function Get-WechatMediaUrls([string]$Html) {
+    $bag = New-Object System.Collections.Generic.List[string]
+    $patterns = @(
+        '(?:data-src|src|cover|cdn_url|video_url|url)\s*[:=]\s*["'']([^"'']+)["'']',
+        '(https?:\\?/\\?/mmbiz\.qpic\.cn\\?/[^"''\s<>]+)',
+        '(https?:\\?/\\?/[^"''\s<>]+?\.(?:jpg|jpeg|png|gif|webp|mp4|mov|m4v|webm)(?:\?[^"''\s<>]+)?)'
+    )
+    foreach ($pat in $patterns) {
+        foreach ($m in [regex]::Matches($Html, $pat)) {
+            $u = Decode-UrlText $m.Groups[1].Value
+            if ($u -match '^https?://' -and ($u -match 'mmbiz\.qpic\.cn|\.jpg|\.jpeg|\.png|\.gif|\.webp|\.mp4|\.mov|\.m4v|\.webm')) {
+                $bag.Add($u)
+            }
+        }
+    }
+    return $bag | Where-Object { $_ -notmatch 'data:image/svg|/emoji|mmbiz_png/0\?' } | Select-Object -Unique
 }
 
 function Download-MediaFromSource([string]$SourceUrl) {
@@ -183,14 +242,10 @@ function Download-MediaFromSource([string]$SourceUrl) {
         return $downloaded
     }
 
-    $pattern = '(https?://[^"''\s<>]+?\.(?:jpg|jpeg|png|gif|webp|mp4|mov|m4v|webm)(?:\?[^"''\s<>]+)?)'
-    $urls = [regex]::Matches($html, $pattern) | ForEach-Object { $_.Groups[1].Value } | Select-Object -Unique
-    if (-not $urls) {
-        $urls = [regex]::Matches($html, '(https?://mmbiz\.qpic\.cn/[^"''\s<>]+)') | ForEach-Object { $_.Groups[1].Value } | Select-Object -Unique
-    }
+    $urls = Get-WechatMediaUrls $html
 
     foreach ($u in $urls) {
-        if ($u -match '\.(mp4|mov|m4v|webm)(\?|$)' ) {
+        if ($u -match '\.(mp4|mov|m4v|webm)(\?|$)|(?:\?|&)type=video|video') {
             $saved = Download-File $u $attDir
         } else {
             $saved = Download-File $u $imgDir
@@ -198,6 +253,30 @@ function Download-MediaFromSource([string]$SourceUrl) {
         if ($saved) { $downloaded.Add($saved) }
     }
     return $downloaded
+}
+
+function Update-SourceMediaSection([string]$Path, $Downloads) {
+    if (-not $Downloads -or $Downloads.Count -eq 0) { return }
+    $content = Get-Content $Path -Raw -Encoding utf8
+    $marker = "## 本地媒体归档"
+    if ($content.Contains($marker)) { return }
+    $links = $Downloads | ForEach-Object { "- ![[{0}]]" -f (Get-RelPath $_) }
+    $block = "`n`n$marker`n" + ($links -join "`n") + "`n"
+    Add-Content -Path $Path -Value $block -Encoding utf8
+}
+
+function Show-MappingPopup([string]$Title, [string]$Category, [string]$TargetRel, [string]$Event) {
+    if ($Source -match 'scheduled') { return }
+    try {
+        Add-Type -AssemblyName System.Windows.Forms | Out-Null
+        $msg = "已识别并导入 mapping。`n`n标题：$Title`n分类：$Category`n去向：$TargetRel`n`n关键事件：$Event`n`n是否打开目标文件检查/修改？"
+        $r = [System.Windows.Forms.MessageBox]::Show($msg, "公众号 mapping 已导入", "YesNo", "Information")
+        if ($r -eq [System.Windows.Forms.DialogResult]::Yes) {
+            $vaultName = Split-Path $vault -Leaf
+            $obsPath = $TargetRel -replace '\\','/'
+            Start-Process ("obsidian://open?vault={0}&file={1}" -f [uri]::EscapeDataString($vaultName), [uri]::EscapeDataString($obsPath))
+        }
+    } catch {}
 }
 
 function Get-RelPath([string]$FullPath) {
@@ -294,6 +373,13 @@ foreach ($file in $files) {
         continue
     }
     $text = Get-Content $file.FullName -Raw -Encoding utf8
+    $cleanText = Clean-ClipText $text
+    if ($cleanText -ne $text) {
+        Set-Content -Path $file.FullName -Value $cleanText -Encoding utf8
+        $text = $cleanText
+        $file.Refresh()
+        $stamp = [string]$file.LastWriteTimeUtc.Ticks
+    }
     $front = Get-FrontMatterMap $text
 
     $title = $front["clip_title"]
@@ -314,6 +400,11 @@ foreach ($file in $files) {
     $downloads = @()
     if (-not [string]::IsNullOrWhiteSpace($sourceUrl)) {
         $downloads = Download-MediaFromSource $sourceUrl
+        Update-SourceMediaSection $file.FullName $downloads
+        if ($downloads.Count -gt 0) {
+            $file.Refresh()
+            $stamp = [string]$file.LastWriteTimeUtc.Ticks
+        }
     }
 
     # 生成日报条目
@@ -358,12 +449,14 @@ foreach ($file in $files) {
 $localAttachments
 "@
     Add-SectionOnce $route.Path $title $mappingBlock
+    Show-MappingPopup $title $category $routeRel $event
 
     $state[$file.FullName] = $stamp
 }
 
 Save-State $state
 exit 0
+
 
 
 
