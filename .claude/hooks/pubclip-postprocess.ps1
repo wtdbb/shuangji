@@ -209,8 +209,6 @@ Ensure-DailyHeader $dailyFile $today
 
 foreach ($file in $files) {
     $stamp = [string]$file.LastWriteTimeUtc.Ticks
-    if ($state.ContainsKey($file.FullName) -and $state[$file.FullName] -eq $stamp) { continue }
-
     $text = Get-Content $file.FullName -Raw -Encoding utf8
     $front = Get-FrontMatterMap $text
 
@@ -260,6 +258,8 @@ foreach ($file in $files) {
     if (-not [string]::IsNullOrWhiteSpace($sourceUrl)) {
         $mappingBlock += "- 链接：$sourceUrl`n"
     }
+    $routeRel = Get-RelPath $route.Path
+    $mappingBlock += "- 去向：[[$routeRel]]`n"
     $mappingBlock += @"
 - 分类：$category
 - 公司：$company
