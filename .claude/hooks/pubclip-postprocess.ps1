@@ -19,7 +19,7 @@ $attDir    = Join-Path $vault "图片归档\公众号附件"
 $stateDir  = Join-Path $vault ".claude\wechat"
 $stateFile = Join-Path $stateDir "pubclip-postprocess-state.json"
 
-New-Item -ItemType Directory -Force -Path $dailyDir,$jobDir,$indDir,$imgDir,$attDir,$stateDir | Out-Null
+New-Item -ItemType Directory -Force -Path $sourceDir,$dailyDir,$videoDir,$imgDir,$attDir,$stateDir | Out-Null
 
 function Get-SafeFileName([string]$Name) {
     if ([string]::IsNullOrWhiteSpace($Name)) { return "untitled" }
@@ -187,6 +187,31 @@ function Ensure-DailyHeader([string]$Path, [string]$DateKey) {
     }
 }
 
+
+function Update-FolderIndex([string]$Dir, [string]$Title, [string]$Description) {
+    New-Item -ItemType Directory -Force -Path $Dir | Out-Null
+    $index = Join-Path $Dir "index.md"
+    $lines = New-Object System.Collections.Generic.List[string]
+    $lines.Add("# $Title")
+    $lines.Add("")
+    if ($Description) { $lines.Add("> $Description"); $lines.Add("") }
+    $files = Get-ChildItem -LiteralPath $Dir -File -Filter "*.md" | Where-Object { $_.Name -ne "index.md" -and $_.Name -ne "_??????.md" } | Sort-Object LastWriteTime -Descending
+    if ($files.Count -eq 0) {
+        $lines.Add("?????")
+    } else {
+        foreach ($f in $files) {
+            $rel = (Get-RelPath $f.FullName) -replace '\.md$', ''
+            $lines.Add("- [[$rel]]")
+        }
+    }
+    Set-Content -Path $index -Encoding utf8 -Value ($lines -join "`n")
+}
+
+function Update-AllIndexes {
+    Update-FolderIndex $sourceDir "??????" "??? Web Clipper ???????????????????/????????"
+    Update-FolderIndex $videoDir "????" "??/?????????????????"
+}
+
 function Save-State($map) {
     $obj = @{}
     foreach ($k in $map.Keys) { $obj[$k] = $map[$k] }
@@ -209,6 +234,7 @@ function Get-ExtFromUrl([string]$Url, [string]$DefaultExt = ".bin") {
         if ($fmt -eq 'jpeg') { return '.jpg' }
         if ($fmt -match '^(jpg|png|gif|webp|mp4|mov|m4v|webm)$') { return ".$fmt" }
     }
+    if ($Url -match 'mpvideo\.qpic\.cn|vweixinf\.tc\.qq\.com|video\.qq\.com') { return '.mp4' }
     if ($Url -match 'mmbiz\.qpic\.cn') { return '.jpg' }
     return $DefaultExt
 }
@@ -248,20 +274,29 @@ function Decode-UrlText([string]$Value) {
 
 function Get-WechatMediaUrls([string]$Html) {
     $bag = New-Object System.Collections.Generic.List[string]
+    if ([string]::IsNullOrWhiteSpace($Html)) { return $bag }
+
     $patterns = @(
-        '(?:data-src|src|cover|cdn_url|video_url|url)\s*[:=]\s*["'']([^"'']+)["'']',
-        '(https?:\\?/\\?/mmbiz\.qpic\.cn\\?/[^"''\s<>]+)',
-        '(https?:\\?/\\?/[^"''\s<>]+?\.(?:jpg|jpeg|png|gif|webp|mp4|mov|m4v|webm)(?:\?[^"''\s<>]+)?)'
+        '(?:data-src|data-original|data-backsrc|data-croporisrc|src|cover|poster|cdn_url|video_url|url)\s*[:=]\s*["'']([^"'']+)["'']',
+        '(https?:\\/\\/[^"''\s<>]+)',
+        '(https?://[^"''\s<>\)]+)',
+        '(//(?:mmbiz\.qpic\.cn|mpvideo\.qpic\.cn|vweixinf\.tc\.qq\.com|[^/\s]+?\.(?:jpg|jpeg|png|gif|webp|mp4|mov|m4v|webm))[^"''\s<>\)]*)'
     )
+
     foreach ($pat in $patterns) {
-        foreach ($m in [regex]::Matches($Html, $pat)) {
-            $u = Decode-UrlText $m.Groups[1].Value
-            if ($u -match '^https?://' -and ($u -match 'mmbiz\.qpic\.cn|\.jpg|\.jpeg|\.png|\.gif|\.webp|\.mp4|\.mov|\.m4v|\.webm')) {
+        foreach ($m in [regex]::Matches($Html, $pat, [System.Text.RegularExpressions.RegexOptions]::IgnoreCase)) {
+            $raw = if ($m.Groups.Count -gt 1 -and $m.Groups[1].Value) { $m.Groups[1].Value } else { $m.Value }
+            $u = Decode-UrlText $raw
+            if ($u -notmatch '^https?://') { continue }
+            if ($u -match 'mmbiz\.qpic\.cn|mpvideo\.qpic\.cn|vweixinf\.tc\.qq\.com|video\.qq\.com|\.jpg(?:\?|$)|\.jpeg(?:\?|$)|\.png(?:\?|$)|\.gif(?:\?|$)|\.webp(?:\?|$)|\.mp4(?:\?|$)|\.mov(?:\?|$)|\.m4v(?:\?|$)|\.webm(?:\?|$)') {
                 $bag.Add($u)
             }
         }
     }
-    return $bag | Where-Object { $_ -notmatch 'data:image/svg|/emoji|mmbiz_png/0\?' } | Select-Object -Unique
+
+    return $bag |
+        Where-Object { $_ -notmatch 'data:image/svg|/emoji|mmbiz_png/0\?|favicon|avatar' } |
+        Select-Object -Unique
 }
 
 function Download-MediaFromSource([string]$SourceUrl) {
@@ -317,18 +352,20 @@ function Rewrite-InlineImages([string]$Path, [string]$SourceUrl, [string]$RawHtm
     $orig = $content
     $extra = New-Object System.Collections.Generic.List[string]
 
-    # 1) 把正文里的远程图片/视频 ![alt](url) 下载到本地并改成本地嵌入，避免破图
-    foreach ($m in [regex]::Matches($orig, '!\[[^\]]*\]\((https?://[^)\s]+)\)')) {
+    # 1) ??????????????/???????????????
+    foreach ($m in [regex]::Matches($orig, '(https?://[^\s\)"''<>]+)')) {
         $url = Decode-UrlText $m.Groups[1].Value
-        if ($url -match '\.(mp4|mov|m4v|webm)(\?|$)|(?:\?|&)type=video|video') { $local = Download-File $url $attDir }
+        if ($url -notmatch 'mmbiz\.qpic\.cn|mpvideo\.qpic\.cn|vweixinf\.tc\.qq\.com|video\.qq\.com|\.jpg|\.jpeg|\.png|\.gif|\.webp|\.mp4|\.mov|\.m4v|\.webm') { continue }
+        if ($url -match '\.(mp4|mov|m4v|webm)(\?|$)|mpvideo\.qpic\.cn|vweixinf\.tc\.qq\.com|video\.qq\.com|(?:\?|&)type=video|video') { $local = Download-File $url $attDir }
         else { $local = Download-File $url $imgDir }
         if ($local) {
             $rel = Get-RelPath $local
-            $content = $content.Replace($m.Value, ("![[" + $rel + "]]"))
+            $content = $content.Replace($m.Value, $rel)
+            if (-not $content.Contains($rel) -and -not $extra.Contains($rel)) { $extra.Add($rel) }
         }
     }
 
-    # 2) 从 Web Clipper 的 fullHtml 中补抓所有 data-src / src 图片和视频
+    # 2) ? Web Clipper ? fullHtml ????? data-src / src / video_url / cover
     if (-not [string]::IsNullOrWhiteSpace($RawHtml)) {
         foreach ($d in (Download-MediaFromHtml $RawHtml)) {
             $rel = Get-RelPath $d
@@ -336,7 +373,7 @@ function Rewrite-InlineImages([string]$Path, [string]$SourceUrl, [string]$RawHtm
         }
     }
 
-    # 3) 再从 source_url 源页面补抓，作为 fullHtml 抓不到时的兜底
+    # 3) ?? source_url ???????? fullHtml ???????
     if (-not [string]::IsNullOrWhiteSpace($SourceUrl)) {
         foreach ($d in (Download-MediaFromSource $SourceUrl)) {
             $rel = Get-RelPath $d
@@ -344,9 +381,9 @@ function Rewrite-InlineImages([string]$Path, [string]$SourceUrl, [string]$RawHtm
         }
     }
 
-    # 4) 写入/补充“本地媒体归档”，不放到视频链接，不放到 mapping
+    # 4) ??????/?????????????????????
     if ($extra.Count -gt 0) {
-        $marker = "## 本地媒体归档"
+        $marker = "## ??????"
         if (-not $content.Contains($marker)) { $content += "`n`n$marker`n" }
         foreach ($rel in $extra) {
             $line = "- ![[$rel]]"
@@ -601,6 +638,7 @@ function Get-SourceFiles {
 }
 
 $files = Get-SourceFiles
+Update-AllIndexes
 
 if (-not $files) { exit 0 }
 
@@ -660,37 +698,7 @@ foreach ($file in $files) {
 "@
     Add-SectionOnce $dailyFile $title $reportBlock
 
-    # mapping 导入：
-    # - watch/manual：弹出可编辑窗口，用户确认后导入
-    # - scheduled/watch-start：只补日报和媒体，不弹窗，避免打扰
-    $route = Choose-MappingTarget $category $title $text $company
-    Ensure-RootNote $route.Path $route.Label $route.Kind
-
-    if (-not (Test-SectionExists $route.Path $title)) {
-        $localAttachments = ""
-        $mappingBlock = "`n### $title`n"
-        if (-not [string]::IsNullOrWhiteSpace($sourceUrl)) {
-            $mappingBlock += "- 链接：$sourceUrl`n"
-        }
-        $routeRel = Get-RelPath $route.Path
-        $routeLink = $routeRel -replace '\.md$', ''
-        $mappingBlock += "- 去向:[[$routeLink]]`n"
-        $mappingBlock += @"
-- 分类：$category
-- 公司：$company
-- 关键事件：$event
-- 推断依据：$reason
-- 原文：[[行业报告/公众号原内容/$($file.BaseName)]]
-$localAttachments
-"@
-        if ($Source -eq "watch" -or $Source -eq "manual") {
-            $reviewedBlock = Show-MappingReview $title $category $routeLink $mappingBlock
-            if (-not [string]::IsNullOrWhiteSpace($reviewedBlock)) {
-                Add-SectionOnce $route.Path $title $reviewedBlock
-            }
-        }
-    }
-
+    # ????????/?? mapping?mapping ??????
     $state[$file.FullName] = $stamp
 }
 
