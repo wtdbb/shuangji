@@ -1,9 +1,13 @@
 # CodexVault 项目规范(给 Claude / Codex)
 
 ## Skill 存放约定
-- 所有生成/安装的 skill **统一放在 `.claude/skills/` 下**,每个 skill 一个**命名清晰的独立子文件夹**。
-- 命名示例:视频转字幕总结 skill = `.claude/skills/sp-skill`。
+- 真实文件统一放在 **vault 根目录的 `skill/`** 文件夹,每个 skill 一个命名清晰的独立子文件夹。
+- `.claude/skills` 是指向 `skill/` 的**目录联接(junction)**,Claude 靠它加载 skill;两者内容相同。
+- 命名示例:视频转字幕总结 skill = `skill/sp-skill`(经 junction 映射为 `.claude/skills/sp-skill`)。
+- **新增 skill 放进 `skill/<名字>/`** 即可,会自动通过 junction 被 Claude 识别。
 - 每个 skill 自带 `SKILL.md`;密钥写在该 skill 目录的 `.env`。
+- git 只跟踪 `skill/`;`.gitignore` 忽略 junction 视图 `/.claude/skills/`,并以 `/skill/**/.env` 屏蔽所有密钥。
+- 注意:junction 不随 git clone 复制;换机器后需重新执行 `mklink /J .claude\skills skill`。
 
 ## 密钥安全
 - 任何 `.env`、token、API Key **绝不提交进 git**。
