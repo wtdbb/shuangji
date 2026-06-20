@@ -61,6 +61,7 @@ function Get-ArticleBody([string]$Text) {
 }
 
 function Clean-ClipText([string]$Text) {
+    $Text = [regex]::Replace($Text, '(?s)\r?\n?<!--\s*clip_full_html_begin.*?clip_full_html_end\s*-->\r?\n?', "`n")
     $lines = $Text -split "\r?\n"
     $out = New-Object System.Collections.Generic.List[string]
     $dropRest = $false
@@ -74,6 +75,7 @@ function Clean-ClipText([string]$Text) {
             continue
         }
         if ($line -match $junkLine) { continue }
+        if ($line -match 'data:image/svg\+xml.*1px') { continue }
         $out.Add($line)
     }
 
@@ -255,6 +257,21 @@ function Download-MediaFromSource([string]$SourceUrl) {
     return $downloaded
 }
 
+function Download-MediaFromHtml([string]$Html) {
+    $downloaded = New-Object System.Collections.Generic.List[string]
+    if ([string]::IsNullOrWhiteSpace($Html)) { return $downloaded }
+    $urls = Get-WechatMediaUrls $Html
+    foreach ($u in $urls) {
+        if ($u -match '\.(mp4|mov|m4v|webm)(\?|$)|(?:\?|&)type=video|video') {
+            $saved = Download-File $u $attDir
+        } else {
+            $saved = Download-File $u $imgDir
+        }
+        if ($saved) { $downloaded.Add($saved) }
+    }
+    return $downloaded
+}
+
 function Update-SourceMediaSection([string]$Path, $Downloads) {
     if (-not $Downloads -or $Downloads.Count -eq 0) { return }
     $content = Get-Content $Path -Raw -Encoding utf8
@@ -373,6 +390,7 @@ foreach ($file in $files) {
         continue
     }
     $text = Get-Content $file.FullName -Raw -Encoding utf8
+    $rawText = $text
     $cleanText = Clean-ClipText $text
     if ($cleanText -ne $text) {
         Set-Content -Path $file.FullName -Value $cleanText -Encoding utf8
@@ -398,8 +416,9 @@ foreach ($file in $files) {
 
     # 如果有 source_url，尝试下载文章里的媒体
     $downloads = @()
+    $downloads = @(Download-MediaFromHtml $rawText)
     if (-not [string]::IsNullOrWhiteSpace($sourceUrl)) {
-        $downloads = Download-MediaFromSource $sourceUrl
+        $downloads = @($downloads + (Download-MediaFromSource $sourceUrl)) | Select-Object -Unique
         Update-SourceMediaSection $file.FullName $downloads
         if ($downloads.Count -gt 0) {
             $file.Refresh()
@@ -456,6 +475,8 @@ $localAttachments
 
 Save-State $state
 exit 0
+
+
 
 
 
