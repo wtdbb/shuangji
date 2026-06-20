@@ -1,0 +1,11 @@
+﻿{
+  "suspended": false,
+  "additionalSortspecFile": "配置/sortspec",
+  "automaticBookmarksIntegration": false,
+  "bookmarksContextMenus": false,
+  "customSortContextSubmenu": false,
+  "statusBarEntryEnabled": false,
+  "notificationsEnabled": false,
+  "mobileNotificationsEnabled": false,
+  "delayForInitialApplication": 1000
+}
