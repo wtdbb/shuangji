@@ -399,9 +399,7 @@
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
-      "customOrder": [
-        "腾讯网易同时出手，本周新游市场又热闹了.md"
-      ]
+      "customOrder": []
     },
     "行业报告/日报输出": {
       "isPinned": false,
@@ -546,10 +544,6 @@
       "isHidden": false
     },
     "行业报告/视频链接/index 1.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "行业报告/公众号原内容/腾讯网易同时出手，本周新游市场又热闹了.md": {
       "isPinned": false,
       "isHidden": false
     },
