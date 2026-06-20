@@ -53,6 +53,59 @@ function Get-Field([string]$Text, [string]$Name) {
     return ""
 }
 
+function Test-UsableValue([string]$Value) {
+    if ([string]::IsNullOrWhiteSpace($Value)) { return $false }
+    if ($Value -match '\{\{.*\}\}') { return $false }
+    if ($Value -match '判断这篇文章|只提取|不要解释|不要编造|未提及|岗位动态|行业动态') { return $false }
+    return $true
+}
+
+function Guess-Category([string]$Title, [string]$Text) {
+    $jobWords = '招聘|岗位|JD|简历|面试|薪资|薪酬|经验|直招|猎头|HC|offer|到岗'
+    if ($Title -match $jobWords -or $Text -match $jobWords) { return '岗位动态' }
+    return '行业动态'
+}
+
+function Guess-Company([string]$Title, [string]$Text) {
+    $known = @(
+        '腾讯','网易','米哈游','莉莉丝','字节','抖音','B站','哔哩哔哩','完美世界','三七互娱','巨人','盛趣','西山居',
+        '鹰角','叠纸','沐瞳','祖龙','灵犀','青瓷','友谊时光','雷霆','心动','IGG','昆仑','4399','诗悦','朝夕光年'
+    )
+    $hits = New-Object System.Collections.Generic.List[string]
+    foreach ($k in $known) {
+        if ($Title -match [regex]::Escape($k) -or $Text -match [regex]::Escape($k)) { $hits.Add($k) }
+    }
+    $uniq = $hits | Select-Object -Unique
+    if ($uniq) { return ($uniq -join '，') + '（推断）' }
+    return '未提及'
+}
+
+function Guess-Reason([string]$Title, [string]$Text) {
+    $sentences = [regex]::Split($Text, '(?<=[。！？\.\n])')
+    $focus = @()
+    foreach ($s in $sentences) {
+        if ($s -match '测试|上线|发布|代理|融资|裁员|招聘|收购|调整|立项|曝光|预约|开服|更新') {
+            $clean = ($s -replace '\s+', ' ').Trim()
+            if ($clean.Length -gt 0) { $focus += $clean }
+        }
+        if ($focus.Count -ge 2) { break }
+    }
+    if ($focus.Count -gt 0) { return ($focus -join ' / ').Trim() }
+    return '无'
+}
+
+function Guess-Event([string]$Title, [string]$Text) {
+    $sentences = [regex]::Split($Text, '(?<=[。！？\.\n])')
+    foreach ($s in $sentences) {
+        if ($s -match '测试|上线|发布|代理|融资|裁员|招聘|收购|调整|立项|曝光|预约|开服|更新') {
+            $clean = ($s -replace '\s+', ' ').Trim()
+            if ($clean.Length -gt 0) { return $clean }
+        }
+    }
+    if ($Title) { return $Title.Trim() }
+    return '未提及'
+}
+
 function Append-UniqueBlock([string]$Path, [string]$Marker, [string]$Block) {
     $existing = ""
     if (Test-Path $Path) { $existing = Get-Content $Path -Raw -Encoding utf8 }
@@ -238,10 +291,13 @@ foreach ($file in $files) {
     $sourceUrl = $front["source_url"]
 
     $category = Get-Field $text "分类"
-    if ([string]::IsNullOrWhiteSpace($category)) { continue }
+    if (-not (Test-UsableValue $category)) { $category = Guess-Category $title $text }
     $company  = Get-Field $text "公司名字"
+    if (-not (Test-UsableValue $company)) { $company = Guess-Company $title $text }
     $event    = Get-Field $text "关键事件"
+    if (-not (Test-UsableValue $event)) { $event = Guess-Event $title $text }
     $reason   = Get-Field $text "推断依据"
+    if (-not (Test-UsableValue $reason)) { $reason = Guess-Reason $title $text }
 
     # 如果有 source_url，尝试下载文章里的媒体
     $downloads = @()

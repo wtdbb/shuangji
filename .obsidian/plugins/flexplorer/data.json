@@ -400,6 +400,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "附件",
         "腾讯网易同时出手，本周新游市场又热闹了 1.md",
         "腾讯网易同时出手，本周新游市场又热闹了.md"
       ]
@@ -409,6 +410,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "公众号日报.md",
         "index.md"
       ]
     },
@@ -557,6 +559,16 @@
       "isHidden": false
     },
     "行业报告/公众号原内容/腾讯网易同时出手，本周新游市场又热闹了 1.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "行业报告/公众号原内容/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "行业报告/日报输出/公众号日报.md": {
       "isPinned": false,
       "isHidden": false
     }
