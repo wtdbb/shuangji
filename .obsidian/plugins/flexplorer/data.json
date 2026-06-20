@@ -400,6 +400,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "index.md",
         "腾讯网易同时出手，本周新游市场又热闹了.md"
       ]
     },
@@ -421,6 +422,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "index.md",
         "网易-游戏公司发展史(游策十一).md"
       ]
     },
@@ -556,6 +558,14 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": []
+    },
+    "行业报告/公众号原内容/index.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "行业报告/视频链接/index.md": {
+      "isPinned": false,
+      "isHidden": false
     }
   },
   "pinnedFiles": [],
