@@ -110,6 +110,33 @@ function Guess-Company([string]$Title, [string]$Text) {
     return '未提及'
 }
 
+function Normalize-CompanyName([string]$Company) {
+    if ([string]::IsNullOrWhiteSpace($Company)) { return "" }
+    $c = $Company -replace '（推断）|\(推断\)', ''
+    $c = ($c -split '[,，、/；;]')[0].Trim()
+    $aliases = @{
+        "字节" = "字节"
+        "字节跳动" = "字节"
+        "朝夕光年" = "字节"
+        "腾讯" = "腾讯"
+        "网易" = "网易"
+        "米哈游" = "米哈游"
+        "库洛游戏" = "库洛"
+        "库洛" = "库洛"
+        "三七互娱" = "三七互娱"
+        "莉莉丝" = "莉莉丝"
+        "鹰角" = "鹰角"
+        "叠纸" = "叠纸"
+        "完美世界" = "完美世界"
+        "西山居" = "西山居"
+    }
+    foreach ($k in $aliases.Keys) {
+        if ($c -match [regex]::Escape($k)) { return $aliases[$k] }
+    }
+    if ($c -eq "未提及") { return "" }
+    return (Get-SafeFileName $c)
+}
+
 function Guess-Reason([string]$Title, [string]$Text) {
     $sentences = [regex]::Split($Text, '(?<=[。！？\.\n])')
     $focus = @()
@@ -282,18 +309,79 @@ function Update-SourceMediaSection([string]$Path, $Downloads) {
     Add-Content -Path $Path -Value $block -Encoding utf8
 }
 
-function Show-MappingPopup([string]$Title, [string]$Category, [string]$TargetRel, [string]$Event) {
-    if ($Source -match 'scheduled') { return }
+function Show-MappingReview([string]$Title, [string]$Category, [string]$TargetRel, [string]$Block) {
+    if ($Source -match 'scheduled') { return $Block }
     try {
         Add-Type -AssemblyName System.Windows.Forms | Out-Null
-        $msg = "已识别并导入 mapping。`n`n标题：$Title`n分类：$Category`n去向：$TargetRel`n`n关键事件：$Event`n`n是否打开目标文件检查/修改？"
-        $r = [System.Windows.Forms.MessageBox]::Show($msg, "公众号 mapping 已导入", "YesNo", "Information")
-        if ($r -eq [System.Windows.Forms.DialogResult]::Yes) {
+        Add-Type -AssemblyName System.Drawing | Out-Null
+
+        $form = New-Object System.Windows.Forms.Form
+        $form.Text = "确认/修改 mapping 导入内容"
+        $form.Width = 820
+        $form.Height = 620
+        $form.StartPosition = "CenterScreen"
+        $form.TopMost = $true
+
+        $label = New-Object System.Windows.Forms.Label
+        $label.Left = 12
+        $label.Top = 12
+        $label.Width = 780
+        $label.Height = 48
+        $label.Text = "标题：$Title`r`n分类：$Category    去向：$TargetRel"
+        $form.Controls.Add($label)
+
+        $box = New-Object System.Windows.Forms.TextBox
+        $box.Left = 12
+        $box.Top = 70
+        $box.Width = 780
+        $box.Height = 455
+        $box.Multiline = $true
+        $box.ScrollBars = "Vertical"
+        $box.AcceptsReturn = $true
+        $box.AcceptsTab = $true
+        $box.Font = New-Object System.Drawing.Font("Microsoft YaHei UI", 10)
+        $box.Text = $Block.Trim()
+        $form.Controls.Add($box)
+
+        $import = New-Object System.Windows.Forms.Button
+        $import.Left = 12
+        $import.Top = 535
+        $import.Width = 150
+        $import.Height = 34
+        $import.Text = "导入修改后内容"
+        $import.Add_Click({ $form.Tag = "import"; $form.Close() })
+        $form.Controls.Add($import)
+
+        $open = New-Object System.Windows.Forms.Button
+        $open.Left = 175
+        $open.Top = 535
+        $open.Width = 150
+        $open.Height = 34
+        $open.Text = "打开目标文件"
+        $open.Add_Click({
             $vaultName = Split-Path $vault -Leaf
             $obsPath = $TargetRel -replace '\\','/'
             Start-Process ("obsidian://open?vault={0}&file={1}" -f [uri]::EscapeDataString($vaultName), [uri]::EscapeDataString($obsPath))
+        })
+        $form.Controls.Add($open)
+
+        $cancel = New-Object System.Windows.Forms.Button
+        $cancel.Left = 338
+        $cancel.Top = 535
+        $cancel.Width = 100
+        $cancel.Height = 34
+        $cancel.Text = "不导入"
+        $cancel.Add_Click({ $form.Tag = "cancel"; $form.Close() })
+        $form.Controls.Add($cancel)
+
+        $null = $form.ShowDialog()
+        if ($form.Tag -eq "import") {
+            return "`n" + $box.Text.Trim() + "`n"
         }
-    } catch {}
+        return $null
+    } catch {
+        return $Block
+    }
 }
 
 function Get-RelPath([string]$FullPath) {
@@ -311,9 +399,13 @@ function Ensure-RootNote([string]$Path, [string]$Title, [string]$Kind) {
     }
 }
 
-function Choose-MappingTarget([string]$Category, [string]$Title, [string]$Text) {
+function Choose-MappingTarget([string]$Category, [string]$Title, [string]$Text, [string]$Company = "") {
     $cities = @("上海","北京","广州","深圳","杭州","成都","福州","苏州")
     if ($Category -match '岗位') {
+        $companyName = Normalize-CompanyName $Company
+        if (-not [string]::IsNullOrWhiteSpace($companyName)) {
+            return @{ Path = (Join-Path $jobDir ($companyName + ".md")); Kind = "岗位"; Label = $companyName }
+        }
         foreach ($city in $cities) {
             if ($Title -match [regex]::Escape($city) -or $Text -match [regex]::Escape($city)) {
                 return @{ Path = (Join-Path $jobDir ($city + ".md")); Kind = "岗位"; Label = $city }
@@ -449,7 +541,7 @@ foreach ($file in $files) {
     Add-SectionOnce $dailyFile $title $reportBlock
 
     # 生成 mapping 精简条目：优先写现有主文件，找不到合适字段就同层新建文件
-    $route = Choose-MappingTarget $category $title $text
+    $route = Choose-MappingTarget $category $title $text $company
     Ensure-RootNote $route.Path $route.Label $route.Kind
 
     $localAttachments = ""
@@ -462,7 +554,8 @@ foreach ($file in $files) {
         $mappingBlock += "- 链接：$sourceUrl`n"
     }
     $routeRel = Get-RelPath $route.Path
-    $mappingBlock += "- 去向：[[$routeRel]]`n"
+    $routeLink = $routeRel -replace '\.md$', ''
+    $mappingBlock += "- 去向:[[$routeLink]]`n"
     $mappingBlock += @"
 - 分类：$category
 - 公司：$company
@@ -471,8 +564,10 @@ foreach ($file in $files) {
 - 原文：[[行业报告/公众号原内容/$($file.BaseName)]]
 $localAttachments
 "@
-    Add-SectionOnce $route.Path $title $mappingBlock
-    Show-MappingPopup $title $category $routeRel $event
+    $reviewedBlock = Show-MappingReview $title $category $routeLink $mappingBlock
+    if (-not [string]::IsNullOrWhiteSpace($reviewedBlock)) {
+        Add-SectionOnce $route.Path $title $reviewedBlock
+    }
 
     $state[$file.FullName] = $stamp
 }
