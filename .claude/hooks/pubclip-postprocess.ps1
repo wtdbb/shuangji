@@ -15,7 +15,7 @@ $dailyFile = Join-Path $dailyDir "公众号日报.md"
 $jobDir    = Join-Path $vault "岗位mapping"
 $indDir    = Join-Path $vault "行业mapping"
 $imgDir    = Join-Path $vault "图片归档"
-$attDir    = Join-Path $vault "行业报告\公众号原内容\附件"
+$attDir    = Join-Path $vault "图片归档\公众号附件"
 $stateDir  = Join-Path $vault ".claude\wechat"
 $stateFile = Join-Path $stateDir "pubclip-postprocess-state.json"
 
@@ -290,6 +290,9 @@ Ensure-DailyHeader $dailyFile $today
 
 foreach ($file in $files) {
     $stamp = [string]$file.LastWriteTimeUtc.Ticks
+    if ($state.ContainsKey($file.FullName) -and $state[$file.FullName] -eq $stamp) {
+        continue
+    }
     $text = Get-Content $file.FullName -Raw -Encoding utf8
     $front = Get-FrontMatterMap $text
 
