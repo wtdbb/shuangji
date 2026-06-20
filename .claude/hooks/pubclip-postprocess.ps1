@@ -12,8 +12,8 @@ $vault = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 $sourceDir = Join-Path $vault "行业报告\公众号原内容"
 $dailyDir  = Join-Path $vault "行业报告\日报输出"
 $dailyFile = Join-Path $dailyDir "公众号日报.md"
-$jobDir    = Join-Path $vault "岗位mapping\公众号剪藏"
-$indDir    = Join-Path $vault "行业mapping\公众号剪藏"
+$jobDir    = Join-Path $vault "岗位mapping"
+$indDir    = Join-Path $vault "行业mapping"
 $imgDir    = Join-Path $vault "图片归档"
 $vidDir    = Join-Path $vault "行业报告\视频链接\公众号附件"
 $stateDir  = Join-Path $vault ".claude\wechat"
@@ -146,6 +146,46 @@ function Get-RelPath([string]$FullPath) {
         return $FullPath.Substring($root.Length + 1).Replace('\', '/')
     }
     return $FullPath.Replace('\', '/')
+}
+
+function Ensure-RootNote([string]$Path, [string]$Title, [string]$Kind) {
+    if (-not (Test-Path $Path)) {
+        $header = "# $Title`n`n> 自动由公众号后处理器生成的 $Kind 精简条目。`n"
+        Set-Content -Path $Path -Encoding utf8 -Value $header
+    }
+}
+
+function Choose-MappingTarget([string]$Category, [string]$Title, [string]$Text) {
+    $cities = @("上海","北京","广州","深圳","杭州","成都","福州","苏州")
+    if ($Category -match '岗位') {
+        foreach ($city in $cities) {
+            if ($Title -match [regex]::Escape($city) -or $Text -match [regex]::Escape($city)) {
+                return @{ Path = (Join-Path $jobDir ($city + ".md")); Kind = "岗位"; Label = $city }
+            }
+        }
+        return @{ Path = (Join-Path $jobDir "补充记录.md"); Kind = "岗位"; Label = "补充记录" }
+    }
+
+    if ($Title -match '薪资|薪酬' -or $Text -match '薪资|薪酬') {
+        return @{ Path = (Join-Path $indDir "薪资段位.md"); Kind = "行业"; Label = "薪资段位" }
+    }
+    if ($Title -match '工作室|团队' -or $Text -match '工作室|团队') {
+        return @{ Path = (Join-Path $indDir "工作室分布.md"); Kind = "行业"; Label = "工作室分布" }
+    }
+    if ($Title -match '话术|说话|沟通' -or $Text -match '话术|说话|沟通') {
+        return @{ Path = (Join-Path $indDir "说话技巧.md"); Kind = "行业"; Label = "说话技巧" }
+    }
+    if ($Title -match '现状|趋势|行业|市场' -or $Text -match '现状|趋势|行业|市场') {
+        return @{ Path = (Join-Path $indDir "行业现状.md"); Kind = "行业"; Label = "行业现状" }
+    }
+    return @{ Path = (Join-Path $indDir "行业内报.md"); Kind = "行业"; Label = "行业内报" }
+}
+
+function Add-SectionOnce([string]$Path, [string]$Marker, [string]$Block) {
+    $existing = ""
+    if (Test-Path $Path) { $existing = Get-Content $Path -Raw -Encoding utf8 }
+    if ($existing.Contains($Marker)) { return }
+    Add-Content -Path $Path -Encoding utf8 -Value $Block
 }
 
 $state = @{}
