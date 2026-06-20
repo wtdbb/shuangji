@@ -358,8 +358,10 @@ function Rewrite-InlineImages([string]$Path, [string]$SourceUrl, [string]$RawHtm
     $content = Get-Content $Path -Raw -Encoding utf8
     $orig = $content
     $extra = New-Object System.Collections.Generic.List[string]
+    $marker = "## 本地媒体归档"
+    $hasArchive = $content.Contains($marker)
 
-    # 1) ??????????????/???????????????
+    # 1) 下载正文里已经出现的远程图片/视频，并把图片链接改成本地链接
     foreach ($m in [regex]::Matches($orig, '(https?://[^\s\)"''<>]+)')) {
         $url = Decode-UrlText $m.Groups[1].Value
         if ($url -notmatch 'mmbiz\.qpic\.cn|mpvideo\.qpic\.cn|vweixinf\.tc\.qq\.com|video\.qq\.com|\.jpg|\.jpeg|\.png|\.gif|\.webp|\.mp4|\.mov|\.m4v|\.webm') { continue }
@@ -372,26 +374,25 @@ function Rewrite-InlineImages([string]$Path, [string]$SourceUrl, [string]$RawHtm
         }
     }
 
-    # 2) ? Web Clipper ? fullHtml ????? data-src / src / video_url / cover
-    if (-not [string]::IsNullOrWhiteSpace($RawHtml)) {
+    # 2) 从 Web Clipper 的 fullHtml 中补抓 data-src / src / video_url / cover
+    if (-not $hasArchive -and -not [string]::IsNullOrWhiteSpace($RawHtml)) {
         foreach ($d in (Download-MediaFromHtml $RawHtml)) {
             $rel = Get-RelPath $d
             if (-not $content.Contains($rel) -and -not $extra.Contains($rel)) { $extra.Add($rel) }
         }
     }
 
-    # 3) ?? source_url ???????? fullHtml ???????
-    if (-not [string]::IsNullOrWhiteSpace($SourceUrl)) {
+    # 3) 再从 source_url 源页面补抓，作为 fullHtml 抓不到时的兜底
+    if (-not $hasArchive -and -not [string]::IsNullOrWhiteSpace($SourceUrl)) {
         foreach ($d in (Download-MediaFromSource $SourceUrl)) {
             $rel = Get-RelPath $d
             if (-not $content.Contains($rel) -and -not $extra.Contains($rel)) { $extra.Add($rel) }
         }
     }
 
-    # 4) ??????/?????????????????????
-    if ($extra.Count -gt 0) {
-        $marker = "## ??????"
-        if (-not $content.Contains($marker)) { $content += "`n`n$marker`n" }
+    # 4) 所有本地图片/视频都写回公众号原文的“本地媒体归档”段落
+    if (-not $hasArchive -and $extra.Count -gt 0) {
+        $content += "`n`n$marker`n"
         foreach ($rel in $extra) {
             $line = "- ![[$rel]]"
             if (-not $content.Contains($line)) { $content += $line + "`n" }
