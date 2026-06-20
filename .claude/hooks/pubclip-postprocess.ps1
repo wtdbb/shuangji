@@ -324,7 +324,8 @@ function Set-RoundRegion($ctrl, [int]$radius) {
 }
 
 function Show-MappingReview([string]$Title, [string]$Category, [string]$TargetRel, [string]$Block) {
-    if ($Source -match 'scheduled') { return $Block }
+    # 仅手动运行(-Source manual)才弹确认框;后台 watch/watch-start/scheduled 一律静默直接写入,避免弹窗轰炸
+    if ($Source -ne 'manual') { return $Block }
     try {
         Add-Type -AssemblyName System.Windows.Forms | Out-Null
         Add-Type -AssemblyName System.Drawing | Out-Null
