@@ -1,0 +1,7 @@
+# 微信公众号 RSS 订阅链接配置(示例)
+# 用法:把你从"公众号转RSS"服务拿到的 RSS 链接,一行一个,复制到同目录的 feeds.txt
+# 以 # 开头的行会被忽略。
+#
+# 示例(请替换成你自己的真实链接):
+# https://wechat2rss.xlab.app/feed/xxxxxxxxxxxx.xml
+# https://werss.app/feed/yyyyyyyy
