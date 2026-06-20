@@ -1,4 +1,4 @@
-param([string]$Source = "scheduled")
+﻿param([string]$Source = "scheduled")
 
 # 公众号后处理器：
 # 1) 读取行业报告/公众号原内容中的新剪藏
@@ -140,14 +140,12 @@ function Download-MediaFromSource([string]$SourceUrl) {
     return $downloaded
 }
 
-function Rewrite-MediaLinks([string]$Text, $Downloaded) {
-    $out = $Text
-    foreach ($p in $Downloaded) {
-        $rel = $p.Replace($vault + "\", "").Replace("/", "\")
-        $base = [System.IO.Path]::GetFileName($p)
-        $out += "`n- 下载附件：![[${rel}]]"
+function Get-RelPath([string]$FullPath) {
+    $root = $vault.TrimEnd('\')
+    if ($FullPath.StartsWith($root, [System.StringComparison]::OrdinalIgnoreCase)) {
+        return $FullPath.Substring($root.Length + 1).Replace('\', '/')
     }
-    return $out
+    return $FullPath.Replace('\', '/')
 }
 
 $state = @{}
@@ -204,7 +202,7 @@ foreach ($file in $files) {
 - 原文: $reportMarker
 "@
     if ($downloads.Count -gt 0) {
-        $relLinks = $downloads | ForEach-Object { "![[{0}]]" -f ($_.Replace($vault + "\", "").Replace("/", "\")) }
+        $relLinks = $downloads | ForEach-Object { "![[{0}]]" -f (Get-RelPath $_) }
         $reportBlock += "`n- 已下载附件:`n  - " + ($relLinks -join "`n  - ")
     }
     Add-Content -Path $dailyFile -Encoding utf8 -Value $reportBlock
@@ -222,7 +220,7 @@ foreach ($file in $files) {
 
     $localAttachments = ""
     if ($downloads.Count -gt 0) {
-        $localAttachments = "`n## 已下载附件`n" + (($downloads | ForEach-Object { "- ![[{0}]]" -f ($_.Replace($vault + "\", "").Replace("/", "\")) }) -join "`n")
+        $localAttachments = "`n## 已下载附件`n" + (($downloads | ForEach-Object { "- ![[{0}]]" -f (Get-RelPath $_) }) -join "`n")
     }
 
     $targetLabel = if ($targetDir -eq $jobDir) { "岗位mapping" } else { "行业mapping" }
@@ -257,10 +255,13 @@ $localAttachments
 "@
     Set-Content -Path $noteFile -Encoding utf8 -Value $noteBody
 
-    Append-UniqueLine $indexFile "- [[{0}/{1}|{2}]]" -f ($targetDir.Split('\')[-1]), $safeName, $title
+    $folderName = Split-Path $targetDir -Leaf
+    $indexLine = "- [[{0}/{1}|{2}]]" -f $folderName, $safeName, $title
+    Append-UniqueLine $indexFile $indexLine
 
     $state[$file.FullName] = $stamp
 }
 
 Save-State $state
 exit 0
+
