@@ -610,17 +610,10 @@ foreach ($file in $files) {
     $reason   = Get-Field $text "推断依据"
     if (-not (Test-UsableValue $reason)) { $reason = Guess-Reason $title $body }
 
-    # 如果有 source_url，尝试下载文章里的媒体
-    $downloads = @()
-    $downloads = @(Download-MediaFromHtml $rawText)
-    if (-not [string]::IsNullOrWhiteSpace($sourceUrl)) {
-        $downloads = @($downloads + (Download-MediaFromSource $sourceUrl)) | Select-Object -Unique
-        Update-SourceMediaSection $file.FullName $downloads
-        if ($downloads.Count -gt 0) {
-            $file.Refresh()
-            $stamp = [string]$file.LastWriteTimeUtc.Ticks
-        }
-    }
+    # 完整导入媒体:下载图片/视频到本地,并把正文里的远程图片改成本地嵌入
+    Rewrite-InlineImages $file.FullName $sourceUrl
+    $file.Refresh()
+    $stamp = [string]$file.LastWriteTimeUtc.Ticks
 
     # 生成日报条目
     $sourceRel = (Get-RelPath $file.FullName) -replace '\.md$', ''
