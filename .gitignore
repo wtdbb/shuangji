@@ -16,11 +16,10 @@
 .claude/wechat/seen.json
 
 # ===== Skill 存放 =====
-# 真实文件放在 vault 根目录的 skill/;.claude/skills 是指向它的 junction
-# 忽略 junction 视图,避免 git 重复跟踪同一批文件
+# skill/ 是独立 git 仓库(只有它推送到 GitHub);vault 本地仓库不跟踪它
+/skill/
+# .claude/skills 是指向 skill/ 的 junction,vault 仓库忽略
 /.claude/skills/
-# 所有 skill 的密钥文件绝不入库
-/skill/**/.env
 
 # ===== 系统/临时文件 =====
 .DS_Store
