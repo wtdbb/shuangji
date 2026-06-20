@@ -530,6 +530,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "公众号剪藏模板.md",
         "公众号入库流程.md",
         "automation-pending.md",
         "本地自动化守护器.md"
@@ -560,6 +561,10 @@
       "isHidden": false
     },
     "配置/自动化/公众号入库流程.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "配置/自动化/公众号剪藏模板.md": {
       "isPinned": false,
       "isHidden": false
     }
