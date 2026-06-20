@@ -206,13 +206,15 @@ function Get-SourceFiles {
 
     $out = New-Object System.Collections.Generic.List[System.IO.FileInfo]
     foreach ($f in $all) {
+        if ($f.FullName -ieq (Join-Path $vault "配置\自动化\公众号剪藏模板.md")) { continue }
+        if ($f.FullName -match '\\配置\\自动化\\') { continue }
         if ($f.FullName -like "*\行业报告\公众号原内容\*" ) {
             if ($f.Name -ne "_公众号收件箱.md" -and $f.Name -ne "index.md") { $out.Add($f) }
             continue
         }
 
         $txt = Get-Content $f.FullName -Raw -Encoding utf8
-        if ($txt -match '(?m)^clip_type\s*[:：]\s*公众号原文\s*$') {
+        if ($txt -match '(?s)\A---\r?\n.*?(?m)^\s*clip_type\s*:\s*公众号原文\s*$') {
             $out.Add($f)
         }
     }
@@ -248,7 +250,8 @@ foreach ($file in $files) {
     }
 
     # 生成日报条目
-    $reportMarker = "[[$($file.Directory.Name)/$($file.BaseName)]]"
+    $sourceRel = (Get-RelPath $file.FullName) -replace '\.md$', ''
+    $reportMarker = "[[$sourceRel]]"
     $reportBlock = @"
 
 ### $title
