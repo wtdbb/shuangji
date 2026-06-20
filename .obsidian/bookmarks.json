@@ -1,3 +1,56 @@
 {
-  "items": []
+  "items": [
+    {
+      "type": "group",
+      "ctime": 0,
+      "title": "sortspec",
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 0,
+          "path": "99_低频归档"
+        },
+        {
+          "type": "folder",
+          "ctime": 0,
+          "path": "岗位mapping"
+        },
+        {
+          "type": "folder",
+          "ctime": 0,
+          "path": "行业mapping"
+        },
+        {
+          "type": "folder",
+          "ctime": 0,
+          "path": "行业报告"
+        },
+        {
+          "type": "folder",
+          "ctime": 0,
+          "path": "图片归档"
+        },
+        {
+          "type": "folder",
+          "ctime": 0,
+          "path": "蒸馏"
+        },
+        {
+          "type": "folder",
+          "ctime": 0,
+          "path": "skill"
+        },
+        {
+          "type": "folder",
+          "ctime": 0,
+          "path": "配置"
+        },
+        {
+          "type": "file",
+          "ctime": 0,
+          "path": "主页.md"
+        }
+      ]
+    }
+  ]
 }
