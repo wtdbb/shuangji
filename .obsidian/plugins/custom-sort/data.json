@@ -1,7 +1,7 @@
 ﻿{
     "suspended":  false,
     "additionalSortspecFile":  "",
-    "automaticBookmarksIntegration":  false,
+    "automaticBookmarksIntegration":  true,
     "bookmarksContextMenus":  false,
     "customSortContextSubmenu":  false,
     "statusBarEntryEnabled":  false,
