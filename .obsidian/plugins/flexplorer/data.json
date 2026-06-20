@@ -265,7 +265,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "7e4add28ddcdff3114dd9a3ab94c3651_MD5.webp",
         "0f4a96fc1a5aea725106f0ccb32d3c70_MD5.webp"
       ]
     },
@@ -391,6 +390,7 @@
       "sortOrder": "custom",
       "customOrder": [
         "index.md",
+        "公众号附件",
         "公众号原内容",
         "日报输出",
         "视频链接"
@@ -417,7 +417,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "公众号日报.md",
         "index.md",
         "2026-06-20 游戏行业猎头日报.md"
       ]
@@ -435,7 +434,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "公众号附件",
         "index.md",
         "网易-游戏公司发展史(游策十一).md"
       ]
@@ -559,23 +557,15 @@
       "isPinned": false,
       "isHidden": false
     },
-    "图片归档/7e4add28ddcdff3114dd9a3ab94c3651_MD5.webp": {
+    "setup.ps1": {
       "isPinned": false,
       "isHidden": false
     },
-    "行业报告/视频链接/公众号附件": {
+    "行业报告/公众号附件": {
       "isPinned": false,
       "isHidden": false,
       "customOrder": [],
       "sortOrder": "custom"
-    },
-    "行业报告/日报输出/公众号日报.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "setup.ps1": {
-      "isPinned": false,
-      "isHidden": false
     }
   },
   "pinnedFiles": [],
