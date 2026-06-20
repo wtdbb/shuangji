@@ -198,9 +198,28 @@ if (Test-Path $stateFile) {
     } catch {}
 }
 
-$files = Get-ChildItem $sourceDir -Recurse -File -Filter *.md | Where-Object {
-    $_.Name -ne "_公众号收件箱.md" -and $_.Name -ne "index.md"
+function Get-SourceFiles {
+    $all = Get-ChildItem $vault -Recurse -File -Filter *.md | Where-Object {
+        $_.FullName -notmatch '\\(\.obsidian|\.claude|skill)(\\|$)' -and
+        $_.FullName -notmatch '\\(行业报告\\日报输出|行业报告\\视频链接|岗位mapping|行业mapping|图片归档)(\\|$)'
+    }
+
+    $out = New-Object System.Collections.Generic.List[System.IO.FileInfo]
+    foreach ($f in $all) {
+        if ($f.FullName -like "*\行业报告\公众号原内容\*" ) {
+            if ($f.Name -ne "_公众号收件箱.md" -and $f.Name -ne "index.md") { $out.Add($f) }
+            continue
+        }
+
+        $txt = Get-Content $f.FullName -Raw -Encoding utf8
+        if ($txt -match '(?m)^clip_type\s*[:：]\s*公众号原文\s*$') {
+            $out.Add($f)
+        }
+    }
+    return $out
 }
+
+$files = Get-SourceFiles
 
 if (-not $files) { exit 0 }
 

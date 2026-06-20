@@ -11,11 +11,7 @@
 - [[行业mapping/工作室分布]]
 - [[行业mapping/行业内报]]
 - [[行业mapping/说话技巧]]
-- [[行业mapping/行业现状]]
-- [[行业mapping/薪资段位]]
-- [[行业mapping/工作室分布]]
-- [[行业mapping/行业内报]]
-- [[行业mapping/说话技巧]]
+
 
 ## 写入规则
 
