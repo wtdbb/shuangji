@@ -309,6 +309,33 @@ function Update-SourceMediaSection([string]$Path, $Downloads) {
     Add-Content -Path $Path -Value $block -Encoding utf8
 }
 
+function Rewrite-InlineImages([string]$Path, [string]$SourceUrl) {
+    $content = Get-Content $Path -Raw -Encoding utf8
+    $orig = $content
+    # 1) 把正文里的远程图片/视频 ![alt](url) 下载到本地并改成本地嵌入,避免破图
+    foreach ($m in [regex]::Matches($orig, '!\[[^\]]*\]\((https?://[^)\s]+)\)')) {
+        $url = $m.Groups[1].Value
+        if ($url -match '\.(mp4|mov|m4v|webm)(\?|$)') { $local = Download-File $url $attDir }
+        else { $local = Download-File $url $imgDir }
+        if ($local) {
+            $content = $content.Replace($m.Value, ("![[" + (Get-RelPath $local) + "]]"))
+        }
+    }
+    # 2) 再从源页面抓正文没覆盖到的图片/视频,补到“本地媒体归档”
+    $extra = New-Object System.Collections.Generic.List[string]
+    if (-not [string]::IsNullOrWhiteSpace($SourceUrl)) {
+        foreach ($d in (Download-MediaFromSource $SourceUrl)) {
+            $rel = Get-RelPath $d
+            if (-not $content.Contains($rel)) { $extra.Add($rel) }
+        }
+    }
+    if ($extra.Count -gt 0 -and -not $content.Contains("## 本地媒体归档")) {
+        $links = $extra | ForEach-Object { "- ![[$_]]" }
+        $content += "`n`n## 本地媒体归档`n" + ($links -join "`n") + "`n"
+    }
+    if ($content -ne $orig) { Set-Content -Path $Path -Value $content -Encoding utf8 }
+}
+
 function Set-RoundRegion($ctrl, [int]$radius) {
     try {
         $path = New-Object System.Drawing.Drawing2D.GraphicsPath
