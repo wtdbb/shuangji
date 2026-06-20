@@ -209,6 +209,7 @@ function Get-ExtFromUrl([string]$Url, [string]$DefaultExt = ".bin") {
         if ($fmt -eq 'jpeg') { return '.jpg' }
         if ($fmt -match '^(jpg|png|gif|webp|mp4|mov|m4v|webm)$') { return ".$fmt" }
     }
+    if ($Url -match 'mmbiz\.qpic\.cn') { return '.jpg' }
     return $DefaultExt
 }
 
@@ -240,7 +241,9 @@ function Decode-UrlText([string]$Value) {
     $v = $v -replace '\\/', '/'
     $v = $v -replace '\\u0026', '&'
     $v = $v -replace '&amp;', '&'
-    return $v.Trim()
+    $v = $v.Trim()
+    if ($v -match '^//') { $v = 'https:' + $v }
+    return $v
 }
 
 function Get-WechatMediaUrls([string]$Html) {
@@ -309,30 +312,48 @@ function Update-SourceMediaSection([string]$Path, $Downloads) {
     Add-Content -Path $Path -Value $block -Encoding utf8
 }
 
-function Rewrite-InlineImages([string]$Path, [string]$SourceUrl) {
+function Rewrite-InlineImages([string]$Path, [string]$SourceUrl, [string]$RawHtml = "") {
     $content = Get-Content $Path -Raw -Encoding utf8
     $orig = $content
-    # 1) 把正文里的远程图片/视频 ![alt](url) 下载到本地并改成本地嵌入,避免破图
+    $extra = New-Object System.Collections.Generic.List[string]
+
+    # 1) 把正文里的远程图片/视频 ![alt](url) 下载到本地并改成本地嵌入，避免破图
     foreach ($m in [regex]::Matches($orig, '!\[[^\]]*\]\((https?://[^)\s]+)\)')) {
-        $url = $m.Groups[1].Value
-        if ($url -match '\.(mp4|mov|m4v|webm)(\?|$)') { $local = Download-File $url $attDir }
+        $url = Decode-UrlText $m.Groups[1].Value
+        if ($url -match '\.(mp4|mov|m4v|webm)(\?|$)|(?:\?|&)type=video|video') { $local = Download-File $url $attDir }
         else { $local = Download-File $url $imgDir }
         if ($local) {
-            $content = $content.Replace($m.Value, ("![[" + (Get-RelPath $local) + "]]"))
+            $rel = Get-RelPath $local
+            $content = $content.Replace($m.Value, ("![[" + $rel + "]]"))
         }
     }
-    # 2) 再从源页面抓正文没覆盖到的图片/视频,补到“本地媒体归档”
-    $extra = New-Object System.Collections.Generic.List[string]
+
+    # 2) 从 Web Clipper 的 fullHtml 中补抓所有 data-src / src 图片和视频
+    if (-not [string]::IsNullOrWhiteSpace($RawHtml)) {
+        foreach ($d in (Download-MediaFromHtml $RawHtml)) {
+            $rel = Get-RelPath $d
+            if (-not $content.Contains($rel) -and -not $extra.Contains($rel)) { $extra.Add($rel) }
+        }
+    }
+
+    # 3) 再从 source_url 源页面补抓，作为 fullHtml 抓不到时的兜底
     if (-not [string]::IsNullOrWhiteSpace($SourceUrl)) {
         foreach ($d in (Download-MediaFromSource $SourceUrl)) {
             $rel = Get-RelPath $d
-            if (-not $content.Contains($rel)) { $extra.Add($rel) }
+            if (-not $content.Contains($rel) -and -not $extra.Contains($rel)) { $extra.Add($rel) }
         }
     }
-    if ($extra.Count -gt 0 -and -not $content.Contains("## 本地媒体归档")) {
-        $links = $extra | ForEach-Object { "- ![[$_]]" }
-        $content += "`n`n## 本地媒体归档`n" + ($links -join "`n") + "`n"
+
+    # 4) 写入/补充“本地媒体归档”，不放到视频链接，不放到 mapping
+    if ($extra.Count -gt 0) {
+        $marker = "## 本地媒体归档"
+        if (-not $content.Contains($marker)) { $content += "`n`n$marker`n" }
+        foreach ($rel in $extra) {
+            $line = "- ![[$rel]]"
+            if (-not $content.Contains($line)) { $content += $line + "`n" }
+        }
     }
+
     if ($content -ne $orig) { Set-Content -Path $Path -Value $content -Encoding utf8 }
 }
 
@@ -617,7 +638,7 @@ foreach ($file in $files) {
     if (-not (Test-UsableValue $reason)) { $reason = Guess-Reason $title $body }
 
     # 完整导入媒体:下载图片/视频到本地,并把正文里的远程图片改成本地嵌入
-    Rewrite-InlineImages $file.FullName $sourceUrl
+    Rewrite-InlineImages $file.FullName $sourceUrl $rawText
     $file.Refresh()
     $stamp = [string]$file.LastWriteTimeUtc.Ticks
 
@@ -674,6 +695,8 @@ foreach ($k in @($state.Keys)) {
 }
 Save-State $state
 exit 0
+
+
 
 
 
