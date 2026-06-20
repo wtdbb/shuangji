@@ -332,7 +332,7 @@ foreach ($file in $files) {
         $relLinks = $downloads | ForEach-Object { "![[{0}]]" -f (Get-RelPath $_) }
         $reportBlock += "`n- 已下载附件:`n  - " + ($relLinks -join "`n  - ")
     }
-    Add-Content -Path $dailyFile -Encoding utf8 -Value $reportBlock
+    Add-SectionOnce $dailyFile $title $reportBlock
 
     # 生成 mapping 精简条目：优先写现有主文件，找不到合适字段就同层新建文件
     $route = Choose-MappingTarget $category $title $text
@@ -364,4 +364,5 @@ $localAttachments
 
 Save-State $state
 exit 0
+
 

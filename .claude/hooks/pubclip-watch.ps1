@@ -1,4 +1,4 @@
-param(
+﻿param(
     [string]$Source = "watch"
 )
 
@@ -81,3 +81,4 @@ finally {
     try { $mutex.ReleaseMutex() | Out-Null; $mutex.Dispose() } catch {}
     Write-Log "watcher stopped"
 }
+

@@ -1,4 +1,4 @@
-# ============================================================
+﻿# ============================================================
 # CodexVault 新电脑配置脚本
 # Run in vault root:
 #   powershell -ExecutionPolicy Bypass -File .\setup.ps1
@@ -142,11 +142,29 @@ if (Test-Path $ppVbs) {
 }
 
 if (Test-Path $watchVbs) {
-    schtasks /Create /TN "CodexVault-PubClipWatch" /TR ("wscript.exe `"" + $watchVbs + "`"") /SC ONLOGON /F | Out-Null
-    schtasks /Run /TN "CodexVault-PubClipWatch" | Out-Null
+    schtasks /Create /TN "CodexVault-PubClipWatch" /TR ("wscript.exe `"" + $watchVbs + "`"") /SC ONLOGON /F 2>$null | Out-Null
+    $startup = [Environment]::GetFolderPath("Startup")
+    $lnk = Join-Path $startup "CodexVault-PubClipWatch.lnk"
+    $ws = New-Object -ComObject WScript.Shell
+    $shortcut = $ws.CreateShortcut($lnk)
+    $shortcut.TargetPath = "wscript.exe"
+    $shortcut.Arguments = "`"$watchVbs`""
+    $shortcut.WorkingDirectory = Split-Path -Parent $watchVbs
+    $shortcut.WindowStyle = 7
+    $shortcut.Save()
+    Start-Process -FilePath "wscript.exe" -ArgumentList "`"$watchVbs`"" -WindowStyle Hidden
 } elseif (Test-Path $watch) {
-    schtasks /Create /TN "CodexVault-PubClipWatch" /TR ("powershell -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File `"" + $watch + "`"") /SC ONLOGON /F | Out-Null
-    schtasks /Run /TN "CodexVault-PubClipWatch" | Out-Null
+    schtasks /Create /TN "CodexVault-PubClipWatch" /TR ("powershell -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File `"" + $watch + "`"") /SC ONLOGON /F 2>$null | Out-Null
+    $startup = [Environment]::GetFolderPath("Startup")
+    $lnk = Join-Path $startup "CodexVault-PubClipWatch.lnk"
+    $ws = New-Object -ComObject WScript.Shell
+    $shortcut = $ws.CreateShortcut($lnk)
+    $shortcut.TargetPath = "powershell.exe"
+    $shortcut.Arguments = "-NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File `"$watch`""
+    $shortcut.WorkingDirectory = Split-Path -Parent $watch
+    $shortcut.WindowStyle = 7
+    $shortcut.Save()
+    Start-Process -FilePath "powershell.exe" -ArgumentList "-NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File `"$watch`"" -WindowStyle Hidden
 }
 Say "Scheduled tasks registered" Green
 
@@ -167,3 +185,4 @@ Say "  1. Install any missing dependency listed above"
 Say "  2. Fill skill\sp-skill\.env with AI_DOUYIN_API_KEY"
 Say "  3. Configure the same git remote on both computers"
 Say "  4. Restart Obsidian or trigger the Claude hook once"
+
