@@ -53,10 +53,17 @@ function Get-Field([string]$Text, [string]$Name) {
     return ""
 }
 
+function Get-ArticleBody([string]$Text) {
+    if ($Text -match '(?s)\A---\r?\n.*?\r?\n---\r?\n(.*)$') {
+        return $Matches[1].Trim()
+    }
+    return $Text
+}
+
 function Test-UsableValue([string]$Value) {
     if ([string]::IsNullOrWhiteSpace($Value)) { return $false }
     if ($Value -match '\{\{.*\}\}') { return $false }
-    if ($Value -match '判断这篇文章|只提取|不要解释|不要编造|未提及|岗位动态|行业动态') { return $false }
+    if ($Value -match '判断这篇文章|只提取|不要解释|不要编造') { return $false }
     return $true
 }
 
@@ -290,14 +297,15 @@ foreach ($file in $files) {
     if ([string]::IsNullOrWhiteSpace($title)) { $title = [System.IO.Path]::GetFileNameWithoutExtension($file.Name) }
     $sourceUrl = $front["source_url"]
 
+    $body     = Get-ArticleBody $text
     $category = Get-Field $text "分类"
-    if (-not (Test-UsableValue $category)) { $category = Guess-Category $title $text }
+    if (-not (Test-UsableValue $category)) { $category = Guess-Category $title $body }
     $company  = Get-Field $text "公司名字"
-    if (-not (Test-UsableValue $company)) { $company = Guess-Company $title $text }
+    if (-not (Test-UsableValue $company)) { $company = Guess-Company $title $body }
     $event    = Get-Field $text "关键事件"
-    if (-not (Test-UsableValue $event)) { $event = Guess-Event $title $text }
+    if (-not (Test-UsableValue $event)) { $event = Guess-Event $title $body }
     $reason   = Get-Field $text "推断依据"
-    if (-not (Test-UsableValue $reason)) { $reason = Guess-Reason $title $text }
+    if (-not (Test-UsableValue $reason)) { $reason = Guess-Reason $title $body }
 
     # 如果有 source_url，尝试下载文章里的媒体
     $downloads = @()
