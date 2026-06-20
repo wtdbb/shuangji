@@ -402,6 +402,10 @@ foreach ($file in $files) {
 
     $title = $front["clip_title"]
     if ([string]::IsNullOrWhiteSpace($title)) { $title = [System.IO.Path]::GetFileNameWithoutExtension($file.Name) }
+    if ($title -match '模板|剪藏模板|Web Clipper|Note content' -or $file.BaseName -match '模板|剪藏模板|Web Clipper') {
+        $state[$file.FullName] = $stamp
+        continue
+    }
     $sourceUrl = $front["source_url"]
 
     $body     = Get-ArticleBody $text
