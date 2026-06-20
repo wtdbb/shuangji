@@ -403,8 +403,8 @@
       "sortOrder": "custom",
       "customOrder": [
         "游戏公司收入榜TOP80，超50家非上市公司！.md",
-        "index.md",
-        "腾讯网易同时出手，本周新游市场又热闹了.md"
+        "腾讯网易同时出手，本周新游市场又热闹了.md",
+        "index.md"
       ]
     },
     "行业报告/日报输出": {
@@ -425,8 +425,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "index.md",
-        "网易-游戏公司发展史(游策十一).md"
+        "网易-游戏公司发展史(游策十一).md",
+        "index.md"
       ]
     },
     "行业报告/视频链接/网易-游戏公司发展史(游策十一).md": {
@@ -562,10 +562,6 @@
       "sortOrder": "custom",
       "customOrder": []
     },
-    "行业报告/公众号原内容/index.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "行业报告/视频链接/index.md": {
       "isPinned": false,
       "isHidden": false
@@ -579,6 +575,10 @@
       "isHidden": false
     },
     "图片归档/076387b3523e16acca6f4f4bc07c3836_MD5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "行业报告/公众号原内容/index.md": {
       "isPinned": false,
       "isHidden": false
     }
