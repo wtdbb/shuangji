@@ -1,11 +1,13 @@
-﻿{
-    "suspended":  true,
-    "additionalSortspecFile":  "",
-    "automaticBookmarksIntegration":  true,
-    "bookmarksContextMenus":  false,
-    "customSortContextSubmenu":  false,
-    "statusBarEntryEnabled":  false,
-    "notificationsEnabled":  false,
-    "mobileNotificationsEnabled":  false,
-    "delayForInitialApplication":  1000
+{
+  "additionalSortspecFile": "",
+  "indexNoteNameForFolderNotes": "",
+  "suspended": false,
+  "statusBarEntryEnabled": true,
+  "notificationsEnabled": true,
+  "mobileNotificationsEnabled": false,
+  "customSortContextSubmenu": true,
+  "automaticBookmarksIntegration": true,
+  "bookmarksContextMenus": true,
+  "bookmarksGroupToConsumeAsOrderingReference": "sortspec",
+  "delayForInitialApplication": 1000
 }
