@@ -15,6 +15,9 @@
 .claude/wechat/feeds.txt
 .claude/wechat/seen.json
 
+# ===== 视频 skill 的密钥文件,绝不入库 =====
+.claude/skills/video-to-subtitle-summary/.env
+
 # ===== 系统/临时文件 =====
 .DS_Store
 Thumbs.db
