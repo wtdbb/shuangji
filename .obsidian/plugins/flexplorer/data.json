@@ -268,10 +268,10 @@
       "sortOrder": "custom",
       "customOrder": [
         "efd42b211a0c7a88e657c615f0c3cb6b_MD5.webp",
-        "公众号附件",
         "eae50d2659469f0a67a750e0ae9141e0_MD5.gif",
         "0b8055d3455cc4178db5e767a5246438_MD5.webp",
-        "7e4add28ddcdff3114dd9a3ab94c3651_MD5.webp"
+        "7e4add28ddcdff3114dd9a3ab94c3651_MD5.webp",
+        "公众号附件"
       ]
     },
     "岗位mapping": {
@@ -576,12 +576,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "图片归档/公众号附件": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": []
-    },
     "行业报告/公众号原内容/三七互娱“途中跑”，李卫伟会否陷入短视怪圈？丨正经深度.md": {
       "isPinned": false,
       "isHidden": false
@@ -611,6 +605,12 @@
     "图片归档/efd42b211a0c7a88e657c615f0c3cb6b_MD5.webp": {
       "isPinned": false,
       "isHidden": false
+    },
+    "图片归档/公众号附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": []
     }
   },
   "pinnedFiles": [],
