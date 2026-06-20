@@ -20,6 +20,12 @@ if (Test-Path $seenFile) {
     } catch {}
 }
 
+function Get-NodeText($item, $name) {
+    $n = $item.SelectSingleNode($name)
+    if ($n) { return ([string]$n.InnerText).Trim() }
+    return ""
+}
+
 function Strip-Html($s) {
     if (-not $s) { return "" }
     $s = $s -replace '<[^>]+>', ''
@@ -42,14 +48,15 @@ foreach ($url in $feeds) {
     $items = @($xml.rss.channel.item)
     foreach ($it in $items) {
         if (-not $it) { continue }
-        $title = "$($it.title)".Trim()
-        $link  = "$($it.link)".Trim()
-        $date  = "$($it.pubDate)".Trim()
-        $id    = if ($it.guid) { "$($it.guid.'#text')$($it.guid)".Trim() } else { $link }
+        $title = Get-NodeText $it 'title'
+        $link  = Get-NodeText $it 'link'
+        $date  = Get-NodeText $it 'pubDate'
+        $id    = Get-NodeText $it 'guid'
+        if ([string]::IsNullOrWhiteSpace($id)) { $id = $link }
         if ([string]::IsNullOrWhiteSpace($id)) { $id = $title }
         if ($seen.ContainsKey($id)) { continue }
 
-        $desc = Strip-Html("$($it.description)")
+        $desc = Strip-Html (Get-NodeText $it 'description')
         if ($desc.Length -gt 1000) { $desc = $desc.Substring(0,1000) + "…" }
 
         $block = @"
