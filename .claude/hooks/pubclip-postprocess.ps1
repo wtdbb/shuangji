@@ -627,39 +627,10 @@ foreach ($file in $files) {
 - 推断依据: $reason
 - 原文: $reportMarker
 "@
-    if ($downloads.Count -gt 0) {
-        $relLinks = $downloads | ForEach-Object { "![[{0}]]" -f (Get-RelPath $_) }
-        $reportBlock += "`n- 已下载附件:`n  - " + ($relLinks -join "`n  - ")
-    }
     Add-SectionOnce $dailyFile $title $reportBlock
 
-    # 生成 mapping 精简条目：优先写现有主文件，找不到合适字段就同层新建文件
-    $route = Choose-MappingTarget $category $title $text $company
-    Ensure-RootNote $route.Path $route.Label $route.Kind
-
-    $localAttachments = ""
-    if ($downloads.Count -gt 0) {
-        $localAttachments = "`n- 已下载附件:`n" + (($downloads | ForEach-Object { "  - ![[{0}]]" -f (Get-RelPath $_) }) -join "`n")
-    }
-
-    $routeRel = Get-RelPath $route.Path
-    $routeLink = $routeRel -replace '\.md$', ''
-    $srcLink = "行业报告/公众号原内容/$($file.BaseName)"
-    # 只保留核心字段:重点讲了什么 + 并入哪个目标文件(callout 排版)
-    $mappingBlock = "`n> [!tip] $title`n"
-    $mappingBlock += "> **重点**:$event`n"
-    $mappingBlock += "> `n"
-    $mappingBlock += "> **并入**:[[$routeLink]]`n"
-    if (-not [string]::IsNullOrWhiteSpace($sourceUrl)) {
-        $mappingBlock += "> **原文**:[阅读原文]($sourceUrl)`n"
-    } else {
-        $mappingBlock += "> **原文**:[[$srcLink]]`n"
-    }
-    $mappingBlock += "`n"
-    $reviewedBlock = Show-MappingReview $title $category $routeLink $mappingBlock
-    if (-not [string]::IsNullOrWhiteSpace($reviewedBlock)) {
-        Add-SectionOnce $route.Path $title $reviewedBlock
-    }
+    # mapping 由用户手动维护:这里不再自动写入 岗位mapping/行业mapping
+    # (只做:原文清洗归档 + 媒体本地化 + 日报草稿)
 
     $state[$file.FullName] = $stamp
 }
