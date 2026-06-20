@@ -6,13 +6,13 @@
       "sortOrder": "custom",
       "customOrder": [
         "99_低频归档",
+        "行业mapping",
+        "岗位mapping",
+        "行业报告",
+        "图片归档",
+        "蒸馏",
         "skill",
         "主页.md",
-        "图片归档",
-        "岗位mapping",
-        "蒸馏",
-        "行业mapping",
-        "行业报告",
         "配置"
       ]
     },
