@@ -265,7 +265,9 @@
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
-      "customOrder": []
+      "customOrder": [
+        "7e4add28ddcdff3114dd9a3ab94c3651_MD5.webp"
+      ]
     },
     "岗位mapping": {
       "isPinned": false,
@@ -398,7 +400,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "腾讯网易同时出手，本周新游市场又热闹了.md",
+        "腾讯网易同时出手，本周新游市场又热闹了 1.md",
         "附件"
       ]
     },
@@ -553,11 +555,15 @@
       "customOrder": [],
       "sortOrder": "custom"
     },
-    "行业报告/公众号原内容/腾讯网易同时出手，本周新游市场又热闹了.md": {
+    "行业报告/日报输出/公众号日报.md": {
       "isPinned": false,
       "isHidden": false
     },
-    "行业报告/日报输出/公众号日报.md": {
+    "行业报告/公众号原内容/腾讯网易同时出手，本周新游市场又热闹了 1.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "图片归档/7e4add28ddcdff3114dd9a3ab94c3651_MD5.webp": {
       "isPinned": false,
       "isHidden": false
     }
