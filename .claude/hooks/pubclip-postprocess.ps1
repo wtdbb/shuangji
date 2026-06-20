@@ -621,21 +621,20 @@ foreach ($file in $files) {
         $localAttachments = "`n- 已下载附件:`n" + (($downloads | ForEach-Object { "  - ![[{0}]]" -f (Get-RelPath $_) }) -join "`n")
     }
 
-    $mappingBlock = "`n### $title`n"
-    if (-not [string]::IsNullOrWhiteSpace($sourceUrl)) {
-        $mappingBlock += "- 链接：$sourceUrl`n"
-    }
     $routeRel = Get-RelPath $route.Path
     $routeLink = $routeRel -replace '\.md$', ''
-    $mappingBlock += "- 去向:[[$routeLink]]`n"
-    $mappingBlock += @"
-- 分类：$category
-- 公司：$company
-- 关键事件：$event
-- 推断依据：$reason
-- 原文：[[行业报告/公众号原内容/$($file.BaseName)]]
-$localAttachments
-"@
+    $srcLink = "行业报告/公众号原内容/$($file.BaseName)"
+    # 只保留核心字段:重点讲了什么 + 并入哪个目标文件(callout 排版)
+    $mappingBlock = "`n> [!tip] $title`n"
+    $mappingBlock += "> **重点**:$event`n"
+    $mappingBlock += "> `n"
+    $mappingBlock += "> **并入**:[[$routeLink]]`n"
+    if (-not [string]::IsNullOrWhiteSpace($sourceUrl)) {
+        $mappingBlock += "> **原文**:[阅读原文]($sourceUrl)`n"
+    } else {
+        $mappingBlock += "> **原文**:[[$srcLink]]`n"
+    }
+    $mappingBlock += "`n"
     $reviewedBlock = Show-MappingReview $title $category $routeLink $mappingBlock
     if (-not [string]::IsNullOrWhiteSpace($reviewedBlock)) {
         Add-SectionOnce $route.Path $title $reviewedBlock
