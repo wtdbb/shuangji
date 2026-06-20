@@ -530,6 +530,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "公众号入库流程.md",
         "automation-pending.md",
         "本地自动化守护器.md"
       ]
@@ -555,6 +556,10 @@
       "isHidden": false
     },
     "图片归档/0f4a96fc1a5aea725106f0ccb32d3c70_MD5.webp": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "配置/自动化/公众号入库流程.md": {
       "isPinned": false,
       "isHidden": false
     }
