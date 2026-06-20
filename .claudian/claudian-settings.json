@@ -50,7 +50,9 @@
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "",
-      "installationMethodsByHost": {},
+      "installationMethodsByHost": {
+        "device:3adf4369-78e3-4134-ac64-205fffb830bd": "native-windows"
+      },
       "wslDistroOverridesByHost": {}
     },
     "opencode": {
@@ -81,7 +83,7 @@
   "settingsProvider": "claude",
   "savedProviderModel": {
     "claude": "opus",
-    "codex": "gpt-5.5"
+    "codex": "gpt-5.4-mini"
   },
   "savedProviderEffort": {
     "claude": "high",

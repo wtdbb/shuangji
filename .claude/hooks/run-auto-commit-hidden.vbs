@@ -1,3 +1,7 @@
+Dim shell, fso, scriptDir, ps1
 Set shell = CreateObject("WScript.Shell")
-cmd = "powershell.exe -NoProfile -ExecutionPolicy Bypass -File ""C:\Users\EDY\Documents\CodexVault\.claude\hooks\auto-commit.ps1"" -Source scheduled"
-shell.Run cmd, 0, False
+Set fso = CreateObject("Scripting.FileSystemObject")
+scriptDir = fso.GetParentFolderName(WScript.ScriptFullName)
+ps1 = fso.BuildPath(scriptDir, "auto-commit.ps1")
+
+shell.Run "powershell.exe -NoProfile -ExecutionPolicy Bypass -File """ & ps1 & """ -Source scheduled", 0, False

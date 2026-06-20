@@ -5,7 +5,7 @@
 
 $ErrorActionPreference = "SilentlyContinue"
 
-$vault    = "C:\Users\EDY\Documents\CodexVault"
+$vault    = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 $feedFile = Join-Path $vault ".claude\wechat\feeds.txt"
 $seenFile = Join-Path $vault ".claude\wechat\seen.json"
 $inbox    = Join-Path $vault "游戏行业日报\_公众号收件箱.md"
