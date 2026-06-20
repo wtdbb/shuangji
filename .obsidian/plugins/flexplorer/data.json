@@ -5,8 +5,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "琛屼笟鎶ュ憡",
-        "setup.ps1",
         "99_低频归档",
         "岗位mapping",
         "行业mapping",
@@ -543,10 +541,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "setup.ps1": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "index.md": {
       "isPinned": false,
       "isHidden": false
@@ -586,20 +580,6 @@
     "图片归档/eae50d2659469f0a67a750e0ae9141e0_MD5.gif": {
       "isPinned": false,
       "isHidden": false
-    },
-    "琛屼笟鎶ュ憡": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "鍏紬鍙峰師鍐呭"
-      ],
-      "sortOrder": "custom"
-    },
-    "琛屼笟鎶ュ憡/鍏紬鍙峰師鍐呭": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
     },
     "行业报告/公众号原内容/在米哈游拿着16薪打螺丝.md": {
       "isPinned": false,
