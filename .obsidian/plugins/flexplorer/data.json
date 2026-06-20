@@ -4,7 +4,9 @@
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
-      "customOrder": []
+      "customOrder": [
+        "岗位mapping"
+      ]
     },
     "99_低频归档": {
       "isPinned": false,
