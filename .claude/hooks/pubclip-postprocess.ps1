@@ -3,8 +3,8 @@
 # 公众号后处理器：
 # 1) 读取行业报告/公众号原内容中的新剪藏
 # 2) 生成公众号日报草稿
-# 3) 生成岗位/行业 mapping 归档
-# 4) 如有 source_url，则尝试下载图片/视频附件到本地
+# 3) 下载公众号原文中的图片/视频附件到本地
+# 4) 不再自动写入岗位/行业 mapping，mapping 由用户手写
 
 $ErrorActionPreference = "SilentlyContinue"
 
@@ -12,6 +12,7 @@ $vault = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 $sourceDir = Join-Path $vault "行业报告\公众号原内容"
 $dailyDir  = Join-Path $vault "行业报告\日报输出"
 $dailyFile = Join-Path $dailyDir "公众号日报.md"
+$videoDir  = Join-Path $vault "行业报告\视频链接"
 $jobDir    = Join-Path $vault "岗位mapping"
 $indDir    = Join-Path $vault "行业mapping"
 $imgDir    = Join-Path $vault "图片归档"
@@ -179,7 +180,7 @@ function Append-UniqueLine([string]$Path, [string]$Line) {
 
 function Ensure-DailyHeader([string]$Path, [string]$DateKey) {
     if (-not (Test-Path $Path)) {
-        Set-Content -Path $Path -Encoding utf8 -Value "# 公众号日报`n`n> 自动汇总公众号剪藏，先出日报草稿，再分流到 mapping。`n"
+        Set-Content -Path $Path -Encoding utf8 -Value "# 公众号日报`n`n> 自动汇总公众号剪藏，只生成日报草稿；mapping 由用户手写。`n"
     }
     $content = Get-Content $Path -Raw -Encoding utf8
     if (-not $content.Contains("## $DateKey")) {
@@ -195,9 +196,9 @@ function Update-FolderIndex([string]$Dir, [string]$Title, [string]$Description) 
     $lines.Add("# $Title")
     $lines.Add("")
     if ($Description) { $lines.Add("> $Description"); $lines.Add("") }
-    $files = Get-ChildItem -LiteralPath $Dir -File -Filter "*.md" | Where-Object { $_.Name -ne "index.md" -and $_.Name -ne "_??????.md" } | Sort-Object LastWriteTime -Descending
+    $files = Get-ChildItem -LiteralPath $Dir -File -Filter "*.md" | Where-Object { $_.Name -ne "index.md" -and $_.Name -ne "_公众号收件箱.md" } | Sort-Object LastWriteTime -Descending
     if ($files.Count -eq 0) {
-        $lines.Add("?????")
+        $lines.Add("暂无内容。")
     } else {
         foreach ($f in $files) {
             $rel = (Get-RelPath $f.FullName) -replace '\.md$', ''
@@ -208,8 +209,8 @@ function Update-FolderIndex([string]$Dir, [string]$Title, [string]$Description) 
 }
 
 function Update-AllIndexes {
-    Update-FolderIndex $sourceDir "??????" "??? Web Clipper ???????????????????/????????"
-    Update-FolderIndex $videoDir "????" "??/?????????????????"
+    Update-FolderIndex $sourceDir "公众号原内容" "浏览器 Web Clipper 保存的公众号原文；后处理器会补下载图片/视频并生成日报。"
+    Update-FolderIndex $videoDir "视频链接" "抖音/视频资料入口。公众号附件不放这里。"
 }
 
 function Save-State($map) {
@@ -698,7 +699,7 @@ foreach ($file in $files) {
 "@
     Add-SectionOnce $dailyFile $title $reportBlock
 
-    # ????????/?? mapping?mapping ??????
+    # 不再自动写入岗位/行业 mapping；mapping 由用户手写。
     $state[$file.FullName] = $stamp
 }
 
