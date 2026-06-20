@@ -1,4 +1,4 @@
-# AI信息收集系统
+# 配置
 
 标签: #AI #Horizon #猎头 #游戏行业 #信息搜集
 
@@ -16,8 +16,8 @@
 ## 当前落地位置
 
 - Horizon 项目目录：`C:\Users\EDY\Documents\开始\Horizon`
-- Obsidian 项目索引：`C:\Users\EDY\Documents\CodexVault\AI信息收集系统\index.md`
-- Obsidian 运行日志：`C:\Users\EDY\Documents\CodexVault\AI信息收集系统\log.md`
+- Obsidian 项目索引：`C:\Users\EDY\Documents\CodexVault\配置\index.md`
+- Obsidian 运行日志：`C:\Users\EDY\Documents\CodexVault\配置\log.md`
 
 ## 已完成
 
