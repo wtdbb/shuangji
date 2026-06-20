@@ -104,6 +104,8 @@ $ac    = Join-Path $vault ".claude\hooks\auto-commit.ps1"
 $syncVbs = Join-Path $vault ".claude\hooks\run-git-sync-hidden.vbs"
 $sync    = Join-Path $vault ".claude\hooks\git-sync.ps1"
 $wf    = Join-Path $vault ".claude\hooks\wechat-fetch.ps1"
+$ppVbs = Join-Path $vault ".claude\hooks\run-pubclip-postprocess-hidden.vbs"
+$pp    = Join-Path $vault ".claude\hooks\pubclip-postprocess.ps1"
 
 if (Test-Path $acVbs) {
     schtasks /Create /TN "CodexVault-AutoCommit" /TR ("wscript.exe `"" + $acVbs + "`"") /SC MINUTE /MO 2 /F | Out-Null
@@ -119,6 +121,12 @@ if (Test-Path $syncVbs) {
     schtasks /Create /TN "CodexVault-GitSync" /TR ("wscript.exe `"" + $syncVbs + "`"") /SC MINUTE /MO 5 /F | Out-Null
 } elseif (Test-Path $sync) {
     schtasks /Create /TN "CodexVault-GitSync" /TR ("powershell -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File `"" + $sync + "`"") /SC MINUTE /MO 5 /F | Out-Null
+}
+
+if (Test-Path $ppVbs) {
+    schtasks /Create /TN "CodexVault-PubClipPostProcess" /TR ("wscript.exe `"" + $ppVbs + "`"") /SC MINUTE /MO 10 /F | Out-Null
+} elseif (Test-Path $pp) {
+    schtasks /Create /TN "CodexVault-PubClipPostProcess" /TR ("powershell -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File `"" + $pp + "`"") /SC MINUTE /MO 10 /F | Out-Null
 }
 Say "Scheduled tasks registered" Green
 
