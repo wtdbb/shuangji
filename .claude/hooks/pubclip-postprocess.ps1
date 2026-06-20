@@ -309,55 +309,118 @@ function Update-SourceMediaSection([string]$Path, $Downloads) {
     Add-Content -Path $Path -Value $block -Encoding utf8
 }
 
+function Set-RoundRegion($ctrl, [int]$radius) {
+    try {
+        $path = New-Object System.Drawing.Drawing2D.GraphicsPath
+        $d = $radius * 2
+        $w = $ctrl.Width; $h = $ctrl.Height
+        $path.AddArc(0, 0, $d, $d, 180, 90)
+        $path.AddArc($w - $d, 0, $d, $d, 270, 90)
+        $path.AddArc($w - $d, $h - $d, $d, $d, 0, 90)
+        $path.AddArc(0, $h - $d, $d, $d, 90, 90)
+        $path.CloseAllFigures()
+        $ctrl.Region = New-Object System.Drawing.Region($path)
+    } catch {}
+}
+
 function Show-MappingReview([string]$Title, [string]$Category, [string]$TargetRel, [string]$Block) {
     if ($Source -match 'scheduled') { return $Block }
     try {
         Add-Type -AssemblyName System.Windows.Forms | Out-Null
         Add-Type -AssemblyName System.Drawing | Out-Null
 
+        $accent  = [System.Drawing.Color]::FromArgb(108, 92, 231)
+        $bg      = [System.Drawing.Color]::FromArgb(248, 249, 252)
+        $cardBd  = [System.Drawing.Color]::FromArgb(225, 227, 234)
+        $textCol = [System.Drawing.Color]::FromArgb(33, 37, 41)
+        $white   = [System.Drawing.Color]::White
+        $fontUI  = New-Object System.Drawing.Font("Microsoft YaHei UI", 9.5)
+        $fontMono= New-Object System.Drawing.Font("Consolas", 10.5)
+
         $form = New-Object System.Windows.Forms.Form
-        $form.Text = "确认/修改 mapping 导入内容"
-        $form.Width = 820
-        $form.Height = 620
+        $form.Text = "确认 / 修改 mapping 导入内容"
+        $form.Width = 880
+        $form.Height = 690
         $form.StartPosition = "CenterScreen"
         $form.TopMost = $true
+        $form.BackColor = $bg
+        $form.Font = $fontUI
+        $form.FormBorderStyle = "FixedDialog"
+        $form.MaximizeBox = $false
+        $form.MinimizeBox = $false
 
-        $label = New-Object System.Windows.Forms.Label
-        $label.Left = 12
-        $label.Top = 12
-        $label.Width = 780
-        $label.Height = 48
-        $label.Text = "标题：$Title`r`n分类：$Category    去向：$TargetRel"
-        $form.Controls.Add($label)
+        # 顶部标题栏
+        $header = New-Object System.Windows.Forms.Panel
+        $header.Left = 0; $header.Top = 0; $header.Width = 864; $header.Height = 66
+        $header.BackColor = $accent
+        $form.Controls.Add($header)
+
+        $hTitle = New-Object System.Windows.Forms.Label
+        $hTitle.Text = "确认 / 修改 mapping 导入内容"
+        $hTitle.ForeColor = $white
+        $hTitle.BackColor = $accent
+        $hTitle.Font = New-Object System.Drawing.Font("Microsoft YaHei UI", 13, [System.Drawing.FontStyle]::Bold)
+        $hTitle.Left = 22; $hTitle.Top = 11; $hTitle.Width = 760; $hTitle.Height = 28
+        $header.Controls.Add($hTitle)
+
+        $hSub = New-Object System.Windows.Forms.Label
+        $hSub.Text = "下面内容可直接编辑;满意后点【导入】写入对应 mapping"
+        $hSub.ForeColor = [System.Drawing.Color]::FromArgb(226, 223, 252)
+        $hSub.BackColor = $accent
+        $hSub.Left = 24; $hSub.Top = 40; $hSub.Width = 780; $hSub.Height = 20
+        $header.Controls.Add($hSub)
+
+        # 信息行
+        $info = New-Object System.Windows.Forms.Label
+        $info.Text = ("标题:  " + $Title + "`r`n分类:  " + $Category + "      去向:  " + $TargetRel)
+        $info.ForeColor = $textCol
+        $info.Left = 24; $info.Top = 80; $info.Width = 816; $info.Height = 44
+        $form.Controls.Add($info)
+
+        # 内容卡片
+        $card = New-Object System.Windows.Forms.Panel
+        $card.Left = 24; $card.Top = 130; $card.Width = 816; $card.Height = 440
+        $card.BackColor = $white
+        $card.BorderStyle = "FixedSingle"
+        $card.Padding = New-Object System.Windows.Forms.Padding(10)
+        $form.Controls.Add($card)
 
         $box = New-Object System.Windows.Forms.TextBox
-        $box.Left = 12
-        $box.Top = 70
-        $box.Width = 780
-        $box.Height = 455
         $box.Multiline = $true
         $box.ScrollBars = "Vertical"
         $box.AcceptsReturn = $true
         $box.AcceptsTab = $true
-        $box.Font = New-Object System.Drawing.Font("Microsoft YaHei UI", 10)
+        $box.BorderStyle = "None"
+        $box.BackColor = $white
+        $box.ForeColor = $textCol
+        $box.Font = $fontMono
+        $box.Dock = "Fill"
         $box.Text = $Block.Trim()
-        $form.Controls.Add($box)
+        $card.Controls.Add($box)
 
+        # 按钮:导入(主色)
         $import = New-Object System.Windows.Forms.Button
-        $import.Left = 12
-        $import.Top = 535
-        $import.Width = 150
-        $import.Height = 34
-        $import.Text = "导入修改后内容"
+        $import.Text = "✓  导入修改后内容"
+        $import.Left = 24; $import.Top = 584; $import.Width = 196; $import.Height = 42
+        $import.FlatStyle = "Flat"
+        $import.FlatAppearance.BorderSize = 0
+        $import.BackColor = $accent
+        $import.ForeColor = $white
+        $import.Font = New-Object System.Drawing.Font("Microsoft YaHei UI", 10, [System.Drawing.FontStyle]::Bold)
+        $import.Cursor = [System.Windows.Forms.Cursors]::Hand
         $import.Add_Click({ $form.Tag = "import"; $form.Close() })
         $form.Controls.Add($import)
 
+        # 按钮:打开目标(描边)
         $open = New-Object System.Windows.Forms.Button
-        $open.Left = 175
-        $open.Top = 535
-        $open.Width = 150
-        $open.Height = 34
         $open.Text = "打开目标文件"
+        $open.Left = 232; $open.Top = 584; $open.Width = 150; $open.Height = 42
+        $open.FlatStyle = "Flat"
+        $open.FlatAppearance.BorderColor = $cardBd
+        $open.FlatAppearance.BorderSize = 1
+        $open.BackColor = $white
+        $open.ForeColor = $textCol
+        $open.Cursor = [System.Windows.Forms.Cursors]::Hand
         $open.Add_Click({
             $vaultName = Split-Path $vault -Leaf
             $obsPath = $TargetRel -replace '\\','/'
@@ -365,14 +428,23 @@ function Show-MappingReview([string]$Title, [string]$Category, [string]$TargetRe
         })
         $form.Controls.Add($open)
 
+        # 按钮:不导入(柔和红)
         $cancel = New-Object System.Windows.Forms.Button
-        $cancel.Left = 338
-        $cancel.Top = 535
-        $cancel.Width = 100
-        $cancel.Height = 34
         $cancel.Text = "不导入"
+        $cancel.Left = 740; $cancel.Top = 584; $cancel.Width = 100; $cancel.Height = 42
+        $cancel.FlatStyle = "Flat"
+        $cancel.FlatAppearance.BorderSize = 0
+        $cancel.BackColor = [System.Drawing.Color]::FromArgb(245, 238, 238)
+        $cancel.ForeColor = [System.Drawing.Color]::FromArgb(200, 60, 60)
+        $cancel.Cursor = [System.Windows.Forms.Cursors]::Hand
         $cancel.Add_Click({ $form.Tag = "cancel"; $form.Close() })
         $form.Controls.Add($cancel)
+
+        $form.Add_Shown({
+            Set-RoundRegion $import 8
+            Set-RoundRegion $open 8
+            Set-RoundRegion $cancel 8
+        })
 
         $null = $form.ShowDialog()
         if ($form.Tag -eq "import") {
