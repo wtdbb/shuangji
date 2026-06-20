@@ -7,5 +7,14 @@
       ],
       "key": "D"
     }
+  ],
+  "obsidian-clipper:copy-bookmarklet-address": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "X"
+    }
   ]
 }
