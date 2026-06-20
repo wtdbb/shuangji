@@ -265,6 +265,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "1ffcdeaa605aa912ac3ed810a8f9b084_MD5.webp",
+        "076387b3523e16acca6f4f4bc07c3836_MD5.png",
         "7e4add28ddcdff3114dd9a3ab94c3651_MD5.webp",
         "公众号附件"
       ]
@@ -400,6 +402,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "游戏公司收入榜TOP80，超50家非上市公司！.md",
         "index.md",
         "腾讯网易同时出手，本周新游市场又热闹了.md"
       ]
@@ -564,6 +567,18 @@
       "isHidden": false
     },
     "行业报告/视频链接/index.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "行业报告/公众号原内容/游戏公司收入榜TOP80，超50家非上市公司！.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "图片归档/1ffcdeaa605aa912ac3ed810a8f9b084_MD5.webp": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "图片归档/076387b3523e16acca6f4f4bc07c3836_MD5.png": {
       "isPinned": false,
       "isHidden": false
     }
