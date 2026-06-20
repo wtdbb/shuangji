@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "setup.ps1",
         "公众号剪藏",
         "99_低频归档",
         "岗位mapping",
@@ -612,6 +613,10 @@
       "isHidden": false
     },
     "行业mapping/公众号剪藏/腾讯网易同时出手，本周新游市场又热闹了.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "setup.ps1": {
       "isPinned": false,
       "isHidden": false
     }

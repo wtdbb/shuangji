@@ -6,9 +6,19 @@
 
 $ErrorActionPreference = "Continue"
 
-$vault = $PSScriptRoot
-if ([string]::IsNullOrWhiteSpace($vault)) {
-    $vault = Split-Path -Parent $MyInvocation.MyCommand.Path
+$scriptDir = $PSScriptRoot
+if ([string]::IsNullOrWhiteSpace($scriptDir)) {
+    $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+}
+
+$vault = $scriptDir
+if (-not (Test-Path (Join-Path $vault ".git"))) {
+    $parent = Split-Path -Parent $vault
+    if (Test-Path (Join-Path $parent ".git")) {
+        $vault = $parent
+    } elseif (Test-Path (Join-Path $parent ".obsidian")) {
+        $vault = $parent
+    }
 }
 
 $legacyVault = "C:\Users\EDY\Documents\CodexVault"
