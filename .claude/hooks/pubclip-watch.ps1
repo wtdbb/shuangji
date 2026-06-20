@@ -73,6 +73,11 @@ try {
             Write-Log "run postprocess"
             & powershell -NoProfile -ExecutionPolicy Bypass -File $postprocess -Source "watch" | Out-Null
             Write-Log "postprocess done"
+            # 冷却:后处理器会改写源文件(清洗正文/补媒体),清掉这些自触发事件并静默一段,打破自我循环
+            Start-Sleep -Seconds 2
+            Get-Event -ErrorAction SilentlyContinue | Remove-Event -ErrorAction SilentlyContinue
+            $pending = $false
+            $nextRun = (Get-Date).AddSeconds(15)
         }
     }
 }
