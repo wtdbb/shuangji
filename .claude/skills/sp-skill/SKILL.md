@@ -1,5 +1,5 @@
 ---
-name: video-to-subtitle-summary
+name: sp-skill
 description: Use when user provides a short video platform URL or local video/audio file and wants subtitles/AI summary, or when user asks to list their own AI Douyin historical tasks. Triggers on v.douyin.com, xhslink.com, bilibili.com, b23.tv, YouTube URLs, local .mp4/.mp3/.wav files, or task history requests.
 args: <video_url_or_file_path> - 视频链接（抖音/小红书/B站等）或本地视频/音频文件路径（必需）
 ---
@@ -110,8 +110,8 @@ export BYTEDANCE_VC_APPID="your_appid"
 先读取 `ASR_BACKEND`，未配置时默认使用 `faster-whisper`：
 
 ```bash
-SKILL_DIR="${SKILL_DIR:-$HOME/.codex/skills/video-to-subtitle-summary}"
-[ -d "$SKILL_DIR" ] || SKILL_DIR="$HOME/.claude/skills/video-to-subtitle-summary"
+SKILL_DIR="${SKILL_DIR:-$HOME/.codex/skills/sp-skill}"
+[ -d "$SKILL_DIR" ] || SKILL_DIR="$HOME/.claude/skills/sp-skill"
 ENV_FILE="$SKILL_DIR/.env"
 
 read_env() {
@@ -138,8 +138,8 @@ echo "ASR_BACKEND=$ASR_BACKEND"
 在开始任何处理之前，先检查当前模式和当前字幕后端需要的依赖。
 
 ```bash
-SKILL_DIR="${SKILL_DIR:-$HOME/.codex/skills/video-to-subtitle-summary}"
-[ -d "$SKILL_DIR" ] || SKILL_DIR="$HOME/.claude/skills/video-to-subtitle-summary"
+SKILL_DIR="${SKILL_DIR:-$HOME/.codex/skills/sp-skill}"
+[ -d "$SKILL_DIR" ] || SKILL_DIR="$HOME/.claude/skills/sp-skill"
 ENV_FILE="$SKILL_DIR/.env"
 
 read_env() {
@@ -162,7 +162,7 @@ TIKHUB_TOKEN="$(read_env TIKHUB_TOKEN)"
 BYTEDANCE_VC_TOKEN="$(read_env BYTEDANCE_VC_TOKEN)"
 BYTEDANCE_VC_APPID="$(read_env BYTEDANCE_VC_APPID)"
 FW_PYTHON="$(read_env FW_PYTHON)"
-[ -z "$FW_PYTHON" ] && [ -x "$HOME/.cache/video-to-subtitle-summary/faster-whisper-venv/bin/python" ] && FW_PYTHON="$HOME/.cache/video-to-subtitle-summary/faster-whisper-venv/bin/python"
+[ -z "$FW_PYTHON" ] && [ -x "$HOME/.cache/sp-skill/faster-whisper-venv/bin/python" ] && FW_PYTHON="$HOME/.cache/sp-skill/faster-whisper-venv/bin/python"
 [ -z "$FW_PYTHON" ] && FW_PYTHON="python3"
 
 MISSING=""
@@ -234,8 +234,8 @@ fi
 AI Douyin 适合不想单独注册 TikHub 的用户。注册 [https://ai-douyin.top9.cc](https://ai-douyin.top9.cc) 后领取免费额度并创建 API Key，成功解析下载直链后扣 1 积分；失败不扣。余额不足时接口返回 HTTP `402` / `insufficient balance`。
 
 ```bash
-SKILL_DIR="${SKILL_DIR:-$HOME/.codex/skills/video-to-subtitle-summary}"
-[ -d "$SKILL_DIR" ] || SKILL_DIR="$HOME/.claude/skills/video-to-subtitle-summary"
+SKILL_DIR="${SKILL_DIR:-$HOME/.codex/skills/sp-skill}"
+[ -d "$SKILL_DIR" ] || SKILL_DIR="$HOME/.claude/skills/sp-skill"
 ENV_FILE="$SKILL_DIR/.env"
 read_env() {
   local key="$1"
@@ -332,8 +332,8 @@ curl -s -X GET "https://api.tikhub.io/api/v1/bilibili/web/fetch_one_video_v3?url
 当用户要求查看自己的历史 task / 最近任务 / 任务列表时，调用 AI Douyin 的 `GET /api/v1/tasks`。该接口使用 `X-API-Key` 认证，只返回当前 API Key 对应用户自己的任务。
 
 ```bash
-SKILL_DIR="${SKILL_DIR:-$HOME/.codex/skills/video-to-subtitle-summary}"
-[ -d "$SKILL_DIR" ] || SKILL_DIR="$HOME/.claude/skills/video-to-subtitle-summary"
+SKILL_DIR="${SKILL_DIR:-$HOME/.codex/skills/sp-skill}"
+[ -d "$SKILL_DIR" ] || SKILL_DIR="$HOME/.claude/skills/sp-skill"
 
 python3 "$SKILL_DIR/scripts/list_ai_douyin_tasks.py" \
   --page 1 \
@@ -357,8 +357,8 @@ python3 "$SKILL_DIR/scripts/list_ai_douyin_tasks.py" --search "关键词" --json
 
 ```bash
 mkdir -p /tmp/video_analysis/{VIDEO_ID}
-SKILL_DIR="${SKILL_DIR:-$HOME/.codex/skills/video-to-subtitle-summary}"
-[ -d "$SKILL_DIR" ] || SKILL_DIR="$HOME/.claude/skills/video-to-subtitle-summary"
+SKILL_DIR="${SKILL_DIR:-$HOME/.codex/skills/sp-skill}"
+[ -d "$SKILL_DIR" ] || SKILL_DIR="$HOME/.claude/skills/sp-skill"
 python3 "$SKILL_DIR/scripts/download_youtube_subtitles.py" \
   "https://www.youtube.com/watch?v={VIDEO_ID}" \
   --output-dir /tmp/video_analysis/{VIDEO_ID} \
@@ -375,8 +375,8 @@ python3 "$SKILL_DIR/scripts/download_youtube_subtitles.py" \
 
 ```bash
 mkdir -p /tmp/video_analysis/{VIDEO_ID}
-SKILL_DIR="${SKILL_DIR:-$HOME/.codex/skills/video-to-subtitle-summary}"
-[ -d "$SKILL_DIR" ] || SKILL_DIR="$HOME/.claude/skills/video-to-subtitle-summary"
+SKILL_DIR="${SKILL_DIR:-$HOME/.codex/skills/sp-skill}"
+[ -d "$SKILL_DIR" ] || SKILL_DIR="$HOME/.claude/skills/sp-skill"
 python3 "$SKILL_DIR/scripts/download_video_candidates.py" \
   --response-json /tmp/video_analysis/download_url.json \
   --output /tmp/video_analysis/{VIDEO_ID}/video.mp4 \
@@ -413,9 +413,9 @@ $SKILL_DIR/scripts/transcribe_faster_whisper.py
 执行命令：
 
 ```bash
-SKILL_DIR="${SKILL_DIR:-$HOME/.codex/skills/video-to-subtitle-summary}"
-[ -d "$SKILL_DIR" ] || SKILL_DIR="$HOME/.claude/skills/video-to-subtitle-summary"
-FW_PYTHON="${FW_PYTHON:-$HOME/.cache/video-to-subtitle-summary/faster-whisper-venv/bin/python}"
+SKILL_DIR="${SKILL_DIR:-$HOME/.codex/skills/sp-skill}"
+[ -d "$SKILL_DIR" ] || SKILL_DIR="$HOME/.claude/skills/sp-skill"
+FW_PYTHON="${FW_PYTHON:-$HOME/.cache/sp-skill/faster-whisper-venv/bin/python}"
 [ -x "$FW_PYTHON" ] || FW_PYTHON="python3"
 "$FW_PYTHON" "$SKILL_DIR/scripts/transcribe_faster_whisper.py" \
   /tmp/video_analysis/{VIDEO_ID}/audio.mp3 \
@@ -434,8 +434,8 @@ FW_PYTHON="${FW_PYTHON:-$HOME/.cache/video-to-subtitle-summary/faster-whisper-ve
 提交任务：
 
 ```bash
-SKILL_DIR="${SKILL_DIR:-$HOME/.codex/skills/video-to-subtitle-summary}"
-[ -d "$SKILL_DIR" ] || SKILL_DIR="$HOME/.claude/skills/video-to-subtitle-summary"
+SKILL_DIR="${SKILL_DIR:-$HOME/.codex/skills/sp-skill}"
+[ -d "$SKILL_DIR" ] || SKILL_DIR="$HOME/.claude/skills/sp-skill"
 ENV_FILE="$SKILL_DIR/.env"
 if [ -f "$ENV_FILE" ]; then
   BYTEDANCE_VC_TOKEN=$(grep "^BYTEDANCE_VC_TOKEN=" "$ENV_FILE" | cut -d'=' -f2- | tr -d '"' | tr -d "'")
@@ -454,8 +454,8 @@ curl -s -X POST "https://openspeech.bytedance.com/api/v1/vc/submit?appid=$BYTEDA
 轮询结果：
 
 ```bash
-SKILL_DIR="${SKILL_DIR:-$HOME/.codex/skills/video-to-subtitle-summary}"
-[ -d "$SKILL_DIR" ] || SKILL_DIR="$HOME/.claude/skills/video-to-subtitle-summary"
+SKILL_DIR="${SKILL_DIR:-$HOME/.codex/skills/sp-skill}"
+[ -d "$SKILL_DIR" ] || SKILL_DIR="$HOME/.claude/skills/sp-skill"
 ENV_FILE="$SKILL_DIR/.env"
 if [ -f "$ENV_FILE" ]; then
   BYTEDANCE_VC_TOKEN=$(grep "^BYTEDANCE_VC_TOKEN=" "$ENV_FILE" | cut -d'=' -f2- | tr -d '"' | tr -d "'")
