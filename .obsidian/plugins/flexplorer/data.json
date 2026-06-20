@@ -5,7 +5,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "主页.md",
         "99_低频归档",
         "岗位mapping",
         "行业mapping",
@@ -13,7 +12,8 @@
         "图片归档",
         "蒸馏",
         "配置",
-        "skill"
+        "skill",
+        "主页.md"
       ]
     },
     "99_低频归档": {
