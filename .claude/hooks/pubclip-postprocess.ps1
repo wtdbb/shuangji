@@ -253,8 +253,9 @@ function Download-File([string]$Url, [string]$Folder) {
     if (Test-Path $out) { return $out }
     try {
         Invoke-WebRequest -Uri $Url -OutFile $out -UseBasicParsing -TimeoutSec 60 -Headers @{
-            "User-Agent" = "Mozilla/5.0"
+            "User-Agent" = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36"
             "Referer" = "https://mp.weixin.qq.com/"
+            "Accept" = "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
         } | Out-Null
         return $out
     } catch {
@@ -305,7 +306,12 @@ function Download-MediaFromSource([string]$SourceUrl) {
     if ([string]::IsNullOrWhiteSpace($SourceUrl)) { return $downloaded }
 
     try {
-        $html = (Invoke-WebRequest -Uri $SourceUrl -UseBasicParsing -TimeoutSec 60 -Headers @{ "User-Agent" = "Mozilla/5.0" }).Content
+        # 微信文章对 UA/Referer 很敏感；普通 Mozilla/5.0 可能只返回裁剪页，导致只能抓到第一张图。
+        $html = (Invoke-WebRequest -Uri $SourceUrl -UseBasicParsing -TimeoutSec 60 -Headers @{
+            "User-Agent" = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36"
+            "Referer" = "https://mp.weixin.qq.com/"
+            "Accept" = "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8"
+        }).Content
     } catch {
         return $downloaded
     }
