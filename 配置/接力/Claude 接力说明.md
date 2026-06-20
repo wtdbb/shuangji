@@ -7,7 +7,7 @@
 不要把完整聊天记录全部复制给 Claude。更稳的方式是让 Claude 读取当前工作目录里的接力文件：
 
 ```text
-C:\Users\EDY\Documents\开始\配置\配置/CLAUDE.md
+C:\Users\EDY\Documents\开始\配置\CLAUDE.md
 ```
 
 这个文件已经整理了当前项目状态、关键路径、飞书同步规则、Obsidian 结构和安全边界。
@@ -57,7 +57,7 @@ C:\Users\EDY\AppData\Roaming\npm\claude.cmd
 当系统结构、飞书表、Obsidian 目录、自动化规则发生变化时，让 Codex 或 Claude 更新：
 
 ```text
-C:\Users\EDY\Documents\开始\配置\配置/CLAUDE.md
+C:\Users\EDY\Documents\开始\配置\CLAUDE.md
 ```
 
 这样两个 AI 才能保持同一套上下文。
