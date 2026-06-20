@@ -529,10 +529,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "配置/自动化/公众号剪藏模板.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "setup.ps1": {
       "isPinned": false,
       "isHidden": false
@@ -546,6 +542,10 @@
       "isHidden": false
     },
     "行业报告/公众号原内容/腾讯网易同时出手，本周新游市场又热闹了.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "配置/自动化/公众号剪藏模板.md": {
       "isPinned": false,
       "isHidden": false
     }
