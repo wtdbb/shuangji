@@ -10,7 +10,7 @@
             "shell": "powershell",
             "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\Users\\EDY\\Documents\\CodexVault\\.claude\\hooks\\auto-commit.ps1\" -Source Claude",
             "timeout": 30,
-            "statusMessage": "自动提交到 git…"
+            "statusMessage": "auto-commit to git"
           }
         ]
       }
