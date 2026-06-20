@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "公众号剪藏",
         "99_低频归档",
         "岗位mapping",
         "行业mapping",
@@ -413,8 +414,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "2026-06-20 游戏行业猎头日报.md",
-        "index.md"
+        "index.md",
+        "2026-06-20 游戏行业猎头日报.md"
       ]
     },
     "行业报告/日报输出/2026-06-20 游戏行业猎头日报.md": {
@@ -536,6 +537,18 @@
       "isHidden": false
     },
     "配置/自动化/本地自动化守护器.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "公众号剪藏": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "我确信，吹哥确实造出了解谜游戏史上最高的山.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "公众号剪藏/我确信，吹哥确实造出了解谜游戏史上最高的山.md": {
       "isPinned": false,
       "isHidden": false
     }
