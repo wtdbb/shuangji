@@ -265,9 +265,7 @@
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
-      "customOrder": [
-        "7e4add28ddcdff3114dd9a3ab94c3651_MD5.webp"
-      ]
+      "customOrder": []
     },
     "岗位mapping": {
       "isPinned": false,
@@ -406,7 +404,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "公众号日报.md",
         "index.md"
       ]
     },
@@ -419,7 +416,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "公众号附件",
         "网易-游戏公司发展史(游策十一).md",
         "index 1.md"
       ]
@@ -544,20 +540,6 @@
       "isHidden": false
     },
     "行业报告/视频链接/index 1.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "图片归档/7e4add28ddcdff3114dd9a3ab94c3651_MD5.webp": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "行业报告/视频链接/公众号附件": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
-    },
-    "行业报告/日报输出/公众号日报.md": {
       "isPinned": false,
       "isHidden": false
     }

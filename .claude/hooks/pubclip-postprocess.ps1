@@ -15,11 +15,11 @@ $dailyFile = Join-Path $dailyDir "公众号日报.md"
 $jobDir    = Join-Path $vault "岗位mapping"
 $indDir    = Join-Path $vault "行业mapping"
 $imgDir    = Join-Path $vault "图片归档"
-$vidDir    = Join-Path $vault "行业报告\视频链接\公众号附件"
+$attDir    = Join-Path $vault "行业报告\公众号原内容\附件"
 $stateDir  = Join-Path $vault ".claude\wechat"
 $stateFile = Join-Path $stateDir "pubclip-postprocess-state.json"
 
-New-Item -ItemType Directory -Force -Path $dailyDir,$jobDir,$indDir,$imgDir,$vidDir,$stateDir | Out-Null
+New-Item -ItemType Directory -Force -Path $dailyDir,$jobDir,$indDir,$imgDir,$attDir,$stateDir | Out-Null
 
 function Get-SafeFileName([string]$Name) {
     if ([string]::IsNullOrWhiteSpace($Name)) { return "untitled" }
@@ -131,7 +131,7 @@ function Download-MediaFromSource([string]$SourceUrl) {
 
     foreach ($u in $urls) {
         if ($u -match '\.(mp4|mov|m4v|webm)(\?|$)' ) {
-            $saved = Download-File $u $vidDir
+            $saved = Download-File $u $attDir
         } else {
             $saved = Download-File $u $imgDir
         }
