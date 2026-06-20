@@ -6,7 +6,6 @@
       "sortOrder": "custom",
       "customOrder": [
         "setup.ps1",
-        "公众号剪藏",
         "99_低频归档",
         "岗位mapping",
         "行业mapping",
@@ -275,7 +274,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "公众号剪藏",
         "index.md",
         "上海.md",
         "北京.md",
@@ -355,7 +353,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "公众号剪藏",
         "index.md",
         "工作室分布.md",
         "薪资段位.md",
@@ -551,18 +548,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "公众号剪藏": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "我确信，吹哥确实造出了解谜游戏史上最高的山.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "公众号剪藏/我确信，吹哥确实造出了解谜游戏史上最高的山.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "图片归档/0f4a96fc1a5aea725106f0ccb32d3c70_MD5.webp": {
       "isPinned": false,
       "isHidden": false
@@ -583,21 +568,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/公众号剪藏": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
-    },
-    "行业mapping/公众号剪藏": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "腾讯网易同时出手，本周新游市场又热闹了.md",
-        "index.md"
-      ],
-      "sortOrder": "custom"
-    },
     "行业报告/视频链接/公众号附件": {
       "isPinned": false,
       "isHidden": false,
@@ -605,14 +575,6 @@
       "sortOrder": "custom"
     },
     "行业报告/日报输出/公众号日报.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "行业mapping/公众号剪藏/index.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "行业mapping/公众号剪藏/腾讯网易同时出手，本周新游市场又热闹了.md": {
       "isPinned": false,
       "isHidden": false
     },

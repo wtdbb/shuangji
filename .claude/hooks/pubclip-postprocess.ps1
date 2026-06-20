@@ -247,57 +247,26 @@ foreach ($file in $files) {
     }
     Add-Content -Path $dailyFile -Encoding utf8 -Value $reportBlock
 
-    # 生成 mapping 草稿
-    $targetDir = if ($category -match '岗位') { $jobDir } else { $indDir }
-    $indexFile = Join-Path $targetDir "index.md"
-    if (-not (Test-Path $indexFile)) {
-        $kind = if ($targetDir -eq $jobDir) { "岗位" } else { "行业" }
-        Set-Content -Path $indexFile -Encoding utf8 -Value "# 公众号剪藏（$kind）`n`n> 自动由公众号后处理器生成。`n"
-    }
-
-    $safeName = Get-SafeFileName $title
-    $noteFile = Join-Path $targetDir ($safeName + ".md")
+    # 生成 mapping 精简条目：优先写现有主文件，找不到合适字段就同层新建文件
+    $route = Choose-MappingTarget $category $title $text
+    Ensure-RootNote $route.Path $route.Label $route.Kind
 
     $localAttachments = ""
     if ($downloads.Count -gt 0) {
-        $localAttachments = "`n## 已下载附件`n" + (($downloads | ForEach-Object { "- ![[{0}]]" -f (Get-RelPath $_) }) -join "`n")
+        $localAttachments = "`n- 已下载附件:`n" + (($downloads | ForEach-Object { "  - ![[{0}]]" -f (Get-RelPath $_) }) -join "`n")
     }
 
-    $targetLabel = if ($targetDir -eq $jobDir) { "岗位mapping" } else { "行业mapping" }
-    $targetAdvice = if ($targetDir -eq $jobDir) { "建议写入：[[岗位mapping/index]]" } else { "建议写入：[[行业mapping/index]]" }
-    $noteBody = @"
----
-source_note: [[行业报告/公众号原内容/$($file.BaseName)]]
-source_url: $sourceUrl
-category: $category
-company: $company
-status: processed
-target: $targetLabel
----
+    $mappingBlock = @"
 
-# $title
-
+### $title
 - 分类：$category
-- 公司名字：$company
+- 公司：$company
 - 关键事件：$event
 - 推断依据：$reason
-- $targetAdvice
-
-## 归档建议
-
-- $event
-
-## 原文
-
-- [[行业报告/公众号原内容/$($file.BaseName)]]
-
+- 原文：[[行业报告/公众号原内容/$($file.BaseName)]]
 $localAttachments
 "@
-    Set-Content -Path $noteFile -Encoding utf8 -Value $noteBody
-
-    $folderName = Split-Path $targetDir -Leaf
-    $indexLine = "- [[{0}/{1}|{2}]]" -f $folderName, $safeName, $title
-    Append-UniqueLine $indexFile $indexLine
+    Add-SectionOnce $route.Path $title $mappingBlock
 
     $state[$file.FullName] = $stamp
 }
