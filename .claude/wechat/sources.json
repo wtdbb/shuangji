@@ -1,0 +1,40 @@
+[
+  {
+    "name": "游戏葡萄",
+    "alias": "youxiputao",
+    "biz": "MjM5OTc2ODUxMw==",
+    "user_name": "gh_f31470838883",
+    "signature": "有前瞻、有判断。投稿与合作：hi@youxiputao.com",
+    "status": "待补源",
+    "source_type": "wechat_article_sample",
+    "sample_article": {
+      "title": "鹰角，难了",
+      "url": "https://mp.weixin.qq.com/s/OEeDw5FjpcVCwafNbDXCqw",
+      "published_at": "2026-06-20 18:00:00",
+      "author": "游戏葡萄君"
+    },
+    "tested_sources": [
+      {
+        "type": "rsshub_public",
+        "url": "https://rsshub.app/wechat/sogou/youxiputao",
+        "result": "被 Cloudflare 人机验证拦截，不能作为稳定后台源"
+      },
+      {
+        "type": "wechat_profile_ext",
+        "url": "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MjM5OTc2ODUxMw==&scene=124",
+        "result": "要求在微信客户端打开，后台脚本无法读取"
+      },
+      {
+        "type": "sogou_search",
+        "url": "https://weixin.sogou.com/weixin?type=2&query=%E6%B8%B8%E6%88%8F%E8%91%A1%E8%90%84&ie=utf8",
+        "result": "可访问，但返回多为旧文章，不能可靠代表最新推送"
+      },
+      {
+        "type": "official_site_feed",
+        "url": "http://youxiputao.com/feed",
+        "result": "当前跳转新版官网，不返回标准 RSS"
+      }
+    ],
+    "next_step": "继续寻找稳定 RSS / 官网列表 / 第三方同步源；在此之前可以用单篇文章链接进入收件箱。"
+  }
+]

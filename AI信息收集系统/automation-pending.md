@@ -8,4 +8,10 @@
 
 ## 当前状态
 
-暂无待确认事项。
+### 2026-06-20 19:25 - 公众号文章待整理
+
+- 来源: 游戏葡萄
+- 文章: [鹰角，难了](https://mp.weixin.qq.com/s/OEeDw5FjpcVCwafNbDXCqw)
+- 状态: pending-confirmation
+- 建议: 先由 AI 提炼与游戏猎头相关的信息，再由你确认是否写入 `行业mapping.md`、`岗位mapping.md` 或当天日报。
+- 补充: 游戏葡萄已加入 `公众号监控源.md`，但当前仍是待补源，不是稳定 RSS 源。
