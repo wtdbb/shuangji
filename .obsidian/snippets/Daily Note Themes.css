@@ -48,7 +48,8 @@ change or remove those font-family lines from this snippet.
 }
 
 .sunday,
-.Sunday {
+.Sunday,
+.星期日 {
   --highlight: #f39caa;
   --primary: #f6466f;
   --dark: #2d0916;
