@@ -5,9 +5,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "_fix2.ps1",
-        "_probe.ps1",
-        "_build2.ps1",
         "99_低频归档",
         "岗位mapping",
         "行业mapping",
@@ -775,10 +772,6 @@
       ],
       "sortOrder": "custom"
     },
-    "_build2.ps1": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/珠海": {
       "isPinned": false,
       "isHidden": false,
@@ -821,10 +814,6 @@
         "FromSoftware.md"
       ],
       "sortOrder": "custom"
-    },
-    "_probe.ps1": {
-      "isPinned": false,
-      "isHidden": false
     },
     "岗位mapping/上海/B站《逃离鸭科夫》.md": {
       "isPinned": false,
@@ -1507,10 +1496,6 @@
       "isHidden": false
     },
     "岗位mapping/苏州/友谊时光.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "_fix2.ps1": {
       "isPinned": false,
       "isHidden": false
     },
