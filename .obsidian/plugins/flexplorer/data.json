@@ -7,11 +7,8 @@
       "customOrder": [
         "Daily",
         "General Tweaks.css",
-        "Daily Note Themes.css",
         "Calendar.base",
-        "On This Day.base",
         "Habits Tracker.md",
-        "Daily-TEMPLATE.md",
         "主页.md",
         "日记",
         "OneNote",
@@ -1537,23 +1534,11 @@
       "isPinned": false,
       "isHidden": false
     },
-    "Daily-TEMPLATE.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "Habits Tracker.md": {
       "isPinned": false,
       "isHidden": false
     },
-    "On This Day.base": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "Calendar.base": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Daily Note Themes.css": {
       "isPinned": false,
       "isHidden": false
     },
@@ -1566,7 +1551,9 @@
       "isHidden": false,
       "customOrder": [
         "Calender",
+        "On This Day.base",
         "Templates",
+        "Daily Note Themes.css",
         "Bases"
       ],
       "sortOrder": "custom"
@@ -1586,8 +1573,22 @@
     "Daily/Templates": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
+      "customOrder": [
+        "Daily-TEMPLATE.md"
+      ],
       "sortOrder": "custom"
+    },
+    "Daily/On This Day.base": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily/Daily Note Themes.css": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily/Templates/Daily-TEMPLATE.md": {
+      "isPinned": false,
+      "isHidden": false
     }
   },
   "pinnedFiles": [],
