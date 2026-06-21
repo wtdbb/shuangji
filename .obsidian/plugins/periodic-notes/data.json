@@ -5,31 +5,31 @@
   "daily": {
     "format": "",
     "template": "Templates/Daily-TEMPLATE.md",
-    "folder": "Calender/Journal/Daily",
+    "folder": "Calendar/Journal/Daily",
     "enabled": true
   },
   "weekly": {
     "format": "",
     "template": "",
-    "folder": "Calender/Journal/Weekly",
+    "folder": "Calendar/Journal/Weekly",
     "enabled": true
   },
   "monthly": {
     "format": "",
     "template": "",
-    "folder": "Calender/Journal/Month",
+    "folder": "Calendar/Journal/Month",
     "enabled": true
   },
   "quarterly": {
     "format": "",
     "template": "",
-    "folder": "Calender/Journal/Quarterly",
+    "folder": "Calendar/Journal/Quarterly",
     "enabled": true
   },
   "yearly": {
     "format": "",
     "template": "",
-    "folder": "Calender/Journal/Yearly",
+    "folder": "Calendar/Journal/Yearly",
     "enabled": true
   }
 }
