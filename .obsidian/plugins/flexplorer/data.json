@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "_build_mapping.ps1",
         "_csv_sections.tmp.md",
         "99_低频归档",
         "岗位mapping",
@@ -580,6 +581,10 @@
       "isHidden": false
     },
     "_csv_sections.tmp.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "_build_mapping.ps1": {
       "isPinned": false,
       "isHidden": false
     }
