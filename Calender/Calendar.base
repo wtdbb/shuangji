@@ -1,14 +1,14 @@
 formulas:
   highlight: highlight
-  ✨: if(file.inFolder("Calender/Journal/Daily"),"📅",if(file.inFolder("Calender/Mettings"),"☎️",if(file.inFolder("Calender/Fleeting"),"💭")))
+  ✨: if(file.inFolder("Calendar/Journal/Daily"),"📅",if(file.inFolder("Calendar/Meetings"),"☎️",if(file.inFolder("Calendar/Fleeting"),"💭")))
 views:
   - type: table
     name: Calendar
     filters:
       or:
-        - file.inFolder("Calender/Journal/Daily")
-        - file.inFolder("Calender/Fleeting")
-        - file.inFolder("Calender/Mettings")
+        - file.inFolder("Calendar/Journal/Daily")
+        - file.inFolder("Calendar/Fleeting")
+        - file.inFolder("Calendar/Meetings")
     order:
       - formula.✨
       - file.name
@@ -23,7 +23,7 @@ views:
     name: Daily
     filters:
       and:
-        - file.inFolder("Calender/Journal/Daily")
+        - file.inFolder("Calendar/Journal/Daily")
     groupBy:
       property: week
       direction: DESC
@@ -41,7 +41,7 @@ views:
     name: Weekly
     filters:
       and:
-        - file.inFolder("Calender/Journal/Weekly")
+        - file.inFolder("Calendar/Journal/Weekly")
     order:
       - file.name
       - month
@@ -54,7 +54,7 @@ views:
     name: Monthly
     filters:
       and:
-        - file.inFolder("Calender/Journal/Month")
+        - file.inFolder("Calendar/Journal/Month")
     groupBy:
       property: quarter
       direction: ASC
@@ -70,12 +70,12 @@ views:
     name: Yearly
     filters:
       and:
-        - file.inFolder("Calender/Journal/Yearly")
+        - file.inFolder("Calendar/Journal/Yearly")
   - type: table
     name: Fleeting
     filters:
       and:
-        - file.inFolder("Calender/Fleeting")
+        - file.inFolder("Calendar/Fleeting")
     sort:
       - property: file.name
         direction: DESC
