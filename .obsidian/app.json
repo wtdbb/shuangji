@@ -3,5 +3,6 @@
   "newFileLocation": "folder",
   "showUnsupportedFiles": true,
   "promptDelete": false,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "defaultViewMode": "preview"
 }
