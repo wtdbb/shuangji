@@ -1540,6 +1540,8 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "Fleeting",
+        "Mettings",
         "Journal"
       ],
       "sortOrder": "custom"
@@ -1548,7 +1550,9 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
-        "未命名.md",
+        "Yearly.md",
+        "Quarterly.md",
+        "Month.md",
         "Weekly.md",
         "Daily.md"
       ],
@@ -1562,9 +1566,37 @@
       "isPinned": false,
       "isHidden": false
     },
-    "Calender/Journal/未命名.md": {
+    "Calender/Journal/Month.md": {
       "isPinned": false,
       "isHidden": false
+    },
+    "Calender/Journal/Quarterly.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Calender/Journal/Yearly.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Calender/Mettings": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "Calender/Fleeting": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "未命名/未命名": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "未命名"
+      ],
+      "sortOrder": "custom"
     }
   },
   "pinnedFiles": [],
