@@ -16,5 +16,14 @@
       ],
       "key": "X"
     }
-  ]
+  ],
+  "editor:save-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ],
+  "obsidian-excalidraw-plugin:save": []
 }
