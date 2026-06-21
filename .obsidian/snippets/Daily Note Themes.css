@@ -1,189 +1,219 @@
-/*------------------------------------------------------------------------------
-                     Daily Note Themes by CyanVoxel v1.0.5
+/*======================================================================
+  Daily Note · Light Theme (Windows-friendly)  v2.0
+  作者重写 for CodexVault
+  字体： 标题 Bai Jamjuree ｜ 正文 霞鹜文楷 LXGW WenKai ｜ 等宽 JetBrainsMono NF
+  触发： frontmatter -> cssclasses: [daily, 星期X]   （中英文星期均可）
+  特点： 暖白纸背景 · 每天柔和强调色 · 章节装饰 · 圆角勾选框
+======================================================================*/
 
-These are a set of 7 main CSS classes that can be used to apply individual color
-schemes to daily notes for each day of the week.
-To customize the colors for each day, just swamp out the colors values under
-the main "day of the week" classes.
-
-NOTE: By default, this snippet relies on the "Bai Jamjuree" or
-"JetBrainsMono Nerd Font Mono" fonts. If you don't wish to use these, then just
-change or remove those font-family lines from this snippet.
-                
-------------------------------------------------------------------------------*/
-:root {
-  --highlight: #ffffff;
-  --primary: #aaaaaa;
-  --dark: #333333;
-}
-
+/*--------------------------- 基础（.daily）---------------------------*/
 .daily {
-  --dark: var(--dark);
-  color: var(--highlight);
-  background-color: var(--dark);
-  --text-normal: var(--highlight);
-  --text-muted: var(--highlight);
-  --text-faint: var(--highlight);
-  --checklist-done-color: var(--highlight);
-  --metadata-label-text-color: var(--highlight);
-  --metadata-input-text-color: var(--highlight);
-  --tag-color: var(--dark);
-  --tag-background: var(--primary);
-  --hr-color: var(--primary);
-  --blockquote-border-color: var(--primary);
-  --interactive-accent: var(--primary);
-  --collapse-icon-color-collapsed: var(--primary);
-  --checkbox-color: var(--primary);
-  --checkbox-marker-color: var(--dark);
-  --checkbox-color-hover: var(--highlight);
-  --checkbox-border-color: var(--highlight);
-  --list-marker-color: var(--highlight);
-  --code-background: black;
-  --code-normal: var(--primary);
+  /* 调色板：背景统一暖白，强调色按星期变化（见下） */
+  --paper:      #faf7f1;   /* 暖白纸背景 */
+  --paper-card: #fffdf8;   /* 卡片/代码块更亮 */
+  --ink:        #3b352e;   /* 主文字（暖墨）*/
+  --muted:      #a39a8c;   /* 次要文字 */
+  --line:       #ece4d8;   /* 分隔线 */
+  --accent:     #e0708c;   /* 默认强调（周日）*/
+  --accent-soft:#fbe9ee;   /* 强调淡底 */
 
-  --background-modifier-border-focus: var(--primary);
-  --background-modifier-border: color-mix(in srgb, var(--highlight) 60%, transparent);
-  --background-modifier-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
-  --pill-cover-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: "LXGW WenKai", "Bai Jamjuree", "Segoe UI", sans-serif;
+  line-height: 1.85;
+
+  /* 映射到 Obsidian 主题变量 */
+  --text-normal: var(--ink);
+  --text-muted: var(--muted);
+  --text-faint: #c2b9aa;
+  --text-accent: var(--accent);
+  --text-accent-hover: var(--accent);
+  --interactive-accent: var(--accent);
+  --interactive-accent-hover: var(--accent);
+  --link-color: var(--accent);
+  --link-color-hover: var(--accent);
+  --tag-color: var(--accent);
+  --tag-background: var(--accent-soft);
+  --hr-color: var(--line);
+  --blockquote-border-color: var(--accent);
+  --checkbox-color: var(--accent);
+  --checkbox-color-hover: var(--accent);
+  --checkbox-marker-color: #ffffff;
+  --checkbox-border-color: var(--accent);
+  --checkbox-radius: 6px;
+  --checklist-done-color: var(--muted);
+  --list-marker-color: var(--accent);
+  --collapse-icon-color: var(--muted);
+  --code-background: var(--paper-card);
+  --code-normal: #b5644f;
+  --background-modifier-border: var(--line);
+  --background-modifier-border-focus: var(--accent);
+  --metadata-label-text-color: var(--muted);
+  --metadata-input-text-color: var(--ink);
 }
 
-.sunday,
-.Sunday,
-.星期日 {
-  --highlight: #f39caa;
-  --primary: #f6466f;
-  --dark: #2d0916;
-}
+/*--------------------------- 每天的强调色 ---------------------------*/
+.daily.sunday,    .daily.Sunday,    .daily.星期日 { --accent:#e0708c; --accent-soft:#fbe9ee; } /* 玫瑰 */
+.daily.monday,    .daily.Monday,    .daily.星期一 { --accent:#df6f5d; --accent-soft:#fbe8e3; } /* 砖红 */
+.daily.tuesday,   .daily.Tuesday,   .daily.星期二 { --accent:#4f8ed4; --accent-soft:#e7f0fb; } /* 晴蓝 */
+.daily.wednesday, .daily.Wednesday, .daily.星期三 { --accent:#cf9b2c; --accent-soft:#faf1d6; } /* 暖金 */
+.daily.thursday,  .daily.Thursday,  .daily.星期四 { --accent:#df8741; --accent-soft:#fbeddc; } /* 琥珀橙 */
+.daily.friday,    .daily.Friday,    .daily.星期五 { --accent:#5aa05f; --accent-soft:#e8f4e9; } /* 草绿 */
+.daily.saturday,  .daily.Saturday,  .daily.星期六 { --accent:#cf5e72; --accent-soft:#fbe7eb; } /* 绛红 */
 
-.monday,
-.Monday,
-.星期一 {
-  --highlight: #fcadaa;
-  --primary: #f65848;
-  --dark: #3c0e0b;
-}
-
-.tuesday,
-.Tuesday,
-.星期二 {
-  --highlight: #aedbfa;
-  --primary: #3b87f0;
-  --dark: #070615;
-}
-
-.wednesday,
-.Wednesday,
-.星期三 {
-  --highlight: #fff3c4;
-  --primary: #ffd63d;
-  --dark: #2c1404;
-}
-
-.thursday,
-.Thursday,
-.星期四 {
-  --highlight: #f7b79b;
-  --primary: #ed6022;
-  --dark: #210b04;
-}
-
-.friday,
-.Friday,
-.星期五 {
-  --highlight: #e9f9b7;
-  --primary: #92e649;
-  --dark: #192108;
-}
-
-.saturday,
-.Saturday,
-.星期六 {
-  --highlight: #f39caa;
-  --primary: #e22c3c;
-  --dark: #100305;
-}
-
-.daily :is(h1, .HyperMD-header.HyperMD-header-1) {
-  color: var(--primary);
+/*--------------------------- 标题 ---------------------------*/
+/* H1 大标题 DAILY NOTE */
+.daily :is(h1, .HyperMD-header-1) {
+  font-family: "Bai Jamjuree", "LXGW WenKai", sans-serif;
+  font-weight: 700;
+  font-size: 3.1em;
+  line-height: 1.1;
   text-align: center;
-  font-size: 60px;
-  font-family: "Bai Jamjuree", "Apple Color Emoji", "JetBrainsMono Nerd Font Mono", "JetBrainsMono NFM", "JetBrains Mono";
+  color: var(--accent);
+  letter-spacing: 3px;
+  margin: 10px 0 2px;
   padding: 0 !important;
 }
 
-.daily :is(h2, .HyperMD-header.HyperMD-header-2) {
-  color: var(--highlight);
-  text-align: center;
-  font-size: 30px;
-  font-family: "Bai Jamjuree", "Apple Color Emoji", "JetBrainsMono Nerd Font Mono", "JetBrainsMono NFM", "JetBrains Mono";
+/* H2 面包屑（年/季/月/周）*/
+.daily :is(h2, .HyperMD-header-2) {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
   font-style: italic;
+  font-size: 1.05em;
+  text-align: center;
+  color: var(--muted);
+  letter-spacing: .5px;
+  margin: 0;
   padding: 0 !important;
 }
 
-.daily :is(h3, .HyperMD-header.HyperMD-header-3) {
-  color: var(--primary);
+/* H3 章节标题（Freewrite / Habits ...）带两侧短线 */
+.daily :is(h3, .HyperMD-header-3) {
+  font-family: "Bai Jamjuree", "LXGW WenKai", sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
   text-align: center;
-
-  font-size: 32px;
-  font-family: "Bai Jamjuree", "Apple Color Emoji", "JetBrainsMono Nerd Font Mono", "JetBrainsMono NFM", "JetBrains Mono";
+  color: var(--accent);
+  margin-top: 1.5em;
   padding-top: 0;
 }
+/* 阅读视图：章节标题两侧装饰线 */
+.markdown-preview-view.daily h3::before,
+.markdown-preview-view.daily h3::after {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  margin: 0 14px;
+  vertical-align: middle;
+  background: var(--accent);
+  opacity: .45;
+  border-radius: 2px;
+}
 
-.daily :is(h4, .HyperMD-header.HyperMD-header-4) {
-  background-color: var(--primary);
-  color: var(--dark);
-  /* border-color: var(--primary); */
-  /* font-family: "JetBrainsMono Nerd Font Mono", "JetBrains Mono", monospace; */
-  font-weight: 900;
-  margin-bottom: 0;
-  padding-top: 0;
-  font-size: 20px;
+/* H4 小节 = 胶囊标签（Morning / Evening ...）*/
+.daily :is(h4, .HyperMD-header-4) {
+  display: inline-block;
+  font-family: "Bai Jamjuree", "LXGW WenKai", sans-serif;
+  font-weight: 700;
+  font-size: .92em;
+  color: #fff;
+  background: var(--accent);
+  padding: 2px 14px;
+  border-radius: 999px;
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--accent) 35%, transparent);
+  margin: .6em 0 .2em;
   width: fit-content;
-  padding-left: 6px;
-  padding-right: 6px;
-  /* border: solid; */
-  border-radius: 8px;
-  /* border-width: 2px; */
-  word-wrap: normal;
 }
 
-.daily :is(h5, .HyperMD-header.HyperMD-header-5) {
-  color: var(--primary);
+/* H5 */
+.daily :is(h5, .HyperMD-header-5) {
+  font-family: "Bai Jamjuree", "LXGW WenKai", sans-serif;
+  font-weight: 600;
   text-align: center;
+  color: var(--accent);
   margin-bottom: 0;
-  padding-top: 0;
 }
 
-.daily p {
-  margin-top: 4px;
-  margin-bottom: 4px;
-}
+/*--------------------------- 正文元素 ---------------------------*/
+.daily p { margin: .35em 0; }
 
-.daily :is(a:link, .cm-hmd-internal-link) {
-  color: var(--primary);
+.daily :is(a, .cm-hmd-internal-link, .cm-link) {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dashed color-mix(in srgb, var(--accent) 45%, transparent);
 }
-
 .daily :is(a:hover, .cm-hmd-internal-link:hover) {
-  color: var(--highlight);
+  border-bottom-style: solid;
 }
 
+/* 分隔线 */
 .daily hr {
-  margin-top: 20px !important;
-  margin-bottom: 20px !important;
+  border: none;
+  border-top: 1.5px solid var(--line);
+  margin: 1.3em 0 !important;
 }
 
+/* 引用块 */
+.daily blockquote, .daily .markdown-rendered blockquote {
+  background: var(--accent-soft);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 10px 10px 0;
+  padding: 6px 14px;
+  color: var(--ink);
+}
+
+/* 行内代码 / 代码块 */
+.daily :is(code, .cm-inline-code) {
+  background: var(--accent-soft) !important;
+  color: var(--code-normal) !important;
+  border-radius: 6px;
+  padding: 1px 6px;
+  font-family: "JetBrainsMono Nerd Font Mono", "JetBrainsMono NFM", monospace;
+}
+.daily pre {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+
+/* 勾选框 + 待办 */
+.daily .task-list-item-checkbox {
+  border-width: 2px;
+  box-shadow: none;
+}
+.daily li.task-list-item.is-checked,
+.daily .cm-line:has(.task-list-item-checkbox:checked) {
+  color: var(--muted);
+}
+
+/* 列表项目符号 */
+.daily ul > li::marker { color: var(--accent); }
+
+/* 标签 #tag */
+.daily a.tag {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-radius: 999px;
+  padding: 1px 10px;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+}
+
+/* 图片居中 + 圆角 */
 .daily img {
-  display: block !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  display: block;
+  margin: 10px auto;
+  border-radius: 12px;
+  max-width: 100%;
 }
 
-:is(.sunday, .Sunday, .星期日,
-  .monday, .Monday, .星期一,
-  .tuesday, .Tuesday, .星期二,
-  .wednesday, .Wednesday, .星期三,
-  .thursday, .Thursday, .星期四,
-  .friday, .Friday, .星期五,
-  .saturday, .Saturday, .星期六) svg {
-  color: color-mix(in srgb, var(--highlight) 60%, transparent);
+/* 让正文阅读区更像一张卡片（阅读视图）*/
+.markdown-preview-view.daily {
+  padding-top: 6px;
 }
+
+/* 折叠/分割图标淡化 */
+:is(.daily) svg { color: color-mix(in srgb, var(--accent) 70%, var(--muted)); }
