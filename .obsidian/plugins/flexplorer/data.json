@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Calender",
         "主页.md",
         "日记",
         "OneNote",
@@ -1532,6 +1533,36 @@
       "isHidden": false
     },
     "配置/笔记模板.md.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Calender": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "Journal"
+      ],
+      "sortOrder": "custom"
+    },
+    "Calender/Journal": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "未命名.md",
+        "Weekly.md",
+        "Daily.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Calender/Journal/Daily.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Calender/Journal/Weekly.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Calender/Journal/未命名.md": {
       "isPinned": false,
       "isHidden": false
     }
