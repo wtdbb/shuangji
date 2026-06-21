@@ -14,7 +14,8 @@
         "蒸馏",
         "配置",
         "skill",
-        "99_低频归档"
+        "99_低频归档",
+        "游戏技术术语.md"
       ]
     },
     "99_低频归档": {
@@ -1505,6 +1506,10 @@
       ]
     },
     "OneNote/游戏技术术语.docx": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "游戏技术术语.md": {
       "isPinned": false,
       "isHidden": false
     },
