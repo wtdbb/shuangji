@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "OneNote",
         "主页.md",
         "岗位mapping",
         "行业mapping",
@@ -1493,6 +1494,12 @@
         "飞鱼科技.md",
         "飞鱼科技（前身凯罗天下）.md"
       ]
+    },
+    "OneNote": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
     }
   },
   "pinnedFiles": [],
