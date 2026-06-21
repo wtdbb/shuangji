@@ -60,5 +60,14 @@
       ],
       "key": "N"
     }
-  ]
+  ],
+  "file-explorer:new-file": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "N"
+    }
+  ],
+  "templater-obsidian:create-new-note-from-template": []
 }
