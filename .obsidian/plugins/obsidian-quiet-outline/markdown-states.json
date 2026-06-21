@@ -546,5 +546,33 @@
       }
     },
     "expandedKeys": []
+  },
+  "Daily notes/Habits Tracker.md": {
+    "scroll": 1.25,
+    "cursor": {
+      "from": {
+        "line": 82,
+        "ch": 0
+      },
+      "to": {
+        "line": 82,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Daily notes/Home.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }

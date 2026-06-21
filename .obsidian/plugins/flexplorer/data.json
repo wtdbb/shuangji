@@ -6,7 +6,6 @@
       "sortOrder": "custom",
       "customOrder": [
         "Daily notes",
-        "Habits Tracker.md",
         "OneNote",
         "岗位mapping",
         "行业mapping",
@@ -15,7 +14,8 @@
         "蒸馏",
         "配置",
         "skill",
-        "99_低频归档"
+        "99_低频归档",
+        "Home.md"
       ]
     },
     "99_低频归档": {
@@ -1514,17 +1514,13 @@
       "isPinned": false,
       "isHidden": false
     },
-    "Habits Tracker.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "Daily notes": {
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Habits Tracker.md",
         "Calendar",
-        "Home.md",
         "Bases",
         "Templates"
       ]
@@ -1555,10 +1551,6 @@
       "isHidden": false
     },
     "Daily notes/Bases/Calendar.base": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Daily notes/Home.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -1651,6 +1643,14 @@
       "isHidden": false
     },
     "Daily notes/Calendar/Journal/Weekly/2026-W25.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Habits Tracker.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Home.md": {
       "isPinned": false,
       "isHidden": false
     }
