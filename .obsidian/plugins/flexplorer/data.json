@@ -1534,6 +1534,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Calendar.base",
         "On This Day.base"
       ]
     },
@@ -1556,13 +1557,8 @@
       "customOrder": [
         "Meetings",
         "Journal",
-        "Fleeting",
-        "Calendar.base"
+        "Fleeting"
       ]
-    },
-    "Calendar/Calendar.base": {
-      "isPinned": false,
-      "isHidden": false
     },
     "Calendar/Fleeting": {
       "isPinned": false,
@@ -1599,6 +1595,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-06-11.md",
         "2026-06-10.md",
         "2026-06-21.md"
       ]
@@ -1626,6 +1623,14 @@
       "customOrder": []
     },
     "Calendar/Journal/Daily/2026-06-10.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Calendar/Journal/Daily/2026-06-11.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Bases/Calendar.base": {
       "isPinned": false,
       "isHidden": false
     }

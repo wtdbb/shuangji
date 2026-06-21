@@ -32,7 +32,7 @@ cssclasses:
 
 #### Habits
 - 📖[reading::]
-- [reading::]
+- 🏃‍♀️[running::]
 #### 🥦Health
 - [ ] 鱼油
 - [ ] 维生素D

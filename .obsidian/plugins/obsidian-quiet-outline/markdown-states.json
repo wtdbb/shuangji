@@ -394,7 +394,7 @@
     "expandedKeys": []
   },
   "Habits Tracker.md": {
-    "scroll": 30.979590450149836,
+    "scroll": 1.25,
     "cursor": {
       "from": {
         "line": 82,
@@ -468,10 +468,24 @@
     "cursor": {
       "from": {
         "line": 34,
-        "ch": 11
+        "ch": 18
       },
       "to": {
         "line": 34,
+        "ch": 18
+      }
+    },
+    "expandedKeys": []
+  },
+  "Calendar/Journal/Daily/2026-06-11.md": {
+    "scroll": 13.081858338181178,
+    "cursor": {
+      "from": {
+        "line": 27,
+        "ch": 11
+      },
+      "to": {
+        "line": 27,
         "ch": 11
       }
     },
