@@ -575,7 +575,6 @@
         "浙江盛和网络科技有限公司.md",
         "朝夕光年（杭州江南工作室）.md",
         "无端科技.md",
-        "微派（休闲）.md",
         "弹指宇宙（快手）.md",
         "巨人网络（杭州）.md",
         "字节江南工作室.md",
@@ -804,17 +803,13 @@
     "岗位mapping/大阪": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [
-        "CAPCOM.md"
-      ],
+      "customOrder": [],
       "sortOrder": "custom"
     },
     "岗位mapping/东京": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [
-        "FromSoftware.md"
-      ],
+      "customOrder": [],
       "sortOrder": "custom"
     },
     "岗位mapping/上海/B站《逃离鸭科夫》.md": {
@@ -1129,10 +1124,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/大阪/CAPCOM.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/广州/4399（广州·厦门）.md": {
       "isPinned": false,
       "isHidden": false
@@ -1306,10 +1297,6 @@
       "isHidden": false
     },
     "岗位mapping/杭州/弹指宇宙（快手）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/微派（休闲）.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -1502,10 +1489,6 @@
       "isHidden": false
     },
     "岗位mapping/上海/网易上海.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/东京/FromSoftware.md": {
       "isPinned": false,
       "isHidden": false
     },
