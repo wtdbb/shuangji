@@ -5,6 +5,12 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "General Tweaks.css",
+        "Daily Note Themes.css",
+        "Calendar.base",
+        "On This Day.base",
+        "Habits Tracker.md",
+        "Daily-TEMPLATE.md",
         "主页.md",
         "日记",
         "OneNote",
@@ -1527,6 +1533,30 @@
       "isHidden": false
     },
     "日记/2026-06-21.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily-TEMPLATE.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Habits Tracker.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "On This Day.base": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Calendar.base": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily Note Themes.css": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "General Tweaks.css": {
       "isPinned": false,
       "isHidden": false
     }
