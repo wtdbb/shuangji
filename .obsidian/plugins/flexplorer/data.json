@@ -5,10 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "Home.md",
-        "Calendar",
-        "Bases",
-        "Templates",
+        "Daily notes",
         "Habits Tracker.md",
         "OneNote",
         "岗位mapping",
@@ -1517,7 +1514,22 @@
       "isPinned": false,
       "isHidden": false
     },
-    "Templates": {
+    "Habits Tracker.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "Calendar",
+        "Home.md",
+        "Bases",
+        "Templates"
+      ]
+    },
+    "Daily notes/Templates": {
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
@@ -1525,7 +1537,11 @@
         "Daily-TEMPLATE.md"
       ]
     },
-    "Bases": {
+    "Daily notes/Templates/Daily-TEMPLATE.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Bases": {
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
@@ -1534,19 +1550,19 @@
         "On This Day.base"
       ]
     },
-    "Habits Tracker.md": {
+    "Daily notes/Bases/On This Day.base": {
       "isPinned": false,
       "isHidden": false
     },
-    "Bases/On This Day.base": {
+    "Daily notes/Bases/Calendar.base": {
       "isPinned": false,
       "isHidden": false
     },
-    "Templates/Daily-TEMPLATE.md": {
+    "Daily notes/Home.md": {
       "isPinned": false,
       "isHidden": false
     },
-    "Calendar": {
+    "Daily notes/Calendar": {
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
@@ -1556,13 +1572,13 @@
         "Fleeting"
       ]
     },
-    "Calendar/Fleeting": {
+    "Daily notes/Calendar/Fleeting": {
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": []
     },
-    "Calendar/Journal": {
+    "Daily notes/Calendar/Journal": {
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
@@ -1574,19 +1590,15 @@
         "Month"
       ]
     },
-    "Calendar/Journal/Month": {
+    "Daily notes/Calendar/Meetings": {
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
-      "customOrder": []
+      "customOrder": [
+        "2026-06-21 2122 Metting.md"
+      ]
     },
-    "Calendar/Journal/Quarterly": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": []
-    },
-    "Calendar/Journal/Daily": {
+    "Daily notes/Calendar/Journal/Daily": {
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
@@ -1596,7 +1608,19 @@
         "2026-06-21.md"
       ]
     },
-    "Calendar/Journal/Weekly": {
+    "Daily notes/Calendar/Journal/Month": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": []
+    },
+    "Daily notes/Calendar/Journal/Quarterly": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": []
+    },
+    "Daily notes/Calendar/Journal/Weekly": {
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
@@ -1604,45 +1628,29 @@
         "2026-W25.md"
       ]
     },
-    "Calendar/Journal/Yearly": {
+    "Daily notes/Calendar/Journal/Yearly": {
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": []
     },
-    "Calendar/Journal/Daily/2026-06-21.md": {
+    "Daily notes/Calendar/Journal/Daily/2026-06-21.md": {
       "isPinned": false,
       "isHidden": false
     },
-    "Calendar/Meetings": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "2026-06-21 2122 Metting.md"
-      ]
-    },
-    "Calendar/Journal/Daily/2026-06-10.md": {
+    "Daily notes/Calendar/Journal/Daily/2026-06-10.md": {
       "isPinned": false,
       "isHidden": false
     },
-    "Calendar/Journal/Daily/2026-06-11.md": {
+    "Daily notes/Calendar/Journal/Daily/2026-06-11.md": {
       "isPinned": false,
       "isHidden": false
     },
-    "Bases/Calendar.base": {
+    "Daily notes/Calendar/Meetings/2026-06-21 2122 Metting.md": {
       "isPinned": false,
       "isHidden": false
     },
-    "Calendar/Meetings/2026-06-21 2122 Metting.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Home.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Calendar/Journal/Weekly/2026-W25.md": {
+    "Daily notes/Calendar/Journal/Weekly/2026-W25.md": {
       "isPinned": false,
       "isHidden": false
     }
