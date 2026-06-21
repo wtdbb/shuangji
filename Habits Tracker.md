@@ -61,3 +61,22 @@ for(let page of dv.pages('"Calendar/Journal/Daily"').where(p => p.reading)) {
 
 renderHeatmapTracker(this.container, trackerData)
 ```
+```dataviewjs
+const trackerData = {
+    year: 2026,
+    entries: [],
+    heatmapTitle: "🏃‍♀️Running Tracker",
+    colorScheme: {
+        paletteName: "default"
+    }
+}
+
+for(let page of dv.pages('"Calendar/Journal/Daily"').where(p => p.running)) {
+    trackerData.entries.push({
+        date: page.file.name,
+        intensity: 1
+    })
+}
+
+renderHeatmapTracker(this.container, trackerData)
+```

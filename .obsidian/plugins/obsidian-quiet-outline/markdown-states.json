@@ -394,15 +394,15 @@
     "expandedKeys": []
   },
   "Habits Tracker.md": {
-    "scroll": 49.838094075520836,
+    "scroll": 30.979590450149836,
     "cursor": {
       "from": {
-        "line": 62,
-        "ch": 3
+        "line": 82,
+        "ch": 0
       },
       "to": {
-        "line": 62,
-        "ch": 3
+        "line": 82,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -459,6 +459,20 @@
       "to": {
         "line": 8,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Templates/Daily-TEMPLATE.md": {
+    "scroll": 20.49791669845581,
+    "cursor": {
+      "from": {
+        "line": 34,
+        "ch": 11
+      },
+      "to": {
+        "line": 34,
+        "ch": 11
       }
     },
     "expandedKeys": []
