@@ -5,8 +5,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "2026-06-21.md",
         "主页.md",
+        "日记",
         "OneNote",
         "岗位mapping",
         "行业mapping",
@@ -1513,7 +1513,15 @@
       "isPinned": false,
       "isHidden": false
     },
-    "2026-06-21.md": {
+    "日记": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "2026-06-21.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "日记/2026-06-21.md": {
       "isPinned": false,
       "isHidden": false
     }

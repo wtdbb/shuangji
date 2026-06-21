@@ -28,5 +28,33 @@
       }
     },
     "expandedKeys": []
+  },
+  "日记/2026-06-21.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "主页.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 3
+      },
+      "to": {
+        "line": 4,
+        "ch": 3
+      }
+    },
+    "expandedKeys": []
   }
 }
