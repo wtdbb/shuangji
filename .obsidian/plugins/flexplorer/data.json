@@ -647,6 +647,48 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "腾讯天美.md",
+        "腾讯北极光.md",
+        "腾云摘星（腾讯旗下）.md",
+        "育碧中国（上海）.md",
+        "紫龙游戏.md",
+        "米哈游.md",
+        "竞乐（上海+北京）.md",
+        "祖龙上海.md",
+        "盛趣游戏.md",
+        "游族网络.md",
+        "海彼网络（Habby）.md",
+        "派洛特（派络特游戏）.md",
+        "波克城市.md",
+        "欢乐互娱（腾讯旗下）.md",
+        "椰岛游戏.md",
+        "朝夕光年（上海ZERO36）.md",
+        "散爆网络.md",
+        "拳头游戏 × 腾讯光子（联合研发，腾竞体育代理发行）.md",
+        "悠星网络.md",
+        "恺英网络.md",
+        "心动网络.md",
+        "幻萌网络.md",
+        "巨人网络.md",
+        "字节朝夕光年.md",
+        "叠纸游戏.md",
+        "友塔游戏.md",
+        "匠趣（引擎开发）.md",
+        "勇仕网络.md",
+        "乘风.md",
+        "乐元素.md",
+        "临竞.md",
+        "上海烛龙.md",
+        "上海晓枫.md",
+        "上海塔人网络科技股份有限公司.md",
+        "七创社.md",
+        "Supercell 上海.md",
+        "Riot Games 拳头中国.md",
+        "OmniDream Games（梦求游戏）.md",
+        "Garena.md",
+        "Funplus.md",
+        "EA中国（上海）.md",
+        "B站《逃离鸭科夫》.md",
         "_c.md",
         "_b.md",
         "_a.md",
@@ -1531,11 +1573,174 @@
     "_probe.ps1": {
       "isPinned": false,
       "isHidden": false
+    },
+    "岗位mapping/上海/B站《逃离鸭科夫》.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/EA中国（上海）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/Funplus.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/Garena.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/OmniDream Games（梦求游戏）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/Riot Games 拳头中国.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/Supercell 上海.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/七创社.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/上海塔人网络科技股份有限公司.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/上海晓枫.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/上海烛龙.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/临竞.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/乐元素.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/乘风.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/勇仕网络.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/匠趣（引擎开发）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/友塔游戏.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/叠纸游戏.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/字节朝夕光年.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/巨人网络.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/幻萌网络.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/心动网络.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/恺英网络.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/悠星网络.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/拳头游戏 × 腾讯光子（联合研发，腾竞体育代理发行）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/散爆网络.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/朝夕光年（上海ZERO36）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/椰岛游戏.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/欢乐互娱（腾讯旗下）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/波克城市.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/派洛特（派络特游戏）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/海彼网络（Habby）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/游族网络.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/盛趣游戏.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/祖龙上海.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/竞乐（上海+北京）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/米哈游.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/紫龙游戏.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/育碧中国（上海）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/腾云摘星（腾讯旗下）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/腾讯北极光.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/腾讯天美.md": {
+      "isPinned": false,
+      "isHidden": false
     }
   },
-  "pinnedFiles": [],
-  "showHidden": false,
-  "newItemPlacement": "top",
-  "persistOrderOnCreateDelete": true,
-  "debugMode": false
-}
+  "p
