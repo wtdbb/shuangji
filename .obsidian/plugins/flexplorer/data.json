@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-06-22.md",
         "2026-W25.md",
         "Bases",
         "Templates",
@@ -1633,6 +1634,10 @@
       "isHidden": false
     },
     "2026-W25.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "2026-06-22.md": {
       "isPinned": false,
       "isHidden": false
     }
