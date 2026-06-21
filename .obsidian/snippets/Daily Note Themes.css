@@ -178,12 +178,12 @@ change or remove those font-family lines from this snippet.
   margin-right: auto !important;
 }
 
-:is(.sunday, .Sunday,
-  .monday, .Monday,
-  .tuesday, .Tuesday,
-  .wednesday, .Wednesday,
-  .thursday, .Thursday,
-  .friday, .Friday,
-  .saturday, .Saturday) svg {
+:is(.sunday, .Sunday, .星期日,
+  .monday, .Monday, .星期一,
+  .tuesday, .Tuesday, .星期二,
+  .wednesday, .Wednesday, .星期三,
+  .thursday, .Thursday, .星期四,
+  .friday, .Friday, .星期五,
+  .saturday, .Saturday, .星期六) svg {
   color: color-mix(in srgb, var(--highlight) 60%, transparent);
 }
