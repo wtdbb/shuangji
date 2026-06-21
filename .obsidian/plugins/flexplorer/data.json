@@ -277,8 +277,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "东京",
-        "大阪",
         "武汉",
         "厦门",
         "珠海",
@@ -798,18 +796,6 @@
         "微派网络（Wepie）.md",
         "盛天网络.md"
       ],
-      "sortOrder": "custom"
-    },
-    "岗位mapping/大阪": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
-    },
-    "岗位mapping/东京": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [],
       "sortOrder": "custom"
     },
     "岗位mapping/上海/B站《逃离鸭科夫》.md": {
