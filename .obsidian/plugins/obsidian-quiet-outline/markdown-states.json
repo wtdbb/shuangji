@@ -490,5 +490,19 @@
       }
     },
     "expandedKeys": []
+  },
+  "Calendar/2026-06-21 2122 Metting.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }

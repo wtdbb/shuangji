@@ -1556,7 +1556,6 @@
       "sortOrder": "custom",
       "customOrder": [
         "Meetings",
-        "2026-06-21 2122 Metting.md",
         "Journal",
         "Fleeting"
       ]
@@ -1621,7 +1620,9 @@
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
-      "customOrder": []
+      "customOrder": [
+        "2026-06-21 2122 Metting.md"
+      ]
     },
     "Calendar/Journal/Daily/2026-06-10.md": {
       "isPinned": false,
@@ -1635,7 +1636,7 @@
       "isPinned": false,
       "isHidden": false
     },
-    "Calendar/2026-06-21 2122 Metting.md": {
+    "Calendar/Meetings/2026-06-21 2122 Metting.md": {
       "isPinned": false,
       "isHidden": false
     }

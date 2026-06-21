@@ -36,5 +36,21 @@
       ],
       "key": "D"
     }
+  ],
+  "workspace:move-to-new-window": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "M"
+    }
+  ],
+  "file-explorer:move-file": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "O"
+    }
   ]
 }
