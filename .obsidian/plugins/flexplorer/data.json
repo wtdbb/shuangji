@@ -10,7 +10,6 @@
         "Templates",
         "Habits Tracker.md",
         "主页.md",
-        "日记",
         "OneNote",
         "岗位mapping",
         "行业mapping",
@@ -1518,12 +1517,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "日记": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": []
-    },
     "配置/笔记模板.md.md": {
       "isPinned": false,
       "isHidden": false
@@ -1561,6 +1554,7 @@
       "isHidden": false,
       "customOrder": [
         "Meetings",
+        "Mettings",
         "Journal",
         "Fleeting",
         "Calendar.base"
@@ -1587,6 +1581,12 @@
         "Quarterly",
         "Month"
       ],
+      "sortOrder": "custom"
+    },
+    "Calendar/Mettings": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
       "sortOrder": "custom"
     },
     "Calendar/Journal/Month": {
