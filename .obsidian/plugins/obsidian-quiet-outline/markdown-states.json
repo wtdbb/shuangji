@@ -510,11 +510,11 @@
     "cursor": {
       "from": {
         "line": 3,
-        "ch": 0
+        "ch": 1
       },
       "to": {
         "line": 3,
-        "ch": 0
+        "ch": 1
       }
     },
     "expandedKeys": []
