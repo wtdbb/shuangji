@@ -22,5 +22,6 @@
   "periodic-notes",
   "heatmap-tracker",
   "dataview",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-custom-frames"
 ]
