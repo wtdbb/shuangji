@@ -5,5 +5,7 @@
     "General Tweaks"
   ],
   "theme": "obsidian",
-  "accentColor": "#7b24ae"
+  "accentColor": "#7b24ae",
+  "baseFontSizeAction": true,
+  "nativeMenus": true
 }
