@@ -25,5 +25,7 @@
       "key": "S"
     }
   ],
-  "obsidian-excalidraw-plugin:save": []
+  "obsidian-excalidraw-plugin:save": [],
+  "terminal:close-terminal": [],
+  "terminal:find-in-terminal": []
 }
