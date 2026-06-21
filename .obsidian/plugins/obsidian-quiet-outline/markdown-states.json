@@ -323,7 +323,7 @@
     },
     "expandedKeys": []
   },
-  "Calendar/Journal/未命名.md": {
+  "Calender/Journal/未命名.md": {
     "scroll": 0,
     "cursor": {
       "from": {
@@ -337,7 +337,7 @@
     },
     "expandedKeys": []
   },
-  "Calendar/Journal/Daily/2026-06-21.md": {
+  "Calender/Journal/Daily/2026-06-21.md": {
     "scroll": 0,
     "cursor": {
       "from": {
@@ -365,7 +365,7 @@
     },
     "expandedKeys": []
   },
-  "Calendar/Journal/Daily/2026-06-22.md": {
+  "Calender/Journal/Daily/2026-06-22.md": {
     "scroll": 0,
     "cursor": {
       "from": {
@@ -403,6 +403,20 @@
       "to": {
         "line": 0,
         "ch": 2
+      }
+    },
+    "expandedKeys": []
+  },
+  "Calendar/Journal/Daily/2026-06-21.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
       }
     },
     "expandedKeys": []

@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-06-20.md",
         "Calendar",
         "Bases",
         "Templates",
@@ -1552,14 +1553,13 @@
     "Calendar": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "Meetings",
-        "Mettings",
         "Journal",
         "Fleeting",
         "Calendar.base"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Calendar/Calendar.base": {
       "isPinned": false,
@@ -1568,58 +1568,52 @@
     "Calendar/Fleeting": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
     "Calendar/Journal": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "Yearly",
         "Weekly",
         "Daily",
         "Quarterly",
         "Month"
-      ],
-      "sortOrder": "custom"
-    },
-    "Calendar/Mettings": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      ]
     },
     "Calendar/Journal/Month": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
     "Calendar/Journal/Quarterly": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
     "Calendar/Journal/Daily": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "2026-06-21.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Calendar/Journal/Weekly": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
     "Calendar/Journal/Yearly": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
     "Calendar/Journal/Daily/2026-06-21.md": {
       "isPinned": false,
@@ -1628,8 +1622,12 @@
     "Calendar/Meetings": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
+    },
+    "2026-06-20.md": {
+      "isPinned": false,
+      "isHidden": false
     }
   },
   "pinnedFiles": [],
