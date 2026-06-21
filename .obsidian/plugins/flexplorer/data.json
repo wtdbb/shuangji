@@ -5,7 +5,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "2026-06-20.md",
         "Bases",
         "Templates",
         "Calender",
@@ -1629,10 +1628,6 @@
       "customOrder": []
     },
     "Calender/Journal/Daily/2026-06-21.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "2026-06-20.md": {
       "isPinned": false,
       "isHidden": false
     }
