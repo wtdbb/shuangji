@@ -336,5 +336,19 @@
       }
     },
     "expandedKeys": []
+  },
+  "Calender/Journal/Daily/2026-06-21.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
