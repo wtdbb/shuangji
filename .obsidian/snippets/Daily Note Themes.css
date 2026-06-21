@@ -56,14 +56,16 @@ change or remove those font-family lines from this snippet.
 }
 
 .monday,
-.Monday {
+.Monday,
+.星期一 {
   --highlight: #fcadaa;
   --primary: #f65848;
   --dark: #3c0e0b;
 }
 
 .tuesday,
-.Tuesday {
+.Tuesday,
+.星期二 {
   --highlight: #aedbfa;
   --primary: #3b87f0;
   --dark: #070615;
