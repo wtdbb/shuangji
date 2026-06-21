@@ -5,7 +5,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "Excalidraw",
         "主页.md",
         "日记",
         "OneNote",
@@ -1528,18 +1527,6 @@
       "isHidden": false
     },
     "日记/2026-06-21.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Excalidraw": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "Drawing 2026-06-21 17.26.27.excalidraw.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Excalidraw/Drawing 2026-06-21 17.26.27.excalidraw.md": {
       "isPinned": false,
       "isHidden": false
     }
