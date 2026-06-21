@@ -1,11 +1,11 @@
 {
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Minimal",
   "enabledCssSnippets": [
     "Daily Note Themes",
     "General Tweaks"
   ],
-  "theme": "obsidian",
-  "accentColor": "#a200ff",
+  "theme": "system",
+  "accentColor": "",
   "baseFontSizeAction": true,
   "nativeMenus": true
 }
