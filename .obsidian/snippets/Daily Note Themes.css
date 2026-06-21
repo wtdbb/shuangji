@@ -96,7 +96,8 @@ change or remove those font-family lines from this snippet.
 }
 
 .saturday,
-.Saturday {
+.Saturday,
+.星期六 {
   --highlight: #f39caa;
   --primary: #e22c3c;
   --dark: #100305;
