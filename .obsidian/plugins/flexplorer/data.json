@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Home.md",
         "Daily notes",
         "OneNote",
         "岗位mapping",
@@ -14,8 +15,7 @@
         "蒸馏",
         "配置",
         "skill",
-        "99_低频归档",
-        "Home.md"
+        "99_低频归档"
       ]
     },
     "99_低频归档": {
