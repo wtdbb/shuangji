@@ -10,7 +10,7 @@
   },
   "weekly": {
     "format": "",
-    "template": "tem",
+    "template": "",
     "folder": "Calendar/Journal/Weekly",
     "enabled": true
   },
