@@ -15,10 +15,13 @@ views:
       - formula.highlight
     sort:
       - property: file.name
-        direction: DESC
+        direction: ASC
+      - property: formula.highlight
+        direction: ASC
     columnSize:
       formula.✨: 125
-      file.name: 479
+      file.name: 259
+      formula.highlight: 358
   - type: table
     name: Daily
     filters:
