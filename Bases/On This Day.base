@@ -23,10 +23,10 @@ views:
       - formula.date
       - file.name
     sort:
+      - property: formula.date
+        direction: ASC
       - property: file.name
         direction: ASC
-      - property: formula.date
-        direction: DESC
       - property: date
         direction: DESC
     columnSize:
