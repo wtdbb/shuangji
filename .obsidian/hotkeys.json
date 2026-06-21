@@ -1,4 +1,6 @@
 {
+  "terminal:close-terminal": [],
+  "terminal:find-in-terminal": [],
   "editor:download-attachments": [
     {
       "modifiers": [
@@ -26,6 +28,13 @@
     }
   ],
   "obsidian-excalidraw-plugin:save": [],
-  "terminal:close-terminal": [],
-  "terminal:find-in-terminal": []
+  "templater-obsidian:replace-in-file-templater": [],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ]
 }
