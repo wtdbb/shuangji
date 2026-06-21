@@ -278,6 +278,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "index.md",
         "上海",
         "杭州",
         "深圳",
@@ -289,7 +290,6 @@
         "苏州",
         "珠海",
         "福州",
-        "index.md",
         "补充记录.md"
       ]
     },
