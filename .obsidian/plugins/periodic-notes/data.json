@@ -5,7 +5,7 @@
   "daily": {
     "format": "",
     "template": "",
-    "folder": "Daily",
+    "folder": "",
     "enabled": true
   },
   "weekly": {

@@ -1555,6 +1555,10 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Quarterly",
+        "Month",
+        "Weekly",
+        "Daily",
         "Yearly.md",
         "Quarterly.md",
         "Month.md",
@@ -1625,6 +1629,30 @@
     "Calender/Calendar.base": {
       "isPinned": false,
       "isHidden": false
+    },
+    "Calender/Journal/Daily": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "Calender/Journal/Weekly": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "Calender/Journal/Month": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "Calender/Journal/Quarterly": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
     }
   },
   "pinnedFiles": [],
