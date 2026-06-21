@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "未命名.md",
         "主页.md",
         "日记",
         "OneNote",
@@ -1527,6 +1528,10 @@
       "isHidden": false
     },
     "日记/2026-06-21.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "未命名.md": {
       "isPinned": false,
       "isHidden": false
     }
