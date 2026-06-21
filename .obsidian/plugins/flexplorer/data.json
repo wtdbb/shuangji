@@ -1574,10 +1574,10 @@
     "Bases": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "On This Day.base"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Habits Tracker.md": {
       "isPinned": false,
@@ -1598,41 +1598,36 @@
     "Calender/Journal/Daily": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
-        "2026-06-22.md",
         "2026-06-21.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Calender/Journal/Weekly": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
     "Calender/Journal/Month": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
     "Calender/Journal/Quarterly": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
     "Calender/Journal/Yearly": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
     "Calender/Journal/Daily/2026-06-21.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Calender/Journal/Daily/2026-06-22.md": {
       "isPinned": false,
       "isHidden": false
     }
