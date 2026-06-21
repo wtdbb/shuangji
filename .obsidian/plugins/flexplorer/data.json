@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "_build2.ps1",
         "99_低频归档",
         "岗位mapping",
         "行业mapping",
@@ -804,6 +805,10 @@
       "sortOrder": "custom"
     },
     "岗位mapping/福州/IGG（福州天盟数码）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "_build2.ps1": {
       "isPinned": false,
       "isHidden": false
     }
