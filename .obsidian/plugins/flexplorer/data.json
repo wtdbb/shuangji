@@ -274,9 +274,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "武汉.md",
-        "珠海.md",
-        "厦门.md",
+        "城市",
         "苏州.md",
         "成都.md",
         "广州.md",
@@ -1692,15 +1690,25 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/厦门.md": {
+    "岗位mapping/城市": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "厦门.md",
+        "珠海.md",
+        "武汉.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/城市/武汉.md": {
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/珠海.md": {
+    "岗位mapping/城市/珠海.md": {
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/武汉.md": {
+    "岗位mapping/城市/厦门.md": {
       "isPinned": false,
       "isHidden": false
     }
