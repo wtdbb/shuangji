@@ -411,12 +411,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 17,
-        "ch": 0
+        "line": 5,
+        "ch": 9
       },
       "to": {
-        "line": 17,
-        "ch": 0
+        "line": 5,
+        "ch": 9
       }
     },
     "expandedKeys": []
