@@ -1,6 +1,7 @@
 formulas:
   highlight: highlight
   ✨: if(file.inFolder("Calendar/Journal/Daily"),"📅",if(file.inFolder("Calendar/Meetings"),"☎️",if(file.inFolder("Calendar/Fleeting"),"💭")))
+  未命名: ""
 views:
   - type: table
     name: Calendar
@@ -13,6 +14,7 @@ views:
       - formula.✨
       - file.name
       - formula.highlight
+      - formula.未命名
     sort:
       - property: file.name
         direction: ASC
