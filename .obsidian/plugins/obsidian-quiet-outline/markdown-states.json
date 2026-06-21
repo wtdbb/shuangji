@@ -226,14 +226,14 @@
     "expandedKeys": []
   },
   "岗位mapping/上海/竞乐（上海+北京）.md": {
-    "scroll": 7.026803872019975,
+    "scroll": 9.450549263983538,
     "cursor": {
       "from": {
-        "line": 8,
+        "line": 26,
         "ch": 0
       },
       "to": {
-        "line": 8,
+        "line": 26,
         "ch": 0
       }
     },
@@ -271,12 +271,12 @@
     "scroll": 1.1711340048878462,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 0
+        "line": 16,
+        "ch": 5
       },
       "to": {
-        "line": 8,
-        "ch": 0
+        "line": 16,
+        "ch": 5
       }
     },
     "expandedKeys": []
