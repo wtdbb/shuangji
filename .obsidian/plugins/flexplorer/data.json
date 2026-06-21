@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "_csv_sections.tmp.md",
         "99_低频归档",
         "岗位mapping",
         "行业mapping",
@@ -575,6 +576,10 @@
       "isHidden": false
     },
     "图片归档/4d2a9ce3ae9eef210231f990079c2bb5_MD5.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "_csv_sections.tmp.md": {
       "isPinned": false,
       "isHidden": false
     }
