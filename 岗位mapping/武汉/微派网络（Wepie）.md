@@ -7,12 +7,15 @@
 tags: [岗位mapping, 游戏公司]
 更新: 2026-06-21
 ---
+[https://wepie.feishu.cn/wiki/ZJbuw9epqiAMZfkWZ4rcB5Bdnxg?table=tblpnybr7d1LiDby&view=vewO1b6yy1](https://wepie.feishu.cn/wiki/ZJbuw9epqiAMZfkWZ4rcB5Bdnxg?table=tblpnybr7d1LiDby&view=vewO1b6yy1)
+相关链接，招聘网址
 
 # 微派网络（Wepie）
 标签: #岗位mapping #游戏公司 #武汉
 
 ## 一句话简介
 做《贪吃蛇大作战》的武汉休闲社交游戏公司，2013 年光谷起家，主打 .io 多人休闲竞技 + 语音社交（会玩、百变大侦探）；总用户超 8 亿，连续入选国家文化出口重点企业，获巨人网络投资。
+
 
 ## 招聘情报
 · 业务：有 SLG 和 MMO，MMO 内嵌在「会玩」App 里，跟其他 MMO 不同

@@ -5,7 +5,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "_convert_docx_to_md.py",
         "主页.md",
         "OneNote",
         "岗位mapping",
@@ -1506,10 +1505,6 @@
       ]
     },
     "OneNote/游戏技术术语.docx": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "_convert_docx_to_md.py": {
       "isPinned": false,
       "isHidden": false
     },
