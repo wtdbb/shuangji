@@ -4,32 +4,32 @@
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
     "format": "",
-    "template": "",
-    "folder": "",
+    "template": "Daily",
+    "folder": "Calender/Journal/Daily",
     "enabled": true
   },
   "weekly": {
     "format": "",
     "template": "",
-    "folder": "",
+    "folder": "Calender/Journal/Weekly",
     "enabled": true
   },
   "monthly": {
     "format": "",
     "template": "",
-    "folder": "",
+    "folder": "Calender/Journal/Month",
     "enabled": true
   },
   "quarterly": {
     "format": "",
     "template": "",
-    "folder": "",
+    "folder": "Calender/Journal/Quarterly",
     "enabled": true
   },
   "yearly": {
     "format": "",
     "template": "",
-    "folder": "",
+    "folder": "Calender/Journal/Yearly",
     "enabled": true
   }
 }
