@@ -5,9 +5,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "OneNote",
-        "游戏技术术语.docx",
         "主页.md",
+        "OneNote",
         "岗位mapping",
         "行业mapping",
         "行业报告",
@@ -1500,9 +1499,11 @@
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
-      "customOrder": []
+      "customOrder": [
+        "游戏技术术语.docx"
+      ]
     },
-    "游戏技术术语.docx": {
+    "OneNote/游戏技术术语.docx": {
       "isPinned": false,
       "isHidden": false
     }
