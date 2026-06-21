@@ -5,16 +5,15 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "99_低频归档",
+        "主页.md",
         "岗位mapping",
         "行业mapping",
         "行业报告",
-        "index.md",
         "图片归档",
         "蒸馏",
         "配置",
         "skill",
-        "主页.md"
+        "99_低频归档"
       ]
     },
     "99_低频归档": {
@@ -277,17 +276,17 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "上海",
+        "杭州",
+        "深圳",
+        "广州",
+        "北京",
+        "成都",
         "武汉",
         "厦门",
+        "苏州",
         "珠海",
         "福州",
-        "苏州",
-        "成都",
-        "北京",
-        "上海",
-        "广州",
-        "深圳",
-        "杭州",
         "index.md",
         "补充记录.md"
       ]
@@ -364,6 +363,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "index.md",
         "公众号原内容",
         "日报输出",
         "视频链接"
@@ -508,10 +508,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "index.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "配置/自动化/公众号剪藏模板.md": {
       "isPinned": false,
       "isHidden": false
@@ -553,6 +549,7 @@
     "岗位mapping/杭州": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "金科文化.md",
         "边锋网络（浙数文化）.md",
@@ -581,12 +578,12 @@
         "全金属贝果游戏工作室.md",
         "乐港游戏.md",
         "不鸣科技.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/深圳": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "补充记录.md",
         "英雄互娱（深圳）.md",
@@ -609,12 +606,12 @@
         "吉比特·雷霆游戏.md",
         "创梦天地.md",
         "凉屋游戏.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/广州": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "阿里灵犀（核心客户）.md",
         "银汉游戏.md",
@@ -636,12 +633,12 @@
         "双尾彗星（订正·不是纯游戏厂）.md",
         "三七互娱.md",
         "4399（广州·厦门）.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/上海": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "网易上海.md",
         "鹰角网络.md",
@@ -694,12 +691,12 @@
         "Funplus.md",
         "EA中国（上海）.md",
         "B站《逃离鸭科夫》.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/北京": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "金山世游（北京西山居）.md",
         "途游游戏.md",
@@ -726,12 +723,12 @@
         "乐元素.md",
         "中手游（满天星工作室自研）.md",
         "G社.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/成都": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "龙渊网络.md",
         "英雄互娱（成都）.md",
@@ -749,54 +746,43 @@
         "卓杭网络.md",
         "云中游.md",
         "Tap4Fun（尼毕鲁）.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/苏州": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "友谊时光.md",
         "仙峰（苏州，三四梯队）.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/福州": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "网龙.md",
         "IGG（福州天盟数码）.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/珠海": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "西山居（珠海金山数字网络）.md",
         "珠海剑心互动娱乐有限公司.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "岗位mapping/厦门": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "飞鱼科技（前身凯罗天下）.md",
-        "飞鱼科技.md",
-        "青瓷游戏.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/武汉": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "微派网络（Wepie）.md",
         "盛天网络.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/上海/B站《逃离鸭科夫》.md": {
       "isPinned": false,
@@ -1481,10 +1467,10 @@
     "skill/gs-skill": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "SKILL.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "skill/gs-skill/SKILL.md": {
       "isPinned": false,
@@ -1493,6 +1479,20 @@
     "岗位mapping/武汉/微派网络（Wepie）.md": {
       "isPinned": false,
       "isHidden": false
+    },
+    "行业报告/index.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/厦门": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "青瓷游戏.md",
+        "飞鱼科技.md",
+        "飞鱼科技（前身凯罗天下）.md"
+      ]
     }
   },
   "pinnedFiles": [],
