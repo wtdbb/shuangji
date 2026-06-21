@@ -5,7 +5,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "未命名.md",
         "主页.md",
         "日记",
         "OneNote",
@@ -413,6 +412,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "笔记模板.md.md",
         "日记模板.md.md",
         "CLAUDE.md",
         "index.md",
@@ -1531,13 +1531,13 @@
       "isPinned": false,
       "isHidden": false
     },
-    "未命名.md": {
+    "配置/笔记模板.md.md": {
       "isPinned": false,
       "isHidden": false
     }
   },
   "pinnedFiles": [],
-  "showHidden": false,
+  "showHidden": true,
   "newItemPlacement": "top",
   "persistOrderOnCreateDelete": true,
   "debugMode": false
