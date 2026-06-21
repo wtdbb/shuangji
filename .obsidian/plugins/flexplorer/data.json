@@ -1518,9 +1518,15 @@
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
-      "customOrder": []
+      "customOrder": [
+        "2026-06-21.md"
+      ]
     },
     "配置/日记模板.md.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "日记/2026-06-21.md": {
       "isPinned": false,
       "isHidden": false
     }
