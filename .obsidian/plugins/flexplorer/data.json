@@ -6,8 +6,6 @@
       "sortOrder": "custom",
       "customOrder": [
         "Daily",
-        "General Tweaks.css",
-        "Calendar.base",
         "Habits Tracker.md",
         "主页.md",
         "日记",
@@ -1538,23 +1536,15 @@
       "isPinned": false,
       "isHidden": false
     },
-    "Calendar.base": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "General Tweaks.css": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "Daily": {
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
         "Calender",
-        "On This Day.base",
+        "Calendar.base",
         "Templates",
-        "Daily Note Themes.css",
-        "Bases"
+        "Bases",
+        "On This Day.base"
       ],
       "sortOrder": "custom"
     },
@@ -1582,11 +1572,11 @@
       "isPinned": false,
       "isHidden": false
     },
-    "Daily/Daily Note Themes.css": {
+    "Daily/Templates/Daily-TEMPLATE.md": {
       "isPinned": false,
       "isHidden": false
     },
-    "Daily/Templates/Daily-TEMPLATE.md": {
+    "Daily/Calendar.base": {
       "isPinned": false,
       "isHidden": false
     }
