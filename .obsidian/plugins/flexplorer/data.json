@@ -5,9 +5,9 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Calendar",
         "Bases",
         "Templates",
-        "Calender",
         "Habits Tracker.md",
         "主页.md",
         "日记",
@@ -1528,41 +1528,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "Calender": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "Calendar.base",
-        "Fleeting",
-        "Mettings",
-        "Journal"
-      ]
-    },
-    "Calender/Journal": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "Yearly",
-        "Quarterly",
-        "Month",
-        "Weekly",
-        "Daily"
-      ]
-    },
-    "Calender/Mettings": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": []
-    },
-    "Calender/Fleeting": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": []
-    },
     "Templates": {
       "isPinned": false,
       "isHidden": false,
@@ -1591,45 +1556,80 @@
       "isPinned": false,
       "isHidden": false
     },
-    "Calender/Calendar.base": {
+    "Calendar": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "Meetings",
+        "Journal",
+        "Fleeting",
+        "Calendar.base"
+      ],
+      "sortOrder": "custom"
+    },
+    "Calendar/Calendar.base": {
       "isPinned": false,
       "isHidden": false
     },
-    "Calender/Journal/Daily": {
+    "Calendar/Fleeting": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "Calendar/Journal": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "Yearly",
+        "Weekly",
+        "Daily",
+        "Quarterly",
+        "Month"
+      ],
+      "sortOrder": "custom"
+    },
+    "Calendar/Journal/Month": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "Calendar/Journal/Quarterly": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "Calendar/Journal/Daily": {
+      "isPinned": false,
+      "isHidden": false,
       "customOrder": [
         "2026-06-21.md"
-      ]
+      ],
+      "sortOrder": "custom"
     },
-    "Calender/Journal/Weekly": {
+    "Calendar/Journal/Weekly": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": []
+      "customOrder": [],
+      "sortOrder": "custom"
     },
-    "Calender/Journal/Month": {
+    "Calendar/Journal/Yearly": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": []
+      "customOrder": [],
+      "sortOrder": "custom"
     },
-    "Calender/Journal/Quarterly": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": []
-    },
-    "Calender/Journal/Yearly": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": []
-    },
-    "Calender/Journal/Daily/2026-06-21.md": {
+    "Calendar/Journal/Daily/2026-06-21.md": {
       "isPinned": false,
       "isHidden": false
+    },
+    "Calendar/Meetings": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
     }
   },
   "pinnedFiles": [],
