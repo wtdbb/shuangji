@@ -648,6 +648,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "网易上海.md",
         "鹰角网络.md",
         "钛核网络.md",
         "逻辑互动.md",
@@ -816,7 +817,9 @@
     "岗位mapping/东京": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
+      "customOrder": [
+        "FromSoftware.md"
+      ],
       "sortOrder": "custom"
     },
     "_probe.ps1": {
@@ -1508,6 +1511,14 @@
       "isHidden": false
     },
     "_fix2.ps1": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/网易上海.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/东京/FromSoftware.md": {
       "isPinned": false,
       "isHidden": false
     }
