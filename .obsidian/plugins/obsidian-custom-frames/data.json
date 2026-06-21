@@ -1,11 +1,11 @@
 {
   "frames": [
     {
-      "url": "",
-      "displayName": "New Frame",
-      "icon": "",
+      "url": "https://gemini.google.com/",
+      "displayName": "Gemini",
+      "icon": "sparkles",
       "hideOnMobile": true,
-      "addRibbonIcon": false,
+      "addRibbonIcon": true,
       "openInCenter": false,
       "zoomLevel": 1,
       "forceIframe": false,
