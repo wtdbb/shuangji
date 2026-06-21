@@ -378,5 +378,19 @@
       }
     },
     "expandedKeys": []
+  },
+  "2026-W25.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
