@@ -532,5 +532,19 @@
       }
     },
     "expandedKeys": []
+  },
+  "Calendar/Journal/Weekly/2026-W25.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 2
+      },
+      "to": {
+        "line": 0,
+        "ch": 2
+      }
+    },
+    "expandedKeys": []
   }
 }
