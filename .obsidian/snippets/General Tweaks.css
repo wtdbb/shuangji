@@ -104,3 +104,13 @@ img {
 code {
   font-family: "JetBrainsMono Nerd Font Mono", "JetBrainsMono NFM", monospace;
 }
+
+/* 让笔记正文/编辑器里的所有 emoji 使用苹果款（保留正文文字字体，仅给 emoji 兜底） */
+.markdown-preview-view,
+.markdown-source-view,
+.cm-editor,
+.cm-line,
+.inline-title,
+.metadata-properties {
+  font-family: var(--font-text), "Apple Color Emoji";
+}
