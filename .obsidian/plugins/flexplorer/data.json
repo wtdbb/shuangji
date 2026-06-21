@@ -646,6 +646,9 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "_c.md",
+        "_b.md",
+        "_a.md",
         "拳头游戏 × 腾讯光子（联合研发，腾竞体育代理发行）",
         "Garena",
         "字节朝夕光年",
@@ -1509,6 +1512,18 @@
       "sortOrder": "custom"
     },
     "岗位mapping/东京/FromSoftware": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/_a.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/_b.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/_c.md": {
       "isPinned": false,
       "isHidden": false
     }
