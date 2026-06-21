@@ -394,15 +394,15 @@
     "expandedKeys": []
   },
   "Habits Tracker.md": {
-    "scroll": 0,
+    "scroll": 49.838094075520836,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 2
+        "line": 62,
+        "ch": 3
       },
       "to": {
-        "line": 0,
-        "ch": 2
+        "line": 62,
+        "ch": 3
       }
     },
     "expandedKeys": []
@@ -411,11 +411,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
+        "line": 19,
         "ch": 0
       },
       "to": {
-        "line": 8,
+        "line": 19,
         "ch": 0
       }
     },
@@ -436,6 +436,20 @@
     "expandedKeys": []
   },
   "Calendar/Journal/Daily/2026-06-22.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Calendar/Journal/Daily/2026-06-10.md": {
     "scroll": 0,
     "cursor": {
       "from": {
