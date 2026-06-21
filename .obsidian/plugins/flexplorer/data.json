@@ -278,6 +278,14 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "福州",
+        "苏州",
+        "成都",
+        "北京",
+        "上海",
+        "广州",
+        "深圳",
+        "杭州",
         "index.md",
         "上海.md",
         "北京.md",
@@ -585,6 +593,267 @@
       "isHidden": false
     },
     "_build_mapping.ps1": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "萨罗斯（腾讯旗下，原字节工作室）.md",
+        "聆曦（腾讯全资，原名藤木）.md",
+        "微派（休闲）.md",
+        "浩汤科技.md",
+        "网易阴阳师事业部（广州+部分杭州）.md",
+        "网易雷火.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/杭州/网易雷火.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/网易阴阳师事业部（广州+部分杭州）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/浩汤科技.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/微派（休闲）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/聆曦（腾讯全资，原名藤木）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/萨罗斯（腾讯旗下，原字节工作室）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "补充记录.md",
+        "腾讯 Project T（光子）.md",
+        "淘乐.md",
+        "字节深圳（朝夕光年）.md",
+        "吉比特·雷霆游戏.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/深圳/吉比特·雷霆游戏.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/字节深圳（朝夕光年）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/淘乐.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/腾讯 Project T（光子）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/补充记录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "网易（广州）.md",
+        "银之心（SGRA工作室）.md",
+        "库洛.md",
+        "阿里灵犀（核心客户）.md",
+        "沐瞳.md",
+        "诗悦.md",
+        "智品.md",
+        "字节广州（2026新增·订正旧认知）.md",
+        "双尾彗星（订正·不是纯游戏厂）.md",
+        "字节华南高端射击项目（刘谦团队）.md",
+        "三七互娱.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/广州/三七互娱.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/字节华南高端射击项目（刘谦团队）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/双尾彗星（订正·不是纯游戏厂）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/字节广州（2026新增·订正旧认知）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/智品.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/诗悦.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/沐瞳.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/阿里灵犀（核心客户）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/库洛.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/银之心（SGRA工作室）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/网易（广州）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "网易上海.md",
+        "竞乐（上海+北京）.md",
+        "逻辑互动.md",
+        "临竞.md",
+        "莉莉丝.md",
+        "腾云摘星（腾讯旗下）.md",
+        "派洛特（派络特游戏）.md",
+        "欢乐互娱（腾讯旗下）.md",
+        "匠趣（引擎开发）.md",
+        "乘风.md",
+        "OmniDream Games（梦求游戏）.md",
+        "Funplus.md",
+        "B站《逃离鸭科夫》.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/上海/B站《逃离鸭科夫》.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/Funplus.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/OmniDream Games（梦求游戏）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/乘风.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/匠趣（引擎开发）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/欢乐互娱（腾讯旗下）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/派洛特（派络特游戏）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/腾云摘星（腾讯旗下）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/莉莉丝.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/临竞.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/逻辑互动.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/竞乐（上海+北京）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/网易上海.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "乐幸胜文（乐信圣文）.md",
+        "乐元素.md",
+        "G社.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/北京/G社.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/乐元素.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/乐幸胜文（乐信圣文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/成都": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "极致游戏（成都）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/成都/极致游戏（成都）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/苏州": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "仙峰（苏州，三四梯队）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/苏州/仙峰（苏州，三四梯队）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/福州": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "IGG（福州天盟数码）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/福州/IGG（福州天盟数码）.md": {
       "isPinned": false,
       "isHidden": false
     }
