@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Daily",
         "General Tweaks.css",
         "Daily Note Themes.css",
         "Calendar.base",
@@ -1559,6 +1560,34 @@
     "General Tweaks.css": {
       "isPinned": false,
       "isHidden": false
+    },
+    "Daily": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "Calender",
+        "Templates",
+        "Bases"
+      ],
+      "sortOrder": "custom"
+    },
+    "Daily/Bases": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "Daily/Calender": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "Daily/Templates": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
     }
   },
   "pinnedFiles": [],
