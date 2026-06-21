@@ -274,6 +274,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "批次",
         "城市",
         "岗位mapping.md",
         "上海",
@@ -1709,6 +1710,33 @@
       "isHidden": false
     },
     "岗位mapping/城市/杭州.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/批次": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "四线.md",
+        "三线.md",
+        "二线.md",
+        "一线.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/批次/一线.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/批次/二线.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/批次/三线.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/批次/四线.md": {
       "isPinned": false,
       "isHidden": false
     }
