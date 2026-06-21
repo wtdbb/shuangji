@@ -27,7 +27,7 @@
       "safeMode": "acceptEdits",
       "cliPath": "",
       "cliPathsByHost": {
-        "device:3adf4369-78e3-4134-ac64-205fffb830bd": "C:\\Users\\EDY\\AppData\\Roaming\\npm\\claude.cmd"
+        "device:3adf4369-78e3-4134-ac64-205fffb830bd": "C:\\Users\\EDY\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\cli-wrapper.cjs"
       },
       "loadUserSettings": true,
       "enableChrome": false,
@@ -83,7 +83,7 @@
   "settingsProvider": "claude",
   "savedProviderModel": {
     "claude": "opus",
-    "codex": "gpt-5.5"
+    "codex": "gpt-5.4-mini"
   },
   "savedProviderEffort": {
     "claude": "high",
