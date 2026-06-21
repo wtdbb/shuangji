@@ -275,13 +275,6 @@
       "sortOrder": "custom",
       "customOrder": [
         "城市",
-        "苏州.md",
-        "成都.md",
-        "广州.md",
-        "深圳.md",
-        "北京.md",
-        "杭州.md",
-        "上海.md",
         "岗位mapping.md",
         "上海",
         "杭州",
@@ -1662,38 +1655,17 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/上海.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/北京.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/深圳.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/成都.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/苏州.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/城市": {
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "杭州.md",
+        "上海.md",
+        "北京.md",
+        "深圳.md",
+        "广州.md",
+        "成都.md",
+        "苏州.md",
         "厦门.md",
         "珠海.md",
         "武汉.md"
@@ -1709,6 +1681,34 @@
       "isHidden": false
     },
     "岗位mapping/城市/厦门.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/城市/苏州.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/城市/成都.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/城市/广州.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/城市/深圳.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/城市/北京.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/城市/上海.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/城市/杭州.md": {
       "isPinned": false,
       "isHidden": false
     }
