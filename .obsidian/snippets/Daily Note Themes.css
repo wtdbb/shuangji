@@ -215,5 +215,10 @@
   padding-top: 6px;
 }
 
+/* 隐藏左上角文件名标题（与下方大标题 DAILY NOTE 重复）*/
+.daily .inline-title {
+  display: none;
+}
+
 /* 折叠/分割图标淡化 */
 :is(.daily) svg { color: color-mix(in srgb, var(--accent) 70%, var(--muted)); }
