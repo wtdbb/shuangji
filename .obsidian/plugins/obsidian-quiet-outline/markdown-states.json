@@ -338,15 +338,15 @@
     "expandedKeys": []
   },
   "Calender/Journal/Daily/2026-06-21.md": {
-    "scroll": 13.081858338181178,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 22,
-        "ch": 12
+        "line": 13,
+        "ch": 0
       },
       "to": {
-        "line": 22,
-        "ch": 12
+        "line": 13,
+        "ch": 0
       }
     },
     "expandedKeys": []
