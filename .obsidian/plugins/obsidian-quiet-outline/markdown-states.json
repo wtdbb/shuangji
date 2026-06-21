@@ -33,12 +33,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 15
+        "line": 4,
+        "ch": 0
       },
       "to": {
-        "line": 1,
-        "ch": 15
+        "line": 4,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -94,6 +94,118 @@
       },
       "to": {
         "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "行业报告/视频链接/网易-游戏公司发展史(游策十一).md": {
+    "scroll": 33.08541599909464,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "行业报告/公众号原内容/我确信，吹哥确实造出了解谜游戏史上最高的山.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/上海/网易上海.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "行业mapping/index.md": {
+    "scroll": 0.6015037507723507,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "行业mapping/薪资段位.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/深圳/淘乐.md": {
+    "scroll": 15.860416571299234,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/深圳/腾讯魔方.md": {
+    "scroll": 12.149999936421713,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/深圳/腾讯天美.md": {
+    "scroll": 15.860416571299234,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
         "ch": 0
       }
     },
