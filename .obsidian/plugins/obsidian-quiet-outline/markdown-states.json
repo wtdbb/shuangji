@@ -33,12 +33,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 9,
+        "ch": 6
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 9,
+        "ch": 6
       }
     },
     "expandedKeys": []
@@ -86,7 +86,7 @@
     "expandedKeys": []
   },
   "配置/日记模板.md.md": {
-    "scroll": 3.1496062992125986,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 4,

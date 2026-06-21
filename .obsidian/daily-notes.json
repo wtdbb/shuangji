@@ -1,4 +1,4 @@
 {
   "folder": "日记",
-  "template": "--- type: daily date: {{date}} ---  # {{date}}  ## 今日待办 - [ ]   ## 备忘录 -   ## 记录 -   ## 明天要做 -"
+  "template": "配置/日记模板.md"
 }
