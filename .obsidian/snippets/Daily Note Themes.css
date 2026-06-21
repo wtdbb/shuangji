@@ -80,7 +80,8 @@ change or remove those font-family lines from this snippet.
 }
 
 .thursday,
-.Thursday {
+.Thursday,
+.星期四 {
   --highlight: #f7b79b;
   --primary: #ed6022;
   --dark: #210b04;
