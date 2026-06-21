@@ -1,0 +1,83 @@
+formulas:
+  highlight: highlight
+  ✨: if(file.inFolder("Calendar/Journal/Daily"),"📅",if(file.inFolder("Calendar/Meetings"),"☎️",if(file.inFolder("Calendar/Fleeting"),"💭")))
+views:
+  - type: table
+    name: Calendar
+    filters:
+      or:
+        - file.inFolder("Calendar/Journal/Daily")
+        - file.inFolder("Calendar/Fleeting")
+        - file.inFolder("Calendar/Meetings")
+    order:
+      - formula.✨
+      - file.name
+      - formula.highlight
+    sort:
+      - property: file.name
+        direction: DESC
+    columnSize:
+      formula.✨: 3
+      file.name: 479
+  - type: table
+    name: Daily
+    filters:
+      and:
+        - file.inFolder("Calendar/Journal/Daily")
+    groupBy:
+      property: week
+      direction: DESC
+    order:
+      - file.name
+      - formula.highlight
+    sort:
+      - property: file.name
+        direction: DESC
+      - property: formula.Untitled
+        direction: DESC
+    columnSize:
+      file.name: 179
+  - type: table
+    name: Weekly
+    filters:
+      and:
+        - file.inFolder("Calendar/Weekly")
+    order:
+      - file.name
+      - month
+    sort:
+      - property: file.name
+        direction: DESC
+    columnSize:
+      file.name: 142
+  - type: table
+    name: Monthly
+    filters:
+      and:
+        - file.inFolder("Calendar/Monthly")
+    groupBy:
+      property: quarter
+      direction: ASC
+    order:
+      - file.name
+      - quarter
+    sort:
+      - property: file.name
+        direction: DESC
+    columnSize:
+      file.name: 152
+  - type: table
+    name: Yearly
+    filters:
+      and:
+        - file.inFolder("Calendar/Yearly")
+  - type: table
+    name: Fleeting
+    filters:
+      and:
+        - file.inFolder("Calendar/Fleeting")
+    sort:
+      - property: file.name
+        direction: DESC
+    columnSize:
+      file.name: 497

@@ -5,7 +5,10 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Bases",
+        "Templates",
         "Calender",
+        "Habits Tracker.md",
         "主页.md",
         "日记",
         "OneNote",
@@ -1539,24 +1542,25 @@
     "Calender": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
+        "Calendar.base",
         "Fleeting",
         "Mettings",
         "Journal"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Calender/Journal": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "Yearly.md",
         "Quarterly.md",
         "Month.md",
         "Weekly.md",
         "Daily.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Calender/Journal/Daily.md": {
       "isPinned": false,
@@ -1581,22 +1585,46 @@
     "Calender/Mettings": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
     "Calender/Fleeting": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
-    "未命名/未命名": {
+    "Templates": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "Daily-TEMPLATE.md"
+      ]
+    },
+    "Bases": {
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
-        "未命名"
+        "On This Day.base"
       ],
       "sortOrder": "custom"
+    },
+    "Habits Tracker.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Bases/On This Day.base": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Templates/Daily-TEMPLATE.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Calender/Calendar.base": {
+      "isPinned": false,
+      "isHidden": false
     }
   },
   "pinnedFiles": [],
