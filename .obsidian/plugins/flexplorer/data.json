@@ -417,7 +417,6 @@
       "sortOrder": "custom",
       "customOrder": [
         "笔记模板.md.md",
-        "日记模板.md.md",
         "CLAUDE.md",
         "index.md",
         "setup.ps1",
@@ -1526,10 +1525,6 @@
       "customOrder": [
         "2026-06-21.md"
       ]
-    },
-    "配置/日记模板.md.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "日记/2026-06-21.md": {
       "isPinned": false,
