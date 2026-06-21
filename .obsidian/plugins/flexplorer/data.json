@@ -277,6 +277,11 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "东京",
+        "大阪",
+        "武汉",
+        "厦门",
+        "珠海",
         "福州",
         "苏州",
         "成都",
@@ -551,264 +556,959 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
-        "萨罗斯（腾讯旗下，原字节工作室）.md",
-        "聆曦（腾讯全资，原名藤木）.md",
-        "微派（休闲）.md",
-        "浩汤科技.md",
-        "网易阴阳师事业部（广州+部分杭州）.md",
-        "网易雷火.md"
+        "全金属贝果游戏工作室",
+        "全金属贴贝果",
+        "字节江南工作室",
+        "网易互娱",
+        "网易游戏",
+        "浙江盛和网络科技有限公司",
+        "不鸣科技",
+        "弹指宇宙（快手）",
+        "炎魂（小白工作室）",
+        "游卡（杭州）",
+        "畅唐网络",
+        "无端科技",
+        "妙聚网络",
+        "乐港游戏",
+        "金科文化",
+        "边锋网络（浙数文化）",
+        "西山居（珠海金山数字网络）",
+        "绝地科技",
+        "电魂网络",
+        "游戏科学（杭州工作室）",
+        "朝夕光年（杭州江南工作室）",
+        "巨人网络（杭州）",
+        "萨罗斯（腾讯旗下，原字节工作室）",
+        "聆曦（腾讯全资，原名藤木）",
+        "微派（休闲）",
+        "浩汤科技",
+        "网易阴阳师事业部（广州+部分杭州）",
+        "网易雷火"
       ],
       "sortOrder": "custom"
-    },
-    "岗位mapping/杭州/网易雷火.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易阴阳师事业部（广州+部分杭州）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/浩汤科技.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/微派（休闲）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/聆曦（腾讯全资，原名藤木）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/萨罗斯（腾讯旗下，原字节工作室）.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "岗位mapping/深圳": {
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
-        "补充记录.md",
-        "腾讯 Project T（光子）.md",
-        "淘乐.md",
-        "字节深圳（朝夕光年）.md",
-        "吉比特·雷霆游戏.md"
+        "望尘科技",
+        "深圳市迷你玩科技有限公司",
+        "尚游",
+        "腾讯",
+        "凉屋游戏",
+        "大梦龙途",
+        "禅游科技",
+        "腾讯魔方",
+        "第七大道",
+        "英雄互娱（深圳）",
+        "腾讯 NExT Studios（深圳）",
+        "游戏科学（深圳+杭州）",
+        "创梦天地",
+        "腾讯互娱 琳琅天上工作室",
+        "腾讯天美",
+        "艾薇乐游",
+        "补充记录",
+        "腾讯 Project T（光子）",
+        "吉比特·雷霆游戏",
+        "淘乐",
+        "字节深圳（朝夕光年）"
       ],
       "sortOrder": "custom"
-    },
-    "岗位mapping/深圳/吉比特·雷霆游戏.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/深圳/字节深圳（朝夕光年）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/深圳/淘乐.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/深圳/腾讯 Project T（光子）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/深圳/补充记录.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "岗位mapping/广州": {
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
-        "网易（广州）.md",
-        "银之心（SGRA工作室）.md",
-        "库洛.md",
-        "阿里灵犀（核心客户）.md",
-        "沐瞳.md",
-        "诗悦.md",
-        "智品.md",
-        "字节广州（2026新增·订正旧认知）.md",
-        "双尾彗星（订正·不是纯游戏厂）.md",
-        "字节华南高端射击项目（刘谦团队）.md",
-        "三七互娱.md"
+        "广州天游",
+        "广州乐牛软件科技有限公司",
+        "银汉游戏",
+        "百奥百田",
+        "深蓝互动",
+        "多益网络",
+        "英雄互娱（广州）",
+        "易娱网络（Eyougame）",
+        "4399（广州·厦门）",
+        "网易（广州）",
+        "银之心（SGRA工作室）",
+        "库洛",
+        "字节华南高端射击项目（刘谦团队）",
+        "字节广州（2026新增·订正旧认知）",
+        "双尾彗星（订正·不是纯游戏厂）",
+        "诗悦",
+        "沐瞳",
+        "智品",
+        "阿里灵犀（核心客户）",
+        "三七互娱"
       ],
       "sortOrder": "custom"
-    },
-    "岗位mapping/广州/三七互娱.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/字节华南高端射击项目（刘谦团队）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/双尾彗星（订正·不是纯游戏厂）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/字节广州（2026新增·订正旧认知）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/智品.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/诗悦.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/沐瞳.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/阿里灵犀（核心客户）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/库洛.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/银之心（SGRA工作室）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "岗位mapping/上海": {
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
-        "网易上海.md",
-        "竞乐（上海+北京）.md",
-        "逻辑互动.md",
-        "临竞.md",
-        "莉莉丝.md",
-        "腾云摘星（腾讯旗下）.md",
-        "派洛特（派络特游戏）.md",
-        "欢乐互娱（腾讯旗下）.md",
-        "匠趣（引擎开发）.md",
-        "乘风.md",
-        "OmniDream Games（梦求游戏）.md",
-        "Funplus.md",
-        "B站《逃离鸭科夫》.md"
+        "拳头游戏 × 腾讯光子（联合研发，腾竞体育代理发行）",
+        "Garena",
+        "字节朝夕光年",
+        "腾讯天美工作室群",
+        "上海塔人网络科技股份有限公司",
+        "上海晓枫",
+        "友塔游戏",
+        "勇仕网络",
+        "腾讯北极光",
+        "腾讯天美",
+        "海彼网络（Habby）",
+        "钛核网络",
+        "跳跃网络",
+        "波克城市",
+        "椰岛游戏",
+        "朝夕光年（上海ZERO36）",
+        "散爆网络",
+        "悠星网络",
+        "幻萌网络",
+        "上海烛龙",
+        "七创社",
+        "EA中国（上海）",
+        "紫龙游戏",
+        "祖龙上海",
+        "盛趣游戏",
+        "游族网络",
+        "恺英网络",
+        "心动网络",
+        "巨人网络",
+        "鹰角网络",
+        "育碧中国（上海）",
+        "叠纸游戏",
+        "Supercell 上海",
+        "Riot Games 拳头中国",
+        "米哈游",
+        "乐元素",
+        "英雄游戏（上海）",
+        "蛮啾网络",
+        "网易上海",
+        "竞乐（上海+北京）",
+        "逻辑互动",
+        "临竞",
+        "B站《逃离鸭科夫》",
+        "欢乐互娱（腾讯旗下）",
+        "莉莉丝",
+        "腾云摘星（腾讯旗下）",
+        "Funplus",
+        "OmniDream Games（梦求游戏）",
+        "派洛特（派络特游戏）",
+        "乘风",
+        "匠趣（引擎开发）"
       ],
       "sortOrder": "custom"
-    },
-    "岗位mapping/上海/B站《逃离鸭科夫》.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/Funplus.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/OmniDream Games（梦求游戏）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/乘风.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/匠趣（引擎开发）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/欢乐互娱（腾讯旗下）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/派洛特（派络特游戏）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/腾云摘星（腾讯旗下）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/莉莉丝.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/临竞.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/逻辑互动.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/竞乐（上海+北京）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/网易上海.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "岗位mapping/北京": {
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
-        "乐幸胜文（乐信圣文）.md",
-        "乐元素.md",
-        "G社.md"
+        "腾讯北极光工作室",
+        "壳木游戏",
+        "中手游（满天星工作室自研）",
+        "腾讯(巡回犬工作室)",
+        "途游游戏",
+        "北京水果堂网络科技有限公司",
+        "蜂鸟于飞",
+        "儒意景秀（发行）",
+        "金山世游（北京西山居）",
+        "蓝港互动",
+        "网元圣唐",
+        "柠檬微趣",
+        "祖龙娱乐",
+        "灵游坊",
+        "智明星通",
+        "掌趣科技",
+        "巴别时代",
+        "朝夕光年（字节游戏）",
+        "完美世界",
+        "英雄互娱（北京）",
+        "点点互动（世纪华通）",
+        "畅游（搜狐）",
+        "乐元素",
+        "G社",
+        "乐幸胜文（乐信圣文）"
       ],
       "sortOrder": "custom"
-    },
-    "岗位mapping/北京/G社.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/北京/乐元素.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/北京/乐幸胜文（乐信圣文）.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "岗位mapping/成都": {
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
-        "极致游戏（成都）.md"
+        "天上友嘉",
+        "成都奇侠互娱科技有限公司",
+        "炎龙科技",
+        "墨龙网络",
+        "墨灵科技",
+        "云中游",
+        "龙渊网络",
+        "英雄互娱（成都）",
+        "数字天空",
+        "成都龙游天下",
+        "成都星合互娱",
+        "天象互动",
+        "卓杭网络",
+        "成都乐狗",
+        "Tap4Fun（尼毕鲁）",
+        "极致游戏（成都）"
       ],
       "sortOrder": "custom"
-    },
-    "岗位mapping/成都/极致游戏（成都）.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "岗位mapping/苏州": {
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
-        "仙峰（苏州，三四梯队）.md"
+        "友谊时光",
+        "仙峰（苏州，三四梯队）"
       ],
       "sortOrder": "custom"
-    },
-    "岗位mapping/苏州/仙峰（苏州，三四梯队）.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "岗位mapping/福州": {
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
-        "IGG（福州天盟数码）.md"
+        "网龙",
+        "IGG（福州天盟数码）"
       ],
       "sortOrder": "custom"
     },
-    "岗位mapping/福州/IGG（福州天盟数码）.md": {
+    "_build2.ps1": {
       "isPinned": false,
       "isHidden": false
     },
-    "_build2.ps1": {
+    "岗位mapping/杭州/网易雷火": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/网易阴阳师事业部（广州+部分杭州）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/浩汤科技": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/微派（休闲）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/聆曦（腾讯全资，原名藤木）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/萨罗斯（腾讯旗下，原字节工作室）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/字节深圳（朝夕光年）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/淘乐": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/吉比特·雷霆游戏": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/腾讯 Project T（光子）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/补充记录": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/三七互娱": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/阿里灵犀（核心客户）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/智品": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/沐瞳": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/诗悦": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/双尾彗星（订正·不是纯游戏厂）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/字节广州（2026新增·订正旧认知）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/字节华南高端射击项目（刘谦团队）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/库洛": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/银之心（SGRA工作室）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/网易（广州）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/匠趣（引擎开发）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/乘风": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/派洛特（派络特游戏）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/OmniDream Games（梦求游戏）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/Funplus": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/腾云摘星（腾讯旗下）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/莉莉丝": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/欢乐互娱（腾讯旗下）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/B站《逃离鸭科夫》": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/临竞": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/逻辑互动": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/竞乐（上海+北京）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/网易上海": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/乐幸胜文（乐信圣文）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/G社": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/乐元素": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/成都/极致游戏（成都）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/苏州/仙峰（苏州，三四梯队）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/福州/IGG（福州天盟数码）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/艾薇乐游": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/4399（广州·厦门）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/蛮啾网络": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/英雄游戏（上海）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/畅游（搜狐）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/点点互动（世纪华通）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/英雄互娱（北京）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/完美世界": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/朝夕光年（字节游戏）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/巴别时代": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/掌趣科技": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/智明星通": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/灵游坊": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/祖龙娱乐": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/柠檬微趣": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/网元圣唐": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/蓝港互动": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/金山世游（北京西山居）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/儒意景秀（发行）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/蜂鸟于飞": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/北京水果堂网络科技有限公司": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/途游游戏": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/腾讯(巡回犬工作室)": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/中手游（满天星工作室自研）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/壳木游戏": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/腾讯北极光工作室": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/乐元素": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/米哈游": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/Riot Games 拳头中国": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/Supercell 上海": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/叠纸游戏": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/育碧中国（上海）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/鹰角网络": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/巨人网络": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/心动网络": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/恺英网络": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/游族网络": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/盛趣游戏": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/祖龙上海": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/紫龙游戏": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/EA中国（上海）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/七创社": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/上海烛龙": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/幻萌网络": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/悠星网络": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/散爆网络": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/朝夕光年（上海ZERO36）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/椰岛游戏": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/波克城市": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/跳跃网络": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/钛核网络": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/海彼网络（Habby）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/腾讯天美": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/腾讯北极光": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/勇仕网络": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/友塔游戏": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/上海晓枫": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/上海塔人网络科技股份有限公司": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/腾讯天美工作室群": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/字节朝夕光年": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/Garena": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/拳头游戏 × 腾讯光子（联合研发，腾竞体育代理发行）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/腾讯天美": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/腾讯互娱 琳琅天上工作室": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/创梦天地": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/游戏科学（深圳+杭州）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/腾讯 NExT Studios（深圳）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/英雄互娱（深圳）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/第七大道": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/腾讯魔方": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/禅游科技": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/大梦龙途": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/凉屋游戏": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/腾讯": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/尚游": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/深圳市迷你玩科技有限公司": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/望尘科技": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/易娱网络（Eyougame）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/英雄互娱（广州）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/多益网络": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/深蓝互动": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/百奥百田": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/银汉游戏": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/广州乐牛软件科技有限公司": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/广州天游": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/巨人网络（杭州）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/朝夕光年（杭州江南工作室）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/游戏科学（杭州工作室）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/电魂网络": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/绝地科技": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/西山居（珠海金山数字网络）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/边锋网络（浙数文化）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/金科文化": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/乐港游戏": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/妙聚网络": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/无端科技": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/畅唐网络": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/游卡（杭州）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/炎魂（小白工作室）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/弹指宇宙（快手）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/不鸣科技": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/浙江盛和网络科技有限公司": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/网易游戏": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/网易互娱": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/字节江南工作室": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/全金属贴贝果": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/全金属贝果游戏工作室": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/成都/Tap4Fun（尼毕鲁）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/成都/成都乐狗": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/成都/卓杭网络": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/成都/天象互动": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/成都/成都星合互娱": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/成都/成都龙游天下": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/成都/数字天空": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/成都/英雄互娱（成都）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/成都/龙渊网络": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/成都/云中游": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/成都/墨灵科技": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/成都/墨龙网络": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/成都/炎龙科技": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/成都/成都奇侠互娱科技有限公司": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/成都/天上友嘉": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/珠海": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "西山居（珠海金山数字网络）",
+        "珠海剑心互动娱乐有限公司"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/珠海/珠海剑心互动娱乐有限公司": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/珠海/西山居（珠海金山数字网络）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/苏州/友谊时光": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/厦门": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "飞鱼科技（前身凯罗天下）",
+        "飞鱼科技",
+        "青瓷游戏"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/厦门/青瓷游戏": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/厦门/飞鱼科技": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/厦门/飞鱼科技（前身凯罗天下）": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/福州/网龙": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/武汉": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "盛天网络"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/武汉/盛天网络": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/大阪": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "CAPCOM"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/大阪/CAPCOM": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/东京": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "FromSoftware"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/东京/FromSoftware": {
       "isPinned": false,
       "isHidden": false
     }
