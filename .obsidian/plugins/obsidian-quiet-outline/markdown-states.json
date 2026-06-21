@@ -61,12 +61,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 26
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 8,
-        "ch": 26
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
