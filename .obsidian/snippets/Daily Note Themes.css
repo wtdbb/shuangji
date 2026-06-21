@@ -72,7 +72,8 @@ change or remove those font-family lines from this snippet.
 }
 
 .wednesday,
-.Wednesday {
+.Wednesday,
+.星期三 {
   --highlight: #fff3c4;
   --primary: #ffd63d;
   --dark: #2c1404;
