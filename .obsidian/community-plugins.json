@@ -20,5 +20,7 @@
   "obsidian-quiet-outline",
   "obsidian-minimal-settings",
   "periodic-notes",
-  "heatmap-tracker"
+  "heatmap-tracker",
+  "dataview",
+  "templater-obsidian"
 ]
