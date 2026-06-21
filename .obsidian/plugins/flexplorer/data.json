@@ -5,8 +5,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "Daily",
-        "Habits Tracker.md",
         "主页.md",
         "日记",
         "OneNote",
@@ -1529,54 +1527,6 @@
       "isHidden": false
     },
     "日记/2026-06-21.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Habits Tracker.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Daily": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "Calender",
-        "Calendar.base",
-        "Templates",
-        "Bases",
-        "On This Day.base"
-      ],
-      "sortOrder": "custom"
-    },
-    "Daily/Bases": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
-    },
-    "Daily/Calender": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
-    },
-    "Daily/Templates": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "Daily-TEMPLATE.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Daily/On This Day.base": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Daily/Templates/Daily-TEMPLATE.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Daily/Calendar.base": {
       "isPinned": false,
       "isHidden": false
     }
