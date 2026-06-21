@@ -17,7 +17,7 @@ views:
       - property: file.name
         direction: DESC
     columnSize:
-      formula.✨: 3
+      formula.✨: 125
       file.name: 479
   - type: table
     name: Daily
