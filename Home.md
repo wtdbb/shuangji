@@ -1,5 +1,5 @@
 
-> [!NOTE] [[Bases/Calendar.base|Calendar|日历]][[Habits Tracker]]
+> [!NOTE] [[Bases/Calendar.base|📅日历]]|[[Habits Tracker|🍉习惯]]
 > 
 
 

@@ -1600,7 +1600,9 @@
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
-      "customOrder": []
+      "customOrder": [
+        "2026-W25.md"
+      ]
     },
     "Calendar/Journal/Yearly": {
       "isPinned": false,
@@ -1637,6 +1639,10 @@
       "isHidden": false
     },
     "Home.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Calendar/Journal/Weekly/2026-W25.md": {
       "isPinned": false,
       "isHidden": false
     }
