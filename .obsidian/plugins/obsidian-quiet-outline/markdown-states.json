@@ -47,12 +47,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 1
+        "line": 23,
+        "ch": 0
       },
       "to": {
-        "line": 4,
-        "ch": 1
+        "line": 23,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -411,12 +411,12 @@
     "scroll": 39.45208319028219,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 30
+        "line": 49,
+        "ch": 0
       },
       "to": {
-        "line": 12,
-        "ch": 30
+        "line": 49,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -500,6 +500,34 @@
       },
       "to": {
         "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Home.md": {
+    "scroll": 13.993749777475992,
+    "cursor": {
+      "from": {
+        "line": 24,
+        "ch": 0
+      },
+      "to": {
+        "line": 24,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "callout/Home.md": {
+    "scroll": 13.993749777475992,
+    "cursor": {
+      "from": {
+        "line": 24,
+        "ch": 0
+      },
+      "to": {
+        "line": 24,
         "ch": 0
       }
     },

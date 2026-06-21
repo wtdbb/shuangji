@@ -5,11 +5,11 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "callout",
         "Calendar",
         "Bases",
         "Templates",
         "Habits Tracker.md",
-        "主页.md",
         "OneNote",
         "岗位mapping",
         "行业mapping",
@@ -258,10 +258,6 @@
       "isHidden": false
     },
     "skill/sp-skill/tests/test_transcribe_faster_whisper.py": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "主页.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -1637,6 +1633,18 @@
       "isHidden": false
     },
     "Calendar/Meetings/2026-06-21 2122 Metting.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "callout": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "Home.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "callout/Home.md": {
       "isPinned": false,
       "isHidden": false
     }
