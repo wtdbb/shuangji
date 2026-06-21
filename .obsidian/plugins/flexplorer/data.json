@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "_probe.ps1",
         "_build2.ps1",
         "99_低频归档",
         "岗位mapping",
@@ -1524,6 +1525,10 @@
       "isHidden": false
     },
     "岗位mapping/上海/_c.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "_probe.ps1": {
       "isPinned": false,
       "isHidden": false
     }
