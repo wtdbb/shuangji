@@ -5,7 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "callout",
+        "Home.md",
         "Calendar",
         "Bases",
         "Templates",
@@ -1636,15 +1636,7 @@
       "isPinned": false,
       "isHidden": false
     },
-    "callout": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "Home.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "callout/Home.md": {
+    "Home.md": {
       "isPinned": false,
       "isHidden": false
     }

@@ -408,15 +408,15 @@
     "expandedKeys": []
   },
   "Calendar/Journal/Daily/2026-06-21.md": {
-    "scroll": 39.45208319028219,
+    "scroll": 6.299999892711639,
     "cursor": {
       "from": {
-        "line": 49,
-        "ch": 0
+        "line": 7,
+        "ch": 13
       },
       "to": {
-        "line": 49,
-        "ch": 0
+        "line": 7,
+        "ch": 4
       }
     },
     "expandedKeys": []
@@ -506,21 +506,21 @@
     "expandedKeys": []
   },
   "Home.md": {
-    "scroll": 13.993749777475992,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 24,
-        "ch": 0
+        "line": 0,
+        "ch": 7
       },
       "to": {
-        "line": 24,
-        "ch": 0
+        "line": 0,
+        "ch": 7
       }
     },
     "expandedKeys": []
   },
   "callout/Home.md": {
-    "scroll": 13.993749777475992,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 24,
