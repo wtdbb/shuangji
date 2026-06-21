@@ -48,11 +48,25 @@
     "cursor": {
       "from": {
         "line": 4,
-        "ch": 3
+        "ch": 1
       },
       "to": {
         "line": 4,
-        "ch": 3
+        "ch": 1
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/index.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
