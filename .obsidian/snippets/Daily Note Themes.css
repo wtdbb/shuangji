@@ -107,7 +107,7 @@ change or remove those font-family lines from this snippet.
   color: var(--primary);
   text-align: center;
   font-size: 60px;
-  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrainsMono NFM", "JetBrains Mono";
   padding: 0 !important;
 }
 
@@ -115,7 +115,7 @@ change or remove those font-family lines from this snippet.
   color: var(--highlight);
   text-align: center;
   font-size: 30px;
-  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrainsMono NFM", "JetBrains Mono";
   font-style: italic;
   padding: 0 !important;
 }
@@ -125,7 +125,7 @@ change or remove those font-family lines from this snippet.
   text-align: center;
 
   font-size: 32px;
-  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrainsMono NFM", "JetBrains Mono";
   padding-top: 0;
 }
 
