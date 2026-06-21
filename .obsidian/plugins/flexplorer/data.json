@@ -287,50 +287,10 @@
         "深圳",
         "杭州",
         "index.md",
-        "上海.md",
-        "北京.md",
-        "广州.md",
-        "成都.md",
-        "杭州.md",
-        "深圳.md",
-        "福州.md",
-        "苏州.md",
         "补充记录.md"
       ]
     },
     "岗位mapping/index.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/北京.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/成都.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/深圳.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/福州.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/苏州.md": {
       "isPinned": false,
       "isHidden": false
     },
