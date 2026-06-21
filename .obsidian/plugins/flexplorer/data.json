@@ -265,8 +265,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "4d2a9ce3ae9eef210231f990079c2bb5_MD5.jpg",
         "60cd82269d834ef332d7914494f606177a9f02c2.jpg",
-        "a7892db0fb0d4bc6392640344b83f697883faf82.png",
         "公众号附件",
         "公众号附件"
       ]
@@ -402,6 +402,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "我确信，吹哥确实造出了解谜游戏史上最高的山.md",
         "腾讯网易同时出手，本周新游市场又热闹了.md",
         "index.md"
       ]
@@ -565,11 +566,15 @@
       "isPinned": false,
       "isHidden": false
     },
-    "图片归档/a7892db0fb0d4bc6392640344b83f697883faf82.png": {
+    "图片归档/60cd82269d834ef332d7914494f606177a9f02c2.jpg": {
       "isPinned": false,
       "isHidden": false
     },
-    "图片归档/60cd82269d834ef332d7914494f606177a9f02c2.jpg": {
+    "行业报告/公众号原内容/我确信，吹哥确实造出了解谜游戏史上最高的山.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "图片归档/4d2a9ce3ae9eef210231f990079c2bb5_MD5.jpg": {
       "isPinned": false,
       "isHidden": false
     }
