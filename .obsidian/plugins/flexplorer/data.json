@@ -114,6 +114,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "gs-skill",
         "sp-skill"
       ]
     },
@@ -1504,6 +1505,18 @@
       "isHidden": false
     },
     "岗位mapping/东京/FromSoftware.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/gs-skill": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/gs-skill/SKILL.md": {
       "isPinned": false,
       "isHidden": false
     }
