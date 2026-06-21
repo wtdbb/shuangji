@@ -274,7 +274,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "index.md",
+        "上海.md",
+        "岗位mapping.md",
         "上海",
         "杭州",
         "深圳",
@@ -288,10 +289,6 @@
         "福州",
         "补充记录.md"
       ]
-    },
-    "岗位mapping/index.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "岗位mapping/补充记录.md": {
       "isPinned": false,
@@ -1651,6 +1648,14 @@
       "isHidden": false
     },
     "Home.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/岗位mapping.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海.md": {
       "isPinned": false,
       "isHidden": false
     }

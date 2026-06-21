@@ -52,5 +52,13 @@
       ],
       "key": "O"
     }
+  ],
+  "file-explorer:new-folder": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
   ]
 }
