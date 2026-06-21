@@ -796,6 +796,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "微派网络（Wepie）.md",
         "盛天网络.md"
       ],
       "sortOrder": "custom"
@@ -1517,6 +1518,10 @@
       "sortOrder": "custom"
     },
     "skill/gs-skill/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/武汉/微派网络（Wepie）.md": {
       "isPinned": false,
       "isHidden": false
     }
