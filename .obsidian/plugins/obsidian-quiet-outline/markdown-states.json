@@ -579,12 +579,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 4,
+        "ch": 2
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 4,
+        "ch": 2
       }
     },
     "expandedKeys": []
@@ -604,6 +604,48 @@
     "expandedKeys": []
   },
   "岗位mapping/上海.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/未命名 3.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/未命名 5.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/未命名 7.md": {
     "scroll": 0,
     "cursor": {
       "from": {
