@@ -277,6 +277,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "游戏类型",
         "分部",
         "城市",
         "岗位mapping.md",
@@ -1960,6 +1961,40 @@
     "岗位mapping/分部/一线/网易/引擎/牛X.md": {
       "isPinned": false,
       "isHidden": false
+    },
+    "岗位mapping/游戏类型": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "射击",
+        "未命名.md",
+        "soc.md",
+        "搜打撤.md",
+        "摸金.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/游戏类型/摸金.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/搜打撤.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/soc.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/未命名.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/射击": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
     }
   },
   "pinnedFiles": [],
