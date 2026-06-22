@@ -1875,7 +1875,9 @@
     "岗位mapping/分部/一线/网易/上海网易/网易雷火": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
+      "customOrder": [
+        "暗黑破坏神系列"
+      ],
       "sortOrder": "custom"
     },
     "岗位mapping/分部/一线/网易/广州网易": {
@@ -1901,6 +1903,23 @@
       "isHidden": false,
       "customOrder": [],
       "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/网易/上海网易/网易雷火/暗黑破坏神系列": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "暗黑破坏神：不朽.md",
+        "暗黑破坏神系列.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/网易/上海网易/网易雷火/暗黑破坏神系列/暗黑破坏神系列.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/上海网易/网易雷火/暗黑破坏神系列/暗黑破坏神：不朽.md": {
+      "isPinned": false,
+      "isHidden": false
     }
   },
   "pinnedFiles": [],
