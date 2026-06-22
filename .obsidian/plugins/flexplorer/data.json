@@ -1743,6 +1743,7 @@
       "sortOrder": "custom",
       "customOrder": [
         "未命名.md",
+        "暗黑破坏神.md",
         "七日世界.md",
         "明日之后.md",
         "网易上海.md"
@@ -1769,6 +1770,10 @@
       ]
     },
     "AI信息收集系统/automation-pending.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/网易上海/暗黑破坏神.md": {
       "isPinned": false,
       "isHidden": false
     },
