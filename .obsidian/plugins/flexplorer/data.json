@@ -6,8 +6,6 @@
       "sortOrder": "custom",
       "customOrder": [
         "多益",
-        "上海网易",
-        "分部.md",
         "AI信息收集系统",
         "Home.md",
         "岗位mapping",
@@ -1149,10 +1147,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "分部.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/分部": {
       "isPinned": false,
       "isHidden": false,
@@ -1247,18 +1241,6 @@
         "网易互娱"
       ],
       "sortOrder": "custom"
-    },
-    "上海网易": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "上海网易.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "上海网易/上海网易.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "岗位mapping/分部/一线/网易/上海网易/上海网易.md": {
       "isPinned": false,
