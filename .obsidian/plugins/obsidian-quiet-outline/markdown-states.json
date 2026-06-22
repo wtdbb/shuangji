@@ -506,15 +506,15 @@
     "expandedKeys": []
   },
   "Home.md": {
-    "scroll": 2.881675520492474,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 16,
-        "ch": 0
+        "line": 5,
+        "ch": 30
       },
       "to": {
-        "line": 16,
-        "ch": 0
+        "line": 5,
+        "ch": 2
       }
     },
     "expandedKeys": []
