@@ -641,9 +641,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "未命名",
+        "钛核",
         "鹰角",
-        "钛核网络.md",
         "逻辑互动.md",
         "跳跃网络.md",
         "蛮啾网络.md",
@@ -974,10 +973,6 @@
       "isHidden": false
     },
     "岗位mapping/上海/逻辑互动.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/钛核网络.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -2113,11 +2108,22 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/上海/未命名": {
+    "岗位mapping/上海/钛核": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
+      "customOrder": [
+        "钛核网络 1.md",
+        "钛核网络.md"
+      ],
       "sortOrder": "custom"
+    },
+    "岗位mapping/上海/钛核/钛核网络.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/钛核/钛核网络 1.md": {
+      "isPinned": false,
+      "isHidden": false
     }
   },
   "pinnedFiles": [],
