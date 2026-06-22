@@ -17,3 +17,5 @@
 {"ts":"2026-06-22T11:19:09","level":"info","message":"pending event: feishu-job / Feishu job change needs confirmation"}
 {"ts":"2026-06-22T11:19:09","level":"info","message":"feishu scan done: 发现 1 条岗位变化，已生成待确认 ActionId：\n[237-add] 新增 / planning / 波克科技集团 / 海外渠道运营 / 2026-06-22 11:09\n确认执行示例：.\\tools\\feishu-job-sync\\feishu-job-sync.ps1 -Mode apply -ActionId 237-add -ConfirmWrite\n"}
 {"ts":"2026-06-22T11:19:09","level":"info","message":"wechat/rss inbox scan disabled by user; feishu scan only"}
+{"ts":"2026-06-22T11:20:25","level":"info","message":"feishu scan done: 没有新的岗位变化。当前最后位置：237\n"}
+{"ts":"2026-06-22T11:20:25","level":"info","message":"wechat/rss inbox scan disabled by user; feishu scan only"}

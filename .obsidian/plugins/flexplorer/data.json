@@ -5,6 +5,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "未命名 1",
+        "未命名",
         "AI信息收集系统",
         "Home.md",
         "岗位mapping",
@@ -1740,12 +1742,12 @@
     "岗位mapping/上海/网易上海": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "七日世界.md",
         "明日之后.md",
         "网易上海.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/上海/网易上海/网易上海.md": {
       "isPinned": false,
@@ -1762,14 +1764,26 @@
     "AI信息收集系统": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "automation-pending.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AI信息收集系统/automation-pending.md": {
       "isPinned": false,
       "isHidden": false
+    },
+    "未命名": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": []
+    },
+    "未命名 1": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
     }
   },
   "pinnedFiles": [],
