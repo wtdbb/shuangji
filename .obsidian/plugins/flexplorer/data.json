@@ -277,10 +277,10 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "岗位mapping.md",
         "游戏类型",
         "分部",
         "城市",
-        "岗位mapping.md",
         "上海",
         "杭州",
         "深圳",
@@ -1971,13 +1971,13 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
-        "MMO.md",
-        "大世界.md",
         "回合制",
-        "SLG.md",
         "休闲",
         "动作",
         "射击",
+        "MMO.md",
+        "大世界.md",
+        "SLG.md",
         "soc.md",
         "搜打撤.md",
         "摸金.md"

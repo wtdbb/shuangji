@@ -744,15 +744,15 @@
     "expandedKeys": []
   },
   "岗位mapping/上海/网易上海/网易上海.md": {
-    "scroll": 18.860416571299236,
+    "scroll": 16.827083746592205,
     "cursor": {
       "from": {
-        "line": 25,
-        "ch": 27
+        "line": 26,
+        "ch": 78
       },
       "to": {
-        "line": 25,
-        "ch": 27
+        "line": 23,
+        "ch": 2
       }
     },
     "expandedKeys": []
@@ -1276,6 +1276,34 @@
     "expandedKeys": []
   },
   "岗位mapping/分部/一线/网易/上海网易/Starry Studio/Starry studio.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/分部/一线/网易/上海网易/未知/未知.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/分部/一线/网易/上海网易/网易雷火/网易雷火.md": {
     "scroll": 0,
     "cursor": {
       "from": {
