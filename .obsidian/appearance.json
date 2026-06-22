@@ -1,12 +1,12 @@
 {
-  "cssTheme": "Minimal",
+  "cssTheme": "AnuPpuccin",
   "enabledCssSnippets": [
     "Daily Note Themes",
     "General Tweaks",
     "popover-width"
   ],
   "theme": "system",
-  "accentColor": "",
+  "accentColor": "#a518d8",
   "baseFontSizeAction": true,
   "nativeMenus": true,
   "baseFontSize": 20
