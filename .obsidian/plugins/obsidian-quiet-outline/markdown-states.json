@@ -1531,12 +1531,54 @@
     "scroll": 0,
     "cursor": {
       "from": {
+        "line": 1,
+        "ch": 57
+      },
+      "to": {
+        "line": 1,
+        "ch": 57
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/上海/蛮啾/蓝色星原.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
         "line": 0,
-        "ch": 28
+        "ch": 63
       },
       "to": {
         "line": 0,
-        "ch": 28
+        "ch": 63
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/上海/蛮啾/蛮啾网络.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/上海/蛮啾/少女云图计划.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 29
+      },
+      "to": {
+        "line": 1,
+        "ch": 29
       }
     },
     "expandedKeys": []
