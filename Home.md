@@ -1,11 +1,11 @@
 ````columns
 id: candidates-comparison-001
 ===
-<div style="text-align: center;">
-	<span style="font-size: 24px;">
-		岗位[[岗位mapping/岗位mapping|Post✊]]
-			</div>
-				</span>
+<div style="text-align: center;"> 
+
+<span style="font-size: 24px;">[[岗位mapping/岗位mapping|Post✊]]</span> 
+
+</div>
 
 * **核心技能**：熟悉 Unreal Engine 5 渲染管线与 Shader 编写。
 * **背景**：参与过大厂竞速类项目。
