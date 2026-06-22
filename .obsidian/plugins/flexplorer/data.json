@@ -5271,8 +5271,8 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
-        "乐元素（北京总部）",
-        "乐元素（上海工作室）",
+        "北京乐元素（总部）",
+        "上海乐元素",
         "乐元素.md"
       ],
       "sortOrder": "custom"
@@ -5289,27 +5289,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/分部/三线/乐元素/乐元素（上海工作室）": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "白银之城.md",
-        "偶像梦幻祭（Ensemble Stars!）.md",
-        "乐元素（上海工作室）.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "岗位mapping/分部/三线/乐元素/乐元素（北京总部）": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "海滨消消乐.md",
-        "开心消消乐.md",
-        "乐元素（北京总部）.md",
-        "QQ经典农场.md"
-      ],
-      "sortOrder": "custom"
-    },
     "岗位mapping/分部/三线/途游/途游游戏": {
       "isPinned": false,
       "isHidden": false,
@@ -5320,34 +5299,6 @@
         "三国：冰河时代.md"
       ],
       "sortOrder": "custom"
-    },
-    "岗位mapping/分部/三线/乐元素/乐元素（上海工作室）/乐元素（上海工作室）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/三线/乐元素/乐元素（上海工作室）/偶像梦幻祭（Ensemble Stars!）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/三线/乐元素/乐元素（上海工作室）/白银之城.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/三线/乐元素/乐元素（北京总部）/QQ经典农场.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/三线/乐元素/乐元素（北京总部）/乐元素（北京总部）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/三线/乐元素/乐元素（北京总部）/开心消消乐.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/三线/乐元素/乐元素（北京总部）/海滨消消乐.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "岗位mapping/分部/三线/途游/途游游戏/三国：冰河时代.md": {
       "isPinned": false,
@@ -6465,6 +6416,55 @@
       "isHidden": false
     },
     "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯魔方/航海王：壮志雄心.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/三线/乐元素/北京乐元素（总部）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "海滨消消乐.md",
+        "开心消消乐.md",
+        "乐元素（北京总部）.md",
+        "QQ经典农场.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/三线/乐元素/北京乐元素（总部）/QQ经典农场.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/三线/乐元素/北京乐元素（总部）/乐元素（北京总部）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/三线/乐元素/北京乐元素（总部）/开心消消乐.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/三线/乐元素/北京乐元素（总部）/海滨消消乐.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/三线/乐元素/上海乐元素": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "白银之城.md",
+        "偶像梦幻祭（Ensemble Stars!）.md",
+        "乐元素（上海工作室）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/三线/乐元素/上海乐元素/乐元素（上海工作室）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/三线/乐元素/上海乐元素/偶像梦幻祭（Ensemble Stars!）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/三线/乐元素/上海乐元素/白银之城.md": {
       "isPinned": false,
       "isHidden": false
     }
