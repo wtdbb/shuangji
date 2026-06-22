@@ -1,7 +1,8 @@
 /* 调整悬停预览窗口的宽度 */
 .popover.hover-popover {
     
-    
+    max-width: 150px !important; 
+    /* 上面的 300px 是最大宽度，觉得宽了就改成 250px，觉得窄了就改成 400px */
     width: max-content !important; 
     /* 让弹窗宽度自动适应里面文字的长度（比如城市名很短，弹窗就会变窄） */
 }
