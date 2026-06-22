@@ -8,5 +8,6 @@
   "theme": "system",
   "accentColor": "",
   "baseFontSizeAction": true,
-  "nativeMenus": true
+  "nativeMenus": true,
+  "baseFontSize": 20
 }

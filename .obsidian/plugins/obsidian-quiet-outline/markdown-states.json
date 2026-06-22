@@ -509,12 +509,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 10
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 2,
-        "ch": 10
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -1971,6 +1971,20 @@
       "to": {
         "line": 0,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "🏠Home.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 10
+      },
+      "to": {
+        "line": 1,
+        "ch": 10
       }
     },
     "expandedKeys": []

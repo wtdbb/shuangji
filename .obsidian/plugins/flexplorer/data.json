@@ -6,7 +6,7 @@
       "sortOrder": "custom",
       "customOrder": [
         "AI信息收集系统",
-        "Home.md",
+        "🏠Home.md",
         "岗位mapping",
         "行业mapping",
         "行业报告",
@@ -932,10 +932,6 @@
       "isHidden": false
     },
     "Daily notes/Habits Tracker.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Home.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -6809,6 +6805,10 @@
       "isHidden": false
     },
     "行业报告/行业报告.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "🏠Home.md": {
       "isPinned": false,
       "isHidden": false
     }
