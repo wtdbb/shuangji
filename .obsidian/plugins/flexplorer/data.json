@@ -1842,6 +1842,8 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "Starry Studio",
+        "未知",
         "网易雷火",
         "网易互娱",
         "上海网易.md"
@@ -1883,6 +1885,18 @@
       "sortOrder": "custom"
     },
     "岗位mapping/分部/一线/网易/杭州网易": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/网易/上海网易/未知": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/网易/上海网易/Starry Studio": {
       "isPinned": false,
       "isHidden": false,
       "customOrder": [],
