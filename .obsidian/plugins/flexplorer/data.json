@@ -1791,6 +1791,8 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "广州网易",
+        "杭州网易",
         "上海网易",
         "网易.md"
       ],
@@ -1869,6 +1871,18 @@
       "sortOrder": "custom"
     },
     "岗位mapping/分部/一线/网易/上海网易/网易雷火": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/网易/广州网易": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/网易/杭州网易": {
       "isPinned": false,
       "isHidden": false,
       "customOrder": [],
