@@ -1979,11 +1979,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 54,
-        "ch": 0
+        "line": 17,
+        "ch": 6
       },
       "to": {
-        "line": 54,
+        "line": 7,
         "ch": 0
       }
     },
