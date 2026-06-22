@@ -7,7 +7,12 @@ id: candidates-comparison-001
 
 </div>
 
+===
+<div style="text-align: center;"> 
 
+<span style="font-size: 24px;">[[行业mapping✊]]</span> 
+
+</div>
 ===
 <div style="text-align: center;"> 
 
@@ -16,4 +21,18 @@ id: candidates-comparison-001
 </div>
 
 ===
+<div style="text-align: center;"> 
+
+<span style="font-size: 24px;">资源</span> 
+
+</div>
+
+
+===
+<div style="text-align: center;"> 
+
+<span style="font-size: 24px;"></span> 
+
+</div>
+
 ````

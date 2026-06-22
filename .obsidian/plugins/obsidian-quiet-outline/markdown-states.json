@@ -509,12 +509,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 17,
-        "ch": 3
+        "line": 12,
+        "ch": 42
       },
       "to": {
-        "line": 17,
-        "ch": 3
+        "line": 12,
+        "ch": 42
       }
     },
     "expandedKeys": []
@@ -1949,6 +1949,20 @@
   },
   "Daily notes/Calendar/Journal/Weekly/2026-W25.md": {
     "scroll": 43.35624980926514,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "行业mapping/未命名.md": {
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 0,

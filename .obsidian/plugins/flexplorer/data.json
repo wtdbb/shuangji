@@ -324,17 +324,13 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "index.md",
+        "行业mapping.md",
         "工作室分布.md",
         "薪资段位.md",
         "行业内报.md",
         "行业现状.md",
         "说话技巧.md"
       ]
-    },
-    "行业mapping/index.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "行业mapping/工作室分布.md": {
       "isPinned": false,
@@ -6809,6 +6805,10 @@
       "isHidden": false
     },
     "岗位mapping/分部/二线/阿里/阿里灵犀（核心客户）/阿里灵犀（核心客户）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "行业mapping/行业mapping.md": {
       "isPinned": false,
       "isHidden": false
     }
