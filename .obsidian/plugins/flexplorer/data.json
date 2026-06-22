@@ -275,6 +275,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "网易.md",
         "批次",
         "城市",
         "岗位mapping.md",
@@ -1742,11 +1743,11 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "未命名.md",
+        "网易上海.md",
+        "萤火突击.md",
         "暗黑破坏神.md",
         "七日世界.md",
-        "明日之后.md",
-        "网易上海.md"
+        "明日之后.md"
       ]
     },
     "岗位mapping/上海/网易上海/网易上海.md": {
@@ -1777,7 +1778,11 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/上海/网易上海/未命名.md": {
+    "岗位mapping/上海/网易上海/萤火突击.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/网易.md": {
       "isPinned": false,
       "isHidden": false
     }
