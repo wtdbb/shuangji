@@ -1659,6 +1659,7 @@
     "岗位mapping/城市": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "杭州.md",
         "上海.md",
@@ -1670,8 +1671,7 @@
         "厦门.md",
         "珠海.md",
         "武汉.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/城市/武汉.md": {
       "isPinned": false,
@@ -1716,13 +1716,13 @@
     "岗位mapping/批次": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "四线.md",
         "三线.md",
         "二线.md",
         "一线.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/批次/一线.md": {
       "isPinned": false,
