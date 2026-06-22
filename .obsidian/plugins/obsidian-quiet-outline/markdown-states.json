@@ -1372,5 +1372,33 @@
       }
     },
     "expandedKeys": []
+  },
+  "岗位mapping/上海/鹰角/明日方舟.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 29
+      },
+      "to": {
+        "line": 0,
+        "ch": 29
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/上海/鹰角/明日方舟：终末地.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
