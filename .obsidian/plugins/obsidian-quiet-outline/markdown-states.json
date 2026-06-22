@@ -1980,11 +1980,11 @@
     "cursor": {
       "from": {
         "line": 2,
-        "ch": 92
+        "ch": 91
       },
       "to": {
         "line": 2,
-        "ch": 0
+        "ch": 91
       }
     },
     "expandedKeys": []
