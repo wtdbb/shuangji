@@ -756,6 +756,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "西山居",
+        "西山居（珠海金山数字网络） 1.md",
         "西山居（珠海金山数字网络）.md",
         "珠海剑心互动娱乐有限公司.md"
       ]
@@ -1165,7 +1167,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "西山居",
         "英雄互娱",
         "阿里",
         "字节"
@@ -5240,7 +5241,6 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
-        "科幻写实UE5全平台PVE射击.md",
         "字节深圳.md",
         "VR项目.md"
       ],
@@ -5251,10 +5251,6 @@
       "isHidden": false
     },
     "岗位mapping/分部/二线/字节/字节深圳/字节深圳.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/二线/字节/字节深圳/科幻写实UE5全平台PVE射击.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -5767,84 +5763,6 @@
       "isHidden": false
     },
     "岗位mapping/分部/二线/英雄互娱/英雄互娱（深圳）/赤潮（IP新作）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/二线/西山居": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "西山居（珠海金山数字网络）",
-        "西山居（珠海总部）",
-        "西山居.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "岗位mapping/分部/二线/西山居/西山居.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/二线/西山居/西山居（珠海总部）": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "解限机.md",
-        "尘白禁区.md",
-        "西山居（珠海金山数字网络）.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "岗位mapping/分部/二线/西山居/西山居（珠海金山数字网络）": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "解限机（Code B.R.E.A.K）.md",
-        "西山居（珠海金山数字网络）.md",
-        "剑网3：指尖江湖.md",
-        "剑网3（端游）.md",
-        "剑网3无界.md",
-        "剑网1：归来.md",
-        "剑侠世界3.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "岗位mapping/分部/二线/西山居/西山居（珠海总部）/西山居（珠海金山数字网络）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/二线/西山居/西山居（珠海总部）/尘白禁区.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/二线/西山居/西山居（珠海总部）/解限机.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/二线/西山居/西山居（珠海金山数字网络）/剑侠世界3.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/二线/西山居/西山居（珠海金山数字网络）/剑网1：归来.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/二线/西山居/西山居（珠海金山数字网络）/剑网3无界.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/二线/西山居/西山居（珠海金山数字网络）/剑网3（端游）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/二线/西山居/西山居（珠海金山数字网络）/剑网3：指尖江湖.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/二线/西山居/西山居（珠海金山数字网络）/西山居（珠海金山数字网络）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/二线/西山居/西山居（珠海金山数字网络）/解限机（Code B.R.E.A.K）.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -6465,6 +6383,83 @@
       "isHidden": false
     },
     "岗位mapping/分部/三线/乐元素/上海乐元素/白银之城.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/珠海/西山居（珠海金山数字网络） 1.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/珠海/西山居": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "西山居（珠海金山数字网络）",
+        "西山居（珠海总部）",
+        "西山居.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/珠海/西山居/西山居.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/珠海/西山居/西山居（珠海总部）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "解限机.md",
+        "西山居（珠海金山数字网络）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/珠海/西山居/西山居（珠海金山数字网络）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "尘白禁区.md",
+        "解限机（Code B.R.E.A.K）.md",
+        "剑网3：指尖江湖.md",
+        "剑网3（端游）.md",
+        "剑网3无界.md",
+        "剑网1：归来.md",
+        "剑侠世界3.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/珠海/西山居/西山居（珠海总部）/西山居（珠海金山数字网络）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/珠海/西山居/西山居（珠海总部）/解限机.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/珠海/西山居/西山居（珠海金山数字网络）/剑侠世界3.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/珠海/西山居/西山居（珠海金山数字网络）/剑网1：归来.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/珠海/西山居/西山居（珠海金山数字网络）/剑网3无界.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/珠海/西山居/西山居（珠海金山数字网络）/剑网3（端游）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/珠海/西山居/西山居（珠海金山数字网络）/剑网3：指尖江湖.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/珠海/西山居/西山居（珠海金山数字网络）/解限机（Code B.R.E.A.K）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/珠海/西山居/西山居（珠海金山数字网络）/尘白禁区.md": {
       "isPinned": false,
       "isHidden": false
     }
