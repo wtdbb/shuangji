@@ -1,6 +1,6 @@
 
 
-<div style="text-align: center; margin-bottom: 40px; --btn-color: rgb(112, 128, 144);"></div>
+<div style="margin-bottom: 50px; --btn-color: rgb(169, 169, 169);">~</div>
 
 
 
