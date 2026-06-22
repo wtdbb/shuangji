@@ -1966,8 +1966,8 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "动作",
         "射击",
-        "未命名.md",
         "soc.md",
         "搜打撤.md",
         "摸金.md"
@@ -1986,15 +1986,54 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/游戏类型/未命名.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/游戏类型/射击": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
+      "customOrder": [
+        "射击.md",
+        "TPS.md",
+        "FPS.md"
+      ],
       "sortOrder": "custom"
+    },
+    "岗位mapping/游戏类型/射击/FPS.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/射击/TPS.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/动作": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "ACT.md",
+        "JRPG.md",
+        "APRG.md",
+        "动作.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/游戏类型/射击/射击.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/动作/动作.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/动作/APRG.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/动作/JRPG.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/动作/ACT.md": {
+      "isPinned": false,
+      "isHidden": false
     }
   },
   "pinnedFiles": [],
