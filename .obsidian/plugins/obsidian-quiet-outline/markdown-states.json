@@ -1218,5 +1218,19 @@
       }
     },
     "expandedKeys": []
+  },
+  "岗位mapping/游戏类型/休闲/休闲.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }

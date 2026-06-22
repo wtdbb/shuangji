@@ -1966,6 +1966,9 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "回合制",
+        "SLG.md",
+        "休闲",
         "动作",
         "射击",
         "soc.md",
@@ -2032,6 +2035,49 @@
       "isHidden": false
     },
     "岗位mapping/游戏类型/动作/ACT.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/休闲": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "模拟经营.md",
+        "棋牌捕鱼.md",
+        "休闲.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/游戏类型/休闲/休闲.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/休闲/棋牌捕鱼.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/休闲/模拟经营.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/SLG.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/回合制": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "卡牌.md",
+        "回合制.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/游戏类型/回合制/回合制.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/回合制/卡牌.md": {
       "isPinned": false,
       "isHidden": false
     }
