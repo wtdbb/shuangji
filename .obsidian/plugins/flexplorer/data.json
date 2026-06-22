@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "分部.md",
         "AI信息收集系统",
         "Home.md",
         "岗位mapping",
@@ -275,8 +276,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "一线",
-        "批次",
+        "分部",
         "城市",
         "岗位mapping.md",
         "上海",
@@ -1711,33 +1711,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/批次": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "四线.md",
-        "三线.md",
-        "二线.md",
-        "一线.md"
-      ]
-    },
-    "岗位mapping/批次/一线.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/批次/二线.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/批次/三线.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/批次/四线.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/上海/网易上海": {
       "isPinned": false,
       "isHidden": false,
@@ -1782,22 +1755,41 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/一线": {
+    "分部.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "二线",
+        "一线"
+      ]
+    },
+    "岗位mapping/分部/一线": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "腾讯.md",
         "网易.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
-    "岗位mapping/一线/网易.md": {
+    "岗位mapping/分部/一线/网易.md": {
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/一线/腾讯.md": {
+    "岗位mapping/分部/一线/腾讯.md": {
       "isPinned": false,
       "isHidden": false
+    },
+    "岗位mapping/分部/二线": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": []
     }
   },
   "pinnedFiles": [],
