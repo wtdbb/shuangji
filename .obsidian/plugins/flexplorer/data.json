@@ -357,7 +357,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "index.md",
+        "行业报告.md",
         "公众号原内容",
         "日报输出",
         "视频链接"
@@ -764,10 +764,6 @@
       ]
     },
     "skill/gs-skill/SKILL.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "行业报告/index.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -6809,6 +6805,10 @@
       "isHidden": false
     },
     "行业mapping/行业mapping.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "行业报告/行业报告.md": {
       "isPinned": false,
       "isHidden": false
     }

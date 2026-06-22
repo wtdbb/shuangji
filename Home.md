@@ -3,14 +3,14 @@ id: candidates-comparison-001
 ===
 <div style="text-align: center;"> 
 
-<span style="font-size: 24px;">[[岗位mapping/岗位mapping|Post✊]]</span> 
+<span style="font-size: 24px;">[[岗位mapping/岗位mapping|✊Post]]</span> 
 
 </div>
 
 ===
 <div style="text-align: center;"> 
 
-<span style="font-size: 24px;">[[行业mapping✊]]</span> 
+<span style="font-size: 24px;">[[行业mapping/行业mapping|🔍Find]]</span> 
 
 </div>
 ===
@@ -23,7 +23,7 @@ id: candidates-comparison-001
 ===
 <div style="text-align: center;"> 
 
-<span style="font-size: 24px;">资源</span> 
+<span style="font-size: 24px;">[[行业</span> 
 
 </div>
 
