@@ -1966,6 +1966,8 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "未命名.md",
+        "大世界.md",
         "回合制",
         "SLG.md",
         "休闲",
@@ -2078,6 +2080,14 @@
       "isHidden": false
     },
     "岗位mapping/游戏类型/回合制/卡牌.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/大世界.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/未命名.md": {
       "isPinned": false,
       "isHidden": false
     }
