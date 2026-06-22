@@ -1839,7 +1839,11 @@
     "岗位mapping/分部/一线/网易/上海网易": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
+      "customOrder": [
+        "网易雷火",
+        "网易互娱",
+        "上海网易.md"
+      ],
       "sortOrder": "custom"
     },
     "上海网易": {
@@ -1853,6 +1857,22 @@
     "上海网易/上海网易.md": {
       "isPinned": false,
       "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/上海网易/上海网易.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/上海网易/网易互娱": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/网易/上海网易/网易雷火": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
     }
   },
   "pinnedFiles": [],
