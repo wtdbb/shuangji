@@ -5,7 +5,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "多益",
         "AI信息收集系统",
         "Home.md",
         "岗位mapping",
@@ -636,6 +635,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "腾云摘星",
         "莉莉丝",
         "英雄游戏（上海）",
         "腾讯天美工作室群",
@@ -1573,18 +1573,6 @@
       "isHidden": false
     },
     "岗位mapping/游戏类型/二次元.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "多益": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "腾云摘星（腾讯旗下）.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "多益/腾云摘星（腾讯旗下）.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -5770,6 +5758,18 @@
       "isHidden": false
     },
     "岗位mapping/分部/三线/途游/途游游戏/途游游戏.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/腾云摘星": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "腾云摘星（腾讯旗下）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/上海/腾云摘星/腾云摘星（腾讯旗下）.md": {
       "isPinned": false,
       "isHidden": false
     }
