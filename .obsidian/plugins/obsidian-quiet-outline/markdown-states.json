@@ -1979,12 +1979,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 43,
-        "ch": 0
+        "line": 10,
+        "ch": 31
       },
       "to": {
-        "line": 11,
-        "ch": 0
+        "line": 10,
+        "ch": 31
       }
     },
     "expandedKeys": []
