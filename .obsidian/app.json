@@ -1,6 +1,6 @@
 {
   "attachmentFolderPath": "图片归档",
-  "newFileLocation": "folder",
+  "newFileLocation": "current",
   "showUnsupportedFiles": true,
   "promptDelete": false,
   "newLinkFormat": "relative",

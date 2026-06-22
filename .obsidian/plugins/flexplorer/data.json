@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "AI信息收集系统",
         "Home.md",
         "岗位mapping",
         "行业mapping",
@@ -1755,6 +1756,18 @@
       "isHidden": false
     },
     "岗位mapping/上海/网易上海/七日世界.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AI信息收集系统": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "automation-pending.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "AI信息收集系统/automation-pending.md": {
       "isPinned": false,
       "isHidden": false
     }
