@@ -1909,6 +1909,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "二次元.md",
         "回合制",
         "休闲",
         "动作",
@@ -2130,6 +2131,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "少女云图计划.md",
         "蓝色星原.md",
         "碧蓝航线.md",
         "蛮啾网络.md"
@@ -2145,6 +2147,14 @@
       "isHidden": false
     },
     "岗位mapping/上海/蛮啾/蓝色星原.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/蛮啾/少女云图计划.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/二次元.md": {
       "isPinned": false,
       "isHidden": false
     }
