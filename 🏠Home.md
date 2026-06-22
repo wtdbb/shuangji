@@ -1,6 +1,13 @@
 
 
-<div style="margin-bottom: 30px; --btn-color: rgb(192, 192, 192);">~</div>
+<div style="--my-rgb: 45, 187, 150; background-color: rgba(var(--my-rgb), 0.1); border-left: 4px solid rgb(var(--my-rgb)); padding: 12px 16px; border-radius: 4px; margin: 1em 0;">
+
+**✏️ 自定义 RGB 颜色的标题**
+
+你可以直接在这里写内容。
+因为设置了透明度联动，背景色会自动变成你设定的 RGB 颜色的 **10% 浅色底**，而左侧的边框会保持 **100% 纯色**。完美复刻了 Obsidian 原生 Callout 的高级质感！
+
+</div>
 
 <div style="text-align: center; margin-bottom: 40px;">
 
