@@ -1740,11 +1740,21 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "七日世界.md",
+        "明日之后.md",
         "网易上海.md"
       ],
       "sortOrder": "custom"
     },
     "岗位mapping/上海/网易上海/网易上海.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/网易上海/明日之后.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/网易上海/七日世界.md": {
       "isPinned": false,
       "isHidden": false
     }
