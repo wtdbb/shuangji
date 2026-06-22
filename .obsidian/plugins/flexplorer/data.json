@@ -637,7 +637,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "网易上海.md",
+        "网易上海",
         "鹰角网络.md",
         "钛核网络.md",
         "逻辑互动.md",
@@ -1457,10 +1457,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/上海/网易上海.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "skill/gs-skill": {
       "isPinned": false,
       "isHidden": false,
@@ -1737,6 +1733,18 @@
       "isHidden": false
     },
     "岗位mapping/批次/四线.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/网易上海": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "网易上海.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/上海/网易上海/网易上海.md": {
       "isPinned": false,
       "isHidden": false
     }
