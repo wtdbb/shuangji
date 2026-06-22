@@ -1209,7 +1209,6 @@
       "isHidden": false,
       "customOrder": [
         "字节深圳",
-        "字节华南射击（刘谦团队）",
         "字节广州",
         "字节.md"
       ],
@@ -5225,30 +5224,13 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/分部/二线/字节/字节华南射击（刘谦团队）": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "字节华南射击（刘谦团队）.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "岗位mapping/分部/二线/字节/字节华南射击（刘谦团队）/字节华南射击（刘谦团队）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/分部/二线/字节/字节深圳": {
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
-        "字节深圳.md",
-        "VR项目.md"
+        "字节深圳.md"
       ],
       "sortOrder": "custom"
-    },
-    "岗位mapping/分部/二线/字节/字节深圳/VR项目.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "岗位mapping/分部/二线/字节/字节深圳/字节深圳.md": {
       "isPinned": false,
