@@ -2079,7 +2079,11 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
-        "未命名.md",
+        "明日方舟.md",
+        "明日方舟：终末地.md",
+        "来自星尘.md",
+        "湍流.md",
+        "泡姆泡姆.md",
         "鹰角网络.md"
       ],
       "sortOrder": "custom"
@@ -2088,7 +2092,23 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/上海/鹰角/未命名.md": {
+    "岗位mapping/上海/鹰角/泡姆泡姆.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/鹰角/湍流.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/鹰角/明日方舟.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/鹰角/明日方舟：终末地.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/鹰角/来自星尘.md": {
       "isPinned": false,
       "isHidden": false
     }

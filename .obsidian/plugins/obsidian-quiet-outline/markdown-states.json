@@ -1332,20 +1332,34 @@
     "expandedKeys": []
   },
   "岗位mapping/上海/鹰角/鹰角网络.md": {
-    "scroll": 7.594936708860759,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 22,
-        "ch": 110
+        "line": 8,
+        "ch": 0
       },
       "to": {
-        "line": 17,
+        "line": 8,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
   "岗位mapping/上海/鹰角/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/上海/鹰角/泡姆泡姆.md": {
     "scroll": 0,
     "cursor": {
       "from": {
