@@ -691,11 +691,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 4,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 4,
+        "line": 1,
         "ch": 0
       }
     },
@@ -1168,11 +1168,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 5
+        "ch": 2
       },
       "to": {
         "line": 0,
-        "ch": 5
+        "ch": 2
       }
     },
     "expandedKeys": []
