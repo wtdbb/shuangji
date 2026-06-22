@@ -579,12 +579,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 0
+        "line": 5,
+        "ch": 7
       },
       "to": {
-        "line": 10,
-        "ch": 0
+        "line": 5,
+        "ch": 7
       }
     },
     "expandedKeys": []
