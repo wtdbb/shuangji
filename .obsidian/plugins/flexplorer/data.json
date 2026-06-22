@@ -1773,23 +1773,79 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "腾讯.md",
-        "网易.md"
+        "腾讯",
+        "网易"
       ]
-    },
-    "岗位mapping/分部/一线/网易.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/一线/腾讯.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "岗位mapping/分部/二线": {
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
-      "customOrder": []
+      "customOrder": [
+        "阿里",
+        "字节"
+      ]
+    },
+    "岗位mapping/分部/一线/网易": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "上海网易",
+        "网易.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "腾讯.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/二线/阿里": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "阿里.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/二线/字节": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "字节.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/二线/阿里/阿里.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/字节/字节.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/腾讯.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/网易.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/上海网易": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "上海网易.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/网易/上海网易/上海网易.md": {
+      "isPinned": false,
+      "isHidden": false
     }
   },
   "pinnedFiles": [],
