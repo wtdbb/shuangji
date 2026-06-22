@@ -1,9 +1,9 @@
-<div style="background-color: #f0f4f8; border-left: 4px solid #1e5ba6; padding: 12px; border-radius: 5px;">
-
-~~~
 
 
-</div>
+<div style="text-align: center; margin-bottom: 40px; --btn-color: rgb(45, 187, 150);"></div>
+
+
+
 
 <div style="text-align: center; margin-bottom: 40px;">
 
