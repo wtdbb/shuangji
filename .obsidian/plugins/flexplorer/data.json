@@ -6360,6 +6360,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "在研射击.md",
         "雾影猎人.md",
         "朝夕光年（北京绿洲）.md",
         "晶核2.md",
@@ -7556,6 +7557,10 @@
       "isHidden": false
     },
     "岗位mapping/分部/一线/网易/广州网易/第五人格工作室/第五人格工作室.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/字节/朝夕光年（北京绿洲）/在研射击.md": {
       "isPinned": false,
       "isHidden": false
     }
