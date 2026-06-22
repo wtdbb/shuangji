@@ -22,5 +22,7 @@
   "periodic-notes",
   "heatmap-tracker",
   "dataview",
-  "templater-obsidian"
+  "templater-obsidian",
+  "simple-banner",
+  "simple-columns"
 ]
