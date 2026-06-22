@@ -506,7 +506,7 @@
     "expandedKeys": []
   },
   "Home.md": {
-    "scroll": 3.0617802405232535,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 17,
@@ -1929,6 +1929,20 @@
       "to": {
         "line": 0,
         "ch": 7
+      }
+    },
+    "expandedKeys": []
+  },
+  "Daily notes/Calendar/Journal/Daily/2026-06-21.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
       }
     },
     "expandedKeys": []
