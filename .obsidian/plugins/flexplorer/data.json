@@ -1871,13 +1871,16 @@
     "岗位mapping/分部/一线/网易/上海网易/网易互娱": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
+      "customOrder": [
+        "网易互娱.md"
+      ],
       "sortOrder": "custom"
     },
     "岗位mapping/分部/一线/网易/上海网易/网易雷火": {
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "网易雷火.md",
         "萤火突击.md",
         "暗黑破坏神系列"
       ],
@@ -1899,6 +1902,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "未知.md",
         "明日之后.md"
       ],
       "sortOrder": "custom"
@@ -1907,6 +1911,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "Starry studio.md",
         "七日世界.md"
       ],
       "sortOrder": "custom"
@@ -2088,6 +2093,22 @@
       "isHidden": false
     },
     "岗位mapping/游戏类型/MMO.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/上海网易/网易互娱/网易互娱.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/上海网易/网易雷火/网易雷火.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/上海网易/未知/未知.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/上海网易/Starry Studio/Starry studio.md": {
       "isPinned": false,
       "isHidden": false
     }
