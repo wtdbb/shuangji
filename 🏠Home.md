@@ -1,9 +1,6 @@
 
 
-<div style="margin-bottom: 50px; --btn-color: rgb(169, 169, 169);">~</div>
-
-
-
+<div style="margin-bottom: 30px; --btn-color: rgb(192, 192, 192);">~</div>
 
 <div style="text-align: center; margin-bottom: 40px;">
 
