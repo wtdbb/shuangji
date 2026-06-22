@@ -145,18 +145,18 @@
     "scroll": 0.6015037507723507,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 5,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 5,
         "ch": 0
       }
     },
     "expandedKeys": []
   },
   "行业mapping/薪资段位.md": {
-    "scroll": 0,
+    "scroll": 0.939849610581798,
     "cursor": {
       "from": {
         "line": 0,
@@ -1697,6 +1697,34 @@
   },
   "行业mapping/工作室分布.md": {
     "scroll": 62.31016064634704,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "行业mapping/行业内报.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "行业mapping/行业现状.md": {
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 0,
