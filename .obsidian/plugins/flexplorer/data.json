@@ -550,6 +550,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "杭州.md",
         "金科文化",
         "边锋网络（浙数文化）",
         "萨罗斯（腾讯旗下，原字节工作室）",
@@ -580,6 +581,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "深圳.md",
         "英雄互娱（深圳）",
         "艾薇乐游",
         "腾讯魔方",
@@ -607,6 +609,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "广州.md",
         "多益网络",
         "双尾彗星（订正·不是纯游戏厂）",
         "三七互娱",
@@ -634,6 +637,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "上海.md",
         "逻辑互动",
         "跳跃网络",
         "七创社",
@@ -697,6 +701,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "北京.md",
         "金山世游（北京西山居）",
         "蜂鸟于飞",
         "蓝港互动",
@@ -727,6 +732,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "成都.md",
         "龙渊网络",
         "炎龙科技",
         "极致游戏（成都）",
@@ -750,6 +756,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "苏州.md",
         "友谊时光",
         "仙峰（苏州，三四梯队）",
         "友谊时光.md",
@@ -761,6 +768,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "福州.md",
         "网龙",
         "IGG（福州天盟数码）",
         "网龙.md",
@@ -772,6 +780,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "珠海.md",
         "珠海剑心互动娱乐有限公司",
         "西山居",
         "西山居（珠海金山数字网络） 1.md",
@@ -784,6 +793,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "武汉.md",
         "盛天网络",
         "微派网络（Wepie）",
         "微派网络（Wepie）.md",
@@ -923,6 +933,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "厦门.md",
         "飞鱼科技（前身凯罗天下）",
         "飞鱼科技",
         "青瓷游戏",
@@ -7207,58 +7218,29 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "第五人格工作室",
+        "率土工作室",
+        "水滴工作室",
+        "光遇工作室",
         "广州网易.md",
         "其他产品（广州）",
         "暴雪代理（已停止合作）",
         "荒野行动工作室",
         "PS工作室（漫威争锋）",
-        "魔兽世界.md",
-        "风暴战争.md",
-        "阴阳师.md",
-        "镇魔曲.md",
         "量子特攻.md",
-        "荒野行动（Knives Out）.md",
         "网易（广州）.md",
         "第五人格.md",
-        "碎剑者.md",
-        "界外狂潮.md",
         "生存法则.md",
         "率土之滨.md",
         "燕云十六声.md",
-        "漫威争锋（Marvel Rivals）.md",
-        "炉石传说.md",
-        "梦幻西游手游.md",
-        "极限战场.md",
-        "暗黑破坏神.md",
         "无尽的拉格朗日.md",
-        "无主星渊.md",
-        "巅峰极速.md",
-        "山海奇旅.md",
-        "守望先锋.md",
-        "大话西游手游.md",
         "哈利波特：魔法觉醒.md",
-        "光明之战.md",
         "光·遇.md",
-        "倩女幽魂手游.md",
-        "代号：足球.md",
-        "一梦江湖.md",
-        "Creative Destruction（堡垒前线）（堡垒前线 Creative Destruction）.md"
+        "一梦江湖.md"
       ],
       "sortOrder": "custom"
     },
-    "岗位mapping/分部/一线/网易/广州网易/Creative Destruction（堡垒前线）（堡垒前线 Creative Destruction）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/分部/一线/网易/广州网易/一梦江湖.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/一线/网易/广州网易/代号：足球.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/一线/网易/广州网易/倩女幽魂手游.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -7266,55 +7248,11 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/分部/一线/网易/广州网易/光明之战.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/分部/一线/网易/广州网易/哈利波特：魔法觉醒.md": {
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/分部/一线/网易/广州网易/大话西游手游.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/一线/网易/广州网易/守望先锋.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/一线/网易/广州网易/山海奇旅.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/一线/网易/广州网易/巅峰极速.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/一线/网易/广州网易/无主星渊.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/分部/一线/网易/广州网易/无尽的拉格朗日.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/一线/网易/广州网易/暗黑破坏神.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/一线/网易/广州网易/极限战场.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/一线/网易/广州网易/梦幻西游手游.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/一线/网易/广州网易/炉石传说.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/一线/网易/广州网易/漫威争锋（Marvel Rivals）.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -7330,14 +7268,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/分部/一线/网易/广州网易/界外狂潮.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/一线/网易/广州网易/碎剑者.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/分部/一线/网易/广州网易/第五人格.md": {
       "isPinned": false,
       "isHidden": false
@@ -7346,27 +7276,7 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/分部/一线/网易/广州网易/荒野行动（Knives Out）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/分部/一线/网易/广州网易/量子特攻.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/一线/网易/广州网易/镇魔曲.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/一线/网易/广州网易/阴阳师.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/一线/网易/广州网易/风暴战争.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/一线/网易/广州网易/魔兽世界.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -7514,6 +7424,138 @@
       "isHidden": false
     },
     "岗位mapping/分部/一线/网易/广州网易/广州网易.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/杭州.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/上海.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/厦门/厦门.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/深圳/深圳.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/武汉/武汉.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/福州/福州.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/成都/成都.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/珠海/珠海.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/广州.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/北京.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/苏州/苏州.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/光遇工作室": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "光遇工作室.md",
+        "光·遇.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/网易/广州网易/光遇工作室/光·遇.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/光遇工作室/光遇工作室.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/水滴工作室": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "燕云十六声.md",
+        "水滴工作室.md",
+        "一梦江湖.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/网易/广州网易/水滴工作室/一梦江湖.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/水滴工作室/水滴工作室.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/水滴工作室/燕云十六声.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/率土工作室": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "生存法则.md",
+        "率土工作室.md",
+        "率土之滨.md",
+        "无尽的拉格朗日.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/网易/广州网易/率土工作室/无尽的拉格朗日.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/率土工作室/率土之滨.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/率土工作室/率土工作室.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/率土工作室/生存法则.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/第五人格工作室": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "第五人格工作室.md",
+        "第五人格.md",
+        "哈利波特：魔法觉醒.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/网易/广州网易/第五人格工作室/哈利波特：魔法觉醒.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/第五人格工作室/第五人格.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/第五人格工作室/第五人格工作室.md": {
       "isPinned": false,
       "isHidden": false
     }
