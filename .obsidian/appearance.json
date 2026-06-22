@@ -2,7 +2,8 @@
   "cssTheme": "Minimal",
   "enabledCssSnippets": [
     "Daily Note Themes",
-    "General Tweaks"
+    "General Tweaks",
+    "popover-width"
   ],
   "theme": "system",
   "accentColor": "",
