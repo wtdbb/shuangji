@@ -741,7 +741,6 @@
         "鹰角",
         "逻辑互动.md",
         "跳跃网络.md",
-        "蛮啾网络.md",
         "莉莉丝.md",
         "英雄游戏（上海）.md",
         "腾讯天美工作室群.md",
@@ -1089,10 +1088,6 @@
       "isHidden": false
     },
     "岗位mapping/上海/莉莉丝.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/蛮啾网络.md": {
       "isPinned": false,
       "isHidden": false
     },
