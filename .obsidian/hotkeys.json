@@ -37,7 +37,8 @@
       "key": "D"
     }
   ],
-  "workspace:move-to-new-window": [
+  "workspace:move-to-new-window": [],
+  "workspace:edit-file-title": [
     {
       "modifiers": [
         "Alt"
