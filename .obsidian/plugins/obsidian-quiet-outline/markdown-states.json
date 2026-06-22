@@ -1668,7 +1668,7 @@
     "expandedKeys": []
   },
   "岗位mapping/上海/莉莉丝/莉莉丝.md": {
-    "scroll": 11.5,
+    "scroll": 16.1999994913737,
     "cursor": {
       "from": {
         "line": 8,
@@ -1677,6 +1677,20 @@
       "to": {
         "line": 8,
         "ch": 13
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/上海/莉莉丝/神觉者.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
