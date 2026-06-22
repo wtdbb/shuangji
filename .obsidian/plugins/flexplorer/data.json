@@ -1839,11 +1839,21 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "广州网易.md",
+        "杭州网易.md",
         "上海网易.md"
       ],
       "sortOrder": "custom"
     },
     "岗位mapping/分部/一线/网易/上海网易/上海网易.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/上海网易/杭州网易.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/上海网易/广州网易.md": {
       "isPinned": false,
       "isHidden": false
     }
