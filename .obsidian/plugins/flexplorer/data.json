@@ -768,23 +768,12 @@
         "巨人网络.md",
         "字节朝夕光年.md",
         "叠纸游戏.md",
-        "友塔游戏.md",
-        "匠趣（引擎开发）.md",
-        "勇仕网络.md",
-        "乘风.md",
         "乐元素.md",
-        "临竞.md",
-        "上海烛龙.md",
-        "上海晓枫.md",
-        "上海塔人网络科技股份有限公司.md",
         "七创社.md",
         "Supercell 上海.md",
         "Riot Games 拳头中国.md",
         "OmniDream Games（梦求游戏）.md",
-        "Garena.md",
-        "Funplus.md",
-        "EA中国（上海）.md",
-        "B站《逃离鸭科夫》.md"
+        "Garena.md"
       ]
     },
     "岗位mapping/北京": {
@@ -915,18 +904,6 @@
         "盛天网络.md"
       ]
     },
-    "岗位mapping/上海/B站《逃离鸭科夫》.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/EA中国（上海）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/Funplus.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/上海/Garena.md": {
       "isPinned": false,
       "isHidden": false
@@ -947,39 +924,7 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/上海/上海塔人网络科技股份有限公司.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/上海晓枫.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/上海烛龙.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/临竞.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/上海/乐元素.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/乘风.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/勇仕网络.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/匠趣（引擎开发）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/友塔游戏.md": {
       "isPinned": false,
       "isHidden": false
     },
