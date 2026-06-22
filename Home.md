@@ -1,8 +1,9 @@
 ````columns
 id: candidates-comparison-001
 ===
-**候选人 A：资深技术美术 (TA)**
-<span style="font-size: 10000px;">
+<span style="font-size: 100
+px;">**候选人 A：资深技术美术 (TA)**</span
+>
 
 * **核心技能**：熟悉 Unreal Engine 5 渲染管线与 Shader 编写。
 * **背景**：参与过大厂竞速类项目。
