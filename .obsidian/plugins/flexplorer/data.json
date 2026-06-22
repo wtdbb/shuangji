@@ -1267,7 +1267,9 @@
     "岗位mapping/分部/一线/网易/广州网易": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
+      "customOrder": [
+        "网易（广州）"
+      ],
       "sortOrder": "custom"
     },
     "岗位mapping/分部/一线/网易/杭州网易": {
@@ -5770,6 +5772,168 @@
       "sortOrder": "custom"
     },
     "岗位mapping/上海/腾云摘星/腾云摘星（腾讯旗下）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "魔兽世界.md",
+        "风暴战争.md",
+        "阴阳师.md",
+        "镇魔曲.md",
+        "量子特攻.md",
+        "荒野行动（Knives Out）.md",
+        "网易（广州）.md",
+        "第五人格.md",
+        "碎剑者.md",
+        "界外狂潮.md",
+        "生存法则.md",
+        "率土之滨.md",
+        "燕云十六声.md",
+        "漫威争锋（Marvel Rivals）.md",
+        "炉石传说.md",
+        "梦幻西游手游.md",
+        "极限战场.md",
+        "暗黑破坏神.md",
+        "无尽的拉格朗日.md",
+        "无主星渊.md",
+        "巅峰极速.md",
+        "山海奇旅.md",
+        "守望先锋.md",
+        "大话西游手游.md",
+        "哈利波特：魔法觉醒.md",
+        "光明之战.md",
+        "光·遇.md",
+        "倩女幽魂手游.md",
+        "代号：足球.md",
+        "一梦江湖.md",
+        "Creative Destruction（堡垒前线）（堡垒前线 Creative Destruction）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/Creative Destruction（堡垒前线）（堡垒前线 Creative Destruction）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/一梦江湖.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/代号：足球.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/倩女幽魂手游.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/光·遇.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/光明之战.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/哈利波特：魔法觉醒.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/大话西游手游.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/守望先锋.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/山海奇旅.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/巅峰极速.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/无主星渊.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/无尽的拉格朗日.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/暗黑破坏神.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/极限战场.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/梦幻西游手游.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/炉石传说.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/漫威争锋（Marvel Rivals）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/燕云十六声.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/率土之滨.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/生存法则.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/界外狂潮.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/碎剑者.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/第五人格.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/网易（广州）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/荒野行动（Knives Out）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/量子特攻.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/镇魔曲.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/阴阳师.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/风暴战争.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/网易（广州）/魔兽世界.md": {
       "isPinned": false,
       "isHidden": false
     }
