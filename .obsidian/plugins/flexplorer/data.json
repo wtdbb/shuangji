@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "多益",
         "上海网易",
         "分部.md",
         "AI信息收集系统",
@@ -652,7 +653,6 @@
         "腾讯天美工作室群.md",
         "腾讯天美.md",
         "腾讯北极光.md",
-        "腾云摘星（腾讯旗下）.md",
         "育碧中国（上海）.md",
         "紫龙游戏.md",
         "米哈游.md",
@@ -938,10 +938,6 @@
       "isHidden": false
     },
     "岗位mapping/上海/育碧中国（上海）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/腾云摘星（腾讯旗下）.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -2155,6 +2151,18 @@
       "isHidden": false
     },
     "岗位mapping/游戏类型/二次元.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "多益": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "腾云摘星（腾讯旗下）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "多益/腾云摘星（腾讯旗下）.md": {
       "isPinned": false,
       "isHidden": false
     }

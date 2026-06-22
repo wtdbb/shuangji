@@ -1596,5 +1596,33 @@
       }
     },
     "expandedKeys": []
+  },
+  "多益/腾云摘星（腾讯旗下）.md": {
+    "scroll": 7.594936708860759,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 23
+      },
+      "to": {
+        "line": 21,
+        "ch": 23
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/广州/多益网络.md": {
+    "scroll": 10.983333269755045,
+    "cursor": {
+      "from": {
+        "line": 25,
+        "ch": 65
+      },
+      "to": {
+        "line": 25,
+        "ch": 65
+      }
+    },
+    "expandedKeys": []
   }
 }
