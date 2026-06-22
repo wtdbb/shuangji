@@ -747,11 +747,11 @@
     "scroll": 17.860416571299236,
     "cursor": {
       "from": {
-        "line": 29,
-        "ch": 4
+        "line": 27,
+        "ch": 0
       },
       "to": {
-        "line": 28,
+        "line": 27,
         "ch": 0
       }
     },
@@ -1094,6 +1094,34 @@
     "expandedKeys": []
   },
   "岗位mapping/分部/一线/网易/上海网易/Starry Studio/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/分部/一线/网易/上海网易/Starry Studio/七日世界.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/分部/一线/网易/未命名.md": {
     "scroll": 0,
     "cursor": {
       "from": {
