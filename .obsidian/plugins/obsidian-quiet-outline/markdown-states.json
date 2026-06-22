@@ -1111,12 +1111,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 1,
+        "ch": 5
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 1,
+        "ch": 5
       }
     },
     "expandedKeys": []
@@ -1229,6 +1229,20 @@
       "to": {
         "line": 2,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/分部/一线/网易/上海网易/未知/明日之后.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 2
+      },
+      "to": {
+        "line": 0,
+        "ch": 2
       }
     },
     "expandedKeys": []
