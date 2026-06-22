@@ -641,8 +641,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "网易上海",
-        "鹰角网络.md",
+        "鹰角",
         "钛核网络.md",
         "逻辑互动.md",
         "跳跃网络.md",
@@ -978,10 +977,6 @@
       "isHidden": false
     },
     "岗位mapping/上海/钛核网络.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/鹰角网络.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -1713,30 +1708,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/上海/网易上海": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "网易上海.md",
-        "萤火突击.md",
-        "暗黑破坏神.md",
-        "七日世界.md",
-        "明日之后.md"
-      ]
-    },
-    "岗位mapping/上海/网易上海/网易上海.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/网易上海/明日之后.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/网易上海/七日世界.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "AI信息收集系统": {
       "isPinned": false,
       "isHidden": false,
@@ -1746,14 +1717,6 @@
       ]
     },
     "AI信息收集系统/automation-pending.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/网易上海/暗黑破坏神.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/上海/网易上海/萤火突击.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -2109,6 +2072,23 @@
       "isHidden": false
     },
     "岗位mapping/分部/一线/网易/上海网易/Starry Studio/Starry studio.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/鹰角": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "未命名.md",
+        "鹰角网络.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/上海/鹰角/鹰角网络.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/鹰角/未命名.md": {
       "isPinned": false,
       "isHidden": false
     }
