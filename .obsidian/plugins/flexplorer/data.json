@@ -642,6 +642,9 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Funplus",
+        "EA中国（上海）",
+        "B站《逃离鸭科夫》",
         "蛮啾",
         "钛核",
         "鹰角",
@@ -2163,6 +2166,97 @@
       "sortOrder": "custom"
     },
     "多益/腾云摘星（腾讯旗下）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/B站《逃离鸭科夫》": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "黑潮：深海觉醒.md",
+        "碧蓝航线（代理）.md",
+        "FGO（代理）.md",
+        "噜咪项目.md",
+        "凡人修仙传IP MMO.md",
+        "牌一把.md",
+        "B站《逃离鸭科夫》.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/上海/B站《逃离鸭科夫》/B站《逃离鸭科夫》.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/B站《逃离鸭科夫》/牌一把.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/B站《逃离鸭科夫》/凡人修仙传IP MMO.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/B站《逃离鸭科夫》/噜咪项目.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/B站《逃离鸭科夫》/FGO（代理）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/B站《逃离鸭科夫》/碧蓝航线（代理）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/B站《逃离鸭科夫》/黑潮：深海觉醒.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/EA中国（上海）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "FIFA Online系列.md",
+        "EA中国（上海）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/上海/EA中国（上海）/EA中国（上海）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/EA中国（上海）/FIFA Online系列.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/Funplus": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "代号：界.md",
+        "代号界.md",
+        "State of Survival（末日喧嚣）.md",
+        "Funplus.md",
+        "Ave Mujica（伊莫）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/上海/Funplus/Ave Mujica（伊莫）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/Funplus/Funplus.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/Funplus/State of Survival（末日喧嚣）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/Funplus/代号界.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/Funplus/代号：界.md": {
       "isPinned": false,
       "isHidden": false
     }
