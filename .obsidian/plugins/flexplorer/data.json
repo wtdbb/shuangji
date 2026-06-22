@@ -641,6 +641,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "蛮啾",
         "钛核",
         "鹰角",
         "逻辑互动.md",
@@ -2112,7 +2113,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
-        "钛核网络 1.md",
+        "暖雪.md",
         "钛核网络.md"
       ],
       "sortOrder": "custom"
@@ -2121,7 +2122,29 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/上海/钛核/钛核网络 1.md": {
+    "岗位mapping/上海/钛核/暖雪.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/蛮啾": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "蓝色星原.md",
+        "碧蓝航线.md",
+        "蛮啾网络.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/上海/蛮啾/蛮啾网络.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/蛮啾/碧蓝航线.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/蛮啾/蓝色星原.md": {
       "isPinned": false,
       "isHidden": false
     }

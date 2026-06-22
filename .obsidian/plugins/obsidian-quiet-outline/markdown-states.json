@@ -1476,11 +1476,39 @@
     "cursor": {
       "from": {
         "line": 17,
-        "ch": 55
+        "ch": 31
       },
       "to": {
         "line": 17,
-        "ch": 2
+        "ch": 44
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/上海/钛核/暖雪.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 13
+      },
+      "to": {
+        "line": 2,
+        "ch": 13
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/上海/蛮啾网络.md": {
+    "scroll": 7.594936708860759,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 10
+      },
+      "to": {
+        "line": 18,
+        "ch": 10
       }
     },
     "expandedKeys": []
