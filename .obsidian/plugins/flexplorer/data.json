@@ -552,13 +552,9 @@
       "customOrder": [
         "金科文化",
         "边锋网络（浙数文化）",
-        "西山居（珠海金山数字网络）",
         "萨罗斯（腾讯旗下，原字节工作室）",
         "聆曦（腾讯全资，原名藤木）",
-        "网易雷火",
         "网易阴阳师事业部（广州+部分杭州）",
-        "网易游戏",
-        "网易互娱",
         "绝地科技",
         "畅唐网络",
         "电魂网络",
@@ -616,7 +612,6 @@
         "银之心（SGRA工作室）",
         "诗悦",
         "英雄互娱（广州）",
-        "网易（广州）",
         "百奥百田",
         "深蓝互动",
         "沐瞳",
@@ -721,7 +716,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "英雄互娱（成都）",
         "炎龙科技",
         "极致游戏（成都）",
         "数字天空",
@@ -1171,6 +1165,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "西山居",
+        "英雄互娱",
         "阿里",
         "字节"
       ]
@@ -1191,6 +1187,10 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "深圳腾讯",
+        "杭州腾讯",
+        "北京腾讯",
+        "上海腾讯",
         "腾讯.md"
       ],
       "sortOrder": "custom"
@@ -1275,7 +1275,11 @@
     "岗位mapping/分部/一线/网易/杭州网易": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
+      "customOrder": [
+        "网易游戏",
+        "网易互娱",
+        "网易雷火"
+      ],
       "sortOrder": "custom"
     },
     "岗位mapping/分部/一线/网易/上海网易/未知": {
@@ -2983,168 +2987,6 @@
       "isHidden": false
     },
     "岗位mapping/广州/百奥百田/百奥百田.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "魔兽世界.md",
-        "风暴战争.md",
-        "阴阳师.md",
-        "镇魔曲.md",
-        "量子特攻.md",
-        "荒野行动（Knives Out）.md",
-        "网易（广州）.md",
-        "第五人格.md",
-        "碎剑者.md",
-        "界外狂潮.md",
-        "生存法则.md",
-        "率土之滨.md",
-        "燕云十六声.md",
-        "炉石传说.md",
-        "漫威争锋（Marvel Rivals）.md",
-        "梦幻西游手游.md",
-        "极限战场.md",
-        "暗黑破坏神.md",
-        "无尽的拉格朗日.md",
-        "无主星渊.md",
-        "巅峰极速.md",
-        "山海奇旅.md",
-        "守望先锋.md",
-        "大话西游手游.md",
-        "哈利波特：魔法觉醒.md",
-        "光明之战.md",
-        "光·遇.md",
-        "倩女幽魂手游.md",
-        "代号：足球.md",
-        "一梦江湖.md",
-        "Creative Destruction（堡垒前线）（堡垒前线 Creative Destruction）.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "岗位mapping/广州/网易（广州）/Creative Destruction（堡垒前线）（堡垒前线 Creative Destruction）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/一梦江湖.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/代号：足球.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/倩女幽魂手游.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/光·遇.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/光明之战.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/哈利波特：魔法觉醒.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/大话西游手游.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/守望先锋.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/山海奇旅.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/巅峰极速.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/无主星渊.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/无尽的拉格朗日.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/暗黑破坏神.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/极限战场.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/梦幻西游手游.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/漫威争锋（Marvel Rivals）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/炉石传说.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/燕云十六声.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/率土之滨.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/生存法则.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/界外狂潮.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/碎剑者.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/第五人格.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/网易（广州）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/荒野行动（Knives Out）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/量子特攻.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/镇魔曲.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/阴阳师.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/风暴战争.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/广州/网易（广州）/魔兽世界.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -4897,50 +4739,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/杭州/网易互娱": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "遗忘之海.md",
-        "蛋仔派对（Eggy Party）.md",
-        "网易互娱.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "岗位mapping/杭州/网易互娱/网易互娱.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易互娱/蛋仔派对（Eggy Party）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易互娱/遗忘之海.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易游戏": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "网易游戏.md",
-        "无限大（Ananta）.md",
-        "SGRA银之心工作室.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "岗位mapping/杭州/网易游戏/SGRA银之心工作室.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易游戏/无限大（Ananta）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易游戏/网易游戏.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/杭州/网易阴阳师事业部（广州+部分杭州）": {
       "isPinned": false,
       "isHidden": false,
@@ -4950,133 +4748,6 @@
       "sortOrder": "custom"
     },
     "岗位mapping/杭州/网易阴阳师事业部（广州+部分杭州）/网易阴阳师事业部（广州+部分杭州）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "金乌纪（永劫无间文化企划）.md",
-        "遗忘之海.md",
-        "逆水寒手游.md",
-        "逆水寒.md",
-        "萤火突击（Lost Light）.md",
-        "网易雷火.md",
-        "绝对演绎.md",
-        "神都夜行录.md",
-        "王牌竞速.md",
-        "猫和老鼠.md",
-        "流星群侠传.md",
-        "永劫无间手游.md",
-        "梦幻西游端游.md",
-        "永劫无间.md",
-        "机动都市阿尔法.md",
-        "有灵IP新作.md",
-        "无限大.md",
-        "无限大  ANANTA（无限大 ANANTA 代号无限大 Project Mugen 项目无限大 网易 雷火）.md",
-        "指环王：纷争.md",
-        "天谕.md",
-        "忘川风华录.md",
-        "天下3.md",
-        "大话西游2.md",
-        "全明星街球派对.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "岗位mapping/杭州/网易雷火/全明星街球派对.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/大话西游2.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/天下3.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/忘川风华录.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/天谕.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/指环王：纷争.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/无限大  ANANTA（无限大 ANANTA 代号无限大 Project Mugen 项目无限大 网易 雷火）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/无限大.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/有灵IP新作.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/机动都市阿尔法.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/永劫无间.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/梦幻西游端游.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/永劫无间手游.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/流星群侠传.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/猫和老鼠.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/王牌竞速.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/神都夜行录.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/绝对演绎.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/网易雷火.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/萤火突击（Lost Light）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/逆水寒.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/逆水寒手游.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/遗忘之海.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/网易雷火/金乌纪（永劫无间文化企划）.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -5116,48 +4787,6 @@
       "isHidden": false
     },
     "岗位mapping/杭州/萨罗斯（腾讯旗下，原字节工作室）/萨罗斯（腾讯旗下，原字节工作室）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/西山居（珠海金山数字网络）": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "解限机（Code B.R.E.A.K）.md",
-        "西山居（珠海金山数字网络）.md",
-        "剑网3：指尖江湖.md",
-        "剑网3（端游）.md",
-        "剑网3无界.md",
-        "剑网1：归来.md",
-        "剑侠世界3.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "岗位mapping/杭州/西山居（珠海金山数字网络）/剑侠世界3.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/西山居（珠海金山数字网络）/剑网1：归来.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/西山居（珠海金山数字网络）/剑网3无界.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/西山居（珠海金山数字网络）/剑网3（端游）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/西山居（珠海金山数字网络）/剑网3：指尖江湖.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/西山居（珠海金山数字网络）/西山居（珠海金山数字网络）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/杭州/西山居（珠海金山数字网络）/解限机（Code B.R.E.A.K）.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -5583,33 +5212,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/成都/英雄互娱（成都）": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "英雄互娱（成都）.md",
-        "弹弹岛2.md",
-        "全民枪战.md",
-        "一起来飞车.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "岗位mapping/成都/英雄互娱（成都）/一起来飞车.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/成都/英雄互娱（成都）/全民枪战.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/成都/英雄互娱（成都）/弹弹岛2.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/成都/英雄互娱（成都）/英雄互娱（成都）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/分部/二线/字节/字节广州": {
       "isPinned": false,
       "isHidden": false,
@@ -5934,6 +5536,935 @@
       "isHidden": false
     },
     "岗位mapping/分部/一线/网易/广州网易/网易（广州）/魔兽世界.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "金乌纪（永劫无间文化企划）.md",
+        "遗忘之海.md",
+        "逆水寒手游.md",
+        "逆水寒.md",
+        "萤火突击（Lost Light）.md",
+        "网易雷火.md",
+        "绝对演绎.md",
+        "神都夜行录.md",
+        "王牌竞速.md",
+        "猫和老鼠.md",
+        "流星群侠传.md",
+        "永劫无间手游.md",
+        "永劫无间.md",
+        "梦幻西游端游.md",
+        "机动都市阿尔法.md",
+        "有灵IP新作.md",
+        "无限大.md",
+        "无限大  ANANTA（无限大 ANANTA 代号无限大 Project Mugen 项目无限大 网易 雷火）.md",
+        "指环王：纷争.md",
+        "忘川风华录.md",
+        "天谕.md",
+        "天下3.md",
+        "全明星街球派对.md",
+        "大话西游2.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/大话西游2.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/全明星街球派对.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/天下3.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/天谕.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/忘川风华录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/指环王：纷争.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/无限大  ANANTA（无限大 ANANTA 代号无限大 Project Mugen 项目无限大 网易 雷火）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/无限大.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/有灵IP新作.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/机动都市阿尔法.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/梦幻西游端游.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/永劫无间.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/永劫无间手游.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/流星群侠传.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/猫和老鼠.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/王牌竞速.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/神都夜行录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/绝对演绎.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/网易雷火.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/萤火突击（Lost Light）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/逆水寒.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/逆水寒手游.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/遗忘之海.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/金乌纪（永劫无间文化企划）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易互娱": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "遗忘之海.md",
+        "蛋仔派对（Eggy Party）.md",
+        "网易互娱.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易互娱/网易互娱.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易互娱/蛋仔派对（Eggy Party）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易互娱/遗忘之海.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易游戏": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "网易游戏.md",
+        "无限大（Ananta）.md",
+        "SGRA银之心工作室.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易游戏/SGRA银之心工作室.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易游戏/无限大（Ananta）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易游戏/网易游戏.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/英雄互娱": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "英雄互娱（深圳）",
+        "英雄互娱（成都）",
+        "英雄互娱（广州）",
+        "英雄互娱（北京）",
+        "英雄互娱.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/二线/英雄互娱/英雄互娱.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/英雄互娱/英雄互娱（北京）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "赤潮（原腾讯出品）.md",
+        "英雄互娱（北京）.md",
+        "沙盒生存项目.md",
+        "创造吧！我们的星球（我们的星球）.md",
+        "二重螺旋.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/二线/英雄互娱/英雄互娱（广州）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "英雄互娱（广州）.md",
+        "二重螺旋（联合）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/二线/英雄互娱/英雄互娱（成都）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "英雄互娱（成都）.md",
+        "弹弹岛2.md",
+        "全民枪战.md",
+        "一起来飞车.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/二线/英雄互娱/英雄互娱（深圳）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "赤潮（IP新作）.md",
+        "英雄互娱（深圳）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/二线/英雄互娱/英雄互娱（北京）/二重螺旋.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/英雄互娱/英雄互娱（北京）/创造吧！我们的星球（我们的星球）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/英雄互娱/英雄互娱（北京）/沙盒生存项目.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/英雄互娱/英雄互娱（北京）/英雄互娱（北京）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/英雄互娱/英雄互娱（北京）/赤潮（原腾讯出品）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/英雄互娱/英雄互娱（广州）/二重螺旋（联合）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/英雄互娱/英雄互娱（广州）/英雄互娱（广州）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/英雄互娱/英雄互娱（成都）/一起来飞车.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/英雄互娱/英雄互娱（成都）/全民枪战.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/英雄互娱/英雄互娱（成都）/弹弹岛2.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/英雄互娱/英雄互娱（成都）/英雄互娱（成都）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/英雄互娱/英雄互娱（深圳）/英雄互娱（深圳）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/英雄互娱/英雄互娱（深圳）/赤潮（IP新作）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/西山居": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "西山居（珠海金山数字网络）",
+        "西山居（珠海总部）",
+        "西山居.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/二线/西山居/西山居.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/西山居/西山居（珠海总部）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "解限机.md",
+        "尘白禁区.md",
+        "西山居（珠海金山数字网络）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/二线/西山居/西山居（珠海金山数字网络）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "解限机（Code B.R.E.A.K）.md",
+        "西山居（珠海金山数字网络）.md",
+        "剑网3：指尖江湖.md",
+        "剑网3（端游）.md",
+        "剑网3无界.md",
+        "剑网1：归来.md",
+        "剑侠世界3.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/二线/西山居/西山居（珠海总部）/西山居（珠海金山数字网络）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/西山居/西山居（珠海总部）/尘白禁区.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/西山居/西山居（珠海总部）/解限机.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/西山居/西山居（珠海金山数字网络）/剑侠世界3.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/西山居/西山居（珠海金山数字网络）/剑网1：归来.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/西山居/西山居（珠海金山数字网络）/剑网3无界.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/西山居/西山居（珠海金山数字网络）/剑网3（端游）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/西山居/西山居（珠海金山数字网络）/剑网3：指尖江湖.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/西山居/西山居（珠海金山数字网络）/西山居（珠海金山数字网络）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/西山居/西山居（珠海金山数字网络）/解限机（Code B.R.E.A.K）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "腾讯天美工作室群",
+        "腾讯天美",
+        "腾讯北极光",
+        "腾云摘星",
+        "欢乐互娱（腾讯旗下）",
+        "拳头游戏 × 腾讯光子（联合研发，腾竞体育代理发行）",
+        "上海腾讯.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/上海腾讯.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/拳头游戏 × 腾讯光子（联合研发，腾竞体育代理发行）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "无畏契约：源能行动（无畏契约手游Valorant手游源能行动Project C欧米伽）.md",
+        "拳头游戏 × 腾讯光子（联合研发，腾竞体育代理发行）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/欢乐互娱（腾讯旗下）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "龙之谷 手游.md",
+        "街机三国.md",
+        "英雄杀 H5.md",
+        "欢乐互娱（腾讯旗下）.md",
+        "RO仙境传说：爱如初见.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾云摘星": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "腾云摘星（腾讯旗下）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾讯北极光": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "龙息：神寂.md",
+        "轩辕剑.md",
+        "轩辕传奇手游.md",
+        "荒野起源.md",
+        "腾讯北极光.md",
+        "粒粒的小人国.md",
+        "灰境行者.md",
+        "最终幻想14：水晶世界.md",
+        "无限法则（ROE）.md",
+        "天涯明月刀手游.md",
+        "光与夜之恋.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾讯天美": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "重返帝国.md",
+        "腾讯天美.md",
+        "琳琅天上.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾讯天美工作室群": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "腾讯天美工作室群.md",
+        "ARK.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/拳头游戏 × 腾讯光子（联合研发，腾竞体育代理发行）/拳头游戏 × 腾讯光子（联合研发，腾竞体育代理发行）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/拳头游戏 × 腾讯光子（联合研发，腾竞体育代理发行）/无畏契约：源能行动（无畏契约手游Valorant手游源能行动Project C欧米伽）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/欢乐互娱（腾讯旗下）/RO仙境传说：爱如初见.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/欢乐互娱（腾讯旗下）/欢乐互娱（腾讯旗下）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/欢乐互娱（腾讯旗下）/英雄杀 H5.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/欢乐互娱（腾讯旗下）/街机三国.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/欢乐互娱（腾讯旗下）/龙之谷 手游.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾云摘星/腾云摘星（腾讯旗下）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾讯北极光/光与夜之恋.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾讯北极光/天涯明月刀手游.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾讯北极光/无限法则（ROE）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾讯北极光/最终幻想14：水晶世界.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾讯北极光/灰境行者.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾讯北极光/粒粒的小人国.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾讯北极光/腾讯北极光.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾讯北极光/荒野起源.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾讯北极光/轩辕传奇手游.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾讯北极光/轩辕剑.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾讯北极光/龙息：神寂.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾讯天美/琳琅天上.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾讯天美/腾讯天美.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾讯天美/重返帝国.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾讯天美工作室群/ARK.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/腾讯天美工作室群/腾讯天美工作室群.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/北京腾讯": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "腾讯北极光工作室",
+        "腾讯(巡回犬工作室)",
+        "北京腾讯.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/北京腾讯/北京腾讯.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/北京腾讯/腾讯(巡回犬工作室)": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "腾讯(巡回犬工作室).md",
+        "白夜极光.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/北京腾讯/腾讯北极光工作室": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "腾讯北极光工作室.md",
+        "天涯明月刀.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/北京腾讯/腾讯(巡回犬工作室)/白夜极光.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/北京腾讯/腾讯(巡回犬工作室)/腾讯(巡回犬工作室).md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/北京腾讯/腾讯北极光工作室/天涯明月刀.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/北京腾讯/腾讯北极光工作室/腾讯北极光工作室.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/杭州腾讯": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "萨罗斯（腾讯旗下，原字节工作室）",
+        "聆曦（腾讯全资，原名藤木）",
+        "杭州腾讯.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/杭州腾讯/杭州腾讯.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/杭州腾讯/聆曦（腾讯全资，原名藤木）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "聆曦（腾讯全资，原名藤木）.md",
+        "在研DNF Like项目.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/杭州腾讯/萨罗斯（腾讯旗下，原字节工作室）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "萨罗斯（腾讯旗下，原字节工作室）.md",
+        "归环.md",
+        "命运扳机（Fate Trigger The Novita）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/杭州腾讯/聆曦（腾讯全资，原名藤木）/在研DNF Like项目.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/杭州腾讯/聆曦（腾讯全资，原名藤木）/聆曦（腾讯全资，原名藤木）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/杭州腾讯/萨罗斯（腾讯旗下，原字节工作室）/命运扳机（Fate Trigger The Novita）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/杭州腾讯/萨罗斯（腾讯旗下，原字节工作室）/归环.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/杭州腾讯/萨罗斯（腾讯旗下，原字节工作室）/萨罗斯（腾讯旗下，原字节工作室）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "腾讯魔方",
+        "腾讯天美",
+        "腾讯互娱 琳琅天上工作室",
+        "腾讯 Project T（光子）",
+        "腾讯 NExT Studios（深圳）",
+        "腾讯",
+        "深圳腾讯.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/深圳腾讯.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "腾讯.md",
+        "穿越火线：虹.md",
+        "洛克王国世界.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯 NExT Studios（深圳）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "重生边缘.md",
+        "腾讯 NExT Studios（深圳）.md",
+        "疑案追声.md",
+        "三竹里.md",
+        "Metal Revolution.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯 Project T（光子）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "黎明觉醒：生机.md",
+        "高能英雄.md",
+        "雪中悍刀行.md",
+        "英雄联盟手游.md",
+        "自由幻想.md",
+        "腾讯 Project T（光子）.md",
+        "王牌战士.md",
+        "欢乐麻将.md",
+        "欢乐斗地主.md",
+        "最后的哨兵.md",
+        "和平精英.md",
+        "剑来.md",
+        "全民突击.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯互娱 琳琅天上工作室": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "腾讯互娱 琳琅天上工作室.md",
+        "穿越火线：虹.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯天美": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "逆战.md",
+        "腾讯天美.md",
+        "穿越火线手游（CF）.md",
+        "王者荣耀世界.md",
+        "王者荣耀.md",
+        "王者万象棋.md",
+        "星之破晓.md",
+        "怪物猎人：旅人.md",
+        "宝可梦大集结.md",
+        "天天酷跑.md",
+        "合金弹头：觉醒.md",
+        "全境封锁：曙光.md",
+        "元梦之星.md",
+        "使命召唤手游.md",
+        "三角洲行动.md",
+        "QQ飞车手游.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯魔方": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "航海王：壮志雄心.md",
+        "腾讯魔方.md",
+        "火影忍者手游.md",
+        "洛克王国：世界（洛克王国 世界 洛克王国大世界 洛克世界 Roco Kingdom World 腾讯魔方 魔方工作室群）.md",
+        "洛克王国（洛克王国 Roco Kingdom 17roco 腾讯魔方 魔方工作室群）.md",
+        "暗区突围.md",
+        "异人之下.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯/洛克王国世界.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯/穿越火线：虹.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯/腾讯.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯 NExT Studios（深圳）/Metal Revolution.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯 NExT Studios（深圳）/三竹里.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯 NExT Studios（深圳）/疑案追声.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯 NExT Studios（深圳）/腾讯 NExT Studios（深圳）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯 NExT Studios（深圳）/重生边缘.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯 Project T（光子）/全民突击.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯 Project T（光子）/剑来.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯 Project T（光子）/和平精英.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯 Project T（光子）/最后的哨兵.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯 Project T（光子）/欢乐斗地主.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯 Project T（光子）/欢乐麻将.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯 Project T（光子）/王牌战士.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯 Project T（光子）/腾讯 Project T（光子）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯 Project T（光子）/自由幻想.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯 Project T（光子）/英雄联盟手游.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯 Project T（光子）/雪中悍刀行.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯 Project T（光子）/高能英雄.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯 Project T（光子）/黎明觉醒：生机.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯互娱 琳琅天上工作室/穿越火线：虹.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯互娱 琳琅天上工作室/腾讯互娱 琳琅天上工作室.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯天美/QQ飞车手游.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯天美/三角洲行动.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯天美/使命召唤手游.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯天美/元梦之星.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯天美/全境封锁：曙光.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯天美/合金弹头：觉醒.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯天美/天天酷跑.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯天美/宝可梦大集结.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯天美/怪物猎人：旅人.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯天美/星之破晓.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯天美/王者万象棋.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯天美/王者荣耀.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯天美/王者荣耀世界.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯天美/穿越火线手游（CF）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯天美/腾讯天美.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯天美/逆战.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯魔方/异人之下.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯魔方/暗区突围.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯魔方/洛克王国（洛克王国 Roco Kingdom 17roco 腾讯魔方 魔方工作室群）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯魔方/洛克王国：世界（洛克王国 世界 洛克王国大世界 洛克世界 Roco Kingdom World 腾讯魔方 魔方工作室群）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯魔方/火影忍者手游.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯魔方/腾讯魔方.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯魔方/航海王：壮志雄心.md": {
       "isPinned": false,
       "isHidden": false
     }
