@@ -12,7 +12,7 @@ cssclasses:
 
 <div class="home-nav">
 
-[[蒸馏/index\|📡 Stream]] [[skill/sp-skill/SKILL\|⚡ SKILL]] [[配置/index\|⚙️ Config]] [[行业报告/行业报告\|📊 Report]] [[行业mapping/index\|🗺 行业]] [[Calendar/Journal/Daily\|📅 日记]]
+[[蒸馏/index|📡 Stream]] [[skill/sp-skill/SKILL|⚡ SKILL]] [[配置/index|⚙️ Config]] [[行业报告/行业报告|📊 Report]] [[行业mapping/index|🗺 行业]] [[Calendar/Journal/Daily|📅 日记]]
 
 </div>
 
@@ -25,7 +25,7 @@ cssclasses:
 <div class="h-card-label">岗位</div>
 <div class="h-card-sub">Positions</div>
 
-[[岗位mapping/岗位mapping\|·]]
+[[岗位mapping/岗位mapping|·]]
 
 </div>
 
@@ -34,7 +34,7 @@ cssclasses:
 <div class="h-card-label">热点</div>
 <div class="h-card-sub">Industry News</div>
 
-[[行业报告/行业报告\|·]]
+[[行业报告/行业报告|·]]
 
 </div>
 
@@ -43,7 +43,7 @@ cssclasses:
 <div class="h-card-label">日历</div>
 <div class="h-card-sub">Calendar</div>
 
-[[Calendar/Journal/Daily\|·]]
+[[Calendar/Journal/Daily|·]]
 
 </div>
 
@@ -52,7 +52,7 @@ cssclasses:
 <div class="h-card-label">行业</div>
 <div class="h-card-sub">Industry Map</div>
 
-[[行业mapping/index\|·]]
+[[行业mapping/index|·]]
 
 </div>
 
@@ -61,7 +61,7 @@ cssclasses:
 <div class="h-card-label">蒸馏</div>
 <div class="h-card-sub">Stream</div>
 
-[[蒸馏/index\|·]]
+[[蒸馏/index|·]]
 
 </div>
 
@@ -70,7 +70,7 @@ cssclasses:
 <div class="h-card-label">技能</div>
 <div class="h-card-sub">Skills</div>
 
-[[skill/sp-skill/SKILL\|·]]
+[[skill/sp-skill/SKILL|·]]
 
 </div>
 
@@ -79,7 +79,7 @@ cssclasses:
 <div class="h-card-label">行业报告</div>
 <div class="h-card-sub">Reports</div>
 
-[[行业报告/行业报告\|·]]
+[[行业报告/行业报告|·]]
 
 </div>
 
@@ -88,7 +88,7 @@ cssclasses:
 <div class="h-card-label">配置</div>
 <div class="h-card-sub">Config</div>
 
-[[配置/index\|·]]
+[[配置/index|·]]
 
 </div>
 
