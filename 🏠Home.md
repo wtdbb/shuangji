@@ -4,11 +4,8 @@
 ~
 </div>
 
-<div class="dash-nav">
-
-[[蒸馏/index|index]]
-
-</div>
+> [!dash-nav]
+> [[蒸馏/index|蒸馏]]  [[
 ````columns
 id: candidates-comparison-001
 ===
