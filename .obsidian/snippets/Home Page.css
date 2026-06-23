@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════
-   HOME PAGE — Dark Rain Design
+   HOME PAGE — Pink Rose Design (粉色系主题)
    cssclasses: [home] 启用
    支持阅读模式 + 实时预览（Live Preview）
    ═══════════════════════════════════════════════════ */
@@ -10,16 +10,35 @@
 .home .inline-title         { display: none !important; }
 .home .view-header-title    { display: none !important; }
 
+/* ══ 2. 全页背景 (调整为带有极其微弱暖粉/紫红倾向的深色底，配合粉色主题) ══
+   用绝对路径 + ASCII 文件名确保 Electron 能加载 */
+.home.markdown-preview-view,
+.home.markdown-source-view.mod-cm6 .cm-scroller {
+  background:
+    linear-gradient(180deg,
+      rgba(20, 8, 12, 0.20)  0%,
+      rgba(20, 8, 12, 0.60) 30%,
+      rgba(20, 8, 12, 0.88) 58%,
+      rgba(20, 8, 12, 0.97) 78%
+    ),
+    url('rain-bg.png') center top / cover no-repeat;
+  min-height: 100vh;
+}
 
+/* 编辑器底色透明，让背景透出 */
+.home.markdown-source-view.mod-cm6 .cm-content,
+.home.markdown-source-view.mod-cm6 .cm-editor {
+  background: transparent !important;
+}
 
-/* ══ 3. 字体 ══ */
+/* ══ 3. 字体 (整体文字略微偏向一点点暖白/淡粉) ══ */
 .home .markdown-preview-view,
 .home .cm-content {
   font-family: "Outfit", "Noto Sans SC", "PingFang SC", sans-serif !important;
-  color: rgba(215, 215, 240, 0.92) !important;
+  color: rgba(240, 225, 230, 0.92) !important; 
 }
 
-/* ══ 4. H1 标题样式 ══ */
+/* ══ 4. H1 标题样式 (樱花粉的发光投影) ══ */
 .home .markdown-preview-view h1,
 .home .cm-header-1 {
   font-family: "Outfit", sans-serif !important;
@@ -27,22 +46,22 @@
   font-weight: 700 !important;
   color: #fff !important;
   text-shadow:
-    0 0 20px rgba(120, 160, 255, 0.65),
-    0 0 45px rgba(100, 140, 255, 0.30) !important;
+    0 0 20px rgba(244, 114, 182, 0.65),
+    0 0 45px rgba(236, 72, 153, 0.30) !important;
   border: none !important;
   margin-bottom: 2px !important;
 }
 
-/* ══ 5. 分隔线 ══ */
+/* ══ 5. 分隔线 (淡粉色) ══ */
 .home hr {
-  border-color: rgba(100, 140, 255, 0.2) !important;
+  border-color: rgba(244, 114, 182, 0.2) !important;
   margin: 18px 0 !important;
 }
 
 /* ══ 6. 第一行导航 [!home-nav] ══ */
 .home .callout[data-callout="home-nav"] {
-  background: rgba(80, 120, 255, 0.07) !important;
-  border: 1px solid rgba(80, 120, 255, 0.28) !important;
+  background: rgba(236, 72, 153, 0.07) !important;
+  border: 1px solid rgba(236, 72, 153, 0.28) !important;
   border-radius: 12px 12px 0 0 !important;
   padding: 10px 18px 8px !important;
   margin-bottom: 0 !important;
@@ -59,8 +78,8 @@
 
 /* ══ 7. 第二行导航 [!home-nav-2] ══ */
 .home .callout[data-callout="home-nav-2"] {
-  background: rgba(60, 90, 200, 0.05) !important;
-  border: 1px solid rgba(80, 120, 255, 0.18) !important;
+  background: rgba(190, 24, 93, 0.05) !important;
+  border: 1px solid rgba(236, 72, 153, 0.18) !important;
   border-top: none !important;
   border-radius: 0 0 12px 12px !important;
   padding: 8px 18px 10px !important;
@@ -85,17 +104,17 @@
   justify-content: stretch !important;
 }
 
-/* 按钮铺满 + 居中文字 + 字体稍小 */
+/* 按钮铺满 + 居中文字 + 字体稍小 (粉色系按钮及悬停光效) */
 .home .callout[data-callout="home-nav"] .internal-link,
 .home .callout[data-callout="home-nav-2"] .internal-link {
   flex: 1 !important;
   text-align: center !important;
   display: block !important;
   padding: 7px 8px !important;
-  border: 1px solid rgba(100, 150, 255, 0.38) !important;
+  border: 1px solid rgba(244, 114, 182, 0.38) !important;
   border-radius: 10px !important;
-  background: rgba(80, 120, 255, 0.08) !important;
-  color: rgba(200, 220, 255, 0.88) !important;
+  background: rgba(236, 72, 153, 0.08) !important;
+  color: rgba(255, 210, 225, 0.88) !important;
   text-decoration: none !important;
   font-size: 0.80em !important;
   letter-spacing: 0.03em !important;
@@ -103,9 +122,9 @@
 }
 .home .callout[data-callout="home-nav"] .internal-link:hover,
 .home .callout[data-callout="home-nav-2"] .internal-link:hover {
-  background: rgba(80, 120, 255, 0.22) !important;
-  border-color: rgba(100, 150, 255, 0.75) !important;
-  box-shadow: 0 0 12px rgba(80, 120, 255, 0.30);
+  background: rgba(236, 72, 153, 0.22) !important;
+  border-color: rgba(244, 114, 182, 0.75) !important;
+  box-shadow: 0 0 12px rgba(236, 72, 153, 0.30);
   color: #fff !important;
 }
 
@@ -141,7 +160,7 @@
 }
 .home .callout[data-callout^="card-"] p {
   font-size: 0.68em;
-  color: rgba(200,200,225,0.45);
+  color: rgba(225, 200, 210, 0.45); /* 调整为微粉的灰色 */
   letter-spacing: 0.08em;
   text-transform: uppercase;
   margin: 0 !important;
@@ -162,7 +181,7 @@
   color: #fff !important;
 }
 
-/* ══ 9. 卡片颜色变体 ══ */
+/* ══ 9. 卡片颜色变体 (这部分我保留了多种颜色供你自由搭配，如果你只要纯粉，可以全用 card-pink) ══ */
 .home .callout[data-callout="card-orange"] { border: 1px solid rgba(251,146,60,0.30)!important; }
 .home .callout[data-callout="card-orange"]:hover { border-color: rgba(251,146,60,0.65)!important; box-shadow: 0 10px 28px rgba(251,146,60,0.18)!important; }
 
@@ -196,4 +215,4 @@
   font-size: 0.88em !important;
 }
 .home .dataview.list-view-ul li:last-child { border-bottom: none !important; }
-.home .dataview.list-view-ul li::marker { color: rgba(100,150,255,0.5); }
+.home .dataview.list-view-ul li::marker { color: rgba(244, 114, 182, 0.5); }
