@@ -1780,7 +1780,7 @@
     "expandedKeys": []
   },
   "岗位mapping/分部/二线/字节/字节深圳/字节深圳.md": {
-    "scroll": 17.87708330154419,
+    "scroll": 6.021301630686021,
     "cursor": {
       "from": {
         "line": 35,
@@ -2111,6 +2111,34 @@
       "to": {
         "line": 15,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/杭州/浩汤科技/浩汤科技.md": {
+    "scroll": 3.5218935633552144,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 0
+      },
+      "to": {
+        "line": 10,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/杭州/浩汤科技/抵抗者.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 24,
+        "ch": 58
+      },
+      "to": {
+        "line": 24,
+        "ch": 58
       }
     },
     "expandedKeys": []
