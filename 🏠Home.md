@@ -1,52 +1,110 @@
-<div style="position: absolute; top: 0; left: 0; right: 0; height: 300px; background-image: url('https://w.wallhaven.cc/full/21/wallhaven-21okeg.png'); background-size: cover; background-position: center; z-index: -1; opacity: 0.4; pointer-events: none; mask-image: linear-gradient(to bottom, black 50%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);"></div>
-<div style="position: absolute; top: 0; left: 0; right: 0; height: 300px; background-image: url('https://w.wallhaven.cc/full/21/wallhaven-21okeg.png'); background-size: cover; background-position: center; z-index: -1; opacity: 0.4; pointer-events: none; mask-image: linear-gradient(to bottom, black 50%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);"></div>
-<div style="--my-rgb: 192, 192, 192; background-color: rgba(var(--my-rgb), 0.1); border-left: 4px solid rgb(var(--my-rgb)); padding: 12px 16px; border-radius: 4px; margin: 1em 0;">
-~
-</div>
-> [!dash-nav]
-> [[蒸馏/index|Stream]][[skill/sp-skill/SKILL|SKILL]][[配置/index|config]][[行业报告/行业报告|Report]]
-````columns
-id: candidates-comparison-001
-===
-<div style="text-align: center;"> 
+---
+cssclasses:
+  - home
+  - hide-properties
+---
 
-<span style="font-size: 24px;">[[岗位mapping/岗位mapping|✊岗位]]</span>
+<div class="home-wrapper">
 
+## 🏠 Home
 
+<p class="home-subtitle">CodexVault · 游戏猎头情报系统</p>
 
-</div>
+<div class="home-nav">
 
-===
-<div style="text-align: center;"> 
-
-<span style="font-size: 24px;">[[行业报告/行业报告|🏃‍热点]]</span> 
-
-</div>
-===
-<div style="text-align: center;"> 
-
-<span style="font-size: 24px;">[[Daily notes/Bases/Calendar.base|📅日历]]</span> 
+[[蒸馏/index\|📡 Stream]] [[skill/sp-skill/SKILL\|⚡ SKILL]] [[配置/index\|⚙️ Config]] [[行业报告/行业报告\|📊 Report]] [[行业mapping/index\|🗺 行业]] [[Calendar/Journal/Daily\|📅 日记]]
 
 </div>
 
-===
+<p class="home-section">核心模块</p>
 
-<div style="text-align: center;"> 
+<div class="home-grid">
 
-<span style="font-size: 24px;">[[行业mapping/行业mapping|🔍行业]]</span> 
+<div class="h-card c-orange">
+<span class="h-card-icon">✊</span>
+<div class="h-card-label">岗位</div>
+<div class="h-card-sub">Positions</div>
 
-</div>
-
-
-
-
-
-````
-<div style="--bg-url: url('https://w.wallhaven.cc/full/21/wallhaven-21okeg.png'); --bg-opacity: 0.35;">
-
-
+[[岗位mapping/岗位mapping\|·]]
 
 </div>
 
-> [!card]
-> [[Technical]]
+<div class="h-card c-cyan">
+<span class="h-card-icon">🏃</span>
+<div class="h-card-label">热点</div>
+<div class="h-card-sub">Industry News</div>
+
+[[行业报告/行业报告\|·]]
+
+</div>
+
+<div class="h-card c-purple">
+<span class="h-card-icon">📅</span>
+<div class="h-card-label">日历</div>
+<div class="h-card-sub">Calendar</div>
+
+[[Calendar/Journal/Daily\|·]]
+
+</div>
+
+<div class="h-card c-green">
+<span class="h-card-icon">🔍</span>
+<div class="h-card-label">行业</div>
+<div class="h-card-sub">Industry Map</div>
+
+[[行业mapping/index\|·]]
+
+</div>
+
+<div class="h-card c-pink">
+<span class="h-card-icon">📡</span>
+<div class="h-card-label">蒸馏</div>
+<div class="h-card-sub">Stream</div>
+
+[[蒸馏/index\|·]]
+
+</div>
+
+<div class="h-card c-gold">
+<span class="h-card-icon">⚡</span>
+<div class="h-card-label">技能</div>
+<div class="h-card-sub">Skills</div>
+
+[[skill/sp-skill/SKILL\|·]]
+
+</div>
+
+<div class="h-card c-cyan">
+<span class="h-card-icon">📚</span>
+<div class="h-card-label">行业报告</div>
+<div class="h-card-sub">Reports</div>
+
+[[行业报告/行业报告\|·]]
+
+</div>
+
+<div class="h-card c-purple">
+<span class="h-card-icon">⚙️</span>
+<div class="h-card-label">配置</div>
+<div class="h-card-sub">Config</div>
+
+[[配置/index\|·]]
+
+</div>
+
+</div>
+
+<p class="home-section">最近修改</p>
+
+<div class="home-recent">
+
+```dataview
+LIST WITHOUT ID ("→ " + file.link + " — " + dateformat(file.mtime, "MM-dd HH:mm"))
+FROM "" AND !"🏠Home" AND !"Templates" AND !".obsidian"
+SORT file.mtime DESC
+LIMIT 8
+```
+
+</div>
+
+</div>
