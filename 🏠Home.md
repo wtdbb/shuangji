@@ -13,7 +13,6 @@ cssclasses:
 > [!home-nav-2]
 > [[skill/sp-skill/SKILL|⚡ SKILL]] [[配置/index|⚙️ Config]] [[蒸馏/index|📡 Stream]]
 
----
 
 ````columns
 ===
@@ -93,8 +92,6 @@ cssclasses:
 
 ````
 
----
-
 **最近修改**
 
 ```dataview
@@ -103,3 +100,6 @@ FROM "" AND !"🏠Home" AND !"Templates" AND !".obsidian"
 SORT file.mtime DESC
 LIMIT 8
 ```
+
+
+
