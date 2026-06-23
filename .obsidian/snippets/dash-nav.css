@@ -1,4 +1,4 @@
-/* 1. 隐藏导航 Callout 默认样式 */
+/* 1. 隐藏这个专属 Callout 的默认背景、边框和标题栏，让它变成一个透明的居中容器 */
 .callout[data-callout="dash-nav"] {
     background: transparent;
     border: none;
@@ -11,19 +11,20 @@
     display: none;
 }
 
-/* 2. 变色龙核心：让链接精准继承它外层那个 span 标签里指定的颜色 */
+/* 2. 拦截里面的双向链接，强制变成金黄色按钮 */
 .callout[data-callout="dash-nav"] .internal-link {
     display: inline-block !important;
     padding: 6px 16px !important;
     margin: 0 8px !important; 
-    border: 1px solid var(--btn-color, #eab676) !important; 
-    color: var(--btn-color, #eab676) !important; 
+    border: 1px solid #eab676 !important; 
+    border-radius: 6px !important; 
+    color: #eab676 !important; 
     text-decoration: none !important; 
     font-weight: bold;
     transition: background-color 0.2s;
 }
 
-/* 3. 智能发光悬停（自动将你设置的任意颜色加上 15% 透明度） */
+/* 3. 鼠标悬停时的发光效果 */
 .callout[data-callout="dash-nav"] .internal-link:hover {
-    background-color: color-mix(in srgb, var(--btn-color, #eab676) 15%, transparent) !important;
+    background-color: rgba(234, 182, 118, 0.15) !important;
 }
