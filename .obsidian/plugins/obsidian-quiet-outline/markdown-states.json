@@ -1976,15 +1976,15 @@
     "expandedKeys": []
   },
   "🏠Home.md": {
-    "scroll": 7.827083333333333,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 101,
-        "ch": 0
+        "line": 7,
+        "ch": 25
       },
       "to": {
-        "line": 101,
-        "ch": 0
+        "line": 7,
+        "ch": 25
       }
     },
     "expandedKeys": []
@@ -2026,6 +2026,20 @@
       },
       "to": {
         "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "蒸馏/index.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
         "ch": 0
       }
     },
