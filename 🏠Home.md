@@ -8,7 +8,7 @@ cssclasses:
 **CodexVault · 游戏猎头情报系统**
 
 > [!home-nav]
-> [[行业mapping/index|🗺 行业mapping]] [[岗位mapping/岗位mapping|✊ 岗位mapping]] [[Calendar/Journal/Daily|📅 日记]] [[行业报告/行业报告|📊 报告]]
+> [[行业mapping/index|🗺 行业mapping]] [[岗位mapping/岗位mapping|✊ 岗位mapping]] [[D[[行业报告/行业报告|📊 报告]]
 ---
 ````columns
 ===
