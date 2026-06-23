@@ -11,7 +11,8 @@ id: candidates-comparison-001
 ===
 <div style="text-align: center;"> 
 
-<span style="font-size: 24px;">[[岗位mapping/岗位mapping|✊岗位]]</span> 
+<span style="font-size: 24px;">[[岗位mapping/岗位mapping|✊岗位]]</span>
+<
 
 </div>
 
