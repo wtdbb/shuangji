@@ -1,23 +1,30 @@
-/* 自定义仪表盘顶部导航按钮样式 */
-.dash-nav {
-    text-align: center;
+/* 1. 隐藏这个专属 Callout 的默认背景、边框和标题栏，让它变成一个透明的居中容器 */
+.callout[data-callout="dash-nav"] {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
     margin-bottom: 40px;
+    text-align: center;
+}
+.callout[data-callout="dash-nav"] .callout-title {
+    display: none;
 }
 
-/* 拦截里面的双向链接，强制变成按钮形状 */
-.dash-nav .internal-link {
+/* 2. 拦截里面的双向链接，强制变成金黄色按钮 */
+.callout[data-callout="dash-nav"] .internal-link {
     display: inline-block !important;
     padding: 6px 16px !important;
-    margin: 0 8px !important; /* 按钮之间的间距 */
-    border: 1px solid #eab676 !important; /* 边框颜色，截图里的金黄色 */
-    border-radius: 6px !important; /* 圆角大小 */
-    color: #eab676 !important; /* 文字颜色 */
-    text-decoration: none !important; /* 去掉链接默认的下划线 */
+    margin: 0 8px !important; 
+    border: 1px solid #eab676 !important; 
+    border-radius: 6px !important; 
+    color: #eab676 !important; 
+    text-decoration: none !important; 
     font-weight: bold;
-    transition: background-color 0.2s; /* 鼠标悬停时的平滑过渡效果 */
+    transition: background-color 0.2s;
 }
 
-/* 鼠标放上去时，出现一层淡淡的背景色 */
-.dash-nav .internal-link:hover {
+/* 3. 鼠标悬停时的发光效果 */
+.callout[data-callout="dash-nav"] .internal-link:hover {
     background-color: rgba(234, 182, 118, 0.15) !important;
 }
