@@ -4,6 +4,6 @@
   "showUnsupportedFiles": true,
   "promptDelete": false,
   "newLinkFormat": "relative",
-  "defaultViewMode": "source",
+  "defaultViewMode": "preview",
   "alwaysUpdateLinks": true
 }
