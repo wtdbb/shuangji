@@ -1,244 +1,217 @@
 /* ═══════════════════════════════════════════════════
    HOME PAGE — Dark Cyberpunk Design
-   在笔记 frontmatter 写 cssclasses: [home] 即可启用
+   使用 cssclasses: [home] 启用
+   支持阅读模式 + 实时预览（Live Preview）编辑模式
    ═══════════════════════════════════════════════════ */
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
 
-/* ── 全屏背景（仅 .home 笔记） ── */
-.home.markdown-preview-view {
-  padding: 0 !important;
+/* ══ 背景：阅读模式 + 实时预览 编辑模式 均生效 ══ */
+.home.markdown-preview-view,
+.home.markdown-source-view.mod-cm6 .cm-scroller {
   background:
     linear-gradient(180deg,
-      rgba(9, 9, 20, 0.10)  0%,
-      rgba(9, 9, 20, 0.65) 30%,
-      rgba(9, 9, 20, 0.92) 58%,
-      rgba(9, 9, 20, 1.00) 80%
+      rgba(9, 9, 20, 0.08)  0%,
+      rgba(9, 9, 20, 0.60) 28%,
+      rgba(9, 9, 20, 0.92) 55%,
+      rgba(9, 9, 20, 1.00) 78%
     ),
-    url('图片归档/bg_lmxjdp.jpg') center top / cover no-repeat;
+    url('图片归档/bg_lmxjdp.jpg') center top / cover no-repeat fixed;
   min-height: 100vh;
+}
+
+/* 让编辑器底色透明，背景才能透出来 */
+.home.markdown-source-view.mod-cm6 .cm-content,
+.home.markdown-source-view.mod-cm6 .cm-editor {
+  background: transparent !important;
+}
+
+/* ══ 全局字体 ══ */
+.home .markdown-preview-view,
+.home .cm-content {
   font-family: "Outfit", "Noto Sans SC", "PingFang SC", sans-serif !important;
-  color: rgba(215, 215, 235, 0.92);
+  color: rgba(215, 215, 240, 0.92) !important;
 }
 
-.home.markdown-preview-view .markdown-preview-section {
-  max-width: 100% !important;
-  padding: 0 !important;
-}
-
-/* 隐藏顶部标题行（已由 home-title 代替） */
-.home.markdown-preview-view .inline-title { display: none; }
-
-/* ── 主包裹容器 ── */
-.home-wrapper {
-  padding: 52px 44px 72px;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-/* ── 标题 ── */
-.home-wrapper h2:first-of-type {
+/* ══ 标题 H1 ══ */
+.home .markdown-preview-view h1,
+.home .cm-header-1 {
   font-family: "Outfit", sans-serif !important;
-  font-size: 2.6em !important;
+  font-size: 2.4em !important;
   font-weight: 700 !important;
-  letter-spacing: 0.03em;
   color: #fff !important;
   text-shadow:
-    0 0 18px rgba(168, 85, 247, 0.7),
-    0 0 40px rgba(168, 85, 247, 0.35);
-  margin: 0 0 6px !important;
+    0 0 20px rgba(168, 85, 247, 0.65),
+    0 0 45px rgba(168, 85, 247, 0.30) !important;
   border: none !important;
+  margin-bottom: 2px !important;
 }
 
-.home-subtitle {
-  font-size: 0.8em;
-  color: rgba(168, 85, 247, 0.7);
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  margin-bottom: 36px;
+/* ══ 分隔线 ══ */
+.home hr {
+  border-color: rgba(168, 85, 247, 0.2) !important;
+  margin: 20px 0 !important;
 }
 
-/* ── 导航按钮栏 ── */
-.home-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 40px;
+/* ══ 导航 Callout [!home-nav] ══ */
+.home .callout[data-callout="home-nav"] {
+  background: rgba(168, 85, 247, 0.07) !important;
+  border: 1px solid rgba(168, 85, 247, 0.30) !important;
+  border-radius: 12px !important;
+  padding: 10px 18px !important;
+  backdrop-filter: blur(10px);
 }
+.home .callout[data-callout="home-nav"] .callout-title { display: none !important; }
+.home .callout[data-callout="home-nav"] .callout-content { padding: 0 !important; }
+.home .callout[data-callout="home-nav"] p { margin: 0 !important; display: flex; flex-wrap: wrap; gap: 8px; }
 
-.home-nav .internal-link,
-.home-nav a {
-  display: inline-flex !important;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 22px !important;
+.home .callout[data-callout="home-nav"] .internal-link {
+  display: inline-block !important;
+  padding: 5px 16px !important;
   border: 1px solid rgba(168, 85, 247, 0.38) !important;
   border-radius: 999px !important;
-  background: rgba(168, 85, 247, 0.07) !important;
+  background: rgba(168, 85, 247, 0.08) !important;
   color: rgba(215, 215, 255, 0.88) !important;
   text-decoration: none !important;
-  font-size: 0.87em !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.04em;
-  backdrop-filter: blur(8px);
+  font-size: 0.86em !important;
   transition: all 0.18s ease;
 }
-
-.home-nav .internal-link:hover,
-.home-nav a:hover {
+.home .callout[data-callout="home-nav"] .internal-link:hover {
   background: rgba(168, 85, 247, 0.22) !important;
   border-color: rgba(168, 85, 247, 0.75) !important;
-  box-shadow: 0 0 14px rgba(168, 85, 247, 0.3);
+  box-shadow: 0 0 12px rgba(168, 85, 247, 0.3);
   color: #fff !important;
-  transform: translateY(-1px);
 }
 
-/* ── 区段小标题 ── */
-.home-section {
-  font-size: 0.72em;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: rgba(168, 85, 247, 0.65);
-  margin: 0 0 14px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.home-section::after {
-  content: '';
-  flex: 1;
-  height: 1px;
-  background: linear-gradient(90deg, rgba(168,85,247,0.35), transparent);
-}
-
-/* ── 卡片网格 ── */
-.home-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 14px;
-  margin-bottom: 36px;
-}
-
-/* 卡片基础 */
-.h-card {
+/* ══ 卡片 Callout 基础样式 ══ */
+.home .callout[data-callout^="card-"] {
+  border-radius: 14px !important;
+  background: rgba(255, 255, 255, 0.045) !important;
+  backdrop-filter: blur(14px) !important;
+  text-align: center !important;
+  padding: 20px 14px !important;
+  transition: all 0.2s ease !important;
   position: relative;
-  border-radius: 16px;
-  padding: 22px 14px 18px;
-  text-align: center;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.09);
-  backdrop-filter: blur(14px);
-  cursor: pointer;
-  transition: all 0.2s ease;
   overflow: hidden;
 }
-
-/* 渐变光晕顶层 */
-.h-card::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 50%;
-  border-radius: 16px 16px 0 0;
-  opacity: 0;
-  transition: opacity 0.2s;
-  pointer-events: none;
+.home .callout[data-callout^="card-"]:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.45) !important;
 }
+.home .callout[data-callout^="card-"] .callout-title { display: none !important; }
+.home .callout[data-callout^="card-"] .callout-content { padding: 0 !important; }
 
-.h-card:hover {
-  transform: translateY(-3px);
-  border-color: rgba(255,255,255,0.2);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.45);
+/* 卡片内 H2 当图标用 */
+.home .callout[data-callout^="card-"] h2 {
+  font-size: 2.2em !important;
+  margin: 0 0 8px !important;
+  border: none !important;
+  line-height: 1 !important;
 }
-
-.h-card:hover::before { opacity: 1; }
-
-/* 卡片内覆盖链接（整张卡片可点击） */
-.h-card .internal-link {
-  position: absolute !important;
-  inset: 0 !important;
-  opacity: 0 !important;
-  z-index: 5 !important;
-}
-
-.h-card-icon { font-size: 2.2em; margin-bottom: 9px; display: block; }
-.h-card-label {
-  font-size: 0.95em;
-  font-weight: 600;
+/* 卡片内粗体 = 标签 */
+.home .callout[data-callout^="card-"] strong {
+  display: block;
+  font-size: 0.97em;
   color: #fff;
-  letter-spacing: 0.02em;
+  margin-bottom: 3px;
 }
-.h-card-sub {
+/* 卡片内普通文字 = 副标题 */
+.home .callout[data-callout^="card-"] p {
   font-size: 0.68em;
-  color: rgba(200,200,225,0.42);
-  margin-top: 4px;
+  color: rgba(200,200,225,0.45);
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  margin: 0 !important;
+}
+/* 卡片内链接 = 悬停按钮 */
+.home .callout[data-callout^="card-"] .internal-link {
+  display: inline-block !important;
+  margin-top: 10px !important;
+  padding: 4px 14px !important;
+  border-radius: 999px !important;
+  font-size: 0.78em !important;
+  text-decoration: none !important;
+  border: 1px solid rgba(255,255,255,0.15) !important;
+  color: rgba(255,255,255,0.7) !important;
+  transition: all 0.15s;
+}
+.home .callout[data-callout^="card-"] .internal-link:hover {
+  background: rgba(255,255,255,0.1) !important;
+  color: #fff !important;
 }
 
-/* 颜色变体 */
-.c-orange { border-color: rgba(251,146, 60,0.28)!important; }
-.c-orange::before { background: radial-gradient(circle at 50% 0%, rgba(251,146,60,0.14), transparent 70%); }
-.c-orange:hover   { border-color: rgba(251,146, 60,0.6)!important; box-shadow: 0 10px 28px rgba(251,146,60,0.18)!important; }
-
-.c-cyan  { border-color: rgba(  6,182,212,0.28)!important; }
-.c-cyan::before  { background: radial-gradient(circle at 50% 0%, rgba(6,182,212,0.14), transparent 70%); }
-.c-cyan:hover    { border-color: rgba(  6,182,212,0.6)!important; box-shadow: 0 10px 28px rgba(6,182,212,0.18)!important; }
-
-.c-purple{ border-color: rgba(168, 85,247,0.28)!important; }
-.c-purple::before{ background: radial-gradient(circle at 50% 0%, rgba(168,85,247,0.14), transparent 70%); }
-.c-purple:hover  { border-color: rgba(168, 85,247,0.6)!important; box-shadow: 0 10px 28px rgba(168,85,247,0.18)!important; }
-
-.c-green { border-color: rgba( 16,185,129,0.28)!important; }
-.c-green::before { background: radial-gradient(circle at 50% 0%, rgba(16,185,129,0.14), transparent 70%); }
-.c-green:hover   { border-color: rgba( 16,185,129,0.6)!important; box-shadow: 0 10px 28px rgba(16,185,129,0.18)!important; }
-
-.c-pink  { border-color: rgba(236, 72,153,0.28)!important; }
-.c-pink::before  { background: radial-gradient(circle at 50% 0%, rgba(236,72,153,0.14), transparent 70%); }
-.c-pink:hover    { border-color: rgba(236, 72,153,0.6)!important; box-shadow: 0 10px 28px rgba(236,72,153,0.18)!important; }
-
-.c-gold  { border-color: rgba(234,179,  8,0.28)!important; }
-.c-gold::before  { background: radial-gradient(circle at 50% 0%, rgba(234,179,8,0.14), transparent 70%); }
-.c-gold:hover    { border-color: rgba(234,179,  8,0.6)!important; box-shadow: 0 10px 28px rgba(234,179,8,0.18)!important; }
-
-/* ── 最近记录容器 ── */
-.home-recent {
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.09);
-  border-radius: 16px;
-  padding: 20px 26px;
-  backdrop-filter: blur(14px);
+/* ══ 卡片颜色变体 ══ */
+.home .callout[data-callout="card-orange"] {
+  border: 1px solid rgba(251,146,60, 0.30) !important;
+}
+.home .callout[data-callout="card-orange"]:hover {
+  border-color: rgba(251,146,60, 0.65) !important;
+  box-shadow: 0 10px 28px rgba(251,146,60,0.18) !important;
 }
 
-.home-recent .dataview.list-view-ul {
-  margin: 0;
-  padding: 0;
+.home .callout[data-callout="card-cyan"] {
+  border: 1px solid rgba(6,182,212, 0.30) !important;
+}
+.home .callout[data-callout="card-cyan"]:hover {
+  border-color: rgba(6,182,212, 0.65) !important;
+  box-shadow: 0 10px 28px rgba(6,182,212,0.18) !important;
+}
+
+.home .callout[data-callout="card-purple"] {
+  border: 1px solid rgba(168,85,247, 0.30) !important;
+}
+.home .callout[data-callout="card-purple"]:hover {
+  border-color: rgba(168,85,247, 0.65) !important;
+  box-shadow: 0 10px 28px rgba(168,85,247,0.18) !important;
+}
+
+.home .callout[data-callout="card-green"] {
+  border: 1px solid rgba(16,185,129, 0.30) !important;
+}
+.home .callout[data-callout="card-green"]:hover {
+  border-color: rgba(16,185,129, 0.65) !important;
+  box-shadow: 0 10px 28px rgba(16,185,129,0.18) !important;
+}
+
+.home .callout[data-callout="card-pink"] {
+  border: 1px solid rgba(236,72,153, 0.30) !important;
+}
+.home .callout[data-callout="card-pink"]:hover {
+  border-color: rgba(236,72,153, 0.65) !important;
+  box-shadow: 0 10px 28px rgba(236,72,153,0.18) !important;
+}
+
+.home .callout[data-callout="card-gold"] {
+  border: 1px solid rgba(234,179,8, 0.30) !important;
+}
+.home .callout[data-callout="card-gold"]:hover {
+  border-color: rgba(234,179,8, 0.65) !important;
+  box-shadow: 0 10px 28px rgba(234,179,8,0.18) !important;
+}
+
+/* ══ Dataview 最近列表 ══ */
+.home .dataview.list-view-ul {
+  background: rgba(255,255,255,0.04) !important;
+  border: 1px solid rgba(255,255,255,0.09) !important;
+  border-radius: 12px !important;
+  padding: 14px 20px !important;
   list-style: none !important;
+  margin: 0 !important;
 }
-
-.home-recent .dataview.list-view-ul li {
-  padding: 7px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.07);
-  font-size: 0.88em;
-  display: flex;
-  align-items: center;
-  gap: 8px;
+.home .dataview.list-view-ul li {
+  padding: 6px 0 !important;
+  border-bottom: 1px solid rgba(255,255,255,0.06) !important;
+  font-size: 0.88em !important;
 }
+.home .dataview.list-view-ul li:last-child { border-bottom: none !important; }
+.home .dataview.list-view-ul li::marker { color: rgba(168,85,247,0.5); }
 
-.home-recent .dataview.list-view-ul li:last-child { border-bottom: none; }
-
-.home-recent .dataview.list-view-ul li::before {
-  content: '→';
-  color: rgba(168, 85, 247, 0.6);
-  font-size: 0.8em;
+/* ══ 悬停预览弹窗（全局） ══ */
+.popover.hover-popover {
+  min-width: 300px !important;
+  max-width: 520px !important;
+  width: max-content !important;
 }
-
-/* 隐藏 Dataview 多余标题 */
-.home-recent .dataview-error-box,
-.home-recent .dataview.inline-query { display: none; }
-
-/* ── 整体背景（让侧边栏也有暗色基础） ── */
-.workspace-split.mod-root {
-  background: #090912;
+.popover.hover-popover .markdown-preview-view {
+  font-size: 13.5px;
 }
