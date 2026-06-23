@@ -1,39 +1,45 @@
 /* ═══════════════════════════════════════════════════
-   HOME PAGE — Dark Cyberpunk Design
-   使用 cssclasses: [home] 启用
-   支持阅读模式 + 实时预览（Live Preview）编辑模式
+   HOME PAGE — Dark Rain Design
+   cssclasses: [home] 启用
+   支持阅读模式 + 实时预览（Live Preview）
    ═══════════════════════════════════════════════════ */
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
 
-/* ══ 背景：阅读模式 + 实时预览 编辑模式 均生效 ══ */
+/* ══ 1. 隐藏顶部文件名标题 ══ */
+.home .inline-title         { display: none !important; }
+.home .view-header-title    { display: none !important; }
+
+/* ══ 2. 全页背景（阅读 + Live Preview 编辑模式）══
+   图片路径：相对于此 CSS 文件 (.obsidian/snippets/)
+   ../../ 往上两层 = vault 根目录            */
 .home.markdown-preview-view,
 .home.markdown-source-view.mod-cm6 .cm-scroller {
   background:
     linear-gradient(180deg,
-      rgba(9, 9, 20, 0.08)  0%,
-      rgba(9, 9, 20, 0.60) 28%,
-      rgba(9, 9, 20, 0.92) 55%,
-      rgba(9, 9, 20, 1.00) 78%
+      rgba(5, 8, 15, 0.25)  0%,
+      rgba(5, 8, 15, 0.65) 30%,
+      rgba(5, 8, 15, 0.90) 58%,
+      rgba(5, 8, 15, 0.98) 78%
     ),
-    url('图片归档/bg_lmxjdp.jpg') center top / cover no-repeat fixed;
+    url('../../图片归档/雨天.png') center top / cover no-repeat;
   min-height: 100vh;
 }
 
-/* 让编辑器底色透明，背景才能透出来 */
+/* 编辑器底色透明，让背景透出 */
 .home.markdown-source-view.mod-cm6 .cm-content,
 .home.markdown-source-view.mod-cm6 .cm-editor {
   background: transparent !important;
 }
 
-/* ══ 全局字体 ══ */
+/* ══ 3. 字体 ══ */
 .home .markdown-preview-view,
 .home .cm-content {
   font-family: "Outfit", "Noto Sans SC", "PingFang SC", sans-serif !important;
   color: rgba(215, 215, 240, 0.92) !important;
 }
 
-/* ══ 标题 H1 ══ */
+/* ══ 4. H1 标题样式 ══ */
 .home .markdown-preview-view h1,
 .home .cm-header-1 {
   font-family: "Outfit", sans-serif !important;
@@ -41,49 +47,77 @@
   font-weight: 700 !important;
   color: #fff !important;
   text-shadow:
-    0 0 20px rgba(168, 85, 247, 0.65),
-    0 0 45px rgba(168, 85, 247, 0.30) !important;
+    0 0 20px rgba(120, 160, 255, 0.65),
+    0 0 45px rgba(100, 140, 255, 0.30) !important;
   border: none !important;
   margin-bottom: 2px !important;
 }
 
-/* ══ 分隔线 ══ */
+/* ══ 5. 分隔线 ══ */
 .home hr {
-  border-color: rgba(168, 85, 247, 0.2) !important;
-  margin: 20px 0 !important;
+  border-color: rgba(100, 140, 255, 0.2) !important;
+  margin: 18px 0 !important;
 }
 
-/* ══ 导航 Callout [!home-nav] ══ */
+/* ══ 6. 第一行导航 [!home-nav] ══ */
 .home .callout[data-callout="home-nav"] {
-  background: rgba(168, 85, 247, 0.07) !important;
-  border: 1px solid rgba(168, 85, 247, 0.30) !important;
-  border-radius: 12px !important;
-  padding: 10px 18px !important;
+  background: rgba(80, 120, 255, 0.07) !important;
+  border: 1px solid rgba(80, 120, 255, 0.28) !important;
+  border-radius: 12px 12px 0 0 !important;
+  padding: 10px 18px 8px !important;
+  margin-bottom: 0 !important;
   backdrop-filter: blur(10px);
 }
 .home .callout[data-callout="home-nav"] .callout-title { display: none !important; }
 .home .callout[data-callout="home-nav"] .callout-content { padding: 0 !important; }
-.home .callout[data-callout="home-nav"] p { margin: 0 !important; display: flex; flex-wrap: wrap; gap: 8px; }
+.home .callout[data-callout="home-nav"] p {
+  margin: 0 !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+}
 
-.home .callout[data-callout="home-nav"] .internal-link {
+/* ══ 7. 第二行导航 [!home-nav-2] ══ */
+.home .callout[data-callout="home-nav-2"] {
+  background: rgba(60, 90, 200, 0.05) !important;
+  border: 1px solid rgba(80, 120, 255, 0.18) !important;
+  border-top: none !important;
+  border-radius: 0 0 12px 12px !important;
+  padding: 8px 18px 10px !important;
+  margin-top: 0 !important;
+  backdrop-filter: blur(10px);
+}
+.home .callout[data-callout="home-nav-2"] .callout-title { display: none !important; }
+.home .callout[data-callout="home-nav-2"] .callout-content { padding: 0 !important; }
+.home .callout[data-callout="home-nav-2"] p {
+  margin: 0 !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 8px !important;
+}
+
+/* 两行导航共用的按钮样式 */
+.home .callout[data-callout="home-nav"] .internal-link,
+.home .callout[data-callout="home-nav-2"] .internal-link {
   display: inline-block !important;
   padding: 5px 16px !important;
-  border: 1px solid rgba(168, 85, 247, 0.38) !important;
+  border: 1px solid rgba(100, 150, 255, 0.38) !important;
   border-radius: 999px !important;
-  background: rgba(168, 85, 247, 0.08) !important;
-  color: rgba(215, 215, 255, 0.88) !important;
+  background: rgba(80, 120, 255, 0.08) !important;
+  color: rgba(200, 220, 255, 0.88) !important;
   text-decoration: none !important;
   font-size: 0.86em !important;
   transition: all 0.18s ease;
 }
-.home .callout[data-callout="home-nav"] .internal-link:hover {
-  background: rgba(168, 85, 247, 0.22) !important;
-  border-color: rgba(168, 85, 247, 0.75) !important;
-  box-shadow: 0 0 12px rgba(168, 85, 247, 0.3);
+.home .callout[data-callout="home-nav"] .internal-link:hover,
+.home .callout[data-callout="home-nav-2"] .internal-link:hover {
+  background: rgba(80, 120, 255, 0.22) !important;
+  border-color: rgba(100, 150, 255, 0.75) !important;
+  box-shadow: 0 0 12px rgba(80, 120, 255, 0.30);
   color: #fff !important;
 }
 
-/* ══ 卡片 Callout 基础样式 ══ */
+/* ══ 8. 卡片 Callout 基础 ══ */
 .home .callout[data-callout^="card-"] {
   border-radius: 14px !important;
   background: rgba(255, 255, 255, 0.045) !important;
@@ -101,21 +135,18 @@
 .home .callout[data-callout^="card-"] .callout-title { display: none !important; }
 .home .callout[data-callout^="card-"] .callout-content { padding: 0 !important; }
 
-/* 卡片内 H2 当图标用 */
 .home .callout[data-callout^="card-"] h2 {
   font-size: 2.2em !important;
   margin: 0 0 8px !important;
   border: none !important;
   line-height: 1 !important;
 }
-/* 卡片内粗体 = 标签 */
 .home .callout[data-callout^="card-"] strong {
   display: block;
   font-size: 0.97em;
   color: #fff;
   margin-bottom: 3px;
 }
-/* 卡片内普通文字 = 副标题 */
 .home .callout[data-callout^="card-"] p {
   font-size: 0.68em;
   color: rgba(200,200,225,0.45);
@@ -123,7 +154,6 @@
   text-transform: uppercase;
   margin: 0 !important;
 }
-/* 卡片内链接 = 悬停按钮 */
 .home .callout[data-callout^="card-"] .internal-link {
   display: inline-block !important;
   margin-top: 10px !important;
@@ -140,56 +170,26 @@
   color: #fff !important;
 }
 
-/* ══ 卡片颜色变体 ══ */
-.home .callout[data-callout="card-orange"] {
-  border: 1px solid rgba(251,146,60, 0.30) !important;
-}
-.home .callout[data-callout="card-orange"]:hover {
-  border-color: rgba(251,146,60, 0.65) !important;
-  box-shadow: 0 10px 28px rgba(251,146,60,0.18) !important;
-}
+/* ══ 9. 卡片颜色变体 ══ */
+.home .callout[data-callout="card-orange"] { border: 1px solid rgba(251,146,60,0.30)!important; }
+.home .callout[data-callout="card-orange"]:hover { border-color: rgba(251,146,60,0.65)!important; box-shadow: 0 10px 28px rgba(251,146,60,0.18)!important; }
 
-.home .callout[data-callout="card-cyan"] {
-  border: 1px solid rgba(6,182,212, 0.30) !important;
-}
-.home .callout[data-callout="card-cyan"]:hover {
-  border-color: rgba(6,182,212, 0.65) !important;
-  box-shadow: 0 10px 28px rgba(6,182,212,0.18) !important;
-}
+.home .callout[data-callout="card-cyan"] { border: 1px solid rgba(6,182,212,0.30)!important; }
+.home .callout[data-callout="card-cyan"]:hover { border-color: rgba(6,182,212,0.65)!important; box-shadow: 0 10px 28px rgba(6,182,212,0.18)!important; }
 
-.home .callout[data-callout="card-purple"] {
-  border: 1px solid rgba(168,85,247, 0.30) !important;
-}
-.home .callout[data-callout="card-purple"]:hover {
-  border-color: rgba(168,85,247, 0.65) !important;
-  box-shadow: 0 10px 28px rgba(168,85,247,0.18) !important;
-}
+.home .callout[data-callout="card-purple"] { border: 1px solid rgba(168,85,247,0.30)!important; }
+.home .callout[data-callout="card-purple"]:hover { border-color: rgba(168,85,247,0.65)!important; box-shadow: 0 10px 28px rgba(168,85,247,0.18)!important; }
 
-.home .callout[data-callout="card-green"] {
-  border: 1px solid rgba(16,185,129, 0.30) !important;
-}
-.home .callout[data-callout="card-green"]:hover {
-  border-color: rgba(16,185,129, 0.65) !important;
-  box-shadow: 0 10px 28px rgba(16,185,129,0.18) !important;
-}
+.home .callout[data-callout="card-green"] { border: 1px solid rgba(16,185,129,0.30)!important; }
+.home .callout[data-callout="card-green"]:hover { border-color: rgba(16,185,129,0.65)!important; box-shadow: 0 10px 28px rgba(16,185,129,0.18)!important; }
 
-.home .callout[data-callout="card-pink"] {
-  border: 1px solid rgba(236,72,153, 0.30) !important;
-}
-.home .callout[data-callout="card-pink"]:hover {
-  border-color: rgba(236,72,153, 0.65) !important;
-  box-shadow: 0 10px 28px rgba(236,72,153,0.18) !important;
-}
+.home .callout[data-callout="card-pink"] { border: 1px solid rgba(236,72,153,0.30)!important; }
+.home .callout[data-callout="card-pink"]:hover { border-color: rgba(236,72,153,0.65)!important; box-shadow: 0 10px 28px rgba(236,72,153,0.18)!important; }
 
-.home .callout[data-callout="card-gold"] {
-  border: 1px solid rgba(234,179,8, 0.30) !important;
-}
-.home .callout[data-callout="card-gold"]:hover {
-  border-color: rgba(234,179,8, 0.65) !important;
-  box-shadow: 0 10px 28px rgba(234,179,8,0.18) !important;
-}
+.home .callout[data-callout="card-gold"] { border: 1px solid rgba(234,179,8,0.30)!important; }
+.home .callout[data-callout="card-gold"]:hover { border-color: rgba(234,179,8,0.65)!important; box-shadow: 0 10px 28px rgba(234,179,8,0.18)!important; }
 
-/* ══ Dataview 最近列表 ══ */
+/* ══ 10. Dataview 最近列表 ══ */
 .home .dataview.list-view-ul {
   background: rgba(255,255,255,0.04) !important;
   border: 1px solid rgba(255,255,255,0.09) !important;
@@ -204,14 +204,4 @@
   font-size: 0.88em !important;
 }
 .home .dataview.list-view-ul li:last-child { border-bottom: none !important; }
-.home .dataview.list-view-ul li::marker { color: rgba(168,85,247,0.5); }
-
-/* ══ 悬停预览弹窗（全局） ══ */
-.popover.hover-popover {
-  min-width: 300px !important;
-  max-width: 520px !important;
-  width: max-content !important;
-}
-.popover.hover-popover .markdown-preview-view {
-  font-size: 13.5px;
-}
+.home .dataview.list-view-ul li::marker { color: rgba(100,150,255,0.5); }
