@@ -10,8 +10,7 @@ cssclasses:
 > [!home-nav]
 > [[行业mapping/index|🗺 行业mapping]] [[岗位mapping/岗位mapping|✊ 岗位mapping]] [[Calendar/Journal/Daily|📅 日记]] [[行业报告/行业报告|📊 报告]]
 
-> [!home-nav-2]
-> [[skill/sp-skill/SKILL|⚡ SKILL]] [[配置/index|⚙️ Config]] [[蒸馏/index|📡 Stream]]
+
 
 ---
 
