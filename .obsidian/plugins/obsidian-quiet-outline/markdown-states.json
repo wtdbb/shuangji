@@ -2189,12 +2189,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 6
+        "line": 0,
+        "ch": 11
       },
       "to": {
-        "line": 1,
-        "ch": 6
+        "line": 0,
+        "ch": 26
       }
     },
     "expandedKeys": []
