@@ -10,7 +10,8 @@ cssclasses:
 > [!home-nav]
 > [[行业mapping/index|🗺 行业mapping]] [[岗位mapping/岗位mapping|✊ 岗位mapping]] [[Calendar/Journal/Daily|📅 日记]] [[行业报告/行业报告|📊 报告]]
 
-
+> [!home-nav-2]
+> [[skill/sp-skill/SKILL|⚡ SKILL]] [[配置/index|⚙️ Config]] [[蒸馏/index|📡 Stream]]
 
 ---
 
@@ -21,7 +22,7 @@ cssclasses:
 > ## ✊
 > **岗位**
 > Positions
-> 
+>
 > [[岗位mapping/岗位mapping|打开 →]]
 
 ===
@@ -30,7 +31,7 @@ cssclasses:
 > ## 🏃
 > **热点**
 > Industry News
-> 
+>
 > [[行业报告/行业报告|打开 →]]
 
 ===
@@ -39,7 +40,7 @@ cssclasses:
 > ## 📅
 > **日历**
 > Calendar
-> 
+>
 > [[Calendar/Journal/Daily|打开 →]]
 
 ===
@@ -48,7 +49,7 @@ cssclasses:
 > ## 🔍
 > **行业**
 > Industry Map
-> 
+>
 > [[行业mapping/index|打开 →]]
 
 ````
@@ -60,7 +61,7 @@ cssclasses:
 > ## 📡
 > **蒸馏**
 > Stream
-> 
+>
 > [[蒸馏/index|打开 →]]
 
 ===
@@ -69,7 +70,7 @@ cssclasses:
 > ## ⚡
 > **技能**
 > Skills
-> 
+>
 > [[skill/sp-skill/SKILL|打开 →]]
 
 ===
@@ -78,7 +79,7 @@ cssclasses:
 > ## 📚
 > **行业报告**
 > Reports
-> 
+>
 > [[行业报告/行业报告|打开 →]]
 
 ===
@@ -87,12 +88,11 @@ cssclasses:
 > ## ⚙️
 > **配置**
 > Config
-> 
+>
 > [[配置/index|打开 →]]
 
 ````
-> [!home-nav-2]
-> [[skill/sp-skill/SKILL|⚡ SKILL]] [[配置/index|⚙️ Config]] [[蒸馏/index|📡 Stream]]
+
 ---
 
 **最近修改**
