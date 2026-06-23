@@ -10,26 +10,7 @@
 .home .inline-title         { display: none !important; }
 .home .view-header-title    { display: none !important; }
 
-/* ══ 2. 全页背景 ══
-   用绝对路径 + ASCII 文件名确保 Electron 能加载 */
-.home.markdown-preview-view,
-.home.markdown-source-view.mod-cm6 .cm-scroller {
-  background:
-    linear-gradient(180deg,
-      rgba(5, 8, 15, 0.20)  0%,
-      rgba(5, 8, 15, 0.60) 30%,
-      rgba(5, 8, 15, 0.88) 58%,
-      rgba(5, 8, 15, 0.97) 78%
-    ),
-    url('rain-bg.png') center top / cover no-repeat;
-  min-height: 100vh;
-}
 
-/* 编辑器底色透明，让背景透出 */
-.home.markdown-source-view.mod-cm6 .cm-content,
-.home.markdown-source-view.mod-cm6 .cm-editor {
-  background: transparent !important;
-}
 
 /* ══ 3. 字体 ══ */
 .home .markdown-preview-view,
