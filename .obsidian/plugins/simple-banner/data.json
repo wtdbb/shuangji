@@ -1,7 +1,7 @@
 {
   "desktop": {
     "bannerEnabled": true,
-    "height": 500,
+    "height": 1000,
     "viewOffset": 0,
     "noteOffset": -32,
     "bannerRadius": [
