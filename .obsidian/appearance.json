@@ -1,5 +1,5 @@
 {
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Atom",
   "enabledCssSnippets": [
     "Daily Note Themes",
     "General Tweaks",
@@ -7,7 +7,7 @@
     "dash-nav"
   ],
   "theme": "obsidian",
-  "accentColor": "#211e1c",
+  "accentColor": "#a011d4",
   "baseFontSizeAction": true,
   "nativeMenus": true,
   "baseFontSize": 20
