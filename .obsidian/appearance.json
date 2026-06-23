@@ -1,5 +1,5 @@
 {
-  "cssTheme": "Atom",
+  "cssTheme": "Minimal",
   "enabledCssSnippets": [
     "Daily Note Themes",
     "General Tweaks",
@@ -8,8 +8,8 @@
     "Embed Float Images",
     "Home Page"
   ],
-  "theme": "obsidian",
-  "accentColor": "#a011d4",
+  "theme": "moonstone",
+  "accentColor": "#14c9e1",
   "baseFontSizeAction": true,
   "nativeMenus": true,
   "baseFontSize": 20

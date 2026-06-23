@@ -1979,12 +1979,12 @@
     "scroll": 2.2666666666666666,
     "cursor": {
       "from": {
-        "line": 92,
-        "ch": 8
+        "line": 91,
+        "ch": 0
       },
       "to": {
-        "line": 92,
-        "ch": 8
+        "line": 91,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -2088,6 +2088,20 @@
     "expandedKeys": []
   },
   "2026-06-23.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Daily notes/Calendar/Journal/Daily/2026-06-23.md": {
     "scroll": 0,
     "cursor": {
       "from": {
