@@ -12,7 +12,8 @@ id: candidates-comparison-001
 <div style="text-align: center;"> 
 
 <span style="font-size: 24px;">[[岗位mapping/岗位mapping|✊岗位]]</span>
-<
+<span style="font-size: 18px;">[[行业报告/行业报告|热点]]</span>
+
 
 </div>
 
