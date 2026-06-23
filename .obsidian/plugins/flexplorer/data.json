@@ -6416,7 +6416,6 @@
       "sortOrder": "custom",
       "customOrder": [
         "天下",
-        "天下.md",
         "第五人格工作室",
         "率土工作室",
         "水滴工作室",
@@ -6632,6 +6631,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "社交冒险.md",
         "光遇工作室.md",
         "光·遇.md"
       ]
@@ -6854,11 +6854,11 @@
     "岗位mapping/成都/蛇夫座": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "湮灭之潮.md",
         "蛇夫座.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/成都/蛇夫座/蛇夫座.md": {
       "isPinned": false,
@@ -6872,15 +6872,21 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/分部/一线/网易/广州网易/天下.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/分部/一线/网易/广州网易/天下": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": [
+        "天下.md"
+      ]
+    },
+    "岗位mapping/分部/一线/网易/广州网易/天下/天下.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/光遇工作室/社交冒险.md": {
+      "isPinned": false,
+      "isHidden": false
     }
   },
   "pinnedFiles": [],

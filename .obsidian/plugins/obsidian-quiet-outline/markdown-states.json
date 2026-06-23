@@ -2324,5 +2324,61 @@
       }
     },
     "expandedKeys": []
+  },
+  "岗位mapping/分部/一线/网易/广州网易/天下.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/分部/一线/网易/广州网易/天下/天下.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/分部/一线/网易/广州网易/光遇工作室/光遇工作室.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/分部/一线/网易/广州网易/光遇工作室/社交冒险.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 19
+      },
+      "to": {
+        "line": 1,
+        "ch": 19
+      }
+    },
+    "expandedKeys": []
   }
 }
