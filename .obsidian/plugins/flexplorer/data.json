@@ -264,6 +264,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "bg_4l3pmr.jpg",
+        "bg_lmxjdp.jpg",
         "Pasted image 20260623121559.png",
         "3c4d6efd-a3fe-4d95-8393-4df19df0b40f.png",
         "4d2a9ce3ae9eef210231f990079c2bb5_MD5.jpg",
@@ -6819,6 +6821,14 @@
       "isHidden": false
     },
     "图片归档/Pasted image 20260623121559.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "图片归档/bg_lmxjdp.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "图片归档/bg_4l3pmr.jpg": {
       "isPinned": false,
       "isHidden": false
     }
