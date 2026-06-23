@@ -44,3 +44,5 @@ id: candidates-comparison-001
 
 ````
 
+> [!dash-nav]
+> <span style="--btn-color: #4dadf7;">[[Stream]]</span> <span style="--btn-color: #2dbb96;">[[SKILL]]</span> <span style="--btn-color: #ff6b6b;">[[配置]]</span>
