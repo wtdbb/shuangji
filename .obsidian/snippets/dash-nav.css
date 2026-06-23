@@ -44,3 +44,30 @@
 .callout[data-callout="dash-nav"] .internal-link:hover {
     background-color: rgba(234, 182, 118, 0.15) !important;
 }
+
+
+/* ====== 自定义极简引用卡片 ====== */
+
+/* 1. 彻底隐藏丑陋的标题栏和图标 */
+.callout[data-callout="card"] .callout-title {
+    display: none !important;
+}
+
+/* 2. 完美复刻你之前的 HTML 灰底侧边框排版 */
+.callout[data-callout="card"] {
+    background-color: rgba(192, 192, 192, 0.1) !important; /* 浅灰底色 */
+    border: none !important;
+    border-left: 4px solid rgb(192, 192, 192) !important; /* 灰色左边框 */
+    padding: 10px 16px !important; /* 紧凑的内边距，让框变小 */
+    border-radius: 4px !important;
+    margin: 10px 0 !important;
+}
+
+/* 3. 清除多余的内部空隙，让文字垂直居中 */
+.callout[data-callout="card"] .callout-content {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.callout[data-callout="card"] p {
+    margin: 0 !important;
+}
