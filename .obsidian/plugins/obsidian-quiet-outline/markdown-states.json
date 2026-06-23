@@ -1976,14 +1976,14 @@
     "expandedKeys": []
   },
   "🏠Home.md": {
-    "scroll": 1.1700000339084202,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 47,
+        "line": 44,
         "ch": 0
       },
       "to": {
-        "line": 47,
+        "line": 44,
         "ch": 0
       }
     },
