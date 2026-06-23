@@ -91,7 +91,8 @@ cssclasses:
 > [[配置/index|打开 →]]
 
 ````
-
+> [!home-nav-2]
+> [[skill/sp-skill/SKILL|⚡ SKILL]] [[配置/index|⚙️ Config]] [[蒸馏/index|📡 Stream]]
 ---
 
 **最近修改**
