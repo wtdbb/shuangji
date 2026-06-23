@@ -1952,11 +1952,11 @@
     "cursor": {
       "from": {
         "line": 7,
-        "ch": 11
+        "ch": 19
       },
       "to": {
         "line": 7,
-        "ch": 11
+        "ch": 19
       }
     },
     "expandedKeys": []
@@ -2061,6 +2061,20 @@
   },
   "Daily notes/Calendar/Journal/Daily/未命名.md": {
     "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Daily notes/Templates/Daily-TEMPLATE.md": {
+    "scroll": 39.00999959309896,
     "cursor": {
       "from": {
         "line": 0,

@@ -887,7 +887,9 @@
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
-      "customOrder": []
+      "customOrder": [
+        "2026-06-23.md"
+      ]
     },
     "Daily notes/Calendar/Journal/Month": {
       "isPinned": false,
@@ -6849,6 +6851,10 @@
       ]
     },
     "Calendar/Journal/Daily.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-06-23.md": {
       "isPinned": false,
       "isHidden": false
     }
