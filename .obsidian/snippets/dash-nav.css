@@ -1,30 +1,23 @@
-/* 1. 隐藏这个专属 Callout 的默认背景、边框和标题栏，让它变成一个透明的居中容器 */
-.callout[data-callout="dash-nav"] {
-    background: transparent;
-    border: none;
-    box-shadow: none;
-    padding: 0;
-    margin-bottom: 40px;
-    text-align: center;
-}
-.callout[data-callout="dash-nav"] .callout-title {
-    display: none;
-}
-
-/* 2. 拦截里面的双向链接，强制变成金黄色按钮 */
-.callout[data-callout="dash-nav"] .internal-link {
-    display: inline-block !important;
-    padding: 6px 16px !important;
-    margin: 0 8px !important; 
-    border: 1px solid #eab676 !important; 
-    border-radius: 6px !important; 
-    color: #eab676 !important; 
-    text-decoration: none !important; 
-    font-weight: bold;
-    transition: background-color 0.2s;
+/* ====== 主页专属幽灵背景图 ====== */
+.home-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px; /* 随时在这里修改你想要的背景高度 */
+    background-image: url('https://w.wallhaven.cc/full/21/wallhaven-21okeg.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.25; /* 降低透明度，保证不影响你看字 */
+    z-index: 0;
+    pointer-events: none; /* 彻底防误触 */
+    -webkit-mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
 }
 
-/* 3. 鼠标悬停时的发光效果 */
-.callout[data-callout="dash-nav"] .internal-link:hover {
-    background-color: rgba(234, 182, 118, 0.15) !important;
+/* 提升文字和按钮层级，防止被背景盖住无法点击 */
+.home-bg .cm-content, 
+.home-bg .markdown-preview-sizer {
+    position: relative;
+    z-index: 1;
 }
