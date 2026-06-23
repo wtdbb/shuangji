@@ -1,0 +1,57 @@
+/* ══════════════════════════════════════════
+   全局嵌入图片：脱离文档流，不占页面高度
+   用法：直接写 ![[图片.png]] 即可
+   图片悬浮在右侧，不撑开任何间距
+   ══════════════════════════════════════════ */
+
+/* ── 阅读模式 ── */
+.markdown-reading-view .image-embed,
+.markdown-preview-view .image-embed {
+  display: block !important;
+  height: 0 !important;
+  overflow: visible !important;
+  position: relative !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 0 !important;
+}
+
+.markdown-reading-view .image-embed img,
+.markdown-preview-view .image-embed img {
+  position: absolute !important;
+  right: 0 !important;
+  top: 0 !important;
+  max-width: 200px !important;
+  height: auto !important;
+  z-index: 20 !important;
+  border-radius: 6px !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18) !important;
+}
+
+/* ── 实时预览 / 编辑模式 ── */
+.markdown-source-view .image-embed {
+  display: block !important;
+  height: 0 !important;
+  overflow: visible !important;
+  position: relative !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.markdown-source-view .image-embed img {
+  position: absolute !important;
+  right: 0 !important;
+  top: 0 !important;
+  max-width: 200px !important;
+  height: auto !important;
+  z-index: 20 !important;
+  border-radius: 6px !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18) !important;
+}
+
+/* ── 调整图片大小：在嵌入语法里加 |px 覆盖默认宽度 ──
+   ![[图片.png|150]]  → Obsidian 自动生成 width="150"，此处继承 */
+.image-embed img[width] {
+  max-width: unset !important;
+  width: attr(width px) !important;
+}
