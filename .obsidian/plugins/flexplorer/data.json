@@ -4461,6 +4461,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "科幻写实UE5全平台PVE射击.md",
         "字节深圳.md"
       ]
     },
@@ -6834,6 +6835,10 @@
       "isHidden": false
     },
     "Daily notes/Calendar/Journal/Daily/2026-06-23.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/字节/字节深圳/科幻写实UE5全平台PVE射击.md": {
       "isPinned": false,
       "isHidden": false
     }

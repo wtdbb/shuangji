@@ -1780,15 +1780,15 @@
     "expandedKeys": []
   },
   "岗位mapping/分部/二线/字节/字节深圳/字节深圳.md": {
-    "scroll": 6.021301630686021,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 35,
-        "ch": 45
+        "line": 29,
+        "ch": 0
       },
       "to": {
-        "line": 35,
-        "ch": 45
+        "line": 29,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -1797,12 +1797,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 6,
+        "ch": 45
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 6,
+        "ch": 45
       }
     },
     "expandedKeys": []
@@ -1853,11 +1853,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
+        "line": 13,
         "ch": 0
       },
       "to": {
-        "line": 7,
+        "line": 13,
         "ch": 0
       }
     },
@@ -2139,6 +2139,20 @@
       "to": {
         "line": 24,
         "ch": 58
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/分部/二线/字节/字节华南射击（刘谦团队）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
