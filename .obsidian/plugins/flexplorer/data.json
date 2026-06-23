@@ -5,7 +5,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "Calendar",
         "AI信息收集系统",
         "🏠Home.md",
         "岗位mapping",
@@ -6831,26 +6830,6 @@
       "isHidden": false
     },
     "行业mapping/index.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Calendar": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "Journal"
-      ]
-    },
-    "Calendar/Journal": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "Daily.md"
-      ]
-    },
-    "Calendar/Journal/Daily.md": {
       "isPinned": false,
       "isHidden": false
     },
