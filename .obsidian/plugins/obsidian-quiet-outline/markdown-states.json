@@ -145,11 +145,11 @@
     "scroll": 0.6015037507723507,
     "cursor": {
       "from": {
-        "line": 5,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 5,
+        "line": 0,
         "ch": 0
       }
     },
@@ -1976,14 +1976,14 @@
     "expandedKeys": []
   },
   "🏠Home.md": {
-    "scroll": 0,
+    "scroll": 7.827083333333333,
     "cursor": {
       "from": {
-        "line": 14,
+        "line": 101,
         "ch": 0
       },
       "to": {
-        "line": 14,
+        "line": 101,
         "ch": 0
       }
     },
@@ -1998,6 +1998,34 @@
       },
       "to": {
         "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Calendar/Journal/Daily.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "skill/sp-skill/SKILL.md": {
+    "scroll": 1.0029850290782416,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
         "ch": 0
       }
     },

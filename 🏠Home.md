@@ -9,11 +9,7 @@ cssclasses:
 
 > [!home-nav]
 > [[行业mapping/index|🗺 行业mapping]] [[岗位mapping/岗位mapping|✊ 岗位mapping]] [[Calendar/Journal/Daily|📅 日记]] [[行业报告/行业报告|📊 报告]]
-
-> [!home-nav-2]
-> [[skill/sp-skill/SKILL|⚡ SKILL]] [[配置/index|⚙️ Config]] [[蒸馏/index|📡 Stream]]
-
-
+---
 ````columns
 ===
 
@@ -52,7 +48,8 @@ cssclasses:
 > [[行业mapping/index|打开 →]]
 
 ````
-
+> [!home-nav-2]
+> [[skill/sp-skill/SKILL|⚡ SKILL]] [[配置/index|⚙️ Config]] [[蒸馏/index|📡 Stream]]
 ````columns
 ===
 
@@ -91,6 +88,7 @@ cssclasses:
 > [[配置/index|打开 →]]
 
 ````
+---
 
 **最近修改**
 
@@ -100,6 +98,4 @@ FROM "" AND !"🏠Home" AND !"Templates" AND !".obsidian"
 SORT file.mtime DESC
 LIMIT 8
 ```
-
-
 
