@@ -5412,6 +5412,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "vp.md",
         "白银之城.md",
         "偶像梦幻祭（Ensemble Stars!）.md",
         "乐元素（上海工作室）.md"
@@ -6862,6 +6863,10 @@
       "isHidden": false
     },
     "岗位mapping/成都/蛇夫座/湮灭之潮.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/三线/乐元素/上海乐元素/vp.md": {
       "isPinned": false,
       "isHidden": false
     }
