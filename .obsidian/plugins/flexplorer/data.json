@@ -5,7 +5,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "2026-06-23.md",
         "Calendar",
         "AI信息收集系统",
         "🏠Home.md",
@@ -6850,10 +6849,6 @@
       ]
     },
     "Calendar/Journal/Daily.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "2026-06-23.md": {
       "isPinned": false,
       "isHidden": false
     }
