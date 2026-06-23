@@ -700,6 +700,7 @@
       "sortOrder": "custom",
       "customOrder": [
         "成都.md",
+        "蛇夫座",
         "龙渊网络",
         "炎龙科技",
         "极致游戏（成都）",
@@ -6844,6 +6845,23 @@
       "isHidden": false
     },
     "岗位mapping/广州/沐瞳/Lovania.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/成都/蛇夫座": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "湮灭之潮.md",
+        "蛇夫座.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/成都/蛇夫座/蛇夫座.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/成都/蛇夫座/湮灭之潮.md": {
       "isPinned": false,
       "isHidden": false
     }

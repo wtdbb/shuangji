@@ -2198,5 +2198,61 @@
       }
     },
     "expandedKeys": []
+  },
+  "岗位mapping/成都/蛇夫座/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/成都/蛇夫座/湮灭之潮.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 74
+      },
+      "to": {
+        "line": 8,
+        "ch": 74
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/成都/蛇夫座/蛇夫座.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 8
+      },
+      "to": {
+        "line": 0,
+        "ch": 8
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/成都/成都.md": {
+    "scroll": 9.896666590372721,
+    "cursor": {
+      "from": {
+        "line": 24,
+        "ch": 0
+      },
+      "to": {
+        "line": 24,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
