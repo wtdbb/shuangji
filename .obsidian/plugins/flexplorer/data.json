@@ -264,6 +264,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "rain-bg.png",
         "雨天.png",
         "bg_4l3pmr.jpg",
         "bg_lmxjdp.jpg",
@@ -6834,6 +6835,10 @@
       "isHidden": false
     },
     "图片归档/雨天.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "图片归档/rain-bg.png": {
       "isPinned": false,
       "isHidden": false
     }
