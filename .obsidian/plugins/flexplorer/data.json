@@ -6851,18 +6851,18 @@
     "Calendar": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "Journal"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Calendar/Journal": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "Daily.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Calendar/Journal/Daily.md": {
       "isPinned": false,
