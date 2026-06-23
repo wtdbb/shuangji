@@ -1,7 +1,7 @@
 /* ═══════════════════════════════════════════════════
-   HOME PAGE — Sakura Light Theme (明亮樱花粉主题)
+   HOME PAGE — Soft Sakura Theme (柔和莫兰迪粉，护眼版)
    cssclasses: [home] 启用
-   完美适配浅色 (Light Mode) 界面
+   完美适配浅色 (Light Mode) 界面，降低明度防刺眼
    ═══════════════════════════════════════════════════ */
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
@@ -10,10 +10,10 @@
 .home .inline-title         { display: none !important; }
 .home .view-header-title    { display: none !important; }
 
-/* ══ 2. 全页背景 (明亮柔和的白/浅樱花粉底色，消除割裂感) ══ */
+/* ══ 2. 全页背景 (降低明度，改为低饱和度的柔和燕麦灰粉底色) ══ */
 .home.markdown-preview-view,
 .home.markdown-source-view.mod-cm6 .cm-scroller {
-  background: linear-gradient(180deg, #fff0f5 0%, #ffffff 30%, #ffffff 100%) !important;
+  background: linear-gradient(180deg, #f6edf1 0%, #f4f0f2 40%, #f0ecee 100%) !important;
   min-height: 100vh;
 }
 
@@ -23,59 +23,51 @@
   background: transparent !important;
 }
 
-/* ══ 3. 字体 (深褐色/灰粉色文字，保证在白底上清晰易读) ══ */
+/* ══ 3. 字体 (加深偏灰，减少对比度的刺眼感) ══ */
 .home .markdown-preview-view,
 .home .cm-content {
   font-family: "Outfit", "Noto Sans SC", "PingFang SC", sans-serif !important;
-  color: #5d4050 !important; 
+  color: #634d56 !important; 
 }
 
-/* ══ 4. H1 标题样式 (明亮模式下的粉色标题) ══ */
+/* ══ 4. H1 标题样式 (改为不刺眼的干枯玫瑰色) ══ */
 .home .markdown-preview-view h1,
 .home .cm-header-1 {
   font-family: "Outfit", sans-serif !important;
   font-size: 2.4em !important;
   font-weight: 700 !important;
-  color: #e83e8c !important; /* 亮粉色 */
-  text-shadow: 0 4px 12px rgba(232, 62, 140, 0.15) !important;
+  color: #c45a86 !important; 
+  text-shadow: 0 4px 12px rgba(196, 90, 134, 0.1) !important;
   border: none !important;
   margin-bottom: 2px !important;
 }
 
 /* ══ 5. 分隔线 ══ */
 .home hr {
-  border-color: rgba(232, 62, 140, 0.15) !important;
+  border-color: rgba(196, 90, 134, 0.15) !important;
   margin: 18px 0 !important;
 }
 
-/* ══ 6. 第一行导航 [!home-nav] ══ */
-.home .callout[data-callout="home-nav"] {
-  background: rgba(255, 255, 255, 0.6) !important;
-  border: 1px solid rgba(236, 72, 153, 0.25) !important;
-  border-radius: 12px 12px 0 0 !important;
+/* ══ 6 & 7. 导航区域背景 (去掉刺眼的纯白，改为柔和灰底磨砂) ══ */
+.home .callout[data-callout="home-nav"],
+.home .callout[data-callout="home-nav-2"] {
+  background: rgba(240, 235, 237, 0.6) !important;
+  border: 1px solid rgba(210, 160, 180, 0.25) !important;
+  backdrop-filter: blur(10px);
   padding: 10px 18px 8px !important;
   margin-bottom: 0 !important;
-  backdrop-filter: blur(10px);
 }
-.home .callout[data-callout="home-nav"] .callout-title { display: none !important; }
-.home .callout[data-callout="home-nav"] .callout-content { padding: 0 !important; }
-
-/* ══ 7. 第二行导航 [!home-nav-2] ══ */
+.home .callout[data-callout="home-nav"] { border-radius: 12px 12px 0 0 !important; }
 .home .callout[data-callout="home-nav-2"] {
-  background: rgba(255, 255, 255, 0.4) !important;
-  border: 1px solid rgba(236, 72, 153, 0.15) !important;
   border-top: none !important;
   border-radius: 0 0 12px 12px !important;
   padding: 8px 18px 10px !important;
-  margin-top: 0 !important;
-  backdrop-filter: blur(10px);
 }
-.home .callout[data-callout="home-nav-2"] .callout-title { display: none !important; }
-.home .callout[data-callout="home-nav-2"] .callout-content { padding: 0 !important; }
+.home .callout[data-callout^="home-nav"] .callout-title { display: none !important; }
+.home .callout[data-callout^="home-nav"] .callout-content { padding: 0 !important; }
 
 /* 两行导航布局 */
-.home .callout[data-callout="home-nav"] .callout-content p,
-.home .callout[data-callout="home-nav-2"] .callout-content p {
+.home .callout[data-callout^="home-nav"] .callout-content p {
   display: flex !important;
   flex-wrap: wrap !important;
   gap: 10px !important;
@@ -83,47 +75,44 @@
   justify-content: stretch !important;
 }
 
-/* 明亮模式按钮 (清透的亮粉色) */
-.home .callout[data-callout="home-nav"] .internal-link,
-.home .callout[data-callout="home-nav-2"] .internal-link {
+/* 柔和版按钮 (深豆沙粉文字) */
+.home .callout[data-callout^="home-nav"] .internal-link {
   flex: 1 !important;
   text-align: center !important;
   display: block !important;
   padding: 7px 8px !important;
-  border: 1px solid rgba(236, 72, 153, 0.3) !important;
+  border: 1px solid rgba(210, 160, 180, 0.3) !important;
   border-radius: 10px !important;
-  background: rgba(253, 232, 243, 0.7) !important;
-  color: #be185d !important; /* 深粉色文字 */
+  background: rgba(245, 233, 238, 0.7) !important;
+  color: #9c456a !important; 
   text-decoration: none !important;
   font-size: 0.85em !important;
   font-weight: 600 !important;
   letter-spacing: 0.02em !important;
   transition: all 0.2s ease;
 }
-.home .callout[data-callout="home-nav"] .internal-link:hover,
-.home .callout[data-callout="home-nav-2"] .internal-link:hover {
-  background: rgba(244, 114, 182, 0.2) !important;
-  border-color: rgba(236, 72, 153, 0.6) !important;
-  box-shadow: 0 4px 12px rgba(236, 72, 153, 0.15);
-  color: #9d174d !important;
+.home .callout[data-callout^="home-nav"] .internal-link:hover {
+  background: rgba(230, 205, 215, 0.5) !important;
+  border-color: rgba(210, 160, 180, 0.6) !important;
+  box-shadow: 0 4px 12px rgba(196, 90, 134, 0.08);
+  color: #7d3352 !important;
   transform: translateY(-1px);
 }
 
-/* ══ 8. Dataview 最近列表 (明亮模式适配) ══ */
+/* ══ 8. Dataview 最近列表 (柔和护眼底色) ══ */
 .home .dataview.list-view-ul {
-  background: rgba(255, 255, 255, 0.6) !important;
-  border: 1px solid rgba(236, 72, 153, 0.2) !important;
+  background: rgba(240, 235, 237, 0.6) !important;
+  border: 1px solid rgba(210, 160, 180, 0.2) !important;
   border-radius: 12px !important;
   padding: 14px 20px !important;
   list-style: none !important;
   margin: 0 !important;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.02) !important;
 }
 .home .dataview.list-view-ul li {
   padding: 8px 0 !important;
-  border-bottom: 1px dashed rgba(236, 72, 153, 0.2) !important;
+  border-bottom: 1px dashed rgba(210, 160, 180, 0.3) !important;
   font-size: 0.9em !important;
-  color: #5d4050 !important;
+  color: #634d56 !important;
 }
 .home .dataview.list-view-ul li:last-child { border-bottom: none !important; }
-.home .dataview.list-view-ul li::marker { color: #f472b6; }
+.home .dataview.list-view-ul li::marker { color: #c45a86; }
