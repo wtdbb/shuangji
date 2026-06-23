@@ -4,7 +4,7 @@
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
     "format": "",
-    "template": "",
+    "template": "Daily notes/Templates/Daily-TEMPLATE.md",
     "folder": "Daily notes/Calendar/Journal/Daily",
     "enabled": true
   },
@@ -29,7 +29,7 @@
   "yearly": {
     "format": "",
     "template": "",
-    "folder": "Daily notes/Calendar/Journal/y",
+    "folder": "Daily notes/Calendar/Journal/Yearly",
     "enabled": true
   }
 }

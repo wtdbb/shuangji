@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-06-23.md",
         "Calendar",
         "AI信息收集系统",
         "🏠Home.md",
@@ -887,9 +888,7 @@
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
-      "customOrder": [
-        "2026-06-23.md"
-      ]
+      "customOrder": []
     },
     "Daily notes/Calendar/Journal/Month": {
       "isPinned": false,
@@ -6854,7 +6853,7 @@
       "isPinned": false,
       "isHidden": false
     },
-    "Daily notes/Calendar/Journal/Daily/2026-06-23.md": {
+    "2026-06-23.md": {
       "isPinned": false,
       "isHidden": false
     }
