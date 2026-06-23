@@ -2074,7 +2074,7 @@
     "expandedKeys": []
   },
   "Daily notes/Templates/Daily-TEMPLATE.md": {
-    "scroll": 41.45396968296596,
+    "scroll": 49.20999984741211,
     "cursor": {
       "from": {
         "line": 57,
@@ -2102,15 +2102,15 @@
     "expandedKeys": []
   },
   "Daily notes/Calendar/Journal/Daily/2026-06-23.md": {
-    "scroll": 35.79029312874507,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 46,
-        "ch": 20
+        "line": 48,
+        "ch": 0
       },
       "to": {
-        "line": 46,
-        "ch": 20
+        "line": 48,
+        "ch": 0
       }
     },
     "expandedKeys": []
