@@ -6,7 +6,7 @@
 
 <div class="dash-nav">
 
-[[蒸馏/index|index]]
+[[蒸馏/index|蒸馏]]
 
 </div>
 ````columns

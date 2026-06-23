@@ -3,7 +3,8 @@
   "enabledCssSnippets": [
     "Daily Note Themes",
     "General Tweaks",
-    "popover-width"
+    "popover-width",
+    "dash-nav"
   ],
   "theme": "obsidian",
   "accentColor": "#24d6c1",
