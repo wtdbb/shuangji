@@ -1948,7 +1948,7 @@
     "expandedKeys": []
   },
   "Daily notes/Calendar/Journal/Weekly/2026-W25.md": {
-    "scroll": 43.35624980926514,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 0,
@@ -2054,6 +2054,20 @@
       },
       "to": {
         "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Daily notes/Calendar/Journal/Daily/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
         "ch": 0
       }
     },

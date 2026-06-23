@@ -887,9 +887,7 @@
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
-      "customOrder": [
-        "未命名.md"
-      ]
+      "customOrder": []
     },
     "Daily notes/Calendar/Journal/Month": {
       "isPinned": false,
@@ -6851,10 +6849,6 @@
       ]
     },
     "Calendar/Journal/Daily.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Daily notes/Calendar/Journal/Daily/未命名.md": {
       "isPinned": false,
       "isHidden": false
     }
