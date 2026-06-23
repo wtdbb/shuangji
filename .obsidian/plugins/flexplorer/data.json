@@ -2626,6 +2626,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Lovania.md",
         "沐瞳.md",
         "无尽对决（Mobile Legends）.md",
         "决胜巅峰（Mobile Legends Bang Bang）.md"
@@ -6839,6 +6840,10 @@
       "isHidden": false
     },
     "岗位mapping/分部/二线/字节/字节深圳/科幻写实UE5全平台PVE射击.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/沐瞳/Lovania.md": {
       "isPinned": false,
       "isHidden": false
     }

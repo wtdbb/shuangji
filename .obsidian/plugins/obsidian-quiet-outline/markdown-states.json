@@ -2158,15 +2158,43 @@
     "expandedKeys": []
   },
   "岗位mapping/广州/沐瞳/沐瞳.md": {
-    "scroll": 4.733727810650888,
+    "scroll": 3.78698224852071,
     "cursor": {
       "from": {
-        "line": 13,
+        "line": 11,
         "ch": 0
       },
       "to": {
-        "line": 13,
+        "line": 11,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/广州/沐瞳/Lovina.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 6
+      },
+      "to": {
+        "line": 1,
+        "ch": 6
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/广州/沐瞳/Lovania.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 6
+      },
+      "to": {
+        "line": 1,
+        "ch": 6
       }
     },
     "expandedKeys": []
