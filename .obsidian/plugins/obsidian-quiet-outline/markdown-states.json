@@ -2133,12 +2133,12 @@
     "scroll": 0.20699300966062745,
     "cursor": {
       "from": {
-        "line": 24,
-        "ch": 58
+        "line": 7,
+        "ch": 0
       },
       "to": {
-        "line": 24,
-        "ch": 58
+        "line": 7,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -2152,6 +2152,20 @@
       },
       "to": {
         "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/广州/沐瞳/沐瞳.md": {
+    "scroll": 4.733727810650888,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
         "ch": 0
       }
     },
