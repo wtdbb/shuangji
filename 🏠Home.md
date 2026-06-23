@@ -3,7 +3,6 @@
 <div style="--my-rgb: 192, 192, 192; background-color: rgba(var(--my-rgb), 0.1); border-left: 4px solid rgb(var(--my-rgb)); padding: 12px 16px; border-radius: 4px; margin: 1em 0;">
 ~
 </div>
-
 > [!dash-nav]
 > [[蒸馏/index|Stream]]  [[skill/sp-skill/SKILL|SKILL]][[配置/index|配置]]
 ````columns
@@ -44,4 +43,6 @@ id: candidates-comparison-001
 
 ````
 
+> [!dash-nav]
+> <span style="--btn-color: #4dadf7;">[[Stream]]</span> <span style="--btn-color: #2dbb96;">[[SKILL]]</span> <span style="--btn-color: #ff6b6b;">[[配置]]</span>
 
