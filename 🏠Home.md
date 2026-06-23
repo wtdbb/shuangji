@@ -1,5 +1,5 @@
 ---
-banner: https://wallhaven.cc/w/21okeg
+banner: https://w.wallhaven.cc/full/21/wallhaven-21okeg.png
 ---
 
 
