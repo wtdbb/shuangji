@@ -45,3 +45,8 @@ id: candidates-comparison-001
 
 
 
+<div style="--bg-url: url('https://w.wallhaven.cc/full/21/wallhaven-21okeg.png'); --bg-opacity: 0.35;">
+
+
+
+</div>
