@@ -5,7 +5,7 @@
 </div>
 
 > [!dash-nav]
-> [[蒸馏/index|蒸馏]]  [[
+> [[蒸馏/index|Stream]]  [[skill/sp-skill/SKILL|SKILL]][[配置/index|配置]][[图片
 ````columns
 id: candidates-comparison-001
 ===
