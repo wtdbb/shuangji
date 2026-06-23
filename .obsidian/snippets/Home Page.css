@@ -1,0 +1,244 @@
+/* ═══════════════════════════════════════════════════
+   HOME PAGE — Dark Cyberpunk Design
+   在笔记 frontmatter 写 cssclasses: [home] 即可启用
+   ═══════════════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap');
+
+/* ── 全屏背景（仅 .home 笔记） ── */
+.home.markdown-preview-view {
+  padding: 0 !important;
+  background:
+    linear-gradient(180deg,
+      rgba(9, 9, 20, 0.10)  0%,
+      rgba(9, 9, 20, 0.65) 30%,
+      rgba(9, 9, 20, 0.92) 58%,
+      rgba(9, 9, 20, 1.00) 80%
+    ),
+    url('图片归档/bg_lmxjdp.jpg') center top / cover no-repeat;
+  min-height: 100vh;
+  font-family: "Outfit", "Noto Sans SC", "PingFang SC", sans-serif !important;
+  color: rgba(215, 215, 235, 0.92);
+}
+
+.home.markdown-preview-view .markdown-preview-section {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+/* 隐藏顶部标题行（已由 home-title 代替） */
+.home.markdown-preview-view .inline-title { display: none; }
+
+/* ── 主包裹容器 ── */
+.home-wrapper {
+  padding: 52px 44px 72px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* ── 标题 ── */
+.home-wrapper h2:first-of-type {
+  font-family: "Outfit", sans-serif !important;
+  font-size: 2.6em !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.03em;
+  color: #fff !important;
+  text-shadow:
+    0 0 18px rgba(168, 85, 247, 0.7),
+    0 0 40px rgba(168, 85, 247, 0.35);
+  margin: 0 0 6px !important;
+  border: none !important;
+}
+
+.home-subtitle {
+  font-size: 0.8em;
+  color: rgba(168, 85, 247, 0.7);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+}
+
+/* ── 导航按钮栏 ── */
+.home-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.home-nav .internal-link,
+.home-nav a {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 22px !important;
+  border: 1px solid rgba(168, 85, 247, 0.38) !important;
+  border-radius: 999px !important;
+  background: rgba(168, 85, 247, 0.07) !important;
+  color: rgba(215, 215, 255, 0.88) !important;
+  text-decoration: none !important;
+  font-size: 0.87em !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.04em;
+  backdrop-filter: blur(8px);
+  transition: all 0.18s ease;
+}
+
+.home-nav .internal-link:hover,
+.home-nav a:hover {
+  background: rgba(168, 85, 247, 0.22) !important;
+  border-color: rgba(168, 85, 247, 0.75) !important;
+  box-shadow: 0 0 14px rgba(168, 85, 247, 0.3);
+  color: #fff !important;
+  transform: translateY(-1px);
+}
+
+/* ── 区段小标题 ── */
+.home-section {
+  font-size: 0.72em;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(168, 85, 247, 0.65);
+  margin: 0 0 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.home-section::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(168,85,247,0.35), transparent);
+}
+
+/* ── 卡片网格 ── */
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 36px;
+}
+
+/* 卡片基础 */
+.h-card {
+  position: relative;
+  border-radius: 16px;
+  padding: 22px 14px 18px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  backdrop-filter: blur(14px);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+
+/* 渐变光晕顶层 */
+.h-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 50%;
+  border-radius: 16px 16px 0 0;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+
+.h-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(255,255,255,0.2);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.45);
+}
+
+.h-card:hover::before { opacity: 1; }
+
+/* 卡片内覆盖链接（整张卡片可点击） */
+.h-card .internal-link {
+  position: absolute !important;
+  inset: 0 !important;
+  opacity: 0 !important;
+  z-index: 5 !important;
+}
+
+.h-card-icon { font-size: 2.2em; margin-bottom: 9px; display: block; }
+.h-card-label {
+  font-size: 0.95em;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.02em;
+}
+.h-card-sub {
+  font-size: 0.68em;
+  color: rgba(200,200,225,0.42);
+  margin-top: 4px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* 颜色变体 */
+.c-orange { border-color: rgba(251,146, 60,0.28)!important; }
+.c-orange::before { background: radial-gradient(circle at 50% 0%, rgba(251,146,60,0.14), transparent 70%); }
+.c-orange:hover   { border-color: rgba(251,146, 60,0.6)!important; box-shadow: 0 10px 28px rgba(251,146,60,0.18)!important; }
+
+.c-cyan  { border-color: rgba(  6,182,212,0.28)!important; }
+.c-cyan::before  { background: radial-gradient(circle at 50% 0%, rgba(6,182,212,0.14), transparent 70%); }
+.c-cyan:hover    { border-color: rgba(  6,182,212,0.6)!important; box-shadow: 0 10px 28px rgba(6,182,212,0.18)!important; }
+
+.c-purple{ border-color: rgba(168, 85,247,0.28)!important; }
+.c-purple::before{ background: radial-gradient(circle at 50% 0%, rgba(168,85,247,0.14), transparent 70%); }
+.c-purple:hover  { border-color: rgba(168, 85,247,0.6)!important; box-shadow: 0 10px 28px rgba(168,85,247,0.18)!important; }
+
+.c-green { border-color: rgba( 16,185,129,0.28)!important; }
+.c-green::before { background: radial-gradient(circle at 50% 0%, rgba(16,185,129,0.14), transparent 70%); }
+.c-green:hover   { border-color: rgba( 16,185,129,0.6)!important; box-shadow: 0 10px 28px rgba(16,185,129,0.18)!important; }
+
+.c-pink  { border-color: rgba(236, 72,153,0.28)!important; }
+.c-pink::before  { background: radial-gradient(circle at 50% 0%, rgba(236,72,153,0.14), transparent 70%); }
+.c-pink:hover    { border-color: rgba(236, 72,153,0.6)!important; box-shadow: 0 10px 28px rgba(236,72,153,0.18)!important; }
+
+.c-gold  { border-color: rgba(234,179,  8,0.28)!important; }
+.c-gold::before  { background: radial-gradient(circle at 50% 0%, rgba(234,179,8,0.14), transparent 70%); }
+.c-gold:hover    { border-color: rgba(234,179,  8,0.6)!important; box-shadow: 0 10px 28px rgba(234,179,8,0.18)!important; }
+
+/* ── 最近记录容器 ── */
+.home-recent {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.09);
+  border-radius: 16px;
+  padding: 20px 26px;
+  backdrop-filter: blur(14px);
+}
+
+.home-recent .dataview.list-view-ul {
+  margin: 0;
+  padding: 0;
+  list-style: none !important;
+}
+
+.home-recent .dataview.list-view-ul li {
+  padding: 7px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  font-size: 0.88em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home-recent .dataview.list-view-ul li:last-child { border-bottom: none; }
+
+.home-recent .dataview.list-view-ul li::before {
+  content: '→';
+  color: rgba(168, 85, 247, 0.6);
+  font-size: 0.8em;
+}
+
+/* 隐藏 Dataview 多余标题 */
+.home-recent .dataview-error-box,
+.home-recent .dataview.inline-query { display: none; }
+
+/* ── 整体背景（让侧边栏也有暗色基础） ── */
+.workspace-split.mod-root {
+  background: #090912;
+}
