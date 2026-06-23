@@ -264,6 +264,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "雨天.png",
         "bg_4l3pmr.jpg",
         "bg_lmxjdp.jpg",
         "Pasted image 20260623121559.png",
@@ -6829,6 +6830,10 @@
       "isHidden": false
     },
     "图片归档/bg_4l3pmr.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "图片归档/雨天.png": {
       "isPinned": false,
       "isHidden": false
     }
