@@ -21,7 +21,7 @@
       rgba(5, 8, 15, 0.88) 58%,
       rgba(5, 8, 15, 0.97) 78%
     ),
-    url('file:///C:/Users/EDY/Documents/CodexVault/%E5%9B%BE%E7%89%87%E5%BD%92%E6%A1%A3/rain-bg.png') center top / cover no-repeat;
+    url('rain-bg.png') center top / cover no-repeat;
   min-height: 100vh;
 }
 
