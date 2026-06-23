@@ -1,18 +1,36 @@
-/* 1. 隐藏这个专属 Callout 的默认背景、边框和标题栏，让它变成一个透明的居中容器 */
+/* 1. 核心容器：定义卡片大小，允许圆角，隐藏默认标题 */
 .callout[data-callout="dash-nav"] {
-    background: transparent;
-    border: none;
-    box-shadow: none;
-    padding: 0;
-    margin-bottom: 40px;
-    text-align: center;
+    position: relative !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 40px 20px !important; 
+    margin-bottom: 20px !important;
+    text-align: center !important;
+    border-radius: 12px !important;
+    overflow: hidden !important; 
 }
 .callout[data-callout="dash-nav"] .callout-title {
-    display: none;
+    display: none !important;
 }
 
-/* 2. 拦截里面的双向链接，强制变成金黄色按钮 */
+/* 2. 神奇魔法：将 Callout 里的普通图片强行拉伸变成底层背景！ */
+.callout[data-callout="dash-nav"] img {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    z-index: 0 !important;
+    opacity: 0.35 !important; /* 🌟 在这里调节透明度，0.1 (极淡) 到 1 (不透明) */
+    pointer-events: none !important;
+}
+
+/* 3. 按钮样式：提升层级 (z-index: 1)，确保稳稳浮在图片上方 */
 .callout[data-callout="dash-nav"] .internal-link {
+    position: relative !important;
+    z-index: 1 !important;
     display: inline-block !important;
     padding: 6px 16px !important;
     margin: 0 8px !important; 
@@ -23,8 +41,6 @@
     font-weight: bold;
     transition: background-color 0.2s;
 }
-
-/* 3. 鼠标悬停时的发光效果 */
 .callout[data-callout="dash-nav"] .internal-link:hover {
     background-color: rgba(234, 182, 118, 0.15) !important;
 }
