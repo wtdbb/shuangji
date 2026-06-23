@@ -1,3 +1,7 @@
+---
+banner: https://wallhaven.cc/w/21okeg
+---
+
 
 
 <div style="--my-rgb: 192, 192, 192; background-color: rgba(var(--my-rgb), 0.1); border-left: 4px solid rgb(var(--my-rgb)); padding: 12px 16px; border-radius: 4px; margin: 1em 0;">
