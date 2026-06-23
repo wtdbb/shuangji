@@ -104,3 +104,47 @@ img {
 code {
   font-family: "JetBrainsMono Nerd Font Mono", "JetBrainsMono NFM", monospace;
 }
+
+/* ── 浮动贴图：不占行高，嵌在文字旁边 ── */
+
+/* 用法：在笔记 frontmatter 加 cssclasses: float-img
+   然后 ![[图片.png|float-right]] 或 |float-left */
+
+/* HTML 直接用 class 的写法：
+   <img class="fr" src="图片归档/xxx.png">   ← 右浮动
+   <img class="fl" src="图片归档/xxx.png">   ← 左浮动  */
+
+img.fr, .markdown-source-view .fr img, .markdown-preview-view .fr img {
+  float: right !important;
+  clear: none !important;
+  max-width: 220px;
+  margin: 2px 0 10px 14px;
+  display: inline !important;
+}
+
+img.fl, .markdown-source-view .fl img, .markdown-preview-view .fl img {
+  float: left !important;
+  clear: none !important;
+  max-width: 220px;
+  margin: 2px 14px 10px 0;
+  display: inline !important;
+}
+
+/* wikilink 嵌入写法（需搭配 HTML div 包裹）
+   <div class="fr">![[图片.png]]</div>  */
+.fr .image-embed img {
+  float: right !important;
+  clear: none !important;
+  max-width: 220px;
+  margin: 2px 0 10px 14px;
+}
+
+.fl .image-embed img {
+  float: left !important;
+  clear: none !important;
+  max-width: 220px;
+  margin: 2px 14px 10px 0;
+}
+
+/* 清除浮动（在图片后面加 <div class="cf"></div>） */
+.cf { clear: both; }
