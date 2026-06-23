@@ -4,15 +4,9 @@
 ~
 </div>
 
-<div style="text-align: center; margin-bottom: 40px;">
+<div class="dash-nav">
 
-  <span style="display: inline-block; width: 80px; padding: 6px 0; border: 1px solid #eab676; border-radius: 6px; color: #eab676;">Today</span> 
-  
-  <span style="display: inline-block; width: 80px; padding: 6px 0; border: 1px solid #eab676; border-radius: 6px; color: #eab676;">Week</span> 
-  
-  <span style="display: inline-block; width: 80px; padding: 6px 0; border: 1px solid #eab676; border-radius: 6px; color: #eab676;">Month</span> 
-  
-  <span style="display: inline-block; width: 80px; padding: 6px 0; border: 1px solid #eab676; border-radius: 6px; color: #eab676;">Unique</span>
+[[蒸馏/index|index]]
 
 </div>
 ````columns

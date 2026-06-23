@@ -1,0 +1,23 @@
+/* 自定义仪表盘顶部导航按钮样式 */
+.dash-nav {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* 拦截里面的双向链接，强制变成按钮形状 */
+.dash-nav .internal-link {
+    display: inline-block !important;
+    padding: 6px 16px !important;
+    margin: 0 8px !important; /* 按钮之间的间距 */
+    border: 1px solid #eab676 !important; /* 边框颜色，截图里的金黄色 */
+    border-radius: 6px !important; /* 圆角大小 */
+    color: #eab676 !important; /* 文字颜色 */
+    text-decoration: none !important; /* 去掉链接默认的下划线 */
+    font-weight: bold;
+    transition: background-color 0.2s; /* 鼠标悬停时的平滑过渡效果 */
+}
+
+/* 鼠标放上去时，出现一层淡淡的背景色 */
+.dash-nav .internal-link:hover {
+    background-color: rgba(234, 182, 118, 0.15) !important;
+}
