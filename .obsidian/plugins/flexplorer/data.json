@@ -888,9 +888,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "2026-06-11.md",
-        "2026-06-10.md",
-        "2026-06-21.md"
+        "未命名.md"
       ]
     },
     "Daily notes/Calendar/Journal/Month": {
@@ -918,18 +916,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": []
-    },
-    "Daily notes/Calendar/Journal/Daily/2026-06-21.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Daily notes/Calendar/Journal/Daily/2026-06-10.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Daily notes/Calendar/Journal/Daily/2026-06-11.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "Daily notes/Calendar/Meetings/2026-06-21 2122 Metting.md": {
       "isPinned": false,
@@ -6865,6 +6851,10 @@
       ]
     },
     "Calendar/Journal/Daily.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/未命名.md": {
       "isPinned": false,
       "isHidden": false
     }

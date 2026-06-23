@@ -1979,12 +1979,12 @@
     "scroll": 2.2666666666666666,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 74
+        "line": 92,
+        "ch": 8
       },
       "to": {
-        "line": 10,
-        "ch": 74
+        "line": 92,
+        "ch": 8
       }
     },
     "expandedKeys": []
@@ -2040,6 +2040,20 @@
       },
       "to": {
         "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Daily notes/Calendar/Journal/Daily/2026-06-10.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
         "ch": 0
       }
     },
