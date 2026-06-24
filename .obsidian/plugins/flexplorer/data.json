@@ -1658,6 +1658,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "临竞介绍.md",
         "篮球项目.md",
         "临竞.md"
       ]
@@ -1675,6 +1676,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "乘风介绍.md",
         "乘风.md"
       ]
     },
@@ -1704,6 +1706,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "匠趣（引擎开发）介绍.md",
         "匠趣（引擎开发）.md"
       ]
     },
@@ -2081,6 +2084,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "派洛特（派络特游戏）介绍.md",
         "派洛特（派络特游戏）.md",
         "派洛特在研SLG+X.md"
       ]
@@ -2216,6 +2220,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "竞乐（上海+北京）介绍.md",
         "街篮2.md",
         "竞乐（上海+北京）.md",
         "竞乐信息技术（上海）有限公司.md"
@@ -2332,6 +2337,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "育碧中国（上海）介绍.md",
         "育碧中国（上海）.md",
         "刺客信条手游系列.md"
       ]
@@ -2371,6 +2377,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "莉莉丝介绍.md",
         "迷失岛2.md",
         "莉莉丝.md",
         "神觉者.md",
@@ -4534,6 +4541,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "网易雷火介绍.md",
         "金乌纪（永劫无间文化企划）.md",
         "遗忘之海.md",
         "逆水寒手游.md",
@@ -4841,6 +4849,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "欢乐互娱（腾讯旗下）介绍.md",
         "龙之谷 手游.md",
         "街机三国.md",
         "英雄杀 H5.md",
@@ -5056,6 +5065,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "聆曦（腾讯全资，原名藤木）介绍.md",
         "聆曦（腾讯全资，原名藤木）.md",
         "在研DNF Like项目.md"
       ]
@@ -5065,6 +5075,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "萨罗斯（腾讯旗下，原字节工作室）介绍.md",
         "萨罗斯（腾讯旗下，原字节工作室）.md",
         "归环.md",
         "命运扳机（Fate Trigger The Novita）.md"
@@ -6124,6 +6135,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "逻辑互动介绍.md",
         "逻辑互动.md"
       ]
     },
@@ -6733,6 +6745,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "网易阴阳师事业部（广州+部分杭州）介绍.md",
         "网易阴阳师事业部（广州+部分杭州）.md"
       ]
     },
@@ -6867,6 +6880,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "天下介绍.md",
         "天下.md"
       ]
     },
@@ -6910,11 +6924,11 @@
     "岗位mapping/分部/二线/字节/字节深圳（Neon工作室）": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "科幻写实UE5全平台PVE射击.md",
         "字节深圳.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/分部/二线/字节/字节深圳（Neon工作室）/字节深圳.md": {
       "isPinned": false,
@@ -6927,21 +6941,21 @@
     "岗位mapping/海外": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "育碧（Ubisoft）",
         "顽皮狗（Naughty Dog）"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/海外/顽皮狗（Naughty Dog）": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "顽皮狗（Naughty Dog）介绍.md",
         "Intergalactic The Heretic Prophet.md",
         "顽皮狗（Naughty Dog）.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/海外/顽皮狗（Naughty Dog）/顽皮狗（Naughty Dog）.md": {
       "isPinned": false,
@@ -6954,12 +6968,12 @@
     "岗位mapping/海外/育碧（Ubisoft）": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "育碧（Ubisoft）介绍.md",
         "刺客信条：影（Shadows）.md",
         "育碧（Ubisoft）.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/海外/育碧（Ubisoft）/育碧（Ubisoft）.md": {
       "isPinned": false,
@@ -6972,10 +6986,10 @@
     "skill/write-skill": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "SKILL.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "skill/write-skill/SKILL.md": {
       "isPinned": false,
@@ -6984,11 +6998,11 @@
     "岗位mapping/分部/二线/字节/字节江南工作室": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "科幻射击项目.md",
         "字节江南工作室.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/分部/二线/字节/字节江南工作室/字节江南工作室.md": {
       "isPinned": false,
@@ -7001,13 +7015,13 @@
     "岗位mapping/上海/艺画开天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "灵笼手游（已停）.md",
         "艺画开天介绍.md",
         "凡应.md",
         "艺画开天.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/上海/艺画开天/艺画开天.md": {
       "isPinned": false,
@@ -7170,6 +7184,62 @@
       "isHidden": false
     },
     "岗位mapping/岗位mapping.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/临竞/临竞介绍.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/乘风/乘风介绍.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/匠趣（引擎开发）/匠趣（引擎开发）介绍.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/派洛特（派络特游戏）/派洛特（派络特游戏）介绍.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/竞乐（上海+北京）/竞乐（上海+北京）介绍.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/育碧中国（上海）/育碧中国（上海）介绍.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/莉莉丝/莉莉丝介绍.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/逻辑互动/逻辑互动介绍.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/广州网易/天下/天下介绍.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易阴阳师事业部（广州+部分杭州）/网易阴阳师事业部（广州+部分杭州）介绍.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/网易雷火介绍.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/上海腾讯/欢乐互娱（腾讯旗下）/欢乐互娱（腾讯旗下）介绍.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/杭州腾讯/聆曦（腾讯全资，原名藤木）/聆曦（腾讯全资，原名藤木）介绍.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/杭州腾讯/萨罗斯（腾讯旗下，原字节工作室）/萨罗斯（腾讯旗下，原字节工作室）介绍.md": {
       "isPinned": false,
       "isHidden": false
     }
