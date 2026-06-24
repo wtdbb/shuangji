@@ -1071,10 +1071,10 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "字节深圳（Neon工作室）",
         "朝夕光年（杭州江南工作室）",
         "朝夕光年（北京绿洲）",
         "朝夕光年（上海Zero36）",
-        "字节深圳（江南工作室）",
         "字节广州（微光工作室）",
         "字节.md"
       ]
@@ -6852,23 +6852,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/分部/二线/字节/字节深圳（江南工作室）": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "科幻写实UE5全平台PVE射击.md",
-        "字节深圳.md"
-      ]
-    },
-    "岗位mapping/分部/二线/字节/字节深圳（江南工作室）/字节深圳.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/二线/字节/字节深圳（江南工作室）/科幻写实UE5全平台PVE射击.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/分部/二线/字节/字节广州（微光工作室）": {
       "isPinned": false,
       "isHidden": false,
@@ -6887,6 +6870,23 @@
       "isHidden": false
     },
     "岗位mapping/游戏类型/休闲/空岛建造.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/字节/字节深圳（Neon工作室）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "科幻写实UE5全平台PVE射击.md",
+        "字节深圳.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/二线/字节/字节深圳（Neon工作室）/字节深圳.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/字节/字节深圳（Neon工作室）/科幻写实UE5全平台PVE射击.md": {
       "isPinned": false,
       "isHidden": false
     }
