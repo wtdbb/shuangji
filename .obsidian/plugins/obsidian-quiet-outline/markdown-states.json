@@ -2399,12 +2399,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 0
+        "line": 9,
+        "ch": 7
       },
       "to": {
-        "line": 8,
-        "ch": 0
+        "line": 9,
+        "ch": 7
       }
     },
     "expandedKeys": []
