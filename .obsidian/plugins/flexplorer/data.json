@@ -6970,11 +6970,16 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "凡应.md",
         "艺画开天.md"
       ],
       "sortOrder": "custom"
     },
     "岗位mapping/上海/艺画开天/艺画开天.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/艺画开天/凡应.md": {
       "isPinned": false,
       "isHidden": false
     }
