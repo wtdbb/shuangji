@@ -1043,7 +1043,6 @@
       "sortOrder": "custom",
       "customOrder": [
         "英雄互娱",
-        "阿里",
         "字节"
       ]
     },
@@ -1069,15 +1068,6 @@
         "北京腾讯",
         "上海腾讯",
         "腾讯.md"
-      ]
-    },
-    "岗位mapping/分部/二线/阿里": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "阿里灵犀（核心客户）",
-        "阿里.md"
       ]
     },
     "岗位mapping/分部/二线/字节": {
@@ -7318,6 +7308,16 @@
     "图片归档/23b640fe8f26fcf442f0b82c9e97b910_MD5.docx": {
       "isPinned": false,
       "isHidden": false
+    },
+    "岗位mapping/分部/二线/阿里/阿里": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "阿里",
+        "阿里灵犀（核心客户）",
+        "阿里.md"
+      ]
     }
   },
   "pinnedFiles": [],

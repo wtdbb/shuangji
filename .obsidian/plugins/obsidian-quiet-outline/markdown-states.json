@@ -1870,11 +1870,11 @@
     "cursor": {
       "from": {
         "line": 9,
-        "ch": 17
+        "ch": 0
       },
       "to": {
         "line": 9,
-        "ch": 17
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -2646,6 +2646,48 @@
       },
       "to": {
         "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/分部/二线/字节/字节深圳（Neon工作室）/字节深圳.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/分部/二线/字节/字节广州（微光工作室）/字节广州.md": {
+    "scroll": 3.4738543734074923,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/分部/二线/字节/字节深圳（Neon工作室）/科幻写实UE5全平台PVE射击.md": {
+    "scroll": 2.0183287669384895,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 0
+      },
+      "to": {
+        "line": 9,
         "ch": 0
       }
     },
