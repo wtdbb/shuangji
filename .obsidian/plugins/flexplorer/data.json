@@ -332,6 +332,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "候选人识别信号.md",
         "TA岗位知识.md",
         "index.md",
         "行业mapping.md",
@@ -7240,6 +7241,10 @@
       "isHidden": false
     },
     "岗位mapping/分部/一线/腾讯/杭州腾讯/萨罗斯（腾讯旗下，原字节工作室）/萨罗斯（腾讯旗下，原字节工作室）介绍.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "行业mapping/候选人识别信号.md": {
       "isPinned": false,
       "isHidden": false
     }
