@@ -626,6 +626,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "上海介绍.md",
         "上海.md",
         "艺画开天",
         "逻辑互动",
@@ -676,6 +677,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "北京介绍.md",
         "北京.md",
         "金山世游（北京西山居）",
         "蜂鸟于飞",
@@ -6990,6 +6992,14 @@
       "isHidden": false
     },
     "岗位mapping/上海/艺画开天/灵笼手游（已停）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/上海介绍.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/北京介绍.md": {
       "isPinned": false,
       "isHidden": false
     }

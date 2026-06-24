@@ -6,6 +6,8 @@
 tags: [岗位mapping, 游戏公司]
 更新: 2026-06-21
 ---
+
+[[IGG（福州天盟数码）介绍]]
 [[Castle Clash]]
 [[Clash of Lords 2]]
 [[Conquerors]]
@@ -18,7 +20,3 @@ tags: [岗位mapping, 游戏公司]
 [[Viking Rise]]
 [[时光公主]]
 [[王国纪元]]
-
-## 招聘情报
-
-· IGG = 全称福州天盟数码
