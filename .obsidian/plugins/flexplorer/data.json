@@ -6970,6 +6970,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "艺画开天介绍.md",
         "凡应.md",
         "艺画开天.md"
       ],
@@ -6980,6 +6981,10 @@
       "isHidden": false
     },
     "岗位mapping/上海/艺画开天/凡应.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/艺画开天/艺画开天介绍.md": {
       "isPinned": false,
       "isHidden": false
     }
