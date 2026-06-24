@@ -7286,6 +7286,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "飞吧龙骑士.md",
         "高能手办团.md",
         "心光流美介绍.md",
         "心光流美.md"
@@ -7301,6 +7302,10 @@
       "isHidden": false
     },
     "岗位mapping/杭州/心光流美/高能手办团.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/心光流美/飞吧龙骑士.md": {
       "isPinned": false,
       "isHidden": false
     }
