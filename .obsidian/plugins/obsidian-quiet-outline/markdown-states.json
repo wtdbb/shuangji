@@ -1853,12 +1853,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 0
+        "line": 9,
+        "ch": 17
       },
       "to": {
-        "line": 13,
-        "ch": 0
+        "line": 9,
+        "ch": 17
       }
     },
     "expandedKeys": []
