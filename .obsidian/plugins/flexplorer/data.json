@@ -806,6 +806,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "游戏技术术语.md.tmp.20516.3dc8de75e5bd",
         "游戏技术术语.md",
         "游戏技术术语.docx"
       ]
@@ -7240,6 +7241,10 @@
       "isHidden": false
     },
     "岗位mapping/分部/一线/腾讯/杭州腾讯/萨罗斯（腾讯旗下，原字节工作室）/萨罗斯（腾讯旗下，原字节工作室）介绍.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/游戏技术术语.md.tmp.20516.3dc8de75e5bd": {
       "isPinned": false,
       "isHidden": false
     }
