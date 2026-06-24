@@ -626,6 +626,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "艺画开天",
         "上海.md",
         "逻辑互动",
         "跳跃网络",
@@ -6962,6 +6963,18 @@
       "isHidden": false
     },
     "岗位mapping/分部/二线/字节/字节江南工作室/科幻射击项目.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/艺画开天": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "艺画开天.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/上海/艺画开天/艺画开天.md": {
       "isPinned": false,
       "isHidden": false
     }
