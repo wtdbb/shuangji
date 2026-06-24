@@ -6895,6 +6895,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "育碧（Ubisoft）",
         "顽皮狗（Naughty Dog）"
       ],
       "sortOrder": "custom"
@@ -6913,6 +6914,18 @@
       "isHidden": false
     },
     "岗位mapping/海外/顽皮狗（Naughty Dog）/Intergalactic The Heretic Prophet.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/海外/育碧（Ubisoft）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "育碧（Ubisoft）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/海外/育碧（Ubisoft）/育碧（Ubisoft）.md": {
       "isPinned": false,
       "isHidden": false
     }
