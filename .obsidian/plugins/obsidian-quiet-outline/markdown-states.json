@@ -1995,12 +1995,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 92,
-        "ch": 8
+        "line": 5,
+        "ch": 0
       },
       "to": {
-        "line": 92,
-        "ch": 8
+        "line": 5,
+        "ch": 0
       }
     },
     "expandedKeys": []
