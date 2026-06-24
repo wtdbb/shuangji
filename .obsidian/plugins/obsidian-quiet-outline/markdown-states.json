@@ -579,12 +579,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 0
+        "line": 7,
+        "ch": 10
       },
       "to": {
-        "line": 10,
-        "ch": 0
+        "line": 7,
+        "ch": 10
       }
     },
     "expandedKeys": []
@@ -2587,6 +2587,34 @@
       "to": {
         "line": 1,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/分部/一线/腾讯/杭州腾讯/聆曦（腾讯全资，原名藤木）/聆曦（腾讯全资，原名藤木）.md": {
+    "scroll": 2.366863905325444,
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 10
+      },
+      "to": {
+        "line": 9,
+        "ch": 10
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/分部/一线/腾讯/杭州腾讯/聆曦（腾讯全资，原名藤木）/在研DNF Like项目.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 11
+      },
+      "to": {
+        "line": 0,
+        "ch": 30
       }
     },
     "expandedKeys": []
