@@ -557,6 +557,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "心光流美",
         "杭州介绍.md",
         "杭州.md",
         "金科文化",
@@ -3887,6 +3888,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "心光流美.md",
         "浩汤科技.md",
         "抵抗者.md"
       ]
@@ -7273,6 +7275,22 @@
       "isHidden": false
     },
     "岗位mapping/海外/Gameloft/Kiss of War（吻战）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/浩汤科技/心光流美.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/心光流美": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "心光流美.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/杭州/心光流美/心光流美.md": {
       "isPinned": false,
       "isHidden": false
     }
