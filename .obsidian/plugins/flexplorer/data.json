@@ -281,6 +281,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "海外",
         "岗位mapping.md",
         "游戏类型",
         "分部",
@@ -6887,6 +6888,26 @@
       "isHidden": false
     },
     "岗位mapping/分部/二线/字节/字节深圳（Neon工作室）/科幻写实UE5全平台PVE射击.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/海外": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "顽皮狗（Naughty Dog）"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/海外/顽皮狗（Naughty Dog）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "顽皮狗（Naughty Dog）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/海外/顽皮狗（Naughty Dog）/顽皮狗（Naughty Dog）.md": {
       "isPinned": false,
       "isHidden": false
     }
