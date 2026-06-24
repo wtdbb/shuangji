@@ -6944,6 +6944,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Gameloft",
         "育碧（Ubisoft）",
         "顽皮狗（Naughty Dog）"
       ]
@@ -7245,6 +7246,18 @@
       "isHidden": false
     },
     "行业mapping/候选人识别信号.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/海外/Gameloft": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "Gameloft.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/海外/Gameloft/Gameloft.md": {
       "isPinned": false,
       "isHidden": false
     }
