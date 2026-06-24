@@ -792,7 +792,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "游戏技术术语.md.tmp.22064.555dc133b3a9",
         "游戏技术术语.md",
         "游戏技术术语.docx"
       ]
@@ -1075,9 +1074,8 @@
         "朝夕光年（杭州江南工作室）",
         "朝夕光年（北京绿洲）",
         "朝夕光年（上海Zero36）",
-        "字节江南工作室",
-        "字节深圳",
-        "字节广州",
+        "字节深圳（江南工作室）",
+        "字节广州（微光工作室）",
         "字节.md"
       ]
     },
@@ -1274,6 +1272,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "空岛建造.md",
         "模拟经营.md",
         "棋牌捕鱼.md",
         "休闲.md"
@@ -4449,31 +4448,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/分部/二线/字节/字节广州": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "字节广州.md"
-      ]
-    },
-    "岗位mapping/分部/二线/字节/字节广州/字节广州.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/二线/字节/字节深圳": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "科幻写实UE5全平台PVE射击.md",
-        "字节深圳.md"
-      ]
-    },
-    "岗位mapping/分部/二线/字节/字节深圳/字节深圳.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/分部/三线": {
       "isPinned": false,
       "isHidden": false,
@@ -5507,23 +5481,6 @@
       "isHidden": false
     },
     "岗位mapping/珠海/西山居/西山居（珠海金山数字网络）/尘白禁区.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/二线/字节/字节江南工作室": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "科幻射击项目.md",
-        "字节江南工作室.md"
-      ]
-    },
-    "岗位mapping/分部/二线/字节/字节江南工作室/字节江南工作室.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/二线/字节/字节江南工作室/科幻射击项目.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -6846,10 +6803,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/分部/二线/字节/字节深圳/科幻写实UE5全平台PVE射击.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/广州/沐瞳/Lovania.md": {
       "isPinned": false,
       "isHidden": false
@@ -6899,7 +6852,41 @@
       "isPinned": false,
       "isHidden": false
     },
-    "OneNote/游戏技术术语.md.tmp.22064.555dc133b3a9": {
+    "岗位mapping/分部/二线/字节/字节深圳（江南工作室）": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "科幻写实UE5全平台PVE射击.md",
+        "字节深圳.md"
+      ]
+    },
+    "岗位mapping/分部/二线/字节/字节深圳（江南工作室）/字节深圳.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/字节/字节深圳（江南工作室）/科幻写实UE5全平台PVE射击.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/字节/字节广州（微光工作室）": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "Lumi.md",
+        "字节广州.md"
+      ]
+    },
+    "岗位mapping/分部/二线/字节/字节广州（微光工作室）/字节广州.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/字节/字节广州（微光工作室）/Lumi.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/休闲/空岛建造.md": {
       "isPinned": false,
       "isHidden": false
     }
