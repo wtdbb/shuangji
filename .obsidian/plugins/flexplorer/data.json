@@ -6921,11 +6921,21 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "刺客信条：影（Shadows）.md",
+        "刺客信条：影（Shadows）.md.tmp.22064.9dc722c885a1",
         "育碧（Ubisoft）.md"
       ],
       "sortOrder": "custom"
     },
     "岗位mapping/海外/育碧（Ubisoft）/育碧（Ubisoft）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/海外/育碧（Ubisoft）/刺客信条：影（Shadows）.md.tmp.22064.9dc722c885a1": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/海外/育碧（Ubisoft）/刺客信条：影（Shadows）.md": {
       "isPinned": false,
       "isHidden": false
     }
