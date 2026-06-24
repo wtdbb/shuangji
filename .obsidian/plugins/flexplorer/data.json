@@ -282,8 +282,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "海外",
         "岗位mapping.md",
+        "海外",
         "游戏类型",
         "分部",
         "城市",
@@ -942,10 +942,6 @@
       "isHidden": false
     },
     "Daily notes/Habits Tracker.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/岗位mapping.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -7170,6 +7166,10 @@
       "isHidden": false
     },
     "岗位mapping/苏州/仙峰（苏州，三四梯队）/仙峰（苏州，三四梯队）介绍.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/岗位mapping.md": {
       "isPinned": false,
       "isHidden": false
     }
