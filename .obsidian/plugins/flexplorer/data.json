@@ -116,6 +116,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "write-skill",
         "gs-skill",
         "sp-skill"
       ]
@@ -6931,6 +6932,18 @@
       "isHidden": false
     },
     "岗位mapping/海外/育碧（Ubisoft）/刺客信条：影（Shadows）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/write-skill": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/write-skill/SKILL.md": {
       "isPinned": false,
       "isHidden": false
     }
