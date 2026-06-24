@@ -1073,6 +1073,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "字节江南工作室",
         "字节深圳（Neon工作室）",
         "朝夕光年（杭州江南工作室）",
         "朝夕光年（北京绿洲）",
@@ -6944,6 +6945,23 @@
       "sortOrder": "custom"
     },
     "skill/write-skill/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/字节/字节江南工作室": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "科幻射击项目.md",
+        "字节江南工作室.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/二线/字节/字节江南工作室/字节江南工作室.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/二线/字节/字节江南工作室/科幻射击项目.md": {
       "isPinned": false,
       "isHidden": false
     }
