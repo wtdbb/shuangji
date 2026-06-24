@@ -2398,18 +2398,20 @@
     "expandedKeys": []
   },
   "岗位mapping/分部/一线/腾讯/上海腾讯/腾云摘星/腾云摘星（腾讯旗下）.md": {
-    "scroll": 15.71999994913737,
+    "scroll": 22.56000035603841,
     "cursor": {
       "from": {
-        "line": 8,
+        "line": 33,
         "ch": 0
       },
       "to": {
-        "line": 8,
+        "line": 33,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "岗位mapping/北京/儒意景秀（发行）/儒意景秀（发行）.md": {
     "scroll": 0,
