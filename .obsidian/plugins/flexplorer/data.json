@@ -7253,6 +7253,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "Kiss of War（吻战）.md",
         "Galaxy Legend（星际传奇）.md",
         "Gameloft介绍.md",
         "Gameloft.md"
@@ -7268,6 +7269,10 @@
       "isHidden": false
     },
     "岗位mapping/海外/Gameloft/Galaxy Legend（星际传奇）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/海外/Gameloft/Kiss of War（吻战）.md": {
       "isPinned": false,
       "isHidden": false
     }
