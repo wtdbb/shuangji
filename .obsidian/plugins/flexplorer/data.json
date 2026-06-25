@@ -609,6 +609,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "益世界",
         "广州介绍.md",
         "广州.md",
         "多益网络",
@@ -7334,6 +7335,48 @@
       "isHidden": false
     },
     "岗位mapping/北京/回旋加速/回旋加速介绍.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/益世界": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "金币大富翁.md",
+        "这城有良田.md",
+        "益世界介绍.md",
+        "益世界.md",
+        "我是大东家.md",
+        "商道高手.md",
+        "商业都市.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/广州/益世界/商业都市.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/益世界/商道高手.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/益世界/我是大东家.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/益世界/益世界.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/益世界/益世界介绍.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/益世界/这城有良田.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/益世界/金币大富翁.md": {
       "isPinned": false,
       "isHidden": false
     }
