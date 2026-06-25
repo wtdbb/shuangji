@@ -175,12 +175,12 @@
     "scroll": 9.843284882768852,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 22,
+        "ch": 16
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 22,
+        "ch": 16
       }
     },
     "expandedKeys": [
@@ -2800,5 +2800,19 @@
     "expandedKeys": [
       "item-1-0"
     ]
+  },
+  "岗位mapping/杭州/游卡（杭州）/游卡（杭州）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
