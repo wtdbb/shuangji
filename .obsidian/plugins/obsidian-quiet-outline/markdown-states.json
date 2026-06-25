@@ -172,18 +172,20 @@
     "expandedKeys": []
   },
   "行业mapping/薪资段位.md": {
-    "scroll": 12.908333524068196,
+    "scroll": 2.366863905325444,
     "cursor": {
       "from": {
-        "line": 27,
+        "line": 8,
         "ch": 0
       },
       "to": {
-        "line": 27,
+        "line": 8,
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "岗位mapping/深圳/淘乐.md": {
     "scroll": 15.860416571299234,
@@ -1737,7 +1739,11 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-1",
+      "item-2-7"
+    ]
   },
   "行业mapping/行业现状.md": {
     "scroll": 0,
@@ -1751,7 +1757,9 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "岗位mapping/分部/三线/途游/途游游戏/途游游戏.md": {
     "scroll": 0,
@@ -2762,5 +2770,35 @@
       }
     },
     "expandedKeys": []
+  },
+  "行业mapping/说话技巧.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "行业mapping/行业mapping.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
   }
 }
