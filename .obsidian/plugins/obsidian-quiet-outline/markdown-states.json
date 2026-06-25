@@ -2739,11 +2739,25 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
+        "line": 11,
         "ch": 0
       },
       "to": {
-        "line": 0,
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/苏州/友谊时光/友谊时光.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
         "ch": 0
       }
     },
