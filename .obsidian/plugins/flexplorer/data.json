@@ -284,7 +284,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "技术栈",
         "岗位mapping.md",
         "海外",
         "游戏类型",
@@ -7378,18 +7377,6 @@
       "isHidden": false
     },
     "岗位mapping/广州/益世界/金币大富翁.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/技术栈": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
-        "KBEngine.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "岗位mapping/技术栈/KBEngine.md": {
       "isPinned": false,
       "isHidden": false
     }
