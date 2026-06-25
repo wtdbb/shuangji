@@ -1575,11 +1575,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
+        "line": 1,
         "ch": 0
       },
       "to": {
-        "line": 3,
+        "line": 1,
         "ch": 0
       }
     },
@@ -2703,6 +2703,20 @@
       "to": {
         "line": 12,
         "ch": 6
+      }
+    },
+    "expandedKeys": []
+  },
+  "岗位mapping/上海/悠星网络/悠星网络.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
       }
     },
     "expandedKeys": []
