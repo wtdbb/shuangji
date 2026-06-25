@@ -684,6 +684,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "回旋加速",
         "北京介绍.md",
         "北京.md",
         "金山世游（北京西山居）",
@@ -7318,6 +7319,18 @@
         "阿里灵犀（核心客户）",
         "阿里.md"
       ]
+    },
+    "岗位mapping/北京/回旋加速": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "回旋加速.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/北京/回旋加速/回旋加速.md": {
+      "isPinned": false,
+      "isHidden": false
     }
   },
   "pinnedFiles": [],
