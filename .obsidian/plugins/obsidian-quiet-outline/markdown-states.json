@@ -2879,12 +2879,12 @@
     "scroll": 4.733727810650888,
     "cursor": {
       "from": {
-        "line": 8,
-        "ch": 0
+        "line": 18,
+        "ch": 15
       },
       "to": {
-        "line": 8,
-        "ch": 0
+        "line": 18,
+        "ch": 15
       }
     },
     "expandedKeys": []
