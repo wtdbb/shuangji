@@ -1,4 +1,4 @@
-、、
+
 **Good Habits**
 ```dataviewjs
 const trackerData = {
@@ -10,7 +10,7 @@ const trackerData = {
     }
 }
 
-for(let page of dv.pages('"Calendar/Journal/Daily"').where(p => p.meditation)) {
+for(let page of dv.pages('"Calendar/Journal/Daily"').where(p => p.Meditation)) {
     trackerData.entries.push({
         date: page.file.name,
         intensity: 1
@@ -93,7 +93,7 @@ const trackerData = {
     }
 }
 
-for(let page of dv.pages('"Calendar/Journal/Daily"').where(p => p.workout)) {
+for(let page of dv.pages('"Calendar/Journal/Daily"').where(p => p.Report)) {
     trackerData.entries.push({
         date: page.file.name,
         intensity: 1

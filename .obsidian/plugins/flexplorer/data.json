@@ -917,6 +917,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-06-26.md",
         "2026-06-24.md",
         "2026-06-23.md"
       ]
@@ -7442,6 +7443,10 @@
         "阿里灵犀（核心客户）",
         "阿里.md"
       ]
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-06-26.md": {
+      "isPinned": false,
+      "isHidden": false
     }
   },
   "pinnedFiles": [],
