@@ -1052,6 +1052,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "阿里",
         "英雄互娱",
         "字节"
       ]
@@ -7256,13 +7257,13 @@
     "岗位mapping/海外/Gameloft": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "Kiss of War（吻战）.md",
         "Galaxy Legend（星际传奇）.md",
         "Gameloft介绍.md",
         "Gameloft.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/海外/Gameloft/Gameloft.md": {
       "isPinned": false,
@@ -7287,13 +7288,13 @@
     "岗位mapping/杭州/心光流美": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "飞吧龙骑士.md",
         "高能手办团.md",
         "心光流美介绍.md",
         "心光流美.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/杭州/心光流美/心光流美.md": {
       "isPinned": false,
@@ -7319,24 +7320,14 @@
       "isPinned": false,
       "isHidden": false
     },
-    "岗位mapping/分部/二线/阿里/阿里": {
+    "岗位mapping/北京/回旋加速": {
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "阿里",
-        "阿里灵犀（核心客户）",
-        "阿里.md"
-      ]
-    },
-    "岗位mapping/北京/回旋加速": {
-      "isPinned": false,
-      "isHidden": false,
-      "customOrder": [
         "回旋加速介绍.md",
         "回旋加速.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/北京/回旋加速/回旋加速.md": {
       "isPinned": false,
@@ -7349,6 +7340,7 @@
     "岗位mapping/广州/益世界": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "金币大富翁.md",
         "这城有良田.md",
@@ -7357,8 +7349,7 @@
         "我是大东家.md",
         "商道高手.md",
         "商业都市.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/广州/益世界/商业都市.md": {
       "isPinned": false,
@@ -7419,13 +7410,13 @@
     "岗位mapping/上海/米娅喵": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "千年之旅团队新项目.md",
         "千年之旅.md",
         "米娅喵介绍.md",
         "米娅喵.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/上海/米娅喵/米娅喵.md": {
       "isPinned": false,
@@ -7442,6 +7433,15 @@
     "岗位mapping/上海/米娅喵/千年之旅团队新项目.md": {
       "isPinned": false,
       "isHidden": false
+    },
+    "岗位mapping/分部/二线/阿里": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "阿里灵犀（核心客户）",
+        "阿里.md"
+      ]
     }
   },
   "pinnedFiles": [],
