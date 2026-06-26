@@ -24,11 +24,10 @@ cssclasses:
 ---
 ### ⚛️Habits
 #### ☀️Morning
-- [ ] Drink Water
+- [ ] Drink Water：two cups
 - [ ] Stretch
 - 🧘🏻[meditation::]
-- [ ] Plan the day
-- [ ] Check Email
+- [ ] Plan the day：1个
 
 #### Habits
 - 📖[reading::]
