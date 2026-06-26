@@ -27,11 +27,11 @@ cssclasses:
 - [ ] Drink Water：two cups
 - [ ] Stretch
 - 🧘🏻[meditation::]
-- [ ] Plan the day：1个
+- [ ] Plan the day：1个推荐or20个备注
 
 #### Habits
-- 📖[reading::]
-- 🏃‍♀️[running::]
+- 📖[reading::]：one city
+- 🏃‍♀️[exercise::]
 #### 🥦Health
 - [ ] 鱼油
 - [ ] 维生素D
