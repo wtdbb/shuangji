@@ -31,7 +31,7 @@ const trackerData = {
     }
 }
 
-for(let page of dv.pages('"Calendar/Journal/Daily"').where(p => p.workout)) {
+for(let page of dv.pages('"Calendar/Journal/Daily"').where(p => p.Workout)) {
     trackerData.entries.push({
         date: page.file.name,
         intensity: 1
@@ -52,7 +52,7 @@ const trackerData = {
     }
 }
 
-for(let page of dv.pages('"Calendar/Journal/Daily"').where(p => p.reading)) {
+for(let page of dv.pages('"Calendar/Journal/Daily"').where(p => p.Reading)) {
     trackerData.entries.push({
         date: page.file.name,
         intensity: 1
@@ -65,13 +65,13 @@ renderHeatmapTracker(this.container, trackerData)
 const trackerData = {
     year: 2026,
     entries: [],
-    heatmapTitle: "🏃‍♀️Running Tracker",
+    heatmapTitle: "🏃‍♀️Exercise Tracker",
     colorScheme: {
         paletteName: "default"
     }
 }
 
-for(let page of dv.pages('"Calendar/Journal/Daily"').where(p => p.running)) {
+for(let page of dv.pages('"Calendar/Journal/Daily"').where(p => p.Exercise)) {
     trackerData.entries.push({
         date: page.file.name,
         intensity: 1
