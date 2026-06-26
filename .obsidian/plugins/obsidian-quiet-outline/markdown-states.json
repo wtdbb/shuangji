@@ -2860,5 +2860,19 @@
       "item-2-1",
       "item-2-9"
     ]
+  },
+  "岗位mapping/北京/中手游（满天星工作室自研）/中手游（满天星工作室自研）.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
