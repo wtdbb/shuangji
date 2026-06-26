@@ -32,14 +32,7 @@ cssclasses:
 #### Habits
 - 📖[reading::]：one city
 - 🏃‍♀️[exercise::]
-#### 🥦Health
-- [ ] 鱼油
-- [ ] 维生素D
-- [ ] 肌酸
-
-#### 💪Body
-- 🏋🏻‍♂️[workout::]
-	- [ ] Protein
+- 📰[report::]
 
 #### End-of-Day Checklist
 - [ ] Backup Vault
