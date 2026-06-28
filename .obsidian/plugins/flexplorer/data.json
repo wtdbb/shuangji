@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "skill.zip",
         "乌萨奇.md",
         "AI信息收集系统",
         "Daily notes",
@@ -14057,6 +14058,10 @@
       "isHidden": false
     },
     "skill/vault-sync/scripts/sync-vault.ps1": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill.zip": {
       "isPinned": false,
       "isHidden": false
     }
