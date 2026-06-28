@@ -14,6 +14,7 @@
 # ===== 微信抓取(含 token / 临时状态,不入库) =====
 .claude/wechat/feeds.txt
 .claude/wechat/seen.json
+.claude/wechat/pubclip-postprocess-state.json
 
 # ===== Skill 存放 =====
 # skill/ 是独立 git 仓库(只有它推送到 GitHub);vault 本地仓库不跟踪它
