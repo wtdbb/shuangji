@@ -165,7 +165,7 @@
   "settingsProvider": "claude",
   "savedProviderModel": {
     "claude": "opus",
-    "codex": "gpt-5.5",
+    "codex": "gpt-5.4-mini",
     "opencode": "opencode:google/antigravity-gemini-3-flash"
   },
   "savedProviderEffort": {
