@@ -11,7 +11,7 @@
   "mediaFolder": "",
   "systemPrompt": "",
   "persistentExternalContextPaths": [],
-  "sharedEnvironmentVariables": "PATH=C:\\个人\\ai文件\\node;C:\\Users\\EDY\\AppData\\Roaming\\npm;%PATH%\nHTTP_PROXY=http://127.0.0.1:7897\nHTTPS_PROXY=http://127.0.0.1:7897\nALL_PROXY=http://127.0.0.1:7897\nNO_PROXY=localhost,127.0.0.1",
+  "sharedEnvironmentVariables": "PATH=C:\\Users\\EDY\\AppData\\Roaming\\npm;%PATH%\nHTTP_PROXY=http://127.0.0.1:7897\nHTTPS_PROXY=http://127.0.0.1:7897\nALL_PROXY=http://127.0.0.1:7897\nNO_PROXY=localhost,127.0.0.1",
   "envSnippets": [],
   "customContextLimits": {},
   "customModelAliases": {},
