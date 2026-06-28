@@ -2101,15 +2101,18 @@
     "scroll": 49.20999984741211,
     "cursor": {
       "from": {
-        "line": 57,
+        "line": 6,
         "ch": 0
       },
       "to": {
-        "line": 57,
-        "ch": 0
+        "line": 18,
+        "ch": 15
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-1",
+      "item-3-4"
+    ]
   },
   "2026-06-23.md": {
     "scroll": 0,
