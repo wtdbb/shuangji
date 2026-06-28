@@ -55,3 +55,32 @@
   max-width: unset !important;
   width: attr(width px) !important;
 }
+
+/* 公众号原内容：图片必须在正文中直接显示，不浮动、不压成 0 高度 */
+.markdown-reading-view.public-original .image-embed,
+.markdown-preview-view.public-original .image-embed,
+.markdown-source-view.public-original .image-embed {
+  display: block !important;
+  height: auto !important;
+  overflow: visible !important;
+  position: static !important;
+  margin: 14px 0 !important;
+  padding: 0 !important;
+  line-height: normal !important;
+}
+
+.markdown-reading-view.public-original .image-embed img,
+.markdown-preview-view.public-original .image-embed img,
+.markdown-source-view.public-original .image-embed img,
+.markdown-reading-view.public-original img,
+.markdown-preview-view.public-original img,
+.markdown-source-view.public-original img {
+  position: static !important;
+  display: block !important;
+  right: auto !important;
+  top: auto !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 14px auto !important;
+  z-index: auto !important;
+}

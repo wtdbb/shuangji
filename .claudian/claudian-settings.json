@@ -1,9 +1,9 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "sonnet",
+  "model": "opus",
   "thinkingBudget": "off",
-  "effortLevel": "high",
+  "effortLevel": "max",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "",
@@ -11,7 +11,7 @@
   "mediaFolder": "",
   "systemPrompt": "",
   "persistentExternalContextPaths": [],
-  "sharedEnvironmentVariables": "",
+  "sharedEnvironmentVariables": "PATH=E:\\wc\\node js;E:\\wc\\node js\\node_global;%PATH%\nHTTP_PROXY=http://127.0.0.1:7897\nHTTPS_PROXY=http://127.0.0.1:7897\nALL_PROXY=http://127.0.0.1:7897\nNO_PROXY=localhost,127.0.0.1",
   "envSnippets": [],
   "customContextLimits": {},
   "customModelAliases": {},
@@ -25,9 +25,10 @@
   "providerConfigs": {
     "claude": {
       "safeMode": "acceptEdits",
-      "cliPath": "",
+      "cliPath": "E:\\wc\\node js\\node_global\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
       "cliPathsByHost": {
-        "device:3adf4369-78e3-4134-ac64-205fffb830bd": "C:\\Users\\EDY\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\cli-wrapper.cjs"
+        "device:3adf4369-78e3-4134-ac64-205fffb830bd": "E:\\wc\\node js\\node_global\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+        "device:29ed1f6e-d3bc-4597-b9f6-4aa43e9af913": "E:\\wc\\node js\\node_global\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
       },
       "loadUserSettings": true,
       "enableChrome": false,
@@ -35,37 +36,118 @@
       "enableOpus1M": false,
       "enableSonnet1M": false,
       "customModels": "",
-      "lastModel": "sonnet",
+      "lastModel": "opus",
       "environmentVariables": "",
       "environmentHash": ""
     },
     "codex": {
       "enabled": true,
       "safeMode": "workspace-write",
-      "cliPath": "",
+      "cliPath": "E:\\wc\\node js\\node_global\\codex.cmd",
       "cliPathsByHost": {
-        "device:3adf4369-78e3-4134-ac64-205fffb830bd": "C:\\Users\\EDY\\Desktop\\新建文件夹\\OpenAI.Codex_26.602.4764.0_x64\\app\\resources\\codex.exe"
+        "device:3adf4369-78e3-4134-ac64-205fffb830bd": "E:\\wc\\node js\\node_global\\codex.cmd",
+        "device:29ed1f6e-d3bc-4597-b9f6-4aa43e9af913": "E:\\wc\\node js\\node_global\\codex.cmd"
       },
       "customModels": "",
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "",
       "installationMethodsByHost": {
-        "device:3adf4369-78e3-4134-ac64-205fffb830bd": "native-windows"
+        "device:3adf4369-78e3-4134-ac64-205fffb830bd": "native-windows",
+        "device:29ed1f6e-d3bc-4597-b9f6-4aa43e9af913": "native-windows"
       },
       "wslDistroOverridesByHost": {}
     },
     "opencode": {
-      "cliPath": "",
+      "cliPath": "C:\\Users\\A\\AppData\\Local\\Microsoft\\WinGet\\Packages\\SST.opencode_Microsoft.Winget.Source_8wekyb3d8bbwe\\opencode.exe",
       "cliPathsByHost": {},
-      "enabled": false,
+      "enabled": true,
       "environmentHash": "",
       "environmentVariables": "OPENCODE_ENABLE_EXA=1",
       "modelAliases": {},
-      "preferredThinkingByModel": {},
-      "selectedMode": "",
-      "thinkingOptionsByModel": {},
-      "visibleModels": []
+      "preferredThinkingByModel": {
+        "google/antigravity-gemini-3-flash": "high",
+        "google/gemini-3.1-pro-preview": "high",
+        "google/gemini-3.1-flash-lite": "high",
+        "google/gemini-2.5-flash": "high"
+      },
+      "selectedMode": "claudian-yolo",
+      "thinkingOptionsByModel": {
+        "google/antigravity-gemini-3-flash": [
+          {
+            "label": "Minimal",
+            "value": "minimal"
+          },
+          {
+            "label": "Low",
+            "value": "low"
+          },
+          {
+            "label": "Medium",
+            "value": "medium"
+          },
+          {
+            "label": "High",
+            "value": "high"
+          }
+        ],
+        "google/gemini-3.1-pro-preview": [
+          {
+            "label": "Low",
+            "value": "low"
+          },
+          {
+            "label": "Medium",
+            "value": "medium"
+          },
+          {
+            "label": "High",
+            "value": "high"
+          }
+        ],
+        "google/gemini-3.1-flash-lite": [
+          {
+            "label": "Minimal",
+            "value": "minimal"
+          },
+          {
+            "label": "Low",
+            "value": "low"
+          },
+          {
+            "label": "Medium",
+            "value": "medium"
+          },
+          {
+            "label": "High",
+            "value": "high"
+          }
+        ],
+        "google/gemini-2.5-flash": [
+          {
+            "label": "Minimal",
+            "value": "minimal"
+          },
+          {
+            "label": "Low",
+            "value": "low"
+          },
+          {
+            "label": "Medium",
+            "value": "medium"
+          },
+          {
+            "label": "High",
+            "value": "high"
+          }
+        ]
+      },
+      "visibleModels": [
+        "google/antigravity-gemini-3-flash",
+        "google/gemini-3.1-pro-preview",
+        "google/gemini-3.1-flash-lite",
+        "google/gemini-2.5-flash"
+      ]
     },
     "pi": {
       "cliPath": "",
@@ -82,12 +164,14 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "sonnet",
-    "codex": "gpt-5.5"
+    "claude": "opus",
+    "codex": "gpt-5.5",
+    "opencode": "opencode:google/antigravity-gemini-3-flash"
   },
   "savedProviderEffort": {
-    "claude": "high",
-    "codex": "medium"
+    "claude": "max",
+    "codex": "medium",
+    "opencode": "high"
   },
   "savedProviderServiceTier": {
     "codex": "default"
@@ -95,7 +179,8 @@
   "savedProviderThinkingBudget": {},
   "savedProviderPermissionMode": {
     "claude": "yolo",
-    "codex": "yolo"
+    "codex": "yolo",
+    "opencode": "yolo"
   },
   "lastCustomModel": "",
   "maxTabs": 3,

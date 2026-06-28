@@ -188,6 +188,39 @@ function Ensure-DailyHeader([string]$Path, [string]$DateKey) {
     }
 }
 
+function Add-DailyReportEntry([string]$Path, [string]$DateKey, [string]$Marker, [string]$Block) {
+    $content = Get-Content $Path -Raw -Encoding utf8
+    if ($content.Contains($Marker)) { return }
+    if (-not $content.Contains("## $DateKey")) {
+        Add-Content -Path $Path -Encoding utf8 -Value "`n## $DateKey`n"
+        $content = Get-Content $Path -Raw -Encoding utf8
+    }
+
+    $pattern = "(?ms)^(##\s+$([regex]::Escape($DateKey))\s*\r?\n)(.*?)(?=^##\s+\d{4}-\d{2}-\d{2}\s*$|\z)"
+    $newContent = [regex]::Replace($content, $pattern, {
+        param($m)
+        return $m.Groups[1].Value + $m.Groups[2].Value.TrimEnd() + "`n" + $Block.TrimEnd() + "`n"
+    }, 1)
+    Set-Content -Path $Path -Value $newContent -Encoding utf8
+}
+
+function Sort-DailyReportByDate([string]$Path) {
+    if (-not (Test-Path $Path)) { return }
+    $content = Get-Content $Path -Raw -Encoding utf8
+    $matches = [regex]::Matches($content, '(?ms)^##\s+(\d{4}-\d{2}-\d{2})\s*\r?\n.*?(?=^##\s+\d{4}-\d{2}-\d{2}\s*$|\z)')
+    if ($matches.Count -lt 2) { return }
+    $header = $content.Substring(0, $matches[0].Index).TrimEnd()
+    $sections = @()
+    foreach ($m in $matches) {
+        $sections += [pscustomobject]@{ Date = [datetime]::ParseExact($m.Groups[1].Value, 'yyyy-MM-dd', $null); Text = $m.Value.TrimEnd() }
+    }
+    $sorted = $sections | Sort-Object Date -Descending
+    $newContent = $header + "`n`n" + (($sorted | ForEach-Object { $_.Text }) -join "`n`n") + "`n"
+    if ($newContent -ne $content) {
+        Set-Content -Path $Path -Value $newContent -Encoding utf8
+    }
+}
+
 
 function Update-FolderIndex([string]$Dir, [string]$Title, [string]$Description) {
     New-Item -ItemType Directory -Force -Path $Dir | Out-Null
@@ -398,6 +431,92 @@ function Rewrite-InlineImages([string]$Path, [string]$SourceUrl, [string]$RawHtm
         }
     }
 
+    if ($content -ne $orig) { Set-Content -Path $Path -Value $content -Encoding utf8 }
+}
+
+function Is-PublicOriginal([string]$Path) {
+    return $Path -match '[\\/]+行业报告[\\/]+公众号原内容[\\/]+'
+}
+
+function Hide-ImageEmbedsAsLinks([string]$Path) {
+    $content = Get-Content $Path -Raw -Encoding utf8
+    $orig = $content
+
+    # 1) 把本地图片 embed 改成普通 wikilink，避免直接渲染成图片
+    $content = [regex]::Replace($content, '!\[\[([^\]]+?)\]\]', {
+        param($m)
+        $target = $m.Groups[1].Value
+        if ($target -match '\.(png|jpe?g|gif|webp|bmp|tiff?)(\?.*)?$') {
+            return "[[$target]]"
+        }
+        return $m.Value
+    })
+
+    # 2) 把 markdown 图片改成普通链接；非图片资源保持原样
+    $content = [regex]::Replace($content, '!\[([^\]]*)\]\(([^)]+)\)', {
+        param($m)
+        $alt = $m.Groups[1].Value
+        $url = $m.Groups[2].Value
+        if ($url -match '\.(png|jpe?g|gif|webp|bmp|tiff?)(\?.*)?$') {
+            $text = if ([string]::IsNullOrWhiteSpace($alt)) { $url } else { $alt }
+            return "[$text]($url)"
+        }
+        return $m.Value
+    })
+
+    if ($content -ne $orig) { Set-Content -Path $Path -Value $content -Encoding utf8 }
+}
+
+function Promote-MediaEmbeds([string]$Path) {
+    $content = Get-Content $Path -Raw -Encoding utf8
+    $orig = $content
+
+    # 公众号原内容使用 Obsidian 原生嵌入语法，确保不需要点击链接即可直接显示
+    $content = [regex]::Replace($content, '!+\[\[图片归档/([^\]|]+?)(?:\|[^\]]*)?\]\]', {
+        param($m)
+        $target = $m.Groups[1].Value.Trim()
+        return "![[图片归档/$target]]"
+    })
+
+    $content = [regex]::Replace($content, '!\[[^\]]*\]\(\.\./\.\./图片归档/([^\)]+)\)', {
+        param($m)
+        $target = $m.Groups[1].Value.Trim()
+        return "![[图片归档/$target]]"
+    })
+
+    $content = [regex]::Replace($content, '!\[\[图片归档/([^\]|]+?)(?:\|[^\]]*)?\]\]', {
+        param($m)
+        $target = $m.Groups[1].Value.Trim()
+        return "![[图片归档/$target]]"
+    })
+
+    $content = [regex]::Replace($content, '(?<!!)\[\[图片归档/([^\]|]+?)(?:\|[^\]]*)?\]\]', {
+        param($m)
+        $target = $m.Groups[1].Value.Trim()
+        return "![[图片归档/$target]]"
+    })
+
+    if ($content -ne $orig) { Set-Content -Path $Path -Value $content -Encoding utf8 }
+}
+
+function Ensure-PublicOriginalCssClass([string]$Path) {
+    $content = Get-Content $Path -Raw -Encoding utf8
+    $orig = $content
+    if ($content -match '(?s)\A---\r?\n(.*?)\r?\n---') {
+        $fm = $Matches[1]
+        if ($fm -notmatch '(?m)^cssclasses\s*:') {
+            $content = [regex]::Replace($content, '(?s)\A---\r?\n', "---`r`ncssclasses: [public-original]`r`n", 1)
+        } elseif ($fm -notmatch 'public-original') {
+            $content = [regex]::Replace($content, '(?m)^cssclasses\s*:\s*\[(.*?)\]\s*$', {
+                param($m)
+                $existing = $m.Groups[1].Value.Trim().TrimEnd(',')
+                if ([string]::IsNullOrWhiteSpace($existing)) {
+                    return 'cssclasses: [public-original]'
+                }
+                return "cssclasses: [$existing, public-original]"
+            }, 1)
+        }
+    }
     if ($content -ne $orig) { Set-Content -Path $Path -Value $content -Encoding utf8 }
 }
 
@@ -688,6 +807,12 @@ foreach ($file in $files) {
 
     # 完整导入媒体:下载图片/视频到本地,并把正文里的远程图片改成本地嵌入
     Rewrite-InlineImages $file.FullName $sourceUrl $rawText
+    if (Is-PublicOriginal $file.FullName) {
+        Ensure-PublicOriginalCssClass $file.FullName
+        Promote-MediaEmbeds $file.FullName
+    } else {
+        Hide-ImageEmbedsAsLinks $file.FullName
+    }
     $file.Refresh()
     $stamp = [string]$file.LastWriteTimeUtc.Ticks
 
@@ -703,7 +828,7 @@ foreach ($file in $files) {
 - 推断依据: $reason
 - 原文: $reportMarker
 "@
-    Add-SectionOnce $dailyFile $title $reportBlock
+    Add-DailyReportEntry $dailyFile $today $reportMarker $reportBlock
 
     # 不再自动写入岗位/行业 mapping；mapping 由用户手写。
     $state[$file.FullName] = $stamp
@@ -713,6 +838,7 @@ foreach ($k in @($state.Keys)) {
     if (-not (Test-Path $k)) { $state.Remove($k) }
 }
 Save-State $state
+Sort-DailyReportByDate $dailyFile
 exit 0
 
 

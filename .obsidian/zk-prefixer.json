@@ -1,3 +1,5 @@
 {
-  "format": "YYYY-MM-DD HHmm"
+  "format": "YYYY-MM-DD HHmm",
+  "template": "",
+  "folder": "Daily notes/Calendar/Meetings"
 }

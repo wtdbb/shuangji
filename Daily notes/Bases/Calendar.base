@@ -1,27 +1,23 @@
 formulas:
-  highlight: highlight
-  ✨: if(file.inFolder("Calendar/Journal/Daily"),"📅",if(file.inFolder("Calendar/Meetings"),"☎️",if(file.inFolder("Calendar/Fleeting"),"💭")))
+  highlight: ""
+  ✨: if(file.inFolder("Daily notes/Calendar/Journal/Daily"),"📅",if(file.inFolder("Daily notes/Calendar/Meetings"),"☎️",if(file.inFolder("Daily notes/Calendar/Fleeting"),"💭","")))
   未命名: ""
+  未命名 2: ""
 views:
   - type: table
     name: Calendar
     filters:
       or:
-        - file.inFolder("Calendar/Journal/Daily")
-        - file.inFolder("Calendar/Fleeting")
-        - file.inFolder("Calendar/Meetings")
+        - file.inFolder("Daily notes/Calendar/Journal/Daily")
+        - file.inFolder("Daily notes/Calendar/Fleeting")
+        - file.inFolder("Daily notes/Calendar/Meetings")
     order:
       - formula.✨
       - file.name
       - formula.highlight
-      - formula.未命名
     sort:
       - property: formula.highlight
-        direction: ASC
-      - property: file.name
         direction: DESC
-      - property: formula.✨
-        direction: ASC
     columnSize:
       formula.✨: 125
       file.name: 259
@@ -30,7 +26,7 @@ views:
     name: Daily
     filters:
       and:
-        - file.inFolder("Calendar/Journal/Daily")
+        - file.inFolder("Daily notes/Calendar/Journal/Daily")
     groupBy:
       property: week
       direction: DESC
@@ -40,18 +36,15 @@ views:
     sort:
       - property: file.name
         direction: DESC
-      - property: formula.Untitled
-        direction: DESC
     columnSize:
       file.name: 179
   - type: table
     name: Weekly
     filters:
       and:
-        - file.inFolder("Calendar/Journal/Weekly")
+        - file.inFolder("Daily notes/Calendar/Journal/Weekly")
     order:
       - file.name
-      - month
     sort:
       - property: file.name
         direction: DESC
@@ -61,28 +54,41 @@ views:
     name: Monthly
     filters:
       and:
-        - file.inFolder("Calendar/Journal/Month")
-    groupBy:
-      property: quarter
-      direction: ASC
+        - file.inFolder("Daily notes/Calendar/Journal/Month")
     order:
       - file.name
-      - quarter
     sort:
       - property: file.name
         direction: DESC
     columnSize:
       file.name: 152
   - type: table
+    name: Quarterly
+    filters:
+      and:
+        - file.inFolder("Daily notes/Calendar/Journal/Quarterly")
+    order:
+      - file.name
+    sort:
+      - property: file.name
+        direction: DESC
+    columnSize:
+      file.name: 142
+  - type: table
     name: Yearly
     filters:
       and:
-        - file.inFolder("Calendar/Journal/Yearly")
+        - file.inFolder("Daily notes/Calendar/Journal/Yearly")
+    order:
+      - file.name
+    sort:
+      - property: file.name
+        direction: DESC
   - type: table
     name: Fleeting
     filters:
       and:
-        - file.inFolder("Calendar/Fleeting")
+        - file.inFolder("Daily notes/Calendar/Fleeting")
     sort:
       - property: file.name
         direction: DESC

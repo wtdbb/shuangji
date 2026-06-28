@@ -1,33 +1,33 @@
-{
-  "showGettingStartedBanner": true,
-  "hasMigratedDailyNoteSettings": false,
-  "hasMigratedWeeklyNoteSettings": false,
+﻿{
+  "showGettingStartedBanner": false,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": true,
   "daily": {
-    "format": "",
+    "format": "YYYY-MM-DD",
     "template": "Daily notes/Templates/Daily-TEMPLATE.md",
     "folder": "Daily notes/Calendar/Journal/Daily",
     "enabled": true
   },
   "weekly": {
-    "format": "",
-    "template": "",
+    "format": "YYYY-MM-[W]WW",
+    "template": "Daily notes/Templates/Weekly-TEMPLATE.md",
     "folder": "Daily notes/Calendar/Journal/Weekly",
     "enabled": true
   },
   "monthly": {
-    "format": "",
-    "template": "",
+    "format": "YYYY-MM",
+    "template": "Daily notes/Templates/Monthly-TEMPLATE.md",
     "folder": "Daily notes/Calendar/Journal/Month",
     "enabled": true
   },
   "quarterly": {
-    "format": "",
+    "format": "YYYY-[Q]Q",
     "template": "",
     "folder": "Daily notes/Calendar/Journal/Quarterly",
     "enabled": true
   },
   "yearly": {
-    "format": "",
+    "format": "YYYY",
     "template": "",
     "folder": "Daily notes/Calendar/Journal/Yearly",
     "enabled": true

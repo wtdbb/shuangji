@@ -1,10 +1,11 @@
 <%*
 let d = moment(tp.file.title, "YYYY-MM-DD");
 let q = "Q" + (Math.floor(d.month() / 3) + 1);
-let w = d.isoWeek().toString().padStart(2, '0');
+const weekOfMonth = String(Math.ceil(d.date() / 7)).padStart(2, "0");
+const weekTitle = `${d.format("YYYY-MM")}-W${weekOfMonth}`;
 -%>
 ---
-week: '[[<% d.format("YYYY") %>-W<% w %>]]'
+week: '[[<% weekTitle %>]]'
 date: '<% tp.file.title %>'
 cssclasses:
   - hide-properties
@@ -12,27 +13,27 @@ cssclasses:
   <% "- " + tp.date.now("dddd", 0, tp.file.title, "YYYYMMDD").toLowerCase() %>
 ---
 
-## [[<% d.format("YYYY")%>]] / [[<%d.format("YYYY")%>-<% q %>|<% q %>]] / [[<% d.format("YYYY-MM") %>|<% d.clone().locale("en").format("MMMM") %>]] / [[<% d.format("YYYY") %>-W<% w %>|Week <% d.isoWeek() %>]]
-# DAILY NOTE
+## [[<% d.format("YYYY")%>]] / [[<%d.format("YYYY")%>-<% q %>|<% q %>]] / [[<% d.format("YYYY-MM") %>|<% d.clone().locale("en").format("MMMM") %>]] / [[<% weekTitle %>|Week <% weekOfMonth %>]]
+# 📚DAILY NOTE
 ##### ❮ [[<% d.clone().subtract(1, 'days').format("YYYY-MM-DD") %>]] | <% tp.file.title %> | [[<% d.clone().add(1, 'days').format("YYYY-MM-DD") %>]] ❯
 ---
-### 📕Freewrite
+### 📖Freewrite
 
 
 
 
 ---
-### ⚛️Habits
-#### ☀️Morning
+### ⭐Habits
+#### Morning
 - [ ] Drink Water：two cups
 - [ ] Stretch
 - 🧘🏻[meditation::]
-- [ ] Plan the day：1个推荐or20个备注
-
+- [ ] Plan the day：一个推荐ur20个备选
 #### Habits
-- 📖[reading::]：one city
+- 📚[reading::]：one city
+- 💪[workout::]
 - 🏃‍♀️[exercise::]
-- 📰[report::]
+- 📝[report::]
 
 #### End-of-Day Checklist
 - [ ] Backup Vault
@@ -45,5 +46,5 @@ let daysLeft = death.diff(moment(tp.file.title, "YYYY-MM-DD"), 'days');
 %>
 > [!error] 死亡倒计时：**<% daysLeft %> 天**
 
-![[On This Day.base]]
+![[Daily notes/Bases/On This Day.base]]
 

@@ -1,4 +1,4 @@
-/*======================================================================
+﻿/*======================================================================
   Daily Note · Light Theme (Windows-friendly)  v2.0
   作者重写 for CodexVault
   字体： 标题 Bai Jamjuree ｜ 正文 霞鹜文楷 LXGW WenKai ｜ 等宽 JetBrainsMono NF
@@ -222,3 +222,287 @@
 
 /* 折叠/分割图标淡化 */
 :is(.daily) svg { color: color-mix(in srgb, var(--accent) 70%, var(--muted)); }
+
+
+/*======================================================================
+  Periodic Notes · Weekly / Monthly / Quarterly / Yearly  v1.0
+  触发：frontmatter -> cssclasses: [weekly] / [monthly] / [quarterly] / [yearly]
+  Weekly  → 钢蓝   Monthly → 森绿   Quarterly → 琥珀   Yearly → 皇紫
+======================================================================*/
+
+/*----------- 各周期颜色变量 -----------*/
+.weekly    { --paper:#f4f7fc; --paper-card:#f8faff; --ink:#2a3050; --muted:#7a86a8; --line:#cdd5eb; --accent:#3d6fd0; --accent-soft:#e0e9f8; --code-normal:#3a60b8; }
+.monthly   { --paper:#f4faf6; --paper-card:#f8fcf9; --ink:#1e3528; --muted:#6b9e7a; --line:#c5e5cf; --accent:#3d8b57; --accent-soft:#e0f4e8; --code-normal:#2e7244; }
+.quarterly { --paper:#fdf8f2; --paper-card:#fffaf5; --ink:#3a2810; --muted:#a0865a; --line:#e8d8c0; --accent:#c07828; --accent-soft:#faeede; --code-normal:#a06020; }
+.yearly    { --paper:#f7f4fc; --paper-card:#faf8fe; --ink:#2a1850; --muted:#8878b0; --line:#d8cef0; --accent:#6b3dc8; --accent-soft:#ede8f9; --code-normal:#5a30b0; }
+
+/*----------- 共享基础样式 -----------*/
+:is(.weekly, .monthly, .quarterly, .yearly) {
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: "LXGW WenKai", "Bai Jamjuree", "Segoe UI", sans-serif;
+  line-height: 1.85;
+  --text-normal: var(--ink);
+  --text-muted: var(--muted);
+  --text-faint: color-mix(in srgb, var(--muted) 60%, transparent);
+  --text-accent: var(--accent);
+  --text-accent-hover: var(--accent);
+  --interactive-accent: var(--accent);
+  --interactive-accent-hover: var(--accent);
+  --link-color: var(--accent);
+  --link-color-hover: var(--accent);
+  --tag-color: var(--accent);
+  --tag-background: var(--accent-soft);
+  --hr-color: var(--line);
+  --blockquote-border-color: var(--accent);
+  --checkbox-color: var(--accent);
+  --checkbox-color-hover: var(--accent);
+  --checkbox-marker-color: #ffffff;
+  --checkbox-border-color: var(--accent);
+  --checkbox-radius: 6px;
+  --checklist-done-color: var(--muted);
+  --list-marker-color: var(--accent);
+  --collapse-icon-color: var(--muted);
+  --code-background: var(--paper-card);
+  --background-modifier-border: var(--line);
+  --background-modifier-border-focus: var(--accent);
+  --metadata-label-text-color: var(--muted);
+  --metadata-input-text-color: var(--ink);
+}
+
+/*----------- 标题 -----------*/
+:is(.weekly, .monthly, .quarterly, .yearly) :is(h1, .HyperMD-header-1) {
+  font-family: "Bai Jamjuree", "LXGW WenKai", sans-serif;
+  font-weight: 700;
+  font-size: 2.8em;
+  line-height: 1.1;
+  text-align: center;
+  color: var(--accent);
+  letter-spacing: 3px;
+  margin: 10px 0 2px;
+  padding: 0 !important;
+}
+
+:is(.weekly, .monthly, .quarterly, .yearly) :is(h2, .HyperMD-header-2) {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.05em;
+  text-align: center;
+  color: var(--muted);
+  letter-spacing: .5px;
+  margin: 0;
+  padding: 0 !important;
+}
+
+:is(.weekly, .monthly, .quarterly, .yearly) :is(h3, .HyperMD-header-3) {
+  font-family: "Bai Jamjuree", "LXGW WenKai", sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: center;
+  color: var(--accent);
+  margin-top: 1.5em;
+}
+
+.markdown-preview-view:is(.weekly, .monthly, .quarterly, .yearly) h3::before,
+.markdown-preview-view:is(.weekly, .monthly, .quarterly, .yearly) h3::after {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  margin: 0 14px;
+  vertical-align: middle;
+  background: var(--accent);
+  opacity: .45;
+  border-radius: 2px;
+}
+
+:is(.weekly, .monthly, .quarterly, .yearly) :is(h4, .HyperMD-header-4) {
+  display: inline-block;
+  font-family: "Bai Jamjuree", "LXGW WenKai", sans-serif;
+  font-weight: 700;
+  font-size: .92em;
+  color: #fff;
+  background: var(--accent);
+  padding: 2px 14px;
+  border-radius: 999px;
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--accent) 35%, transparent);
+  margin: .6em 0 .2em;
+  width: fit-content;
+}
+
+:is(.weekly, .monthly, .quarterly, .yearly) :is(h5, .HyperMD-header-5) {
+  font-family: "Bai Jamjuree", "LXGW WenKai", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: var(--accent);
+  margin-bottom: 0;
+}
+
+/*----------- 正文元素 -----------*/
+:is(.weekly, .monthly, .quarterly, .yearly) :is(a, .cm-hmd-internal-link, .cm-link) {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dashed color-mix(in srgb, var(--accent) 45%, transparent);
+}
+:is(.weekly, .monthly, .quarterly, .yearly) :is(a:hover, .cm-hmd-internal-link:hover) {
+  border-bottom-style: solid;
+}
+
+:is(.weekly, .monthly, .quarterly, .yearly) hr {
+  border: none;
+  border-top: 1.5px solid var(--line);
+  margin: 1.3em 0 !important;
+}
+
+:is(.weekly, .monthly, .quarterly, .yearly) blockquote {
+  background: var(--accent-soft);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 10px 10px 0;
+  padding: 6px 14px;
+  color: var(--ink);
+}
+
+:is(.weekly, .monthly, .quarterly, .yearly) :is(code, .cm-inline-code) {
+  background: var(--accent-soft) !important;
+  color: var(--code-normal) !important;
+  border-radius: 6px;
+  padding: 1px 6px;
+  font-family: "JetBrainsMono Nerd Font Mono", "JetBrainsMono NFM", monospace;
+}
+
+:is(.weekly, .monthly, .quarterly, .yearly) pre {
+  background: var(--paper-card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+
+:is(.weekly, .monthly, .quarterly, .yearly) .task-list-item-checkbox {
+  border-width: 2px;
+  box-shadow: none;
+}
+
+:is(.weekly, .monthly, .quarterly, .yearly) li.task-list-item.is-checked,
+:is(.weekly, .monthly, .quarterly, .yearly) .cm-line:has(.task-list-item-checkbox:checked) {
+  color: var(--muted);
+}
+
+:is(.weekly, .monthly, .quarterly, .yearly) ul > li::marker { color: var(--accent); }
+
+:is(.weekly, .monthly, .quarterly, .yearly) a.tag {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-radius: 999px;
+  padding: 1px 10px;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+}
+
+:is(.weekly, .monthly, .quarterly, .yearly) img {
+  display: block;
+  margin: 10px auto;
+  border-radius: 12px;
+  max-width: 100%;
+}
+
+:is(.weekly, .monthly, .quarterly, .yearly) .inline-title { display: none; }
+
+:is(.weekly, .monthly, .quarterly, .yearly) svg {
+  color: color-mix(in srgb, var(--accent) 70%, var(--muted));
+}
+/* == Honey Gold alignment for Daily/Periodic notes == */
+/* 让 Daily / Weekly / Monthly / Quarterly / Yearly 跟 Honey Gold UI 统一，避免蓝/绿/紫突兀。 */
+:is(.daily, .weekly, .monthly, .quarterly, .yearly) {
+  --paper:      hsl(43 56% 95% / .96) !important;
+  --paper-card: hsl(43 62% 97% / .985) !important;
+  --ink:        #3b3526 !important;
+  --muted:      #8b8068 !important;
+  --line:       #ead9b6 !important;
+  --accent:     #c08a18 !important;
+  --accent-soft:#fbf3db !important;
+  --code-normal:#9a6c0f !important;
+
+  --text-normal: var(--ink) !important;
+  --text-muted: var(--muted) !important;
+  --text-accent: var(--accent) !important;
+  --text-accent-hover: #9a6c0f !important;
+  --interactive-accent: #dca82f !important;
+  --interactive-accent-hover: #c08a18 !important;
+  --link-color: var(--accent) !important;
+  --link-color-hover: #9a6c0f !important;
+  --tag-color: #9a6c0f !important;
+  --tag-background: #fbf3db !important;
+  --hr-color: var(--line) !important;
+  --blockquote-border-color: var(--accent) !important;
+  --checkbox-color: #dca82f !important;
+  --checkbox-color-hover: #c08a18 !important;
+  --list-marker-color: var(--accent) !important;
+  background-color: var(--paper) !important;
+  color: var(--ink) !important;
+}
+
+/* 主标题：从突兀蓝色改为暖金大标题 */
+:is(.daily, .weekly, .monthly, .quarterly, .yearly) :is(h1, .HyperMD-header-1) {
+  color: #c08a18 !important;
+  text-shadow: 0 3px 18px hsl(41 80% 52% / .20) !important;
+  letter-spacing: .06em !important;
+}
+
+:is(.daily, .weekly, .monthly, .quarterly, .yearly) :is(h2, .HyperMD-header-2) {
+  color: #9a6c0f !important;
+}
+
+:is(.daily, .weekly, .monthly, .quarterly, .yearly) :is(h3, .HyperMD-header-3) {
+  color: #c08a18 !important;
+  text-shadow: 0 2px 12px hsl(41 70% 52% / .12) !important;
+}
+
+.markdown-preview-view:is(.daily, .weekly, .monthly, .quarterly, .yearly) h3::before,
+.markdown-preview-view:is(.daily, .weekly, .monthly, .quarterly, .yearly) h3::after {
+  background: #dca82f !important;
+  opacity: .35 !important;
+}
+
+/* H4 胶囊：从蓝色块改成蜜金胶囊 */
+:is(.daily, .weekly, .monthly, .quarterly, .yearly) :is(h4, .HyperMD-header-4) {
+  color: #4a3608 !important;
+  background: linear-gradient(180deg, #f0c454, #e3a82b) !important;
+  border: 1px solid hsl(41 62% 48% / .30) !important;
+  box-shadow: 0 4px 14px hsl(41 70% 45% / .20), inset 0 1px 0 hsl(0 0% 100% / .45) !important;
+  border-radius: 999px !important;
+}
+
+/* 链接、tag、blockquote、code 统一暖纸质感 */
+:is(.daily, .weekly, .monthly, .quarterly, .yearly) :is(a, .cm-hmd-internal-link, .cm-link) {
+  color: #9a6c0f !important;
+  border-bottom-color: hsl(41 60% 45% / .35) !important;
+}
+
+:is(.daily, .weekly, .monthly, .quarterly, .yearly) blockquote {
+  background: hsl(43 70% 94% / .92) !important;
+  border-left-color: #dca82f !important;
+}
+
+:is(.daily, .weekly, .monthly, .quarterly, .yearly) :is(code, .cm-inline-code),
+:is(.daily, .weekly, .monthly, .quarterly, .yearly) a.tag {
+  background: #fbf3db !important;
+  color: #9a6c0f !important;
+}
+
+:is(.daily, .weekly, .monthly, .quarterly, .yearly) pre {
+  background: hsl(43 62% 97% / .985) !important;
+  border-color: #ead9b6 !important;
+}
+
+:is(.daily, .weekly, .monthly, .quarterly, .yearly) hr {
+  border-top-color: #ead9b6 !important;
+}
+
+/* 周/月/年页面的整体底色跟主题统一 */
+.markdown-preview-view:is(.daily, .weekly, .monthly, .quarterly, .yearly),
+.markdown-source-view.mod-cm6:is(.daily, .weekly, .monthly, .quarterly, .yearly) .cm-scroller {
+  background:
+    radial-gradient(circle at 78% 18%, hsl(45 100% 72% / .20), transparent 28%),
+    linear-gradient(180deg, #fbf4e4 0%, #f7ecd4 100%) !important;
+}

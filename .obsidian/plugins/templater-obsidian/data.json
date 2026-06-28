@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "",
+  "templates_folder": "Daily notes/Templates",
   "templates_pairs": [
     [
       "",
@@ -15,8 +15,24 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "Calendar/Journal/Daily",
-      "template": "Templates/Daily-TEMPLATE.md"
+      "folder": "Daily notes/Calendar/Journal/Daily",
+      "template": "Daily notes/Templates/Daily-TEMPLATE.md"
+    },
+    {
+      "folder": "Daily notes/Calendar/Journal/Weekly",
+      "template": "Daily notes/Templates/Weekly-TEMPLATE.md"
+    },
+    {
+      "folder": "Daily notes/Calendar/Journal/Month",
+      "template": "Daily notes/Templates/Monthly-TEMPLATE.md"
+    },
+    {
+      "folder": "Daily notes/Calendar/Journal/Quarterly",
+      "template": "Daily notes/Templates/Quarterly-TEMPLATE.md"
+    },
+    {
+      "folder": "Daily notes/Calendar/Journal/Yearly",
+      "template": "Daily notes/Templates/Yearly-TEMPLATE.md"
     }
   ],
   "enable_file_templates": false,

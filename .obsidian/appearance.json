@@ -1,16 +1,17 @@
 {
   "cssTheme": "Minimal",
+  "accentColor": "#dca82f",
   "enabledCssSnippets": [
     "Daily Note Themes",
-    "General Tweaks",
-    "popover-width",
     "dash-nav",
     "Embed Float Images",
-    "Home Page"
+    "General Tweaks",
+    "popover-width",
+    "Home Page",
+    "Honey Gold UI"
   ],
   "theme": "system",
-  "accentColor": "#14c9e1",
-  "baseFontSizeAction": true,
   "nativeMenus": true,
-  "baseFontSize": 19
+  "baseFontSizeAction": true,
+  "baseFontSize": 18
 }

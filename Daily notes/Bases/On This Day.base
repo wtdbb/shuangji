@@ -1,34 +1,60 @@
-filters:
-  or:
-    - file.name.contains(this.file.name.slice(4))
-    - date.toString().contains(this.file.name.slice(4))
 formulas:
-  date: date.toString().slice(0, 10)
+  noteDate: file.mtime.format("YYYY-MM-DD")
 properties:
   file.name:
-    displayName: Entry
-  note.categories:
-    displayName: Categories
-  note.created:
-    displayName: Created
-  note.tags:
-    displayName: Tags
+    displayName: 笔记
+  file.folder:
+    displayName: 位置
+  formula.noteDate:
+    displayName: 修改日期
 views:
   - type: table
-    name: On This Day
+    name: 今日笔记
     filters:
       and:
-        - file.name != this.file.name
+        - file.ext == "md"
+        - file.mtime.date() == today()
+        - file.path != this.file.path
+        - or:
+            - file.inFolder("岗位mapping")
+            - file.inFolder("行业mapping")
+            - file.inFolder("行业报告/公众号原内容")
+            - file.inFolder("行业报告/日报输出")
+            - file.inFolder("Daily notes/Calendar/Journal")
+            - file.inFolder("OneNote")
     order:
-      - formula.date
       - file.name
+      - file.folder
+      - formula.noteDate
     sort:
-      - property: file.name
-        direction: DESC
-      - property: formula.date
-        direction: ASC
-      - property: date
+      - property: file.mtime
         direction: DESC
     columnSize:
-      formula.date: 153
-      file.name: 558
+      file.name: 320
+      file.folder: 220
+      formula.noteDate: 120
+  - type: table
+    name: 日期浏览
+    filters:
+      and:
+        - file.ext == "md"
+        - file.path != this.file.path
+        - or:
+            - file.inFolder("岗位mapping")
+            - file.inFolder("行业mapping")
+            - file.inFolder("行业报告/公众号原内容")
+            - file.inFolder("行业报告/日报输出")
+            - file.inFolder("Daily notes/Calendar/Journal")
+            - file.inFolder("OneNote")
+    groupBy:
+      property: formula.noteDate
+      direction: DESC
+    order:
+      - file.name
+      - file.folder
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 350
+      file.folder: 220
