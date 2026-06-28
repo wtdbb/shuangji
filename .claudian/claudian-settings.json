@@ -146,7 +146,7 @@
         "google/antigravity-gemini-3-flash",
         "google/gemini-3.1-pro-preview",
         "google/gemini-3.1-flash-lite",
-        "google/gemini-2.5-flash"
+        "google/gemini-3.5-flash"
       ]
     },
     "pi": {
@@ -166,7 +166,7 @@
   "savedProviderModel": {
     "claude": "opus",
     "codex": "gpt-5.5",
-    "opencode": "opencode:google/antigravity-gemini-3-flash"
+    "opencode": "opencode:google/gemini-3.1-pro-preview"
   },
   "savedProviderEffort": {
     "claude": "max",
