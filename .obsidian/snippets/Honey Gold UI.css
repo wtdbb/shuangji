@@ -440,8 +440,13 @@ input[type="range"]::-webkit-slider-thumb { background: var(--honey-500); }
 }
 
 /* ===================== ② 可视化状态栏（问题6）===================== */
-.status-bar {
-  background: linear-gradient(90deg, var(--honey-50), var(--background-secondary)) !important;
+/* 用蜂蜜奶油色铺底，不依赖 --background-secondary（它在某些状态下会解析成深色，
+   把整条状态栏拉黑）。选择器加 .theme-* 提一档优先级，确保压过主题/插件。 */
+.theme-light .status-bar,
+.theme-dark  .status-bar {
+  background: linear-gradient(90deg, var(--honey-100), var(--honey-50)) !important;
+  --status-bar-background: var(--honey-50);   /* 兼容 Minimal 的状态栏变量 */
+  color: var(--hg-muted) !important;          /* 状态栏文字：暖灰，奶油底上清晰可读 */
   border-top: 1px solid var(--hg-line) !important;
   position: relative;
   gap: 4px;

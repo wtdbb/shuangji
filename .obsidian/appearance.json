@@ -10,7 +10,7 @@
     "Home Page",
     "Honey Gold UI"
   ],
-  "theme": "system",
+  "theme": "moonstone",
   "nativeMenus": true,
   "baseFontSizeAction": true,
   "baseFontSize": 18
