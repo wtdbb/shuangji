@@ -59,7 +59,7 @@
       "wslDistroOverridesByHost": {}
     },
     "opencode": {
-      "cliPath": "C:\\Users\\A\\AppData\\Local\\Microsoft\\WinGet\\Packages\\SST.opencode_Microsoft.Winget.Source_8wekyb3d8bbwe\\opencode.exe",
+      "cliPath": "C:\\Users\\EDY\\AppData\\Roaming\\npm\\node_modules\\opencode-ai\\bin\\opencode.exe",
       "cliPathsByHost": {},
       "enabled": true,
       "environmentHash": "",
