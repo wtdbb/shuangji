@@ -11,7 +11,7 @@
   "mediaFolder": "",
   "systemPrompt": "",
   "persistentExternalContextPaths": [],
-  "sharedEnvironmentVariables": "PATH=E:\\wc\\node js;E:\\wc\\node js\\node_global;%PATH%\nHTTP_PROXY=http://127.0.0.1:7897\nHTTPS_PROXY=http://127.0.0.1:7897\nALL_PROXY=http://127.0.0.1:7897\nNO_PROXY=localhost,127.0.0.1",
+  "sharedEnvironmentVariables": "PATH=C:\\个人\\ai文件\\node;C:\\Users\\EDY\\AppData\\Roaming\\npm;%PATH%\nHTTP_PROXY=http://127.0.0.1:7897\nHTTPS_PROXY=http://127.0.0.1:7897\nALL_PROXY=http://127.0.0.1:7897\nNO_PROXY=localhost,127.0.0.1",
   "envSnippets": [],
   "customContextLimits": {},
   "customModelAliases": {},
@@ -25,10 +25,10 @@
   "providerConfigs": {
     "claude": {
       "safeMode": "acceptEdits",
-      "cliPath": "E:\\wc\\node js\\node_global\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
+      "cliPath": "C:\\Users\\EDY\\AppData\\Roaming\\npm\\claude.cmd",
       "cliPathsByHost": {
-        "device:3adf4369-78e3-4134-ac64-205fffb830bd": "E:\\wc\\node js\\node_global\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
-        "device:29ed1f6e-d3bc-4597-b9f6-4aa43e9af913": "E:\\wc\\node js\\node_global\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+        "device:3adf4369-78e3-4134-ac64-205fffb830bd": "C:\\Users\\EDY\\AppData\\Roaming\\npm\\claude.cmd",
+        "device:29ed1f6e-d3bc-4597-b9f6-4aa43e9af913": "C:\\Users\\EDY\\AppData\\Roaming\\npm\\claude.cmd"
       },
       "loadUserSettings": true,
       "enableChrome": false,
@@ -43,10 +43,10 @@
     "codex": {
       "enabled": true,
       "safeMode": "workspace-write",
-      "cliPath": "E:\\wc\\node js\\node_global\\codex.cmd",
+      "cliPath": "C:\\Users\\EDY\\Desktop\\新建文件夹\\OpenAI.Codex_26.602.4764.0_x64\\app\\resources\\codex.exe",
       "cliPathsByHost": {
-        "device:3adf4369-78e3-4134-ac64-205fffb830bd": "E:\\wc\\node js\\node_global\\codex.cmd",
-        "device:29ed1f6e-d3bc-4597-b9f6-4aa43e9af913": "E:\\wc\\node js\\node_global\\codex.cmd"
+        "device:3adf4369-78e3-4134-ac64-205fffb830bd": "C:\\Users\\EDY\\Desktop\\新建文件夹\\OpenAI.Codex_26.602.4764.0_x64\\app\\resources\\codex.exe",
+        "device:29ed1f6e-d3bc-4597-b9f6-4aa43e9af913": "C:\\Users\\EDY\\Desktop\\新建文件夹\\OpenAI.Codex_26.602.4764.0_x64\\app\\resources\\codex.exe"
       },
       "customModels": "",
       "reasoningSummary": "detailed",
@@ -59,7 +59,7 @@
       "wslDistroOverridesByHost": {}
     },
     "opencode": {
-      "cliPath": "C:\\Users\\A\\AppData\\Local\\Microsoft\\WinGet\\Packages\\SST.opencode_Microsoft.Winget.Source_8wekyb3d8bbwe\\opencode.exe",
+      "cliPath": "C:\\Users\\EDY\\AppData\\Roaming\\npm\\opencode.cmd",
       "cliPathsByHost": {},
       "enabled": true,
       "environmentHash": "",
