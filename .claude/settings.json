@@ -8,7 +8,7 @@
           {
             "type": "command",
             "shell": "powershell",
-            "command": "wscript.exe \"C:\\Users\\A\\Documents\\shuangji\\.claude\\hooks\\run-auto-commit-hidden.vbs\"",
+            "command": "wscript.exe \"C:\\Users\\EDY\\Documents\\CodexVault\\.claude\\hooks\\run-auto-commit-hidden.vbs\"",
             "timeout": 30,
             "statusMessage": "auto-commit to git"
           }
