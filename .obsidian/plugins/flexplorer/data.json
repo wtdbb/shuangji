@@ -117,6 +117,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "skill",
         "gs-skill",
         "write-skill",
         "sp-skill"
@@ -8202,6 +8203,5434 @@
       "isHidden": false
     },
     "skill.zip": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "web-design-guidelines",
+        "vue-router-best-practices",
+        "vue",
+        "vueuse-functions",
+        "vue-testing-best-practices",
+        "vue-best-practices",
+        "vitest",
+        "vault-sync",
+        "vitepress",
+        "vite",
+        "unocss",
+        "ui-ux-pro-max",
+        "ui-styling",
+        "turborepo",
+        "stitch-skill",
+        "taste-skill",
+        "tsdown",
+        "tjbg",
+        "taste-skill-v1",
+        "sp-skill",
+        "soft-skill",
+        "slidev",
+        "slides",
+        "scrapling",
+        "redesign-skill",
+        "pnpm",
+        "pinia",
+        "output-skill",
+        "nuxt",
+        "minimalist-skill",
+        "nitro",
+        "impeccable",
+        "imagegen-frontend-web",
+        "imagegen-frontend-mobile",
+        "image-to-code-skill",
+        "gpt-tasteskill",
+        "design-system",
+        "brutalist-skill",
+        "brandkit",
+        "banner-design",
+        "design",
+        "brand",
+        "antfu-design",
+        "antfu",
+        "amap-jsapi-skill",
+        "00-skill-index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/00-skill-index.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md",
+        "references"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/amap-jsapi-skill/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "api",
+        "view-control.md",
+        "vector-graphics.md",
+        "security.md",
+        "search.md",
+        "routing.md",
+        "marker.md",
+        "map-init.md",
+        "layers.md",
+        "info-window.md",
+        "geocoder.md",
+        "events.md",
+        "custom-layers.md",
+        "context-menu.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/amap-jsapi-skill/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/context-menu.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/custom-layers.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/events.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/geocoder.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/info-window.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/layers.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/map-init.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/marker.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/routing.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/search.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/security.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/vector-graphics.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/view-control.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/api": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "map.md",
+        "layers-standard.md",
+        "layers-official.md",
+        "layers-custom.md",
+        "info-window.md",
+        "geolocation.md",
+        "geocoder.md",
+        "foundation.md",
+        "events.md",
+        "controls.md",
+        "context-menu.md",
+        "common.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/amap-jsapi-skill/references/api/common.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/api/context-menu.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/api/controls.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/api/events.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/api/foundation.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/api/geocoder.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/api/geolocation.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/api/info-window.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/api/layers-custom.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/api/layers-official.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/api/layers-standard.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/amap-jsapi-skill/references/api/map.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/antfu": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md",
+        "references"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/antfu/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "setting-up.md",
+        "monorepo.md",
+        "app-development.md",
+        "library-development.md",
+        "antfu-eslint-config.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/antfu/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/antfu/references/antfu-eslint-config.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/antfu/references/library-development.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/antfu/references/app-development.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/antfu/references/monorepo.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/antfu/references/setting-up.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/antfu-design": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "references",
+        "SKILL.md",
+        "README.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/antfu-design/README.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/antfu-design/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/antfu-design/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "features-floating-vue-overrides.md",
+        "features-data-presentation.md",
+        "core-tokens-and-combinations.md",
+        "core-starter-kit.md",
+        "core-principles.md",
+        "core-design-read.md",
+        "best-practices-strict-rules.md",
+        "best-practices-class-utilities-over-attributify.md",
+        "best-practices-bias-correction.md",
+        "best-practices-anti-slop.md",
+        "advanced-redesign-protocol.md",
+        "advanced-pattern-vocabulary.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/antfu-design/references/advanced-pattern-vocabulary.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/antfu-design/references/advanced-redesign-protocol.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/antfu-design/references/best-practices-anti-slop.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/antfu-design/references/best-practices-bias-correction.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/antfu-design/references/best-practices-class-utilities-over-attributify.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/antfu-design/references/best-practices-strict-rules.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/antfu-design/references/core-design-read.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/antfu-design/references/core-principles.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/antfu-design/references/core-starter-kit.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/antfu-design/references/core-tokens-and-combinations.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/antfu-design/references/features-data-presentation.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/antfu-design/references/features-floating-vue-overrides.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/brand": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "templates",
+        "SKILL.md",
+        "scripts",
+        "references"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/brand/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "voice-framework.md",
+        "visual-identity.md",
+        "update.md",
+        "typography-specifications.md",
+        "messaging-framework.md",
+        "logo-usage-rules.md",
+        "consistency-checklist.md",
+        "color-palette-management.md",
+        "brand-guideline-template.md",
+        "asset-organization.md",
+        "approval-checklist.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/brand/scripts": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "tests",
+        "validate-asset.cjs",
+        "sync-brand-to-tokens.cjs",
+        "inject-brand-context.cjs",
+        "extract-colors.cjs"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/brand/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/brand/references/approval-checklist.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/brand/references/asset-organization.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/brand/references/brand-guideline-template.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/brand/references/color-palette-management.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/brand/references/consistency-checklist.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/brand/references/logo-usage-rules.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/brand/references/messaging-framework.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/brand/references/typography-specifications.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/brand/references/update.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/brand/references/visual-identity.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/brand/references/voice-framework.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/brand/scripts/extract-colors.cjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/brand/scripts/inject-brand-context.cjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/brand/scripts/sync-brand-to-tokens.cjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/brand/scripts/validate-asset.cjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/brand/scripts/tests": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "test_sync_brand_to_tokens.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/brand/scripts/tests/test_sync_brand_to_tokens.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/brand/templates": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "brand-guidelines-starter.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/brand/templates/brand-guidelines-starter.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "scripts",
+        "references",
+        "SKILL.md",
+        "data"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/design/data": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "logo",
+        "icon",
+        "cip"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/design/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "logo-design.md",
+        "logo-color-psychology.md",
+        "icon-design.md",
+        "design-routing.md",
+        "cip-style-guide.md",
+        "cip-prompt-engineering.md",
+        "cip-design.md",
+        "cip-deliverable-guide.md",
+        "banner-sizes-and-styles.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/design/data/cip": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "styles.csv",
+        "mockup-contexts.csv",
+        "industries.csv",
+        "deliverables.csv"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/design/data/icon": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "styles.csv"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/design/data/logo": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "styles.csv",
+        "industries.csv",
+        "colors.csv"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/design/references/banner-sizes-and-styles.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/references/cip-deliverable-guide.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/references/cip-design.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/references/cip-prompt-engineering.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/references/cip-style-guide.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/references/design-routing.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/references/icon-design.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/references/logo-color-psychology.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/data/cip/deliverables.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/data/cip/industries.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/data/cip/mockup-contexts.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/data/cip/styles.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/data/icon/styles.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/data/logo/colors.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/data/logo/industries.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/data/logo/styles.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/banner-design": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md",
+        "references"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/banner-design/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "banner-sizes-and-styles.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/banner-design/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/banner-design/references/banner-sizes-and-styles.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/brandkit": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/brandkit/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/brutalist-skill": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/brutalist-skill/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/references/logo-design.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/scripts": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "logo",
+        "icon",
+        "cip"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/design/scripts/cip": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "search.py",
+        "render-html.py",
+        "generate.py",
+        "core.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/design/scripts/icon": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "generate.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/design/scripts/logo": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "generate.py",
+        "search.py",
+        "core.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/design/scripts/cip/core.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/scripts/cip/generate.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/scripts/cip/render-html.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/scripts/cip/search.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/scripts/icon/generate.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/scripts/logo/core.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/scripts/logo/search.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design/scripts/logo/generate.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "templates",
+        "SKILL.md",
+        "references",
+        "scripts",
+        "data"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/design-system/data": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "slide-typography.csv",
+        "slide-strategies.csv",
+        "slide-layouts.csv",
+        "slide-layout-logic.csv",
+        "slide-copy.csv",
+        "slide-backgrounds.csv",
+        "slide-color-logic.csv",
+        "slide-charts.csv"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/design-system/scripts": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "tests",
+        "validate-tokens.cjs",
+        "slide_search_core.py",
+        "slide-token-validator.py",
+        "search-slides.py",
+        "html-token-validator.py",
+        "generate-tokens.cjs",
+        "generate-slide.py",
+        "embed-tokens.cjs",
+        "fetch-background.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/design-system/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "tailwind-integration.md",
+        "token-architecture.md",
+        "states-and-variants.md",
+        "semantic-tokens.md",
+        "primitive-tokens.md",
+        "component-tokens.md",
+        "component-specs.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/design-system/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/data/slide-charts.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/data/slide-color-logic.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/data/slide-backgrounds.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/data/slide-copy.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/data/slide-layout-logic.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/data/slide-layouts.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/data/slide-strategies.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/data/slide-typography.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/scripts/fetch-background.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/scripts/embed-tokens.cjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/scripts/generate-slide.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/scripts/generate-tokens.cjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/scripts/html-token-validator.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/scripts/search-slides.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/scripts/slide-token-validator.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/scripts/slide_search_core.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/scripts/validate-tokens.cjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/references/component-specs.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/references/component-tokens.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/references/primitive-tokens.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/references/semantic-tokens.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/references/states-and-variants.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/references/token-architecture.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/references/tailwind-integration.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/scripts/tests": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "test_validate_tokens.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/design-system/scripts/tests/test_validate_tokens.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/design-system/templates": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "design-tokens-starter.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/design-system/templates/design-tokens-starter.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/gpt-tasteskill": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/gpt-tasteskill/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/image-to-code-skill": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/image-to-code-skill/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/imagegen-frontend-mobile": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/imagegen-frontend-mobile/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/imagegen-frontend-web": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/imagegen-frontend-web/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "scripts",
+        "SKILL.md",
+        "reference"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/impeccable/reference": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "optimize.md",
+        "onboard.md",
+        "live.md",
+        "layout.md",
+        "interaction-design.md",
+        "init.md",
+        "hooks.md",
+        "harden.md",
+        "extract.md",
+        "document.md",
+        "distill.md",
+        "delight.md",
+        "critique.md",
+        "craft.md",
+        "colorize.md",
+        "codex.md",
+        "clarify.md",
+        "brand.md",
+        "bolder.md",
+        "audit.md",
+        "animate.md",
+        "adapt.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/impeccable/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/adapt.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/animate.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/audit.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/bolder.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/brand.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/clarify.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/codex.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/colorize.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/craft.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/critique.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/delight.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/distill.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/document.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/extract.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/harden.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/hooks.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/init.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/interaction-design.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/layout.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/live.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/onboard.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/reference/optimize.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "live",
+        "lib",
+        "detector",
+        "pin.mjs",
+        "palette.mjs",
+        "modern-screenshot.umd.js",
+        "live.mjs",
+        "live-wrap.mjs",
+        "live-target.mjs",
+        "live-status.mjs",
+        "live-server.mjs",
+        "live-resume.mjs",
+        "live-poll.mjs",
+        "live-manual-edit-evidence.mjs",
+        "live-insert.mjs",
+        "live-inject.mjs",
+        "live-discard-manual-edits.mjs",
+        "live-copy-edit-agent.mjs",
+        "live-complete.mjs",
+        "live-commit-manual-edits.mjs",
+        "live-browser.js",
+        "live-browser-session.js",
+        "live-browser-dom.js",
+        "live-accept.mjs",
+        "hook.mjs",
+        "hook-lib.mjs",
+        "hook-before-edit.mjs",
+        "hook-admin.mjs",
+        "command-metadata.json",
+        "detect.mjs",
+        "detect-csp.mjs",
+        "critique-storage.mjs",
+        "context.mjs",
+        "context-signals.mjs"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/impeccable/scripts/context-signals.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/context.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/critique-storage.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detect-csp.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detect.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/command-metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/hook-admin.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/hook-before-edit.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/hook-lib.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/hook.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live-accept.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live-browser-dom.js": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live-browser-session.js": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live-browser.js": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live-commit-manual-edits.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live-complete.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live-copy-edit-agent.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live-discard-manual-edits.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live-inject.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live-insert.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live-manual-edit-evidence.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live-poll.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live-resume.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live-server.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live-status.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live-target.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live-wrap.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/modern-screenshot.umd.js": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/palette.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/pin.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detector": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "shared",
+        "rules",
+        "registry",
+        "profile",
+        "node",
+        "findings.mjs",
+        "engines",
+        "detect-antipatterns.mjs",
+        "detect-antipatterns-browser.js",
+        "cli",
+        "design-system.mjs",
+        "browser"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/impeccable/scripts/detector/browser": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "injected"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/impeccable/scripts/detector/design-system.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detector/cli": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "main.mjs"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/impeccable/scripts/detector/detect-antipatterns-browser.js": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detector/detect-antipatterns.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detector/engines": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "visual",
+        "static-html",
+        "regex",
+        "browser"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/impeccable/scripts/detector/findings.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detector/node": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "file-system.mjs"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/impeccable/scripts/detector/profile": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "profiler.mjs"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/impeccable/scripts/detector/registry": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "antipatterns.mjs"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/impeccable/scripts/detector/rules": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "checks.mjs"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/impeccable/scripts/detector/shared": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "page.mjs",
+        "inline-ignores.mjs",
+        "constants.mjs",
+        "color.mjs"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/impeccable/scripts/detector/browser/injected": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "index.mjs"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/impeccable/scripts/detector/cli/main.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detector/engines/browser": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "detect-url.mjs"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/impeccable/scripts/detector/engines/regex": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "detect-text.mjs"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/impeccable/scripts/detector/engines/static-html": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "detect-html.mjs",
+        "css-cascade.mjs"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/impeccable/scripts/detector/engines/visual": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "screenshot-contrast.mjs"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/impeccable/scripts/detector/node/file-system.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detector/profile/profiler.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detector/registry/antipatterns.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detector/rules/checks.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detector/shared/color.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detector/shared/constants.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detector/shared/inline-ignores.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detector/shared/page.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detector/browser/injected/index.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detector/engines/browser/detect-url.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detector/engines/regex/detect-text.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detector/engines/static-html/css-cascade.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detector/engines/static-html/detect-html.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/detector/engines/visual/screenshot-contrast.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/lib": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "target-args.mjs",
+        "is-generated.mjs",
+        "impeccable-paths.mjs",
+        "impeccable-config.mjs",
+        "design-parser.mjs"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/impeccable/scripts/lib/design-parser.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/lib/impeccable-config.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/lib/impeccable-paths.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/lib/is-generated.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/lib/target-args.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "svelte-component.mjs",
+        "manual-edits-buffer.mjs",
+        "vocabulary.mjs",
+        "ui-core.mjs",
+        "sveltekit-adapter.mjs",
+        "session-store.mjs",
+        "manual-apply.mjs",
+        "manual-edit-routes.mjs",
+        "insert-ui.mjs",
+        "event-validation.mjs",
+        "completion.mjs",
+        "browser-script-parts.mjs"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/impeccable/scripts/live/browser-script-parts.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live/completion.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live/event-validation.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live/insert-ui.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live/manual-edit-routes.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live/manual-apply.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live/session-store.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live/sveltekit-adapter.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live/ui-core.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live/vocabulary.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live/manual-edits-buffer.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/impeccable/scripts/live/svelte-component.mjs": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nitro": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md",
+        "references",
+        "GENERATION.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/nitro/GENERATION.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nitro/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "features-websocket.md",
+        "features-tasks.md",
+        "features-plugins.md",
+        "features-openapi.md",
+        "features-database.md",
+        "deploy-presets.md",
+        "core-storage.md",
+        "core-routing.md",
+        "core-rendering.md",
+        "core-configuration.md",
+        "core-cache.md",
+        "core-assets.md",
+        "advanced-migration.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/nitro/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nitro/references/advanced-migration.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nitro/references/core-assets.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nitro/references/core-cache.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nitro/references/core-configuration.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nitro/references/core-rendering.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nitro/references/core-routing.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nitro/references/core-storage.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nitro/references/deploy-presets.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nitro/references/features-database.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nitro/references/features-openapi.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nitro/references/features-plugins.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nitro/references/features-tasks.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nitro/references/features-websocket.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/minimalist-skill": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/minimalist-skill/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nuxt": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md",
+        "references",
+        "GENERATION.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/nuxt/GENERATION.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nuxt/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "rendering-modes.md",
+        "features-state.md",
+        "features-server.md",
+        "features-composables.md",
+        "features-components.md",
+        "features-components-autoimport.md",
+        "core-routing.md",
+        "core-modules.md",
+        "core-directory-structure.md",
+        "core-deployment.md",
+        "core-data-fetching.md",
+        "core-config.md",
+        "core-cli.md",
+        "best-practices-ssr.md",
+        "best-practices-data-fetching.md",
+        "advanced-module-authoring.md",
+        "advanced-layers.md",
+        "advanced-hooks.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/nuxt/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nuxt/references/advanced-hooks.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nuxt/references/advanced-layers.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nuxt/references/advanced-module-authoring.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nuxt/references/best-practices-data-fetching.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nuxt/references/best-practices-ssr.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nuxt/references/core-cli.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nuxt/references/core-config.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nuxt/references/core-data-fetching.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nuxt/references/core-deployment.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nuxt/references/core-directory-structure.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nuxt/references/core-modules.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nuxt/references/core-routing.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nuxt/references/features-components-autoimport.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nuxt/references/features-components.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nuxt/references/features-composables.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nuxt/references/features-server.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nuxt/references/features-state.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/nuxt/references/rendering-modes.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/output-skill": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/output-skill/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pinia": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md",
+        "references",
+        "GENERATION.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/pinia/GENERATION.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pinia/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "features-plugins.md",
+        "features-composing-stores.md",
+        "features-composables.md",
+        "core-stores.md",
+        "best-practices-testing.md",
+        "best-practices-outside-component.md",
+        "advanced-ssr.md",
+        "advanced-nuxt.md",
+        "advanced-hmr.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/pinia/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pinia/references/advanced-hmr.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pinia/references/advanced-nuxt.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pinia/references/advanced-ssr.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pinia/references/best-practices-outside-component.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pinia/references/best-practices-testing.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pinia/references/core-stores.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pinia/references/features-composables.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pinia/references/features-composing-stores.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pinia/references/features-plugins.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pnpm": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md",
+        "references",
+        "GENERATION.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/pnpm/GENERATION.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pnpm/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "features-supply-chain-security.md",
+        "features-peer-deps.md",
+        "features-patches.md",
+        "features-overrides.md",
+        "features-hooks.md",
+        "features-global-virtual-store.md",
+        "features-config-dependencies.md",
+        "features-catalogs.md",
+        "features-aliases.md",
+        "core-workspaces.md",
+        "core-store.md",
+        "core-config.md",
+        "core-cli.md",
+        "best-practices-performance.md",
+        "best-practices-migration.md",
+        "best-practices-ci.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/pnpm/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pnpm/references/best-practices-ci.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pnpm/references/best-practices-migration.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pnpm/references/best-practices-performance.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pnpm/references/core-cli.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pnpm/references/core-config.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pnpm/references/core-store.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pnpm/references/core-workspaces.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pnpm/references/features-aliases.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pnpm/references/features-catalogs.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pnpm/references/features-config-dependencies.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pnpm/references/features-global-virtual-store.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pnpm/references/features-hooks.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pnpm/references/features-overrides.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pnpm/references/features-patches.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pnpm/references/features-peer-deps.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/pnpm/references/features-supply-chain-security.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/redesign-skill": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/redesign-skill/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/scrapling": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/scrapling/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slides": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md",
+        "references"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/slides/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "slide-strategies.md",
+        "layout-patterns.md",
+        "html-template.md",
+        "create.md",
+        "copywriting-formulas.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/slides/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slides/references/copywriting-formulas.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slides/references/create.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slides/references/html-template.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slides/references/layout-patterns.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slides/references/slide-strategies.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SYNC.md",
+        "SKILL.md",
+        "references",
+        "README.md",
+        "LICENSE.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/slidev/LICENSE.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/README.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "tool-eject-theme.md",
+        "syntax-importing-slides.md",
+        "syntax-frontmatter-merging.md",
+        "syntax-comark.md",
+        "syntax-block-frontmatter.md",
+        "style-scoped.md",
+        "style-icons.md",
+        "style-direction.md",
+        "presenter-timer.md",
+        "presenter-remote.md",
+        "presenter-recording.md",
+        "presenter-notes-ruby.md",
+        "layout-zoom.md",
+        "layout-transform.md",
+        "layout-slots.md",
+        "layout-global-layers.md",
+        "layout-draggable.md",
+        "layout-canvas-size.md",
+        "editor-vscode.md",
+        "editor-side.md",
+        "editor-prettier.md",
+        "editor-monaco.md",
+        "editor-monaco-write.md",
+        "editor-monaco-run.md",
+        "diagram-plantuml.md",
+        "diagram-mermaid.md",
+        "diagram-latex.md",
+        "core-syntax.md",
+        "core-layouts.md",
+        "core-hosting.md",
+        "core-headmatter.md",
+        "core-global-context.md",
+        "core-frontmatter.md",
+        "core-exporting.md",
+        "core-components.md",
+        "core-cli.md",
+        "core-animations.md",
+        "code-twoslash.md",
+        "code-max-height.md",
+        "code-magic-move.md",
+        "code-line-numbers.md",
+        "code-line-highlighting.md",
+        "code-import-snippet.md",
+        "code-groups.md",
+        "build-seo-meta.md",
+        "build-remote-assets.md",
+        "build-pdf.md",
+        "build-og-image.md",
+        "api-slide-hooks.md",
+        "animation-rough-marker.md",
+        "animation-drawing.md",
+        "animation-click-marker.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/slidev/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/SYNC.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/animation-click-marker.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/animation-drawing.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/animation-rough-marker.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/api-slide-hooks.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/build-og-image.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/build-pdf.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/build-remote-assets.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/build-seo-meta.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/code-groups.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/code-import-snippet.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/code-line-highlighting.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/code-line-numbers.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/code-magic-move.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/code-max-height.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/code-twoslash.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/core-animations.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/core-cli.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/core-components.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/core-exporting.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/core-frontmatter.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/core-global-context.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/core-headmatter.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/core-hosting.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/core-layouts.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/core-syntax.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/diagram-latex.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/diagram-mermaid.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/diagram-plantuml.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/editor-monaco-run.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/editor-monaco-write.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/editor-monaco.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/editor-prettier.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/editor-side.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/editor-vscode.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/layout-canvas-size.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/layout-draggable.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/layout-global-layers.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/layout-slots.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/layout-transform.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/layout-zoom.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/presenter-notes-ruby.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/presenter-recording.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/presenter-remote.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/presenter-timer.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/style-direction.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/style-icons.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/style-scoped.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/syntax-block-frontmatter.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/syntax-comark.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/syntax-frontmatter-merging.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/syntax-importing-slides.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/slidev/references/tool-eject-theme.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/soft-skill": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/soft-skill/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/sp-skill": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "tests",
+        "SKILL.md",
+        "README_en.md",
+        "scripts",
+        "README.md",
+        "LICENSE",
+        "docs"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/sp-skill/docs": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "volcengine-console.jpeg",
+        "plans",
+        "tikhub-setup.md",
+        "faster-whisper-setup.md",
+        "bytedance-vc-setup.md",
+        "ai-douyin-setup.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/sp-skill/LICENSE": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/sp-skill/README.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/sp-skill/scripts": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "transcribe_faster_whisper.py",
+        "list_ai_douyin_tasks.py",
+        "install_faster_whisper.py",
+        "download_youtube_subtitles.py",
+        "download_video_candidates.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/sp-skill/README_en.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/sp-skill/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/sp-skill/tests": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "test_transcribe_faster_whisper.py",
+        "test_list_ai_douyin_tasks.py",
+        "test_install_faster_whisper.py",
+        "test_download_youtube_subtitles.py",
+        "test_download_video_candidates.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/sp-skill/docs/ai-douyin-setup.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/sp-skill/docs/bytedance-vc-setup.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/sp-skill/docs/faster-whisper-setup.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/sp-skill/docs/tikhub-setup.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/sp-skill/docs/plans": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "2026-05-22-ai-douyin-credit-proxy-plan.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/sp-skill/docs/volcengine-console.jpeg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/sp-skill/scripts/download_video_candidates.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/sp-skill/scripts/download_youtube_subtitles.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/sp-skill/scripts/install_faster_whisper.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/sp-skill/scripts/list_ai_douyin_tasks.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/sp-skill/scripts/transcribe_faster_whisper.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/sp-skill/tests/test_download_video_candidates.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/sp-skill/tests/test_download_youtube_subtitles.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/sp-skill/tests/test_install_faster_whisper.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/sp-skill/tests/test_list_ai_douyin_tasks.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/sp-skill/tests/test_transcribe_faster_whisper.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/sp-skill/docs/plans/2026-05-22-ai-douyin-credit-proxy-plan.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/taste-skill-v1": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/taste-skill-v1/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tjbg": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md",
+        "agents"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/tjbg/agents": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "openai.yaml"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/tjbg/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tjbg/agents/openai.yaml": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SYNC.md",
+        "references",
+        "SKILL.md",
+        "README.md",
+        "LICENSE.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/tsdown/LICENSE.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/README.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "reference-cli.md",
+        "recipe-wasm.md",
+        "recipe-vue.md",
+        "recipe-svelte.md",
+        "recipe-solid.md",
+        "recipe-react.md",
+        "README.md",
+        "option-watch-mode.md",
+        "option-unbundle.md",
+        "option-tree-shaking.md",
+        "option-target.md",
+        "option-sourcemap.md",
+        "option-shims.md",
+        "option-root.md",
+        "option-platform.md",
+        "option-package-exports.md",
+        "option-output-format.md",
+        "option-output-directory.md",
+        "option-log-level.md",
+        "option-minification.md",
+        "option-lint.md",
+        "option-exe.md",
+        "option-entry.md",
+        "option-dts.md",
+        "option-dependencies.md",
+        "option-config-file.md",
+        "option-css.md",
+        "option-cleaning.md",
+        "option-cjs-default.md",
+        "guide-migrate-from-tsup.md",
+        "guide-introduction.md",
+        "guide-getting-started.md",
+        "advanced-programmatic.md",
+        "advanced-rolldown-options.md",
+        "advanced-plugins.md",
+        "advanced-hooks.md",
+        "advanced-ci.md",
+        "advanced-benchmark.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/tsdown/SYNC.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/advanced-benchmark.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/advanced-ci.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/advanced-hooks.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/advanced-plugins.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/advanced-rolldown-options.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/advanced-programmatic.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/guide-getting-started.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/guide-introduction.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/guide-migrate-from-tsup.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-cjs-default.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-cleaning.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-css.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-config-file.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-dependencies.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-dts.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-entry.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-exe.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-lint.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-minification.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-log-level.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-output-directory.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-output-format.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-package-exports.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-platform.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-root.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-shims.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-sourcemap.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-target.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-tree-shaking.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-unbundle.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/option-watch-mode.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/README.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/recipe-react.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/recipe-solid.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/recipe-svelte.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/recipe-vue.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/recipe-wasm.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/tsdown/references/reference-cli.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/taste-skill": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/taste-skill/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/stitch-skill": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "DESIGN.md",
+        "SKILL.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/stitch-skill/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/stitch-skill/DESIGN.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SYNC.md",
+        "SKILL.md",
+        "references",
+        "LICENSE.md",
+        "command"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/turborepo/command": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "turborepo.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/turborepo/LICENSE.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "watch",
+        "environment",
+        "filtering",
+        "configuration",
+        "cli",
+        "ci",
+        "caching",
+        "boundaries",
+        "best-practices"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/turborepo/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/SYNC.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/command/turborepo.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/best-practices": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "structure.md",
+        "RULE.md",
+        "packages.md",
+        "dependencies.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/turborepo/references/boundaries": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "RULE.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/turborepo/references/caching": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "RULE.md",
+        "remote-cache.md",
+        "gotchas.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/turborepo/references/ci": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "vercel.md",
+        "RULE.md",
+        "patterns.md",
+        "github-actions.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/turborepo/references/cli": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "RULE.md",
+        "commands.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/turborepo/references/configuration": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "tasks.md",
+        "RULE.md",
+        "gotchas.md",
+        "global-options.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/turborepo/references/filtering": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "RULE.md",
+        "patterns.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/turborepo/references/environment": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "RULE.md",
+        "modes.md",
+        "gotchas.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/turborepo/references/watch": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "RULE.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/turborepo/references/best-practices/dependencies.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/best-practices/packages.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/best-practices/RULE.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/best-practices/structure.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/boundaries/RULE.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/caching/gotchas.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/caching/remote-cache.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/caching/RULE.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/ci/github-actions.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/ci/patterns.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/ci/RULE.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/ci/vercel.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/cli/commands.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/cli/RULE.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/configuration/global-options.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/configuration/gotchas.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/configuration/RULE.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/configuration/tasks.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/filtering/patterns.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/filtering/RULE.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/environment/gotchas.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/environment/modes.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/environment/RULE.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/turborepo/references/watch/RULE.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "scripts",
+        "references",
+        "SKILL.md",
+        "LICENSE.txt",
+        "canvas-fonts"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/ui-styling/canvas-fonts": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "YoungSerif-Regular.ttf",
+        "YoungSerif-OFL.txt",
+        "WorkSans-Regular.ttf",
+        "WorkSans-OFL.txt",
+        "WorkSans-Italic.ttf",
+        "WorkSans-BoldItalic.ttf",
+        "WorkSans-Bold.ttf",
+        "Tektur-Regular.ttf",
+        "Tektur-OFL.txt",
+        "Tektur-Medium.ttf",
+        "NationalPark-Regular.ttf",
+        "NationalPark-OFL.txt",
+        "NationalPark-Bold.ttf",
+        "Lora-Regular.ttf",
+        "Lora-OFL.txt",
+        "Lora-Italic.ttf",
+        "Lora-BoldItalic.ttf",
+        "Lora-Bold.ttf",
+        "LibreBaskerville-Regular.ttf",
+        "LibreBaskerville-OFL.txt",
+        "Jura-OFL.txt",
+        "Jura-Medium.ttf",
+        "Jura-Light.ttf",
+        "JetBrainsMono-Regular.ttf",
+        "JetBrainsMono-OFL.txt",
+        "JetBrainsMono-Bold.ttf",
+        "Italiana-Regular.ttf",
+        "Italiana-OFL.txt",
+        "InstrumentSerif-Regular.ttf",
+        "InstrumentSerif-Italic.ttf",
+        "InstrumentSans-Regular.ttf",
+        "InstrumentSans-OFL.txt",
+        "InstrumentSans-Italic.ttf",
+        "InstrumentSans-BoldItalic.ttf",
+        "InstrumentSans-Bold.ttf",
+        "IBMPlexSerif-Regular.ttf",
+        "IBMPlexSerif-Italic.ttf",
+        "IBMPlexSerif-BoldItalic.ttf",
+        "IBMPlexSerif-Bold.ttf",
+        "IBMPlexMono-Regular.ttf",
+        "IBMPlexMono-OFL.txt",
+        "IBMPlexMono-Bold.ttf",
+        "Gloock-Regular.ttf",
+        "Gloock-OFL.txt",
+        "GeistMono-Regular.ttf",
+        "GeistMono-OFL.txt",
+        "GeistMono-Bold.ttf",
+        "EricaOne-Regular.ttf",
+        "EricaOne-OFL.txt",
+        "DMMono-Regular.ttf",
+        "DMMono-OFL.txt",
+        "CrimsonPro-Regular.ttf",
+        "CrimsonPro-OFL.txt",
+        "CrimsonPro-Italic.ttf",
+        "CrimsonPro-Bold.ttf",
+        "BricolageGrotesque-Regular.ttf",
+        "BricolageGrotesque-OFL.txt",
+        "BricolageGrotesque-Bold.ttf",
+        "Boldonse-Regular.ttf",
+        "Boldonse-OFL.txt",
+        "BigShoulders-Regular.ttf",
+        "BigShoulders-OFL.txt",
+        "BigShoulders-Bold.ttf",
+        "ArsenalSC-Regular.ttf",
+        "ArsenalSC-OFL.txt"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/ui-styling/LICENSE.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/ArsenalSC-OFL.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/ArsenalSC-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/BigShoulders-Bold.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/BigShoulders-OFL.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/BigShoulders-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/Boldonse-OFL.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/Boldonse-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/BricolageGrotesque-Bold.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/BricolageGrotesque-OFL.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/BricolageGrotesque-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/CrimsonPro-Bold.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/CrimsonPro-Italic.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/CrimsonPro-OFL.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/CrimsonPro-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/DMMono-OFL.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/DMMono-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/EricaOne-OFL.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/EricaOne-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/GeistMono-Bold.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/GeistMono-OFL.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/GeistMono-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/Gloock-OFL.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/Gloock-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/IBMPlexMono-Bold.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/IBMPlexMono-OFL.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/IBMPlexMono-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/IBMPlexSerif-Bold.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/IBMPlexSerif-BoldItalic.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/IBMPlexSerif-Italic.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/IBMPlexSerif-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/InstrumentSans-Bold.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/InstrumentSans-BoldItalic.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/InstrumentSans-Italic.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/InstrumentSans-OFL.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/InstrumentSans-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/InstrumentSerif-Italic.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/InstrumentSerif-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/Italiana-OFL.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/Italiana-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/JetBrainsMono-Bold.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/JetBrainsMono-OFL.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/JetBrainsMono-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/Jura-Light.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/Jura-Medium.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/Jura-OFL.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/LibreBaskerville-OFL.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/LibreBaskerville-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/Lora-Bold.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/Lora-BoldItalic.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/Lora-Italic.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/Lora-OFL.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/Lora-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/NationalPark-Bold.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/NationalPark-OFL.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/NationalPark-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/Tektur-Medium.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/Tektur-OFL.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/Tektur-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/WorkSans-Bold.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/WorkSans-BoldItalic.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/WorkSans-Italic.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/WorkSans-OFL.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/WorkSans-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/YoungSerif-OFL.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/canvas-fonts/YoungSerif-Regular.ttf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "tailwind-utilities.md",
+        "tailwind-responsive.md",
+        "tailwind-customization.md",
+        "shadcn-theming.md",
+        "shadcn-components.md",
+        "shadcn-accessibility.md",
+        "canvas-design-system.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/ui-styling/references/canvas-design-system.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/references/shadcn-accessibility.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/references/shadcn-components.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/references/shadcn-theming.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/references/tailwind-customization.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/references/tailwind-responsive.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/references/tailwind-utilities.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/scripts": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "tests",
+        "tailwind_config_gen.py",
+        "shadcn_add.py",
+        "requirements.txt"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/ui-styling/scripts/requirements.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/scripts/shadcn_add.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/scripts/tailwind_config_gen.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/scripts/tests": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "test_tailwind_config_gen.py",
+        "test_shadcn_add.py",
+        "requirements.txt",
+        "coverage-ui.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/ui-styling/scripts/tests/coverage-ui.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/scripts/tests/requirements.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/scripts/tests/test_shadcn_add.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-styling/scripts/tests/test_tailwind_config_gen.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md",
+        "scripts",
+        "data"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/ui-ux-pro-max/data": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "_sync_all.py",
+        "ux-guidelines.csv",
+        "ui-reasoning.csv",
+        "typography.csv",
+        "styles.csv",
+        "stacks",
+        "react-performance.csv",
+        "products.csv",
+        "landing.csv",
+        "icons.csv",
+        "google-fonts.csv",
+        "draft.csv",
+        "design.csv",
+        "colors.csv",
+        "charts.csv",
+        "app-interface.csv"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/ui-ux-pro-max/scripts": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "search.py",
+        "design_system.py",
+        "core.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/ui-ux-pro-max/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/app-interface.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/charts.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/colors.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/design.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/draft.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/google-fonts.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/icons.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/landing.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/products.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/react-performance.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/stacks": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "vue.csv",
+        "threejs.csv",
+        "swiftui.csv",
+        "svelte.csv",
+        "shadcn.csv",
+        "react.csv",
+        "react-native.csv",
+        "nuxtjs.csv",
+        "nuxt-ui.csv",
+        "nextjs.csv",
+        "laravel.csv",
+        "jetpack-compose.csv",
+        "html-tailwind.csv",
+        "flutter.csv",
+        "astro.csv",
+        "angular.csv"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/ui-ux-pro-max/data/styles.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/typography.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/ui-reasoning.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/ux-guidelines.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/_sync_all.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/scripts/core.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/scripts/design_system.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/scripts/search.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/stacks/angular.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/stacks/astro.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/stacks/flutter.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/stacks/html-tailwind.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/stacks/jetpack-compose.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/stacks/laravel.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/stacks/nextjs.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/stacks/nuxt-ui.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/stacks/nuxtjs.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/stacks/react-native.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/stacks/react.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/stacks/shadcn.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/stacks/svelte.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/stacks/swiftui.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/stacks/threejs.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/ui-ux-pro-max/data/stacks/vue.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md",
+        "references",
+        "GENERATION.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/unocss/GENERATION.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "transformer-variant-group.md",
+        "transformer-directives.md",
+        "transformer-compile-class.md",
+        "transformer-attributify-jsx.md",
+        "preset-wind4.md",
+        "preset-wind3.md",
+        "preset-web-fonts.md",
+        "preset-typography.md",
+        "preset-tagify.md",
+        "preset-rem-to-px.md",
+        "preset-mini.md",
+        "preset-icons.md",
+        "preset-attributify.md",
+        "integrations-vite.md",
+        "integrations-nuxt.md",
+        "core-variants.md",
+        "core-theme.md",
+        "core-shortcuts.md",
+        "core-safelist.md",
+        "core-rules.md",
+        "core-layers.md",
+        "core-extracting.md",
+        "core-config.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/unocss/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/core-config.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/core-extracting.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/core-layers.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/core-rules.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/core-safelist.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/core-shortcuts.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/core-theme.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/core-variants.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/integrations-nuxt.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/integrations-vite.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/preset-attributify.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/preset-icons.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/preset-mini.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/preset-rem-to-px.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/preset-tagify.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/preset-typography.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/preset-web-fonts.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/preset-wind3.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/preset-wind4.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/transformer-attributify-jsx.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/transformer-compile-class.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/transformer-directives.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/unocss/references/transformer-variant-group.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vite": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md",
+        "references",
+        "GENERATION.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/vite/GENERATION.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vite/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "rolldown-migration.md",
+        "environment-api.md",
+        "core-plugin-api.md",
+        "core-features.md",
+        "core-config.md",
+        "build-and-ssr.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/vite/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vite/references/build-and-ssr.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vite/references/core-config.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vite/references/core-features.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vite/references/core-plugin-api.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vite/references/environment-api.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vite/references/rolldown-migration.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitepress": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md",
+        "references",
+        "GENERATION.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/vitepress/GENERATION.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitepress/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "theme-custom.md",
+        "theme-customization.md",
+        "theme-config.md",
+        "recipes-deploy.md",
+        "features-vue.md",
+        "features-dynamic-routes.md",
+        "features-data-loading.md",
+        "features-code-blocks.md",
+        "core-config.md",
+        "core-routing.md",
+        "core-markdown.md",
+        "core-cli.md",
+        "advanced-ssr.md",
+        "advanced-i18n.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/vitepress/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitepress/references/advanced-i18n.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitepress/references/advanced-ssr.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitepress/references/core-cli.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitepress/references/core-markdown.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitepress/references/core-routing.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitepress/references/core-config.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitepress/references/features-code-blocks.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitepress/references/features-data-loading.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitepress/references/features-dynamic-routes.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitepress/references/features-vue.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitepress/references/recipes-deploy.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitepress/references/theme-config.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitepress/references/theme-customization.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitepress/references/theme-custom.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vault-sync": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md",
+        "scripts",
+        "agents"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/vault-sync/agents": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "openai.yaml"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/vault-sync/scripts": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "sync-vault.ps1"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/vault-sync/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vault-sync/agents/openai.yaml": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vault-sync/scripts/sync-vault.ps1": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "references",
+        "SKILL.md",
+        "GENERATION.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/vitest/GENERATION.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "features-test-tags.md",
+        "features-snapshots.md",
+        "features-reporters.md",
+        "features-mocking.md",
+        "features-filtering.md",
+        "features-coverage.md",
+        "features-context.md",
+        "features-concurrency.md",
+        "features-benchmarking.md",
+        "core-test-api.md",
+        "core-hooks.md",
+        "core-expect.md",
+        "core-describe.md",
+        "core-config.md",
+        "core-cli.md",
+        "advanced-vi.md",
+        "advanced-type-testing.md",
+        "advanced-projects.md",
+        "advanced-environments.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/vitest/references/advanced-environments.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest/references/advanced-projects.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest/references/advanced-type-testing.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest/references/advanced-vi.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest/references/core-cli.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest/references/core-config.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest/references/core-describe.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest/references/core-expect.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest/references/core-hooks.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest/references/core-test-api.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest/references/features-benchmarking.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest/references/features-concurrency.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest/references/features-context.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest/references/features-coverage.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest/references/features-filtering.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest/references/features-mocking.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest/references/features-reporters.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest/references/features-snapshots.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vitest/references/features-test-tags.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SYNC.md",
+        "SKILL.md",
+        "references",
+        "LICENSE.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/vue-best-practices/LICENSE.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "updated-hook-performance.md",
+        "state-management.md",
+        "sfc.md",
+        "render-functions.md",
+        "reactivity.md",
+        "plugins.md",
+        "perf-virtualize-large-lists.md",
+        "perf-v-once-v-memo-directives.md",
+        "perf-avoid-component-abstraction-in-lists.md",
+        "directives.md",
+        "composables.md",
+        "component-transition.md",
+        "component-transition-group.md",
+        "component-teleport.md",
+        "component-suspense.md",
+        "component-slots.md",
+        "component-keep-alive.md",
+        "component-fallthrough-attrs.md",
+        "component-data-flow.md",
+        "component-async.md",
+        "animation-state-driven-technique.md",
+        "animation-class-based-technique.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/vue-best-practices/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/SYNC.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/animation-class-based-technique.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/animation-state-driven-technique.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/component-async.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/component-data-flow.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/component-fallthrough-attrs.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/component-keep-alive.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/component-slots.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/component-suspense.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/component-teleport.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/component-transition-group.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/component-transition.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/composables.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/directives.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/perf-avoid-component-abstraction-in-lists.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/perf-v-once-v-memo-directives.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/perf-virtualize-large-lists.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/plugins.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/reactivity.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/render-functions.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/sfc.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/state-management.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-best-practices/references/updated-hook-performance.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-testing-best-practices": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SYNC.md",
+        "SKILL.md",
+        "LICENSE.md",
+        "reference"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/vue-testing-best-practices/reference": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "testing-vitest-recommended-for-vue.md",
+        "testing-suspense-async-components.md",
+        "testing-pinia-store-setup.md",
+        "testing-no-snapshot-only.md",
+        "testing-e2e-playwright-recommended.md",
+        "testing-composables-helper-wrapper.md",
+        "testing-component-blackbox-approach.md",
+        "testing-browser-vs-node-runners.md",
+        "testing-async-await-flushpromises.md",
+        "teleport-testing-complexity.md",
+        "async-component-testing.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/vue-testing-best-practices/LICENSE.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-testing-best-practices/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-testing-best-practices/SYNC.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-testing-best-practices/reference/async-component-testing.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-testing-best-practices/reference/teleport-testing-complexity.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-testing-best-practices/reference/testing-async-await-flushpromises.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-testing-best-practices/reference/testing-browser-vs-node-runners.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-testing-best-practices/reference/testing-component-blackbox-approach.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-testing-best-practices/reference/testing-composables-helper-wrapper.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-testing-best-practices/reference/testing-e2e-playwright-recommended.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-testing-best-practices/reference/testing-no-snapshot-only.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-testing-best-practices/reference/testing-pinia-store-setup.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-testing-best-practices/reference/testing-suspense-async-components.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-testing-best-practices/reference/testing-vitest-recommended-for-vue.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SYNC.md",
+        "SKILL.md",
+        "LICENSE.md",
+        "references"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/vueuse-functions/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "watchExtractedObservable.md",
+        "watchDeep.md",
+        "watchDebounced.md",
+        "watchAtMost.md",
+        "watchArray.md",
+        "useZoomLevel.md",
+        "useZoomFactor.md",
+        "useWindowSize.md",
+        "useWindowScroll.md",
+        "useWindowFocus.md",
+        "useWebWorkerFn.md",
+        "useWebWorker.md",
+        "useWebSocket.md",
+        "useWebNotification.md",
+        "useWakeLock.md",
+        "useVModels.md",
+        "useVModel.md",
+        "useVirtualList.md",
+        "useVibrate.md",
+        "useUserMedia.md",
+        "useUrlSearchParams.md",
+        "useTrunc.md",
+        "useTransition.md",
+        "useToString.md",
+        "useTextSelection.md",
+        "useTextDirection.md",
+        "useTextareaAutosize.md",
+        "useTemplateRefsList.md",
+        "useSwipe.md",
+        "useSupported.md",
+        "useSum.md",
+        "useSubscription.md",
+        "useSubject.md",
+        "useStyleTag.md",
+        "useStorageAsync.md",
+        "useStorage.md",
+        "useStepper.md",
+        "useSSRWidth.md",
+        "useSpeechSynthesis.md",
+        "useSpeechRecognition.md",
+        "useSorted.md",
+        "useSortable.md",
+        "useShare.md",
+        "useSessionStorage.md",
+        "useScrollLock.md",
+        "useScroll.md",
+        "useScriptTag.md",
+        "useScreenSafeArea.md",
+        "useScreenOrientation.md",
+        "useRTDB.md",
+        "useRouteQuery.md",
+        "useRouteParams.md",
+        "useRouteHash.md",
+        "useRound.md",
+        "useResizeObserver.md",
+        "useRefHistory.md",
+        "useRafFn.md",
+        "useQRCode.md",
+        "useProjection.md",
+        "usePrevious.md",
+        "usePreferredReducedTransparency.md",
+        "usePreferredReducedMotion.md",
+        "usePreferredLanguages.md",
+        "usePageLeave.md",
+        "useOnline.md",
+        "useOffsetPagination.md",
+        "useObservable.md",
+        "useObjectUrl.md",
+        "useNProgress.md",
+        "useNow.md",
+        "useNetwork.md",
+        "useNavigatorLanguage.md",
+        "useMutationObserver.md",
+        "useMousePressed.md",
+        "useMouseInElement.md",
+        "useMouse.md",
+        "useMounted.md",
+        "useMin.md",
+        "useMemory.md",
+        "useMemoize.md",
+        "useMediaQuery.md",
+        "useMediaControls.md",
+        "useMax.md",
+        "useMath.md",
+        "useManualRefHistory.md",
+        "useMagicKeys.md",
+        "useLocalStorage.md",
+        "useLastChanged.md",
+        "useKeyModifier.md",
+        "useJwt.md",
+        "useIpcRendererOn.md",
+        "useIpcRendererInvoke.md",
+        "useIpcRenderer.md",
+        "useIntervalFn.md",
+        "useInterval.md",
+        "useIntersectionObserver.md",
+        "useFloor.md",
+        "useFirestore.md",
+        "useFileSystemAccess.md",
+        "useFileDialog.md",
+        "useFetch.md",
+        "useFavicon.md",
+        "useEyeDropper.md",
+        "useExtractedObservable.md",
+        "useEventSource.md",
+        "useCached.md",
+        "useBrowserLocation.md",
+        "useBroadcastChannel.md",
+        "useBreakpoints.md",
+        "useBluetooth.md",
+        "useBattery.md",
+        "useBase64.md",
+        "useAxios.md",
+        "useAverage.md",
+        "useAuth.md",
+        "useAsyncValidator.md",
+        "useAsyncQueue.md",
+        "useAsyncState.md",
+        "useArrayUnique.md",
+        "useArraySome.md",
+        "useArrayReduce.md",
+        "useArrayMap.md",
+        "useArrayJoin.md",
+        "useArrayIncludes.md",
+        "useArrayFindLast.md",
+        "useArrayFindIndex.md",
+        "useArrayFind.md",
+        "useArrayFilter.md",
+        "useArrayEvery.md",
+        "useArrayDifference.md",
+        "useAnimate.md",
+        "useActiveElement.md",
+        "useAbs.md",
+        "until.md",
+        "unrefElement.md",
+        "tryOnUnmounted.md",
+        "tryOnScopeDispose.md",
+        "tryOnMounted.md",
+        "tryOnBeforeUnmount.md",
+        "tryOnBeforeMount.md",
+        "toRefs.md",
+        "toRef.md",
+        "toReactive.md",
+        "toObserver.md",
+        "templateRef.md",
+        "syncRefs.md",
+        "syncRef.md",
+        "set.md",
+        "refWithControl.md",
+        "refThrottled.md",
+        "refManualReset.md",
+        "refDebounced.md",
+        "refDefault.md",
+        "refAutoReset.md",
+        "reactivePick.md",
+        "reactiveOmit.md",
+        "reactiveComputed.md",
+        "reactifyObject.md",
+        "reactify.md",
+        "onStartTyping.md",
+        "provideLocal.md",
+        "onLongPress.md",
+        "onKeyStroke.md",
+        "onElementRemoval.md",
+        "onClickOutside.md",
+        "makeDestructurable.md",
+        "logicOr.md",
+        "logicNot.md",
+        "logicAnd.md",
+        "isDefined.md",
+        "injectLocal.md",
+        "get.md",
+        "createUnrefFn.md",
+        "from.md",
+        "extendRef.md",
+        "createTemplatePromise.md",
+        "createSharedComposable.md",
+        "createReusableTemplate.md",
+        "createRef.md",
+        "createProjection.md",
+        "createInjectionState.md",
+        "createGlobalState.md",
+        "createGenericProjection.md",
+        "createEventHook.md",
+        "createDisposableDirective.md",
+        "computedWithControl.md",
+        "computedInject.md",
+        "computedEager.md",
+        "computedAsync.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/vueuse-functions/LICENSE.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/SYNC.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/computedAsync.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/computedEager.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/computedInject.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/computedWithControl.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/createDisposableDirective.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/createEventHook.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/createGenericProjection.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/createGlobalState.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/createInjectionState.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/createProjection.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/createRef.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/createReusableTemplate.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/createSharedComposable.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/createTemplatePromise.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/extendRef.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/from.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/createUnrefFn.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/get.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/injectLocal.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/isDefined.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/logicAnd.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/logicNot.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/logicOr.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/makeDestructurable.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/onClickOutside.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/onElementRemoval.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/onKeyStroke.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/onLongPress.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/provideLocal.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/onStartTyping.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/reactify.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/reactifyObject.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/reactiveComputed.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/reactiveOmit.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/reactivePick.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/refAutoReset.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/refDefault.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/refDebounced.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/refManualReset.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/refThrottled.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/refWithControl.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/set.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/syncRef.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/syncRefs.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/templateRef.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/toObserver.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/toReactive.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/toRef.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/toRefs.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/tryOnBeforeMount.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/tryOnBeforeUnmount.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/tryOnMounted.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/tryOnScopeDispose.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/tryOnUnmounted.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/unrefElement.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/until.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useAbs.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useActiveElement.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useAnimate.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useArrayDifference.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useArrayEvery.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useArrayFilter.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useArrayFind.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useArrayFindIndex.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useArrayFindLast.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useArrayIncludes.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useArrayJoin.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useArrayMap.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useArrayReduce.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useArraySome.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useArrayUnique.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useAsyncState.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useAsyncQueue.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useAsyncValidator.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useAuth.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useAverage.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useAxios.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useBase64.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useBattery.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useBluetooth.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useBreakpoints.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useBroadcastChannel.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useBrowserLocation.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useCached.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useEventSource.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useExtractedObservable.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useEyeDropper.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useFavicon.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useFetch.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useFileDialog.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useFileSystemAccess.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useFirestore.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useFloor.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useIntersectionObserver.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useInterval.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useIntervalFn.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useIpcRenderer.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useIpcRendererInvoke.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useIpcRendererOn.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useJwt.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useKeyModifier.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useLastChanged.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useLocalStorage.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useMagicKeys.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useManualRefHistory.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useMath.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useMax.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useMediaControls.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useMediaQuery.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useMemoize.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useMemory.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useMin.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useMounted.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useMouse.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useMouseInElement.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useMousePressed.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useMutationObserver.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useNavigatorLanguage.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useNetwork.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useNow.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useNProgress.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useObjectUrl.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useObservable.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useOffsetPagination.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useOnline.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/usePageLeave.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/usePreferredLanguages.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/usePreferredReducedMotion.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/usePreferredReducedTransparency.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/usePrevious.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useProjection.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useQRCode.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useRafFn.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useRefHistory.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useResizeObserver.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useRound.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useRouteHash.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useRouteParams.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useRouteQuery.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useRTDB.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useScreenOrientation.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useScreenSafeArea.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useScriptTag.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useScroll.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useScrollLock.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useSessionStorage.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useShare.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useSortable.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useSorted.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useSpeechRecognition.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useSpeechSynthesis.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useSSRWidth.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useStepper.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useStorage.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useStorageAsync.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useStyleTag.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useSubject.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useSubscription.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useSum.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useSupported.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useSwipe.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useTemplateRefsList.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useTextareaAutosize.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useTextDirection.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useTextSelection.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useToString.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useTransition.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useTrunc.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useUrlSearchParams.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useUserMedia.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useVibrate.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useVirtualList.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useVModel.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useVModels.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useWakeLock.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useWebNotification.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useWebSocket.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useWebWorker.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useWebWorkerFn.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useWindowFocus.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useWindowScroll.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useWindowSize.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useZoomFactor.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/useZoomLevel.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/watchArray.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/watchAtMost.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/watchDebounced.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/watchDeep.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vueuse-functions/references/watchExtractedObservable.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md",
+        "references",
+        "GENERATION.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/vue/GENERATION.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "core-new-apis.md",
+        "script-setup-macros.md",
+        "advanced-patterns.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/vue/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue/references/advanced-patterns.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue/references/script-setup-macros.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue/references/core-new-apis.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-router-best-practices": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "LICENSE.md",
+        "SYNC.md",
+        "SKILL.md",
+        "reference"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/vue-router-best-practices/reference": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "router-use-vue-router-for-production.md",
+        "router-simple-routing-cleanup.md",
+        "router-param-change-no-lifecycle.md",
+        "router-navigation-guard-next-deprecated.md",
+        "router-navigation-guard-infinite-loop.md",
+        "router-beforerouteenter-no-this.md",
+        "router-guard-async-await-pattern.md",
+        "router-beforeenter-no-param-trigger.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/vue-router-best-practices/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-router-best-practices/SYNC.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-router-best-practices/LICENSE.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-router-best-practices/reference/router-beforeenter-no-param-trigger.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-router-best-practices/reference/router-guard-async-await-pattern.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-router-best-practices/reference/router-beforerouteenter-no-this.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-router-best-practices/reference/router-navigation-guard-infinite-loop.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-router-best-practices/reference/router-navigation-guard-next-deprecated.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-router-best-practices/reference/router-param-change-no-lifecycle.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-router-best-practices/reference/router-simple-routing-cleanup.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/vue-router-best-practices/reference/router-use-vue-router-for-production.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/web-design-guidelines": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SYNC.md",
+        "SKILL.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "skill/skill/web-design-guidelines/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "skill/skill/web-design-guidelines/SYNC.md": {
       "isPinned": false,
       "isHidden": false
     }
