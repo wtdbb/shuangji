@@ -1025,6 +1025,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Meeting-TEMPLATE.md",
         "Habits Tracker.md",
         "Yearly-TEMPLATE.md",
         "Quarterly-TEMPLATE.md",
@@ -14088,6 +14089,10 @@
       "isHidden": false
     },
     "Daily notes/Calendar/Journal/Daily/2026-06-29.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Templates/Meeting-TEMPLATE.md": {
       "isPinned": false,
       "isHidden": false
     }

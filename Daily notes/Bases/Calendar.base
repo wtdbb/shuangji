@@ -13,7 +13,7 @@ views:
     order:
       - formula.✨
       - file.name
-      - note.highlight
+      - highlight
     sort:
       - property: file.name
         direction: DESC
@@ -31,7 +31,7 @@ views:
       direction: DESC
     order:
       - file.name
-      - note.highlight
+      - highlight
     sort:
       - property: file.name
         direction: DESC
