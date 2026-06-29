@@ -1,5 +1,4 @@
 formulas:
-  highlight: ""
   ✨: if(file.inFolder("Daily notes/Calendar/Journal/Daily"),"📅",if(file.inFolder("Daily notes/Calendar/Meetings"),"☎️",if(file.inFolder("Daily notes/Calendar/Fleeting"),"💭","")))
   未命名: ""
   未命名 2: ""
@@ -14,14 +13,14 @@ views:
     order:
       - formula.✨
       - file.name
-      - formula.highlight
+      - note.highlight
     sort:
-      - property: formula.highlight
+      - property: note.highlight
         direction: DESC
     columnSize:
       formula.✨: 125
       file.name: 259
-      formula.highlight: 358
+      note.highlight: 358
   - type: table
     name: Daily
     filters:
@@ -32,7 +31,7 @@ views:
       direction: DESC
     order:
       - file.name
-      - formula.highlight
+      - note.highlight
     sort:
       - property: file.name
         direction: DESC
