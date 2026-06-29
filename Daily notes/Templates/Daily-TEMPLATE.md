@@ -31,7 +31,6 @@ cssclasses:
 - [ ] Plan the day：一个推荐ur20个备选
 #### Habits
 - 📚[reading::]：one city
-- 💪[workout::]
 - 🏃‍♀️[exercise::]
 - 📝[report::]
 
