@@ -33,6 +33,10 @@
     {
       "folder": "Daily notes/Calendar/Journal/Yearly",
       "template": "Daily notes/Templates/Yearly-TEMPLATE.md"
+    },
+    {
+      "folder": "Daily notes/Calendar/Meetings",
+      "template": "Daily notes/Templates/Meeting-TEMPLATE.md"
     }
   ],
   "enable_file_templates": false,
