@@ -5,8 +5,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "zhihu_debug.html",
-        "zhihu_page.md",
         "乌萨奇.md",
         "简历库",
         "AI信息收集系统",
@@ -14133,14 +14131,6 @@
       "sortOrder": "custom"
     },
     "简历库/2026_6_21_系统策划_姚昊坤.pdf": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "zhihu_page.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "zhihu_debug.html": {
       "isPinned": false,
       "isHidden": false
     }
