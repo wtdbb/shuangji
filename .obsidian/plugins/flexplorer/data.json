@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "zhihu_debug.html",
         "zhihu_page.md",
         "乌萨奇.md",
         "简历库",
@@ -14136,6 +14137,10 @@
       "isHidden": false
     },
     "zhihu_page.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "zhihu_debug.html": {
       "isPinned": false,
       "isHidden": false
     }
