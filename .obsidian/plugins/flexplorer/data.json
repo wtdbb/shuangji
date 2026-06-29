@@ -1086,6 +1086,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-06-29.md",
         "2026-06-28.md"
       ]
     },
@@ -14083,6 +14084,10 @@
       "isHidden": false
     },
     "skill/web-design-guidelines/SYNC.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-06-29.md": {
       "isPinned": false,
       "isHidden": false
     }
