@@ -15,7 +15,7 @@ views:
       - file.name
       - note.highlight
     sort:
-      - property: note.highlight
+      - property: file.name
         direction: DESC
     columnSize:
       formula.✨: 125
