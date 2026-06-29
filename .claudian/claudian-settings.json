@@ -66,14 +66,14 @@
       "environmentVariables": "OPENCODE_ENABLE_EXA=1",
       "modelAliases": {},
       "preferredThinkingByModel": {
-        "google/antigravity-gemini-3-flash": "high",
+        "google/gemini-2.5-flash": "high",
         "google/gemini-3.1-pro-preview": "high",
         "google/gemini-3.1-flash-lite": "high",
         "google/gemini-2.5-flash": "high"
       },
       "selectedMode": "claudian-yolo",
       "thinkingOptionsByModel": {
-        "google/antigravity-gemini-3-flash": [
+        "google/gemini-2.5-flash": [
           {
             "label": "Minimal",
             "value": "minimal"
@@ -135,7 +135,7 @@
         ]
       },
       "visibleModels": [
-        "google/antigravity-gemini-3-flash",
+        "google/gemini-2.5-flash",
         "google/gemini-3.1-pro-preview",
         "google/gemini-3.1-flash-lite",
         "google/gemini-2.5-flash"
