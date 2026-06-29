@@ -111,5 +111,14 @@
       ],
       "key": "R"
     }
+  ],
+  "workspace:close": [],
+  "templater-obsidian:Daily notes/Templates/Meeting-TEMPLATE.md": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "W"
+    }
   ]
 }
