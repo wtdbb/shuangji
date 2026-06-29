@@ -158,7 +158,7 @@
   "savedProviderModel": {
     "claude": "opus",
     "codex": "gpt-5.4-mini",
-    "opencode": "opencode:google/gemini-2.5-flash"
+    "opencode": "opencode:google/gemini-3.1-pro-preview"
   },
   "savedProviderEffort": {
     "claude": "max",
