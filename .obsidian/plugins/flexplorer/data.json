@@ -312,6 +312,9 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "cc11979c08b6aaa94ed17f28cc064d84_MD5.png",
+        "d8a39e8dc97adbfbd4cfe269628bec19_MD5.jpg",
+        "69030a3a3c61526afa83e17a9f812114_MD5.webp",
         "qr.png",
         "乌萨奇图标",
         "9a506d85fe21af84c37ddf94edfb66a3_MD5.jpg",
@@ -566,6 +569,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "6月29日—7月5日共有27款游戏开测｜GameRes.md",
         "声明.md",
         "拳头游戏真把员工当人看了.md",
         "4000+新游一涌而出：谁暴死，谁爆红？.md",
@@ -1079,7 +1083,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "2026-06-29 M6W5.md",
+        "2026-06-29 1032.md",
         "2026-06-28.md"
       ]
     },
@@ -14097,7 +14101,23 @@
       "isPinned": false,
       "isHidden": false
     },
-    "Daily notes/Calendar/Meetings/2026-06-29 M6W5.md": {
+    "行业报告/公众号原内容/6月29日—7月5日共有27款游戏开测｜GameRes.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "图片归档/69030a3a3c61526afa83e17a9f812114_MD5.webp": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "图片归档/d8a39e8dc97adbfbd4cfe269628bec19_MD5.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "图片归档/cc11979c08b6aaa94ed17f28cc064d84_MD5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Meetings/2026-06-29 1032.md": {
       "isPinned": false,
       "isHidden": false
     }
