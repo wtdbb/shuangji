@@ -474,6 +474,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "华南",
         "头部",
         "岗位mapping.md",
         "海外",
@@ -14141,6 +14142,31 @@
       "isHidden": false
     },
     "Daily notes/Calendar/Journal/Daily/永星.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/华南": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "广州"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/华南/广州": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "益世界.md",
+        "永星互动.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/华南/广州/永星互动.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/华南/广州/益世界.md": {
       "isPinned": false,
       "isHidden": false
     }
