@@ -1093,6 +1093,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "永星.md",
         "2026-06-30.md",
         "2026-06-29.md",
         "2026-06-28.md"
@@ -14136,6 +14137,10 @@
       "isHidden": false
     },
     "Daily notes/Calendar/Journal/Daily/2026-06-30.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/永星.md": {
       "isPinned": false,
       "isHidden": false
     }
