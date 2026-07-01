@@ -474,6 +474,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "华北",
         "福建",
         "华南",
         "头部",
@@ -14193,6 +14194,26 @@
       "sortOrder": "custom"
     },
     "岗位mapping/福建/厦门/勇仕网络.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/华北": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "北京"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/华北/北京": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "麦吉太文.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/华北/北京/麦吉太文.md": {
       "isPinned": false,
       "isHidden": false
     }
