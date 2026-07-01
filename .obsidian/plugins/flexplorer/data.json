@@ -14129,6 +14129,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "吴铝能-客户端.pdf",
         "2026_6_21_系统策划_姚昊坤.pdf"
       ],
       "sortOrder": "custom"
@@ -14167,6 +14168,10 @@
       "isHidden": false
     },
     "岗位mapping/华南/广州/益世界.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/吴铝能-客户端.pdf": {
       "isPinned": false,
       "isHidden": false
     }
