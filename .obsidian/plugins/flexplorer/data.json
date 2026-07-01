@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "update_netease.py",
         "乌萨奇.md",
         "简历库",
         "AI信息收集系统",
@@ -14167,6 +14168,10 @@
       "isHidden": false
     },
     "岗位mapping/华南/广州/益世界.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "update_netease.py": {
       "isPinned": false,
       "isHidden": false
     }
