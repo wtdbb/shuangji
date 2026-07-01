@@ -4069,6 +4069,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "航海奇闻2：传承.md",
         "野蛮人大作战.md",
         "电魂网络.md",
         "梦塔防.md",
@@ -14152,6 +14153,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "深圳",
         "广州"
       ],
       "sortOrder": "custom"
@@ -14214,6 +14216,22 @@
       "sortOrder": "custom"
     },
     "岗位mapping/华北/北京/麦吉太文.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/杭州/电魂网络/航海奇闻2：传承.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/华南/深圳": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "Fabled Game Studio (神话游戏).md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/华南/深圳/Fabled Game Studio (神话游戏).md": {
       "isPinned": false,
       "isHidden": false
     }
