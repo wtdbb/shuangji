@@ -474,6 +474,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "福建",
         "华南",
         "头部",
         "岗位mapping.md",
@@ -14172,6 +14173,26 @@
       "isHidden": false
     },
     "简历库/吴铝能-客户端.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/福建": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "厦门"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/福建/厦门": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "勇仕网络.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/福建/厦门/勇仕网络.md": {
       "isPinned": false,
       "isHidden": false
     }
