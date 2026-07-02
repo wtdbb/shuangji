@@ -14251,6 +14251,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "上海",
         "杭州"
       ],
       "sortOrder": "custom"
@@ -14268,6 +14269,18 @@
       "isHidden": false
     },
     "岗位mapping/华南/深圳/望尘科技.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/华东/上海": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "完美世界.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/华东/上海/完美世界.md": {
       "isPinned": false,
       "isHidden": false
     }
