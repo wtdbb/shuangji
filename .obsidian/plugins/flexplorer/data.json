@@ -14212,6 +14212,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "字节跳动_蓝海工作室.md",
         "麦吉太文.md"
       ]
     },
@@ -14232,6 +14233,10 @@
       ]
     },
     "岗位mapping/华南/深圳/Fabled Game Studio (神话游戏).md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/华北/北京/字节跳动_蓝海工作室.md": {
       "isPinned": false,
       "isHidden": false
     }
