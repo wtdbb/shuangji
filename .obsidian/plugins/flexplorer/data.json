@@ -14251,19 +14251,19 @@
     "岗位mapping/华东": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "上海",
         "杭州"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/华东/杭州": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "网易.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/华东/杭州/网易.md": {
       "isPinned": false,
@@ -14276,10 +14276,10 @@
     "岗位mapping/华东/上海": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "完美世界.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/华东/上海/完美世界.md": {
       "isPinned": false,
