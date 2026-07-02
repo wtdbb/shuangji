@@ -1003,6 +1003,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "技术术语",
         "游戏技术术语.md",
         "游戏技术术语.docx"
       ]
@@ -14286,6 +14287,907 @@
       "isHidden": false
     },
     "岗位mapping/华南/深圳/腾讯.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "第四章 Unity 客户端",
+        "第十章 工程化、构建与发布",
+        "第十四章 候选人技术实力判断",
+        "第十二章 引擎开发、测试与性能",
+        "第十三章 项目专项与岗位速查",
+        "第十一章 技术美术（TA）",
+        "第六章 游戏服务器架构与基础设施",
+        "第八章 渲染与图形程序",
+        "第五章 网络协议与服务端框架",
+        "第二章 游戏数学与空间计算",
+        "第九章 游戏 AI",
+        "第三章 Unreal Engine 客户端",
+        "第七章 游戏网络同步",
+        "第一章 编程语言与内存基础",
+        "目录",
+        "技术含金量分级",
+        "引言",
+        "前置篇",
+        "全书阅读地图",
+        "M0 常见岗位介绍"
+      ],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/M0 常见岗位介绍": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/全书阅读地图": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/前置篇": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/引言": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/技术含金量分级": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/目录": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/第一章 编程语言与内存基础": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "1.1 C++ 与内存.md",
+        "1.9 多线程、竞态与锁.md",
+        "1.8 STL 容器.md",
+        "1.7 虚函数、vtable 与运行时多态.md",
+        "1.6 移动语义.md",
+        "1.5 unique_ptr、shared_ptr 与 weak_ptr.md",
+        "1.4 RAII.md",
+        "1.3 对象生命周期与悬空问题.md",
+        "1.2 指针、引用与空值.md",
+        "1.2 C#、Lua 与 Go.md",
+        "1.14 Go、goroutine 与 channel.md",
+        "1.13 Lua、xLua 与热更新.md",
+        "1.12 协程、Task 与 async_await.md",
+        "1.11 C# 与 GC.md",
+        "1.10 对象池与内存池.md",
+        "1.1 C++.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/第七章 游戏网络同步": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "7.9 服务器权威.md",
+        "7.8 AOI.md",
+        "7.7 Rollback.md",
+        "7.6 Lag Compensation（延迟补偿）.md",
+        "7.5 客户端预测与 Reconciliation.md",
+        "7.4 快照、插值与外推.md",
+        "7.3 固定 Tick 与确定性.md",
+        "7.2 预测、回滚与兴趣管理.md",
+        "7.2 帧同步（Lockstep）.md",
+        "7.11 弱网、重连与状态恢复.md",
+        "7.10 Tick Rate、Send Rate 与带宽预算.md",
+        "7.1 状态同步.md",
+        "7.1 同步模型.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "3.9 GAS 预测与服务器校正.md",
+        "3.8 GameplayTag.md",
+        "3.7 GameplayEffect、MMC 与 Execution.md",
+        "3.6 ASC 与 AttributeSet.md",
+        "3.5 GAS.md",
+        "3.4 UI 与资源.md",
+        "3.4 CommonUI 与 Enhanced Input.md",
+        "3.3 移动、动画与网络.md",
+        "3.3 Lyra 与 Game Features.md",
+        "3.2 GAS 能力系统.md",
+        "3.2 Gameplay Framework.md",
+        "3.17 Cook、Pak 与 IoStore.md",
+        "3.16 UMG、Slate 与 MVVM.md",
+        "3.15 Dedicated Server（DS）与 Listen Server.md",
+        "3.14 网络预测、Reconciliation 与 Lag Compensation.md",
+        "3.13 Replication、RepNotify 与 RPC.md",
+        "3.12 AnimBP、状态机、Blend Space、Montage 与 IK.md",
+        "3.11 Root Motion.md",
+        "3.10 CMC（Character Movement Component）.md",
+        "3.1 UObject、Actor 与 Component.md",
+        "3.1 UE 对象与项目框架.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/第九章 游戏 AI": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "9.5 AI Agent 与 LLM NPC.md",
+        "9.4 EQS、GOAP 与 Utility AI.md",
+        "9.3 NavMesh 与 A_.md",
+        "9.2 行为树与 Blackboard.md",
+        "9.1 规则驱动 AI.md",
+        "9.1 FSM（有限状态机）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/第二章 游戏数学与空间计算": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "2.5 AABB、OBB 与碰撞盒.md",
+        "2.4 Lerp、Slerp 与 Tween.md",
+        "2.3 欧拉角与四元数.md",
+        "2.2 4×4 矩阵与坐标变换.md",
+        "2.1 向量、点乘与叉乘.md",
+        "2.1 位置、方向与旋转.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/第五章 网络协议与服务端框架": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "5.9 KBEngine.md",
+        "5.8 Skynet 与 ET.md",
+        "5.7 Erlang_OTP.md",
+        "5.6 线程、协程与 Actor.md",
+        "5.5 RPC、gRPC 与 Protobuf.md",
+        "5.4 HTTP 与 WebSocket.md",
+        "5.3 UDP 与 KCP.md",
+        "5.2 并发模型与框架.md",
+        "5.2 TCP.md",
+        "5.1 通信协议.md",
+        "5.1 Socket.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/第八章 渲染与图形程序": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "8.9 Overdraw、Shader Variant 与 PSO.md",
+        "8.8 TSR、DLSS 与 FSR.md",
+        "8.7 Nanite 与 Lumen.md",
+        "8.6 LOD、HLOD 与剔除.md",
+        "8.5 前向渲染与延迟渲染.md",
+        "8.4 PBR 与 NPR.md",
+        "8.3 光照与屏幕空间效果.md",
+        "8.3 Shader、HLSL 与 GLSL.md",
+        "8.2 优化与 UE5 技术.md",
+        "8.2 DrawCall、Batching 与 GPU Instancing.md",
+        "8.16 T1 市场.md",
+        "8.15 卡通渲染（Toon Shading _ NPR 细分）.md",
+        "8.14 RenderGraph、RenderFeature 与 CustomPass（Unity HDRP）.md",
+        "8.13 抗锯齿（Anti-Aliasing）方案.md",
+        "8.12 SSR、SSAO、SSS — 屏幕空间三剑客.md",
+        "8.11 GI（全局光照）.md",
+        "8.10 RHI、RDG 与 RenderDoc_PIX_Nsight.md",
+        "8.1 画面怎样被算出来.md",
+        "8.1 CPU、GPU 与帧预算.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/第六章 游戏服务器架构与基础设施": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "6.9 Docker 与 K8s.md",
+        "6.8 etcd、Consul 与服务发现.md",
+        "6.7 Kafka 与 RabbitMQ.md",
+        "6.6 Redis.md",
+        "6.5 MySQL 与事务.md",
+        "6.4 世界服、场景服与分区.md",
+        "6.3 DS 调度.md",
+        "6.2 数据与中间件.md",
+        "6.2 匹配服、房间服与战斗服.md",
+        "6.11 分片、复制与热点.md",
+        "6.10 幂等、分布式锁与数据一致性.md",
+        "6.1 网关服.md",
+        "6.1 服务器分工.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/第十一章 技术美术（TA）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "11.4 Niagara、VFX 与资产预算.md",
+        "11.3 Rig、Skin 与 Control Rig.md",
+        "11.2 Houdini 与程序化生成（PCG）.md",
+        "11.1 TA、渲染 TA 与管线 TA.md",
+        "11.1 TA 常见方向.md",
+        "11.0 TA 程序向全部细分方向一览.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/第十三章 项目专项与岗位速查": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "13.6 反作弊、回放与战斗录像.md",
+        "13.5 3C：Character、Camera、Control.md",
+        "13.4 搜打撤：Loot、局内背包与撤离结算.md",
+        "13.3 FPS_TPS：Hitbox、延迟补偿、Rollback 与 DS.md",
+        "13.2 常见岗位关键词速查.md",
+        "13.2 SLG：大地图、时间轮、寻路与战报.md",
+        "13.1 项目里常见的组合词.md",
+        "13.1 MMO：AOI、分服、场景服与跨服.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/第十二章 引擎开发、测试与性能": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "12.7 CPU、GPU、内存与 I_O Profiling.md",
+        "12.6 负载、压力、Soak 与弱网测试.md",
+        "12.5 自动化测试、接口测试与 Gauntlet.md",
+        "12.4 Slate、编辑器扩展与工具开发.md",
+        "12.3 异步加载、Streaming 与资源管理.md",
+        "12.2 测试与性能.md",
+        "12.2 TaskGraph、Job System 与任务调度.md",
+        "12.1 引擎开发与玩法客户端.md",
+        "12.1 引擎与工具.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/第十四章 候选人技术实力判断": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "14.3 十分制快速判断表.md",
+        "14.2 不要因为出现一个高价值名词，就直接判断候选人很强.md",
+        "14.1 简历里出现哪些技术栈，通常是强能力信号.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/第十章 工程化、构建与发布": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "10.5 Profiler 与性能回归.md",
+        "10.4 Crash、符号、日志与埋点.md",
+        "10.3 Cook、Pak 与热更新.md",
+        "10.2 Jenkins、CI 与 CD.md",
+        "10.1 版本与自动化.md",
+        "10.1 Git 与 Perforce（P4）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/第四章 Unity 客户端": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "4.9 Job System、Burst 与 DOTS_ECS.md",
+        "4.8 URP、HDRP 与 SRP.md",
+        "4.7 UGUI 与 UI Toolkit.md",
+        "4.6 Animator、Controller 与 Blend Tree.md",
+        "4.5 AssetBundle 与 Addressables.md",
+        "4.4 xLua、HybridCLR 与代码热更新.md",
+        "4.3 Unity GC 与每帧分配.md",
+        "4.2 资源、界面与性能.md",
+        "4.2 Mono 与 IL2CPP.md",
+        "4.1 对象、运行时与热更新.md",
+        "4.1 GameObject、Component 与 MonoBehaviour.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "OneNote/技术术语/第一章 编程语言与内存基础/1.1 C++.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第一章 编程语言与内存基础/1.10 对象池与内存池.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第一章 编程语言与内存基础/1.11 C# 与 GC.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第一章 编程语言与内存基础/1.12 协程、Task 与 async_await.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第一章 编程语言与内存基础/1.13 Lua、xLua 与热更新.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第一章 编程语言与内存基础/1.14 Go、goroutine 与 channel.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第一章 编程语言与内存基础/1.2 C#、Lua 与 Go.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第一章 编程语言与内存基础/1.2 指针、引用与空值.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第一章 编程语言与内存基础/1.3 对象生命周期与悬空问题.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第一章 编程语言与内存基础/1.4 RAII.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第一章 编程语言与内存基础/1.5 unique_ptr、shared_ptr 与 weak_ptr.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第一章 编程语言与内存基础/1.6 移动语义.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第一章 编程语言与内存基础/1.7 虚函数、vtable 与运行时多态.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第一章 编程语言与内存基础/1.8 STL 容器.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第一章 编程语言与内存基础/1.9 多线程、竞态与锁.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第七章 游戏网络同步/7.1 同步模型.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第七章 游戏网络同步/7.1 状态同步.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第七章 游戏网络同步/7.10 Tick Rate、Send Rate 与带宽预算.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第七章 游戏网络同步/7.11 弱网、重连与状态恢复.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第七章 游戏网络同步/7.2 帧同步（Lockstep）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第七章 游戏网络同步/7.2 预测、回滚与兴趣管理.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第七章 游戏网络同步/7.3 固定 Tick 与确定性.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第七章 游戏网络同步/7.4 快照、插值与外推.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第七章 游戏网络同步/7.5 客户端预测与 Reconciliation.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第七章 游戏网络同步/7.6 Lag Compensation（延迟补偿）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第七章 游戏网络同步/7.7 Rollback.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第七章 游戏网络同步/7.8 AOI.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第七章 游戏网络同步/7.9 服务器权威.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.1 UE 对象与项目框架.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.1 UObject、Actor 与 Component.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.10 CMC（Character Movement Component）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.11 Root Motion.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.12 AnimBP、状态机、Blend Space、Montage 与 IK.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.13 Replication、RepNotify 与 RPC.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.14 网络预测、Reconciliation 与 Lag Compensation.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.15 Dedicated Server（DS）与 Listen Server.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.16 UMG、Slate 与 MVVM.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.17 Cook、Pak 与 IoStore.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.2 Gameplay Framework.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.2 GAS 能力系统.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.3 Lyra 与 Game Features.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.3 移动、动画与网络.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.4 CommonUI 与 Enhanced Input.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.4 UI 与资源.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.5 GAS.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.6 ASC 与 AttributeSet.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.7 GameplayEffect、MMC 与 Execution.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.8 GameplayTag.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第三章 Unreal Engine 客户端/3.9 GAS 预测与服务器校正.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第九章 游戏 AI/9.1 FSM（有限状态机）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第九章 游戏 AI/9.1 规则驱动 AI.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第九章 游戏 AI/9.2 行为树与 Blackboard.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第九章 游戏 AI/9.3 NavMesh 与 A_.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第九章 游戏 AI/9.4 EQS、GOAP 与 Utility AI.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第九章 游戏 AI/9.5 AI Agent 与 LLM NPC.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第二章 游戏数学与空间计算/2.1 位置、方向与旋转.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第二章 游戏数学与空间计算/2.1 向量、点乘与叉乘.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第二章 游戏数学与空间计算/2.2 4×4 矩阵与坐标变换.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第二章 游戏数学与空间计算/2.3 欧拉角与四元数.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第二章 游戏数学与空间计算/2.4 Lerp、Slerp 与 Tween.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第二章 游戏数学与空间计算/2.5 AABB、OBB 与碰撞盒.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第五章 网络协议与服务端框架/5.1 Socket.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第五章 网络协议与服务端框架/5.1 通信协议.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第五章 网络协议与服务端框架/5.2 TCP.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第五章 网络协议与服务端框架/5.2 并发模型与框架.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第五章 网络协议与服务端框架/5.3 UDP 与 KCP.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第五章 网络协议与服务端框架/5.4 HTTP 与 WebSocket.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第五章 网络协议与服务端框架/5.5 RPC、gRPC 与 Protobuf.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第五章 网络协议与服务端框架/5.6 线程、协程与 Actor.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第五章 网络协议与服务端框架/5.7 Erlang_OTP.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第五章 网络协议与服务端框架/5.8 Skynet 与 ET.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第五章 网络协议与服务端框架/5.9 KBEngine.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第八章 渲染与图形程序/8.1 CPU、GPU 与帧预算.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第八章 渲染与图形程序/8.1 画面怎样被算出来.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第八章 渲染与图形程序/8.10 RHI、RDG 与 RenderDoc_PIX_Nsight.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第八章 渲染与图形程序/8.11 GI（全局光照）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第八章 渲染与图形程序/8.12 SSR、SSAO、SSS — 屏幕空间三剑客.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第八章 渲染与图形程序/8.13 抗锯齿（Anti-Aliasing）方案.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第八章 渲染与图形程序/8.14 RenderGraph、RenderFeature 与 CustomPass（Unity HDRP）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第八章 渲染与图形程序/8.15 卡通渲染（Toon Shading _ NPR 细分）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第八章 渲染与图形程序/8.16 T1 市场.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第八章 渲染与图形程序/8.2 DrawCall、Batching 与 GPU Instancing.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第八章 渲染与图形程序/8.2 优化与 UE5 技术.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第八章 渲染与图形程序/8.3 Shader、HLSL 与 GLSL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第八章 渲染与图形程序/8.3 光照与屏幕空间效果.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第八章 渲染与图形程序/8.4 PBR 与 NPR.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第八章 渲染与图形程序/8.5 前向渲染与延迟渲染.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第八章 渲染与图形程序/8.6 LOD、HLOD 与剔除.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第八章 渲染与图形程序/8.7 Nanite 与 Lumen.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第八章 渲染与图形程序/8.8 TSR、DLSS 与 FSR.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第八章 渲染与图形程序/8.9 Overdraw、Shader Variant 与 PSO.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第六章 游戏服务器架构与基础设施/6.1 服务器分工.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第六章 游戏服务器架构与基础设施/6.1 网关服.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第六章 游戏服务器架构与基础设施/6.10 幂等、分布式锁与数据一致性.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第六章 游戏服务器架构与基础设施/6.11 分片、复制与热点.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第六章 游戏服务器架构与基础设施/6.2 匹配服、房间服与战斗服.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第六章 游戏服务器架构与基础设施/6.2 数据与中间件.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第六章 游戏服务器架构与基础设施/6.3 DS 调度.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第六章 游戏服务器架构与基础设施/6.4 世界服、场景服与分区.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第六章 游戏服务器架构与基础设施/6.5 MySQL 与事务.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第六章 游戏服务器架构与基础设施/6.6 Redis.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第六章 游戏服务器架构与基础设施/6.7 Kafka 与 RabbitMQ.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第六章 游戏服务器架构与基础设施/6.8 etcd、Consul 与服务发现.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第六章 游戏服务器架构与基础设施/6.9 Docker 与 K8s.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十一章 技术美术（TA）/11.0 TA 程序向全部细分方向一览.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十一章 技术美术（TA）/11.1 TA 常见方向.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十一章 技术美术（TA）/11.1 TA、渲染 TA 与管线 TA.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十一章 技术美术（TA）/11.2 Houdini 与程序化生成（PCG）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十一章 技术美术（TA）/11.3 Rig、Skin 与 Control Rig.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十一章 技术美术（TA）/11.4 Niagara、VFX 与资产预算.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十三章 项目专项与岗位速查/13.1 MMO：AOI、分服、场景服与跨服.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十三章 项目专项与岗位速查/13.1 项目里常见的组合词.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十三章 项目专项与岗位速查/13.2 SLG：大地图、时间轮、寻路与战报.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十三章 项目专项与岗位速查/13.2 常见岗位关键词速查.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十三章 项目专项与岗位速查/13.3 FPS_TPS：Hitbox、延迟补偿、Rollback 与 DS.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十三章 项目专项与岗位速查/13.4 搜打撤：Loot、局内背包与撤离结算.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十三章 项目专项与岗位速查/13.5 3C：Character、Camera、Control.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十三章 项目专项与岗位速查/13.6 反作弊、回放与战斗录像.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十二章 引擎开发、测试与性能/12.1 引擎与工具.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十二章 引擎开发、测试与性能/12.1 引擎开发与玩法客户端.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十二章 引擎开发、测试与性能/12.2 TaskGraph、Job System 与任务调度.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十二章 引擎开发、测试与性能/12.2 测试与性能.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十二章 引擎开发、测试与性能/12.3 异步加载、Streaming 与资源管理.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十二章 引擎开发、测试与性能/12.4 Slate、编辑器扩展与工具开发.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十二章 引擎开发、测试与性能/12.5 自动化测试、接口测试与 Gauntlet.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十二章 引擎开发、测试与性能/12.6 负载、压力、Soak 与弱网测试.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十二章 引擎开发、测试与性能/12.7 CPU、GPU、内存与 I_O Profiling.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十四章 候选人技术实力判断/14.1 简历里出现哪些技术栈，通常是强能力信号.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十四章 候选人技术实力判断/14.2 不要因为出现一个高价值名词，就直接判断候选人很强.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十四章 候选人技术实力判断/14.3 十分制快速判断表.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十章 工程化、构建与发布/10.1 Git 与 Perforce（P4）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十章 工程化、构建与发布/10.1 版本与自动化.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十章 工程化、构建与发布/10.2 Jenkins、CI 与 CD.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十章 工程化、构建与发布/10.3 Cook、Pak 与热更新.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十章 工程化、构建与发布/10.4 Crash、符号、日志与埋点.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第十章 工程化、构建与发布/10.5 Profiler 与性能回归.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第四章 Unity 客户端/4.1 GameObject、Component 与 MonoBehaviour.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第四章 Unity 客户端/4.1 对象、运行时与热更新.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第四章 Unity 客户端/4.2 Mono 与 IL2CPP.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第四章 Unity 客户端/4.2 资源、界面与性能.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第四章 Unity 客户端/4.3 Unity GC 与每帧分配.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第四章 Unity 客户端/4.4 xLua、HybridCLR 与代码热更新.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第四章 Unity 客户端/4.5 AssetBundle 与 Addressables.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第四章 Unity 客户端/4.6 Animator、Controller 与 Blend Tree.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第四章 Unity 客户端/4.7 UGUI 与 UI Toolkit.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第四章 Unity 客户端/4.8 URP、HDRP 与 SRP.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第四章 Unity 客户端/4.9 Job System、Burst 与 DOTS_ECS.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/第一章 编程语言与内存基础/1.1 C++ 与内存.md": {
       "isPinned": false,
       "isHidden": false
     }
