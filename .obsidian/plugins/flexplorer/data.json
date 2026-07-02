@@ -14131,11 +14131,11 @@
     "简历库": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "吴铝能-客户端.pdf",
         "2026_6_21_系统策划_姚昊坤.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "简历库/2026_6_21_系统策划_姚昊坤.pdf": {
       "isPinned": false,
@@ -14152,20 +14152,20 @@
     "岗位mapping/华南": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "深圳",
         "广州"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/华南/广州": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "益世界.md",
         "永星互动.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/华南/广州/永星互动.md": {
       "isPinned": false,
@@ -14182,18 +14182,18 @@
     "岗位mapping/福建": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "厦门"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/福建/厦门": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "勇仕网络.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/福建/厦门/勇仕网络.md": {
       "isPinned": false,
@@ -14202,18 +14202,18 @@
     "岗位mapping/华北": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "北京"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/华北/北京": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "麦吉太文.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/华北/北京/麦吉太文.md": {
       "isPinned": false,
@@ -14226,10 +14226,10 @@
     "岗位mapping/华南/深圳": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "Fabled Game Studio (神话游戏).md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/华南/深圳/Fabled Game Studio (神话游戏).md": {
       "isPinned": false,
