@@ -474,6 +474,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "华东",
         "华北",
         "福建",
         "华南",
@@ -14242,6 +14243,26 @@
       "isHidden": false
     },
     "岗位mapping/华南/深圳/冰川网络.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/华东": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "杭州"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/华东/杭州": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "网易.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/华东/杭州/网易.md": {
       "isPinned": false,
       "isHidden": false
     }
