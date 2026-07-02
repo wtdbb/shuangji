@@ -14230,6 +14230,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "望尘科技.md",
         "冰川网络.md",
         "Fabled Game Studio (神话游戏).md"
       ]
@@ -14263,6 +14264,10 @@
       "sortOrder": "custom"
     },
     "岗位mapping/华东/杭州/网易.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/华南/深圳/望尘科技.md": {
       "isPinned": false,
       "isHidden": false
     }
