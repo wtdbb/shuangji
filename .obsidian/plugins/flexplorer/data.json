@@ -14135,6 +14135,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "彭俊森-服务端开发.pdf",
         "吴铝能-客户端.pdf",
         "2026_6_21_系统策划_姚昊坤.pdf"
       ]
@@ -15188,6 +15189,10 @@
       "isHidden": false
     },
     "OneNote/技术术语/第一章 编程语言与内存基础/1.1 C++ 与内存.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/彭俊森-服务端开发.pdf": {
       "isPinned": false,
       "isHidden": false
     }
