@@ -14230,6 +14230,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "腾讯.md",
         "望尘科技.md",
         "冰川网络.md",
         "Fabled Game Studio (神话游戏).md"
@@ -14281,6 +14282,10 @@
       "sortOrder": "custom"
     },
     "岗位mapping/华东/上海/完美世界.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/华南/深圳/腾讯.md": {
       "isPinned": false,
       "isHidden": false
     }
