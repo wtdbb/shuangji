@@ -14216,6 +14216,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "字节跳动.md",
         "字节跳动_蓝海工作室.md",
         "麦吉太文.md"
       ]
@@ -15198,6 +15199,10 @@
       "isHidden": false
     },
     "简历库/吕阳阳-10年-服务器开发.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/华北/北京/字节跳动.md": {
       "isPinned": false,
       "isHidden": false
     }
