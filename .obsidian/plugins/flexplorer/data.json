@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "update_lilith.py",
         "乌萨奇.md",
         "简历库",
         "AI信息收集系统",
@@ -14283,6 +14284,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "莉莉丝.md",
         "完美世界.md"
       ]
     },
@@ -15208,6 +15210,14 @@
       "isHidden": false
     },
     "简历库/舒小豪-游戏开发(1).pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "update_lilith.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/华东/上海/莉莉丝.md": {
       "isPinned": false,
       "isHidden": false
     }
