@@ -14135,6 +14135,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "舒小豪-游戏开发(1).pdf",
         "吕阳阳-10年-服务器开发.pdf",
         "彭俊森-服务端开发.pdf",
         "吴铝能-客户端.pdf",
@@ -15203,6 +15204,10 @@
       "isHidden": false
     },
     "岗位mapping/华北/北京/字节跳动.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/舒小豪-游戏开发(1).pdf": {
       "isPinned": false,
       "isHidden": false
     }
