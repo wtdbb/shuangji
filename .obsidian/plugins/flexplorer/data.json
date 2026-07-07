@@ -5,7 +5,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "update_lilith.py",
         "乌萨奇.md",
         "简历库",
         "AI信息收集系统",
@@ -15210,10 +15209,6 @@
       "isHidden": false
     },
     "简历库/舒小豪-游戏开发(1).pdf": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "update_lilith.py": {
       "isPinned": false,
       "isHidden": false
     },
