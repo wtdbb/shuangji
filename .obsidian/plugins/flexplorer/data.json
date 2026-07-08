@@ -1098,7 +1098,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "永星.md",
+        "2026-07-07.md",
+        "2026-07-08.md",
         "2026-06-30.md",
         "2026-06-29.md",
         "2026-06-28.md"
@@ -14151,10 +14152,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "Daily notes/Calendar/Journal/Daily/永星.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "岗位mapping/华南": {
       "isPinned": false,
       "isHidden": false,
@@ -15218,6 +15215,14 @@
       "isHidden": false
     },
     "简历库/何鑫巍-服务器开发.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-07-08.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-07-07.md": {
       "isPinned": false,
       "isHidden": false
     }
