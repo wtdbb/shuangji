@@ -474,6 +474,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "策划品类兼容口径.md",
         "华东",
         "华北",
         "福建",
@@ -15246,6 +15247,10 @@
       "isHidden": false
     },
     "岗位mapping/广州/百奥百田/UE单机项目.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/策划品类兼容口径.md": {
       "isPinned": false,
       "isHidden": false
     }
