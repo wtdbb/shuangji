@@ -4645,6 +4645,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "诡影藏锋.md",
         "网易雷火介绍.md",
         "金乌纪（永劫无间文化企划）.md",
         "遗忘之海.md",
@@ -15236,6 +15237,10 @@
       "sortOrder": "custom"
     },
     "简历库/推荐报告/何鑫巍-游戏服务器开发推荐报告.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易雷火/诡影藏锋.md": {
       "isPinned": false,
       "isHidden": false
     }
