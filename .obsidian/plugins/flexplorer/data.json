@@ -14135,6 +14135,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "何鑫巍-服务器开发.pdf",
         "舒小豪-游戏开发(1).pdf",
         "吕阳阳-10年-服务器开发.pdf",
         "彭俊森-服务端开发.pdf",
@@ -15213,6 +15214,10 @@
       "isHidden": false
     },
     "岗位mapping/华东/上海/莉莉丝.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/何鑫巍-服务器开发.pdf": {
       "isPinned": false,
       "isHidden": false
     }
