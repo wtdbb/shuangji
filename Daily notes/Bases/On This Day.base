@@ -18,6 +18,7 @@ views:
         - or:
             - file.inFolder("岗位mapping")
             - file.inFolder("行业mapping")
+            - file.inFolder("技术术语")
             - file.inFolder("行业报告/公众号原内容")
             - file.inFolder("行业报告/日报输出")
             - file.inFolder("简历库/推荐报告")
@@ -43,6 +44,7 @@ views:
         - or:
             - file.inFolder("岗位mapping")
             - file.inFolder("行业mapping")
+            - file.inFolder("技术术语")
             - file.inFolder("行业报告/公众号原内容")
             - file.inFolder("行业报告/日报输出")
             - file.inFolder("简历库/推荐报告")
