@@ -1099,6 +1099,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-07-09.md",
         "2026-07-07.md",
         "2026-07-08.md",
         "2026-06-30.md",
@@ -15235,6 +15236,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "彭俊森-服务端架构性能优化推荐报告.md",
         "何鑫巍-游戏服务器开发推荐报告.md"
       ],
       "sortOrder": "custom"
@@ -15256,6 +15258,14 @@
       "isHidden": false
     },
     "简历库/彭俊森-服务端开发 1.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/推荐报告/彭俊森-服务端架构性能优化推荐报告.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-07-09.md": {
       "isPinned": false,
       "isHidden": false
     }
