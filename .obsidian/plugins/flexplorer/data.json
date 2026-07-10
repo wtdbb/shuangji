@@ -14303,6 +14303,7 @@
     "OneNote/技术术语": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "第四章 Unity 客户端",
         "第十章 工程化、构建与发布",
@@ -14324,48 +14325,48 @@
         "前置篇",
         "全书阅读地图",
         "M0 常见岗位介绍"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "OneNote/技术术语/M0 常见岗位介绍": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
     "OneNote/技术术语/全书阅读地图": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
     "OneNote/技术术语/前置篇": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
     "OneNote/技术术语/引言": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
     "OneNote/技术术语/技术含金量分级": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
     "OneNote/技术术语/目录": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
     "OneNote/技术术语/第一章 编程语言与内存基础": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "1.1 C++ 与内存.md",
         "1.9 多线程、竞态与锁.md",
@@ -14383,12 +14384,12 @@
         "1.11 C# 与 GC.md",
         "1.10 对象池与内存池.md",
         "1.1 C++.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "OneNote/技术术语/第七章 游戏网络同步": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "7.9 服务器权威.md",
         "7.8 AOI.md",
@@ -14403,12 +14404,12 @@
         "7.10 Tick Rate、Send Rate 与带宽预算.md",
         "7.1 状态同步.md",
         "7.1 同步模型.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "OneNote/技术术语/第三章 Unreal Engine 客户端": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "3.9 GAS 预测与服务器校正.md",
         "3.8 GameplayTag.md",
@@ -14431,12 +14432,12 @@
         "3.10 CMC（Character Movement Component）.md",
         "3.1 UObject、Actor 与 Component.md",
         "3.1 UE 对象与项目框架.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "OneNote/技术术语/第九章 游戏 AI": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "9.5 AI Agent 与 LLM NPC.md",
         "9.4 EQS、GOAP 与 Utility AI.md",
@@ -14444,12 +14445,12 @@
         "9.2 行为树与 Blackboard.md",
         "9.1 规则驱动 AI.md",
         "9.1 FSM（有限状态机）.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "OneNote/技术术语/第二章 游戏数学与空间计算": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "2.5 AABB、OBB 与碰撞盒.md",
         "2.4 Lerp、Slerp 与 Tween.md",
@@ -14457,12 +14458,12 @@
         "2.2 4×4 矩阵与坐标变换.md",
         "2.1 向量、点乘与叉乘.md",
         "2.1 位置、方向与旋转.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "OneNote/技术术语/第五章 网络协议与服务端框架": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "5.9 KBEngine.md",
         "5.8 Skynet 与 ET.md",
@@ -14475,12 +14476,12 @@
         "5.2 TCP.md",
         "5.1 通信协议.md",
         "5.1 Socket.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "OneNote/技术术语/第八章 渲染与图形程序": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "8.9 Overdraw、Shader Variant 与 PSO.md",
         "8.8 TSR、DLSS 与 FSR.md",
@@ -14501,12 +14502,12 @@
         "8.10 RHI、RDG 与 RenderDoc_PIX_Nsight.md",
         "8.1 画面怎样被算出来.md",
         "8.1 CPU、GPU 与帧预算.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "OneNote/技术术语/第六章 游戏服务器架构与基础设施": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "6.9 Docker 与 K8s.md",
         "6.8 etcd、Consul 与服务发现.md",
@@ -14521,12 +14522,12 @@
         "6.10 幂等、分布式锁与数据一致性.md",
         "6.1 网关服.md",
         "6.1 服务器分工.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "OneNote/技术术语/第十一章 技术美术（TA）": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "11.4 Niagara、VFX 与资产预算.md",
         "11.3 Rig、Skin 与 Control Rig.md",
@@ -14534,12 +14535,12 @@
         "11.1 TA、渲染 TA 与管线 TA.md",
         "11.1 TA 常见方向.md",
         "11.0 TA 程序向全部细分方向一览.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "OneNote/技术术语/第十三章 项目专项与岗位速查": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "13.6 反作弊、回放与战斗录像.md",
         "13.5 3C：Character、Camera、Control.md",
@@ -14549,12 +14550,12 @@
         "13.2 SLG：大地图、时间轮、寻路与战报.md",
         "13.1 项目里常见的组合词.md",
         "13.1 MMO：AOI、分服、场景服与跨服.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "OneNote/技术术语/第十二章 引擎开发、测试与性能": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "12.7 CPU、GPU、内存与 I_O Profiling.md",
         "12.6 负载、压力、Soak 与弱网测试.md",
@@ -14565,22 +14566,22 @@
         "12.2 TaskGraph、Job System 与任务调度.md",
         "12.1 引擎开发与玩法客户端.md",
         "12.1 引擎与工具.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "OneNote/技术术语/第十四章 候选人技术实力判断": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "14.3 十分制快速判断表.md",
         "14.2 不要因为出现一个高价值名词，就直接判断候选人很强.md",
         "14.1 简历里出现哪些技术栈，通常是强能力信号.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "OneNote/技术术语/第十章 工程化、构建与发布": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "10.5 Profiler 与性能回归.md",
         "10.4 Crash、符号、日志与埋点.md",
@@ -14588,12 +14589,12 @@
         "10.2 Jenkins、CI 与 CD.md",
         "10.1 版本与自动化.md",
         "10.1 Git 与 Perforce（P4）.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "OneNote/技术术语/第四章 Unity 客户端": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "4.9 Job System、Burst 与 DOTS_ECS.md",
         "4.8 URP、HDRP 与 SRP.md",
@@ -14606,8 +14607,7 @@
         "4.2 Mono 与 IL2CPP.md",
         "4.1 对象、运行时与热更新.md",
         "4.1 GameObject、Component 与 MonoBehaviour.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "OneNote/技术术语/第一章 编程语言与内存基础/1.1 C++.md": {
       "isPinned": false,
@@ -15236,11 +15236,11 @@
     "简历库/推荐报告": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "彭俊森-服务端架构性能优化推荐报告.md",
         "何鑫巍-游戏服务器开发推荐报告.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "简历库/推荐报告/何鑫巍-游戏服务器开发推荐报告.md": {
       "isPinned": false,
