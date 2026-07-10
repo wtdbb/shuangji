@@ -810,6 +810,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "执明（广州）网络科技有限公司",
         "广州.md",
         "广州介绍.md",
         "益世界",
@@ -15401,6 +15402,28 @@
       "isHidden": false
     },
     "简历库/梁郎淘-客户端.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/执明（广州）网络科技有限公司": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "执明（广州）网络科技有限公司介绍.md",
+        "执明（广州）网络科技有限公司.md",
+        "2D女性向恋爱卡牌手游.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/广州/执明（广州）网络科技有限公司/2D女性向恋爱卡牌手游.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/执明（广州）网络科技有限公司/执明（广州）网络科技有限公司.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/广州/执明（广州）网络科技有限公司/执明（广州）网络科技有限公司介绍.md": {
       "isPinned": false,
       "isHidden": false
     }
