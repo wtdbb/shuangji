@@ -1359,6 +1359,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "共斗.md",
         "ACT.md",
         "JRPG.md",
         "APRG.md",
@@ -15424,6 +15425,10 @@
       "isHidden": false
     },
     "岗位mapping/广州/执明（广州）网络科技有限公司/执明（广州）网络科技有限公司介绍.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/游戏类型/动作/共斗.md": {
       "isPinned": false,
       "isHidden": false
     }
