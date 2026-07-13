@@ -15269,6 +15269,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "钱勤-游戏客户端开发推荐报告.md",
         "彭俊森-服务端架构性能优化推荐报告.md",
         "何鑫巍-游戏服务器开发推荐报告.md"
       ]
@@ -15444,6 +15445,10 @@
       "isHidden": false
     },
     "简历库/钱勤 简历 2025.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/推荐报告/钱勤-游戏客户端开发推荐报告.md": {
       "isPinned": false,
       "isHidden": false
     }
