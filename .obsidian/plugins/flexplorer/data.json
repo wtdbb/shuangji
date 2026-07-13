@@ -14145,6 +14145,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "钱勤 简历 2025.pdf",
         "梁郎淘-客户端.pdf",
         "客户端-朱毅.pdf",
         "蒋鹏 客户端.pdf",
@@ -15439,6 +15440,10 @@
       "isHidden": false
     },
     "岗位mapping/上海/波克城市/Merge女性向休闲项目.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/钱勤 简历 2025.pdf": {
       "isPinned": false,
       "isHidden": false
     }
