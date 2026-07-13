@@ -47028,9 +47028,8 @@ function toCodexRuntimeModelId(modelId) {
 
 // src/providers/codex/types/models.ts
 var CODEX_SPARK_MODEL = "gpt-5.3-codex-spark";
-var DEFAULT_CODEX_MINI_MODEL = "gpt-5.6-luna";
-var DEFAULT_CODEX_TERRA_MODEL = "gpt-5.6-terra";
-var DEFAULT_CODEX_PRIMARY_MODEL = "gpt-5.6-sol";
+var DEFAULT_CODEX_MINI_MODEL = "gpt-5.4-mini";
+var DEFAULT_CODEX_PRIMARY_MODEL = "gpt-5.5";
 var FAST_TIER_CODEX_MODEL = DEFAULT_CODEX_PRIMARY_MODEL;
 function formatCodexModelSuffix(suffix) {
   return suffix.split("-").filter(Boolean).map((segment) => segment.charAt(0).toUpperCase() + segment.slice(1).toLowerCase()).join(" ");
@@ -47055,9 +47054,8 @@ var DEFAULT_CODEX_PRIMARY_MODEL_LABEL = formatCodexModelLabel(DEFAULT_CODEX_PRIM
 var FAST_TIER_CODEX_MODEL_LABEL = formatCodexModelLabel(FAST_TIER_CODEX_MODEL);
 var FAST_TIER_CODEX_DESCRIPTION = `Enable ${FAST_TIER_CODEX_MODEL_LABEL} fast mode for this conversation. Faster responses use more credits.`;
 var DEFAULT_CODEX_MODELS = [
-  createCodexModelOption(DEFAULT_CODEX_PRIMARY_MODEL, "Latest"),
-  createCodexModelOption(DEFAULT_CODEX_TERRA_MODEL, "Balanced"),
-  createCodexModelOption(DEFAULT_CODEX_MINI_MODEL, "Fast")
+  createCodexModelOption(DEFAULT_CODEX_MINI_MODEL, "Fast"),
+  createCodexModelOption(DEFAULT_CODEX_PRIMARY_MODEL, "Latest")
 ];
 var DEFAULT_CODEX_MODEL_SET = new Set(DEFAULT_CODEX_MODELS.map((model) => model.value));
 
