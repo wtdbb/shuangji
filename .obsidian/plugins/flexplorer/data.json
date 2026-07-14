@@ -5,6 +5,9 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "_tmp_portfolio_compressed.zip",
+        "_compress_portfolio.py",
+        "_tmp_portfolio_original.zip",
         "乌萨奇.md",
         "简历库",
         "AI信息收集系统",
@@ -15487,6 +15490,18 @@
       "isHidden": false
     },
     "简历库/吕盈-作品集 (2).zip": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "_tmp_portfolio_original.zip": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "_compress_portfolio.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "_tmp_portfolio_compressed.zip": {
       "isPinned": false,
       "isHidden": false
     }
