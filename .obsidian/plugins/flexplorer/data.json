@@ -15461,11 +15461,11 @@
     "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯CDD": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "虚环.md",
         "腾讯CDD.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯CDD/腾讯CDD.md": {
       "isPinned": false,
