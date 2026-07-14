@@ -1100,6 +1100,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-07-14.md",
         "2026-07-13.md",
         "2026-07-10.md",
         "2026-07-09.md",
@@ -5219,6 +5220,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "腾讯CDD",
         "腾讯魔方",
         "腾讯天美",
         "腾讯互娱 琳琅天上工作室",
@@ -15449,6 +15451,27 @@
       "isHidden": false
     },
     "简历库/推荐报告/钱勤-游戏客户端开发推荐报告.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯CDD": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "虚环.md",
+        "腾讯CDD.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯CDD/腾讯CDD.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/腾讯/深圳腾讯/腾讯CDD/虚环.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-07-14.md": {
       "isPinned": false,
       "isHidden": false
     }
