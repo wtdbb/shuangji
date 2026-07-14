@@ -14147,6 +14147,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "吕盈-简历-文案策划(1).pdf",
         "钱勤 简历 2025.pdf",
         "梁郎淘-客户端.pdf",
         "客户端-朱毅.pdf",
@@ -15271,6 +15272,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "吕盈-女性向游戏文案策划推荐报告.md",
         "钱勤-游戏客户端开发推荐报告.md",
         "彭俊森-服务端架构性能优化推荐报告.md",
         "何鑫巍-游戏服务器开发推荐报告.md"
@@ -15472,6 +15474,14 @@
       "isHidden": false
     },
     "Daily notes/Calendar/Journal/Daily/2026-07-14.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/吕盈-简历-文案策划(1).pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/推荐报告/吕盈-女性向游戏文案策划推荐报告.md": {
       "isPinned": false,
       "isHidden": false
     }
