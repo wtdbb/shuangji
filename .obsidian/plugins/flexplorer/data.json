@@ -5,9 +5,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "_tmp_portfolio_compressed.zip",
-        "_compress_portfolio.py",
-        "_tmp_portfolio_original.zip",
         "乌萨奇.md",
         "简历库",
         "AI信息收集系统",
@@ -14150,6 +14147,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "吕盈-作品集-压缩版.zip",
         "吕盈-作品集 (2).zip",
         "吕盈-简历-文案策划(1).pdf",
         "钱勤 简历 2025.pdf",
@@ -15493,15 +15491,7 @@
       "isPinned": false,
       "isHidden": false
     },
-    "_tmp_portfolio_original.zip": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "_compress_portfolio.py": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "_tmp_portfolio_compressed.zip": {
+    "简历库/吕盈-作品集-压缩版.zip": {
       "isPinned": false,
       "isHidden": false
     }
