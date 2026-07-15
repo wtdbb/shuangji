@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "技术术语",
         "乌萨奇.md",
         "简历库",
         "AI信息收集系统",
@@ -15507,6 +15508,18 @@
       "isHidden": false
     },
     "Daily notes/Calendar/Journal/Daily/2026-07-15.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "技术术语": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "干股.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "技术术语/干股.md": {
       "isPinned": false,
       "isHidden": false
     }
