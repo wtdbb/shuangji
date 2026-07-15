@@ -1100,6 +1100,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-07-15.md",
         "2026-07-14.md",
         "2026-07-13.md",
         "2026-07-10.md",
@@ -15275,6 +15276,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "刘玥含-Merge出海剧情策划推荐报告.md",
         "吕盈-女性向游戏文案策划推荐报告.md",
         "钱勤-游戏客户端开发推荐报告.md",
         "彭俊森-服务端架构性能优化推荐报告.md",
@@ -15497,6 +15499,14 @@
       "isHidden": false
     },
     "简历库/简历 - 刘玥含.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/推荐报告/刘玥含-Merge出海剧情策划推荐报告.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-07-15.md": {
       "isPinned": false,
       "isHidden": false
     }
