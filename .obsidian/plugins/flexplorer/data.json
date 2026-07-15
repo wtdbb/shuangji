@@ -14147,6 +14147,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "简历 - 刘玥含.pdf",
         "吕盈-作品集-压缩版.zip",
         "吕盈-作品集 (2).zip",
         "吕盈-简历-文案策划(1).pdf",
@@ -15492,6 +15493,10 @@
       "isHidden": false
     },
     "简历库/吕盈-作品集-压缩版.zip": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/简历 - 刘玥含.pdf": {
       "isPinned": false,
       "isHidden": false
     }
