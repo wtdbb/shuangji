@@ -14151,6 +14151,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "文案策划 程路.pdf",
         "简历 - 刘玥含.pdf",
         "吕盈-作品集-压缩版.zip",
         "吕盈-作品集 (2).zip",
@@ -15543,6 +15544,10 @@
       ]
     },
     "岗位mapping/海外/珍艾碧丝（Pearl Abyss）/多可比（DokeV）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/文案策划 程路.pdf": {
       "isPinned": false,
       "isHidden": false
     }
