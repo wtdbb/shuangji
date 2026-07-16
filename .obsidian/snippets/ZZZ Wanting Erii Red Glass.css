@@ -251,6 +251,135 @@ body .mod-root :is(.view-content, .markdown-reading-view, .markdown-source-view)
   -webkit-backdrop-filter: blur(1px) saturate(1.08) !important;
 }
 
+/* Obsidian 1.12: beat the older theme's high-specificity 86% paper layers. */
+body.theme-light
+  .workspace-split.mod-root
+  :is(
+    .workspace-leaf-content,
+    .view-content,
+    .markdown-reading-view,
+    .markdown-source-view,
+    .markdown-preview-view
+  ),
+body.theme-dark
+  .workspace-split.mod-root
+  :is(
+    .workspace-leaf-content,
+    .view-content,
+    .markdown-reading-view,
+    .markdown-source-view,
+    .markdown-preview-view
+  ) {
+  background: rgba(255, 248, 250, 0.055) !important;
+  backdrop-filter: blur(1px) saturate(1.08) !important;
+  -webkit-backdrop-filter: blur(1px) saturate(1.08) !important;
+}
+
+body.theme-light
+  :is(
+    .workspace-split.mod-left-split,
+    .workspace-split.mod-right-split
+  )
+  :is(
+    .workspace-leaf-content,
+    .view-content,
+    .nav-files-container,
+    .nav-header,
+    .side-dock-settings
+  ),
+body.theme-dark
+  :is(
+    .workspace-split.mod-left-split,
+    .workspace-split.mod-right-split
+  )
+  :is(
+    .workspace-leaf-content,
+    .view-content,
+    .nav-files-container,
+    .nav-header,
+    .side-dock-settings
+  ) {
+  color: rgba(255, 244, 247, 0.9) !important;
+  background:
+    linear-gradient(145deg, rgba(106, 8, 35, 0.25), rgba(42, 1, 13, 0.32)) !important;
+  border-color: rgba(255, 207, 219, 0.16) !important;
+  backdrop-filter: blur(13px) saturate(1.22) !important;
+  -webkit-backdrop-filter: blur(13px) saturate(1.22) !important;
+}
+
+body.theme-light
+  :is(
+    .workspace-split.mod-left-split,
+    .workspace-split.mod-right-split
+  )
+  :is(
+    .nav-folder-title,
+    .nav-file-title,
+    .tree-item-self,
+    .tree-item-inner,
+    .backlink-pane,
+    .outgoing-link-pane
+  ),
+body.theme-dark
+  :is(
+    .workspace-split.mod-left-split,
+    .workspace-split.mod-right-split
+  )
+  :is(
+    .nav-folder-title,
+    .nav-file-title,
+    .tree-item-self,
+    .tree-item-inner,
+    .backlink-pane,
+    .outgoing-link-pane
+  ) {
+  color: rgba(255, 240, 244, 0.88) !important;
+}
+
+body.theme-light
+  :is(
+    .workspace-split.mod-left-split,
+    .workspace-split.mod-right-split
+  )
+  :is(.nav-folder-title, .nav-file-title, .tree-item-self):hover,
+body.theme-dark
+  :is(
+    .workspace-split.mod-left-split,
+    .workspace-split.mod-right-split
+  )
+  :is(.nav-folder-title, .nav-file-title, .tree-item-self):hover {
+  color: #fff !important;
+  background: rgba(255, 220, 229, 0.12) !important;
+}
+
+body.theme-light
+  :is(
+    .workspace-split.mod-left-split,
+    .workspace-split.mod-right-split
+  )
+  :is(
+    .nav-file-title.is-active,
+    .nav-folder-title.is-active,
+    .tree-item-self.is-active
+  ),
+body.theme-dark
+  :is(
+    .workspace-split.mod-left-split,
+    .workspace-split.mod-right-split
+  )
+  :is(
+    .nav-file-title.is-active,
+    .nav-folder-title.is-active,
+    .tree-item-self.is-active
+  ) {
+  color: #fff !important;
+  background:
+    linear-gradient(90deg, rgba(211, 43, 80, 0.38), rgba(255, 224, 232, 0.08)) !important;
+  box-shadow:
+    inset 3px 0 0 #ef7892,
+    0 7px 18px rgba(35, 0, 10, 0.16) !important;
+}
+
 body :is(.view-header, .inline-titlebar) {
   color: #5b0b21 !important;
   background: rgba(255, 244, 247, 0.25) !important;
