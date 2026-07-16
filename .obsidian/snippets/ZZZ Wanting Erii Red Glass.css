@@ -381,6 +381,14 @@ body
   color: #fff5f8 !important;
 }
 
+body
+  .home
+  .callout[data-callout="home-stack"]
+  .dataview.list-view-ul
+  li::marker {
+  color: #e85f7d !important;
+}
+
 /* Daily colors still rotate, but all stay in the same red cinematic palette. */
 body :is(.daily, .weekly, .monthly, .quarterly, .yearly) {
   --paper: rgba(255, 247, 249, 0.2) !important;
@@ -445,6 +453,16 @@ body
 }
 
 body
+  .markdown-preview-view:is(.daily, .weekly, .monthly, .quarterly, .yearly)
+  h3::before,
+body
+  .markdown-preview-view:is(.daily, .weekly, .monthly, .quarterly, .yearly)
+  h3::after {
+  background: var(--accent) !important;
+  opacity: 0.34 !important;
+}
+
+body
   :is(.daily, .weekly, .monthly, .quarterly, .yearly)
   :is(h4, .HyperMD-header-4) {
   color: #fff8fa !important;
@@ -473,6 +491,10 @@ body
   border-color: color-mix(in srgb, var(--accent) 32%, transparent) !important;
   background: var(--accent-soft) !important;
   color: var(--ink) !important;
+}
+
+body :is(.daily, .weekly, .monthly, .quarterly, .yearly) hr {
+  border-color: color-mix(in srgb, var(--accent) 28%, transparent) !important;
 }
 
 body
