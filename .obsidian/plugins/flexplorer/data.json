@@ -7045,6 +7045,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "珍艾碧丝（Pearl Abyss）",
         "Gameloft",
         "育碧（Ubisoft）",
         "顽皮狗（Naughty Dog）"
@@ -15532,6 +15533,12 @@
     "技术术语/已上线游戏项目判断框架.md": {
       "isPinned": false,
       "isHidden": false
+    },
+    "岗位mapping/海外/珍艾碧丝（Pearl Abyss）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
     }
   },
   "pinnedFiles": [],
