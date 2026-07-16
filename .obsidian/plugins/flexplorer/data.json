@@ -1101,6 +1101,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-07-17.md",
         "2026-07-16.md",
         "2026-07-15.md",
         "2026-07-14.md",
@@ -15548,6 +15549,10 @@
       "isHidden": false
     },
     "简历库/文案策划 程路.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-07-17.md": {
       "isPinned": false,
       "isHidden": false
     }
