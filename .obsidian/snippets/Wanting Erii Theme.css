@@ -32,8 +32,8 @@ settings:
 body {
   --wt-glass-opacity: 86%;
   --wt-radius: 16px;
-  --wt-wallpaper: url("app://local/C:/Users/EDY/Documents/CodexVault/.obsidian/snippets/wanting-theme/wanting-background.png");
-  --wt-erii-sprite: url("app://local/C:/Users/EDY/Documents/CodexVault/.obsidian/snippets/wanting-theme/erii-spritesheet.webp");
+  --wt-wallpaper: url("app://local/C:/Users/EDY/Documents/CodexVault/.obsidian/snippets/wanting-theme/wanting-background.webp");
+  --wt-erii-sprite: url("app://local/C:/Users/EDY/Documents/CodexVault/.obsidian/snippets/wanting-theme/erii-icon.webp");
   --wt-mingfei: url("app://local/C:/Users/EDY/Documents/CodexVault/.obsidian/snippets/wanting-theme/mingfei-official.jpg");
   --wt-rose-50: #fff7fa;
   --wt-rose-100: #fdebf2;
@@ -310,7 +310,7 @@ body .home.markdown-source-view.mod-cm6 .cm-sizer::before {
   height: clamp(112px, 12vw, 150px) !important;
   border: 0 !important;
   border-radius: 0 !important;
-  background: var(--wt-erii-sprite) 0 0 / 800% auto no-repeat !important;
+  background: var(--wt-erii-sprite) center / contain no-repeat !important;
   opacity: 0.98 !important;
   filter: drop-shadow(0 10px 18px rgba(135, 47, 84, 0.22)) !important;
   animation: wt-erii-float 4.8s ease-in-out infinite !important;
@@ -415,7 +415,7 @@ body
   .home
   .internal-link[data-href="Daily notes/Bases/On This Day.base"]::before,
 body .home .internal-link[data-href="配置/index"]::before {
-  background: rgba(255, 236, 244, 0.84) var(--wt-erii-sprite) 0 0 / 800% auto
+  background: rgba(255, 236, 244, 0.84) var(--wt-erii-sprite) center / contain
     no-repeat !important;
 }
 
@@ -494,7 +494,7 @@ body .home .dataview.list-view-ul li a {
     .nav-folder-title[data-path="99_低频归档"]
   )
   :is(.nav-folder-title-content, .nav-file-title-content)::before {
-  background: rgba(255, 236, 244, 0.88) var(--wt-erii-sprite) 0 0 / 800% auto
+  background: rgba(255, 236, 244, 0.88) var(--wt-erii-sprite) center / contain
     no-repeat !important;
 }
 
@@ -971,7 +971,7 @@ body.theme-dark
     .internal-link[data-href="Daily notes/Bases/On This Day.base"],
     .internal-link[data-href="配置/index"]
   )::before {
-  background: rgba(255, 236, 244, 0.86) var(--wt-erii-sprite) 0 0 / 800% auto
+  background: rgba(255, 236, 244, 0.86) var(--wt-erii-sprite) center / contain
     no-repeat !important;
 }
 
@@ -1082,7 +1082,7 @@ body.theme-light .home.markdown-preview-view .markdown-preview-sizer::before,
 body.theme-light .home.markdown-source-view.mod-cm6 .cm-sizer::before,
 body.theme-dark .home.markdown-preview-view .markdown-preview-sizer::before,
 body.theme-dark .home.markdown-source-view.mod-cm6 .cm-sizer::before {
-  background: var(--wt-erii-sprite) 0 0 / 800% auto no-repeat !important;
+  background: var(--wt-erii-sprite) center / contain no-repeat !important;
   filter: drop-shadow(0 10px 18px rgba(135, 47, 84, 0.22)) !important;
 }
 
@@ -1170,7 +1170,7 @@ body.theme-dark
   vertical-align: -6px !important;
   border: 1px solid rgba(255, 255, 255, 0.82) !important;
   border-radius: 50% !important;
-  background: rgba(255, 236, 244, 0.88) var(--wt-erii-sprite) 0 0 / 800% auto
+  background: rgba(255, 236, 244, 0.88) var(--wt-erii-sprite) center / contain
     no-repeat !important;
   box-shadow: 0 2px 7px rgba(110, 41, 70, 0.12) !important;
   filter: none !important;
