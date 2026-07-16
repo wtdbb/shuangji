@@ -1,0 +1,17 @@
+{
+  "cssTheme": "Minimal",
+  "accentColor": "#dca82f",
+  "enabledCssSnippets": [
+    "Daily Note Themes",
+    "dash-nav",
+    "Embed Float Images",
+    "General Tweaks",
+    "popover-width",
+    "Home Page",
+    "Honey Gold UI"
+  ],
+  "theme": "moonstone",
+  "nativeMenus": true,
+  "baseFontSizeAction": true,
+  "baseFontSize": 18
+}
