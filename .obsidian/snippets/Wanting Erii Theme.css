@@ -766,6 +766,429 @@ body ::-webkit-scrollbar-thumb:hover {
   background: rgba(196, 95, 135, 0.48) !important;
 }
 
+/* ---------- Priority overrides for the legacy gold snippets ---------- */
+body.theme-light .home .callout[data-callout="home-stack"],
+body.theme-dark .home .callout[data-callout="home-stack"] {
+  background: linear-gradient(
+    145deg,
+    rgba(255, 247, 250, 0.72),
+    rgba(248, 214, 229, 0.58)
+  ) !important;
+  border-color: rgba(196, 95, 135, 0.28) !important;
+}
+
+body.theme-light .home .callout[data-callout="home-stack"]::before,
+body.theme-dark .home .callout[data-callout="home-stack"]::before {
+  background:
+    radial-gradient(
+      circle at 14% 12%,
+      rgba(255, 202, 222, 0.36),
+      transparent 20%
+    ),
+    radial-gradient(
+      circle at 86% 18%,
+      rgba(231, 147, 178, 0.22),
+      transparent 22%
+    ),
+    linear-gradient(
+      112deg,
+      transparent 0 38%,
+      rgba(255, 255, 255, 0.34) 47%,
+      transparent 56% 100%
+    ) !important;
+}
+
+body.theme-light
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  > :is(p:nth-of-type(1), p:nth-of-type(2))
+  .internal-link,
+body.theme-dark
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  > :is(p:nth-of-type(1), p:nth-of-type(2))
+  .internal-link {
+  min-height: 50px !important;
+  height: 50px !important;
+  gap: 7px !important;
+  padding: 5px 11px !important;
+  border-color: rgba(196, 95, 135, 0.26) !important;
+  color: var(--wt-rose-700) !important;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 254, 255, 0.9),
+    rgba(249, 221, 233, 0.84)
+  ) !important;
+  box-shadow:
+    0 6px 16px rgba(129, 49, 82, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.82) !important;
+  font-size: 0.94em !important;
+  font-weight: 680 !important;
+  letter-spacing: 0 !important;
+  white-space: nowrap !important;
+}
+
+body.theme-light
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  > :is(p:nth-of-type(1), p:nth-of-type(2))
+  .internal-link:hover,
+body.theme-dark
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  > :is(p:nth-of-type(1), p:nth-of-type(2))
+  .internal-link:hover {
+  color: #fffafd !important;
+  background: linear-gradient(
+    180deg,
+    var(--wt-rose-400),
+    var(--wt-rose-600)
+  ) !important;
+  box-shadow:
+    0 10px 22px rgba(153, 55, 96, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.42) !important;
+}
+
+body.theme-light
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  > :is(p:nth-of-type(1), p:nth-of-type(2))
+  .internal-link::before,
+body.theme-dark
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  > :is(p:nth-of-type(1), p:nth-of-type(2))
+  .internal-link::before {
+  width: 2em !important;
+  height: 2em !important;
+  min-width: 2em !important;
+  margin: 0 !important;
+  border: 1px solid rgba(255, 255, 255, 0.82) !important;
+  border-radius: 50% !important;
+  box-shadow: 0 3px 9px rgba(120, 44, 75, 0.13) !important;
+}
+
+body.theme-light
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  > :is(p:nth-of-type(1), p:nth-of-type(2))
+  .internal-link::after,
+body.theme-dark
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  > :is(p:nth-of-type(1), p:nth-of-type(2))
+  .internal-link::after {
+  left: 2.42em !important;
+  bottom: 0.15em !important;
+  width: 1.05em !important;
+  height: 1.05em !important;
+  font-size: 0.6em !important;
+}
+
+body
+  .home
+  .callout[data-callout="home-stack"]
+  .internal-link[data-href="行业mapping/行业mapping"] {
+  --wt-badge: "⌁";
+}
+
+body
+  .home
+  .callout[data-callout="home-stack"]
+  .internal-link[data-href="岗位mapping/岗位mapping"] {
+  --wt-badge: "◆";
+}
+
+body
+  .home
+  .callout[data-callout="home-stack"]
+  .internal-link[data-href="Daily notes/Bases/Calendar.base"] {
+  --wt-badge: "日";
+}
+
+body
+  .home
+  .callout[data-callout="home-stack"]
+  .internal-link[data-href="行业报告/行业报告"] {
+  --wt-badge: "↗";
+}
+
+body
+  .home
+  .callout[data-callout="home-stack"]
+  .internal-link[data-href="Daily notes/Bases/On This Day.base"] {
+  --wt-badge: "✦";
+}
+
+body
+  .home
+  .callout[data-callout="home-stack"]
+  .internal-link[data-href="skill/sp-skill/SKILL"] {
+  --wt-badge: "⚡";
+}
+
+body
+  .home
+  .callout[data-callout="home-stack"]
+  .internal-link[data-href="配置/index"] {
+  --wt-badge: "⚙";
+}
+
+body
+  .home
+  .callout[data-callout="home-stack"]
+  .internal-link[data-href="蒸馏/index"] {
+  --wt-badge: "∞";
+}
+
+body.theme-light
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  > :is(p:nth-of-type(1), p:nth-of-type(2))
+  :is(
+    .internal-link[data-href="行业mapping/行业mapping"],
+    .internal-link[data-href="Daily notes/Bases/Calendar.base"],
+    .internal-link[data-href="Daily notes/Bases/On This Day.base"],
+    .internal-link[data-href="配置/index"]
+  )::before,
+body.theme-dark
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  > :is(p:nth-of-type(1), p:nth-of-type(2))
+  :is(
+    .internal-link[data-href="行业mapping/行业mapping"],
+    .internal-link[data-href="Daily notes/Bases/Calendar.base"],
+    .internal-link[data-href="Daily notes/Bases/On This Day.base"],
+    .internal-link[data-href="配置/index"]
+  )::before {
+  background: rgba(255, 236, 244, 0.86) var(--wt-erii-sprite) 0 0 / 800% auto
+    no-repeat !important;
+}
+
+body.theme-light
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  > :is(p:nth-of-type(1), p:nth-of-type(2))
+  :is(
+    .internal-link[data-href="岗位mapping/岗位mapping"],
+    .internal-link[data-href="行业报告/行业报告"],
+    .internal-link[data-href="skill/sp-skill/SKILL"],
+    .internal-link[data-href="蒸馏/index"]
+  )::before,
+body.theme-dark
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  > :is(p:nth-of-type(1), p:nth-of-type(2))
+  :is(
+    .internal-link[data-href="岗位mapping/岗位mapping"],
+    .internal-link[data-href="行业报告/行业报告"],
+    .internal-link[data-href="skill/sp-skill/SKILL"],
+    .internal-link[data-href="蒸馏/index"]
+  )::before {
+  background: var(--wt-mingfei) 17% 28% / 280% auto no-repeat !important;
+}
+
+body.theme-light
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  > p:nth-of-type(3),
+body.theme-dark
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  > p:nth-of-type(3) {
+  color: var(--wt-rose-700) !important;
+  background: rgba(255, 246, 250, 0.72) !important;
+  font-weight: 760 !important;
+}
+
+body.theme-light
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  > p:nth-of-type(3)::before,
+body.theme-dark
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  > p:nth-of-type(3)::before {
+  color: var(--wt-rose-500) !important;
+}
+
+body.theme-light
+  .home
+  .callout[data-callout="home-stack"]
+  :is(.block-language-dataview, .dataview.list-view-ul),
+body.theme-dark
+  .home
+  .callout[data-callout="home-stack"]
+  :is(.block-language-dataview, .dataview.list-view-ul) {
+  background: rgba(255, 249, 251, 0.72) !important;
+  border-color: rgba(205, 104, 145, 0.2) !important;
+}
+
+body.theme-light
+  .home
+  .callout[data-callout="home-stack"]
+  .dataview.list-view-ul
+  li,
+body.theme-dark
+  .home
+  .callout[data-callout="home-stack"]
+  .dataview.list-view-ul
+  li {
+  color: var(--wt-muted) !important;
+  background: rgba(255, 251, 252, 0.8) !important;
+  border-bottom-color: rgba(205, 104, 145, 0.18) !important;
+}
+
+body.theme-light .home.markdown-preview-view .markdown-preview-sizer::before,
+body.theme-light .home.markdown-source-view.mod-cm6 .cm-sizer::before,
+body.theme-dark .home.markdown-preview-view .markdown-preview-sizer::before,
+body.theme-dark .home.markdown-source-view.mod-cm6 .cm-sizer::before {
+  background: var(--wt-erii-sprite) 0 0 / 800% auto no-repeat !important;
+  filter: drop-shadow(0 10px 18px rgba(135, 47, 84, 0.22)) !important;
+}
+
+body.theme-light :is(.nav-folder-title, .nav-file-title, .tree-item-self):hover,
+body.theme-dark :is(.nav-folder-title, .nav-file-title, .tree-item-self):hover {
+  color: var(--wt-rose-700) !important;
+  background: rgba(231, 147, 178, 0.14) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.7),
+    0 4px 12px rgba(129, 49, 82, 0.08) !important;
+}
+
+body.theme-light
+  :is(
+    .nav-file-title.is-active,
+    .nav-folder-title.is-active,
+    .tree-item-self.is-active,
+    .tree-item-self.is-clickable.is-active
+  ),
+body.theme-dark
+  :is(
+    .nav-file-title.is-active,
+    .nav-folder-title.is-active,
+    .tree-item-self.is-active,
+    .tree-item-self.is-clickable.is-active
+  ) {
+  color: var(--wt-rose-700) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(248, 215, 228, 0.78),
+    rgba(255, 239, 246, 0.56)
+  ) !important;
+  box-shadow:
+    inset 3px 0 0 var(--wt-rose-500),
+    0 6px 16px rgba(129, 49, 82, 0.1) !important;
+}
+
+body.theme-light
+  :is(.nav-file-title, .nav-folder-title, .tree-item-self):hover::before,
+body.theme-dark
+  :is(.nav-file-title, .nav-folder-title, .tree-item-self):hover::before,
+body.theme-light
+  :is(
+    .nav-file-title.is-active,
+    .nav-folder-title.is-active,
+    .tree-item-self.is-active
+  )::before,
+body.theme-dark
+  :is(
+    .nav-file-title.is-active,
+    .nav-folder-title.is-active,
+    .tree-item-self.is-active
+  )::before {
+  background: var(--wt-rose-500) !important;
+}
+
+body.theme-light
+  :is(
+    .nav-file-title[data-path="乌萨奇.md"],
+    .nav-folder-title[data-path="AI信息收集系统"],
+    .nav-folder-title[data-path="Daily notes"],
+    .nav-folder-title[data-path="行业mapping"],
+    .nav-folder-title[data-path="图片归档"],
+    .nav-folder-title[data-path="配置"],
+    .nav-folder-title[data-path="99_低频归档"]
+  )
+  :is(.nav-file-title-content, .nav-folder-title-content)::before,
+body.theme-dark
+  :is(
+    .nav-file-title[data-path="乌萨奇.md"],
+    .nav-folder-title[data-path="AI信息收集系统"],
+    .nav-folder-title[data-path="Daily notes"],
+    .nav-folder-title[data-path="行业mapping"],
+    .nav-folder-title[data-path="图片归档"],
+    .nav-folder-title[data-path="配置"],
+    .nav-folder-title[data-path="99_低频归档"]
+  )
+  :is(.nav-file-title-content, .nav-folder-title-content)::before {
+  content: "" !important;
+  display: inline-block !important;
+  width: 24px !important;
+  height: 24px !important;
+  min-width: 24px !important;
+  margin-right: 6px !important;
+  vertical-align: -6px !important;
+  border: 1px solid rgba(255, 255, 255, 0.82) !important;
+  border-radius: 50% !important;
+  background: rgba(255, 236, 244, 0.88) var(--wt-erii-sprite) 0 0 / 800% auto
+    no-repeat !important;
+  box-shadow: 0 2px 7px rgba(110, 41, 70, 0.12) !important;
+  filter: none !important;
+}
+
+body.theme-light
+  :is(
+    .nav-folder-title[data-path="技术术语"],
+    .nav-folder-title[data-path="简历库"],
+    .nav-folder-title[data-path="岗位mapping"],
+    .nav-folder-title[data-path="OneNote"],
+    .nav-folder-title[data-path="行业报告"],
+    .nav-folder-title[data-path="蒸馏"],
+    .nav-folder-title[data-path="skill"]
+  )
+  .nav-folder-title-content::before,
+body.theme-dark
+  :is(
+    .nav-folder-title[data-path="技术术语"],
+    .nav-folder-title[data-path="简历库"],
+    .nav-folder-title[data-path="岗位mapping"],
+    .nav-folder-title[data-path="OneNote"],
+    .nav-folder-title[data-path="行业报告"],
+    .nav-folder-title[data-path="蒸馏"],
+    .nav-folder-title[data-path="skill"]
+  )
+  .nav-folder-title-content::before {
+  content: "" !important;
+  display: inline-block !important;
+  width: 24px !important;
+  height: 24px !important;
+  min-width: 24px !important;
+  margin-right: 6px !important;
+  vertical-align: -6px !important;
+  border: 1px solid rgba(255, 255, 255, 0.82) !important;
+  border-radius: 50% !important;
+  background: var(--wt-mingfei) 17% 28% / 280% auto no-repeat !important;
+  box-shadow: 0 2px 7px rgba(110, 41, 70, 0.12) !important;
+  filter: none !important;
+}
+
 @keyframes wt-title-breathe {
   0%,
   100% {
