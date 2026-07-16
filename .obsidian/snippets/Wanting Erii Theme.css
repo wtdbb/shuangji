@@ -1264,6 +1264,50 @@ body :is(.daily.saturday, .daily.Saturday, .daily.星期六) {
   --accent-soft: rgba(226, 183, 201, 0.42) !important;
 }
 
+body
+  .daily
+  :is(h1, h3, h5, .HyperMD-header-1, .HyperMD-header-3, .HyperMD-header-5) {
+  color: var(--accent) !important;
+}
+
+body .daily :is(h2, .HyperMD-header-2) {
+  color: var(--muted) !important;
+}
+
+body .daily :is(h4, .HyperMD-header-4) {
+  color: #fffafd !important;
+  background: var(--accent) !important;
+  box-shadow: 0 3px 10px color-mix(in srgb, var(--accent) 28%, transparent) !important;
+}
+
+body
+  .daily
+  :is(
+    a,
+    .internal-link,
+    .external-link,
+    .cm-hmd-internal-link,
+    .cm-link,
+    .cm-url
+  ) {
+  color: var(--accent) !important;
+  background-image: none !important;
+}
+
+body .daily hr {
+  border-color: var(--line) !important;
+}
+
+body .daily :is(blockquote, .callout) {
+  border-color: var(--accent) !important;
+  background: var(--accent-soft) !important;
+}
+
+body .daily :is(.list-bullet, .task-list-item-checkbox) {
+  color: var(--accent) !important;
+  border-color: var(--accent) !important;
+}
+
 @keyframes wt-title-breathe {
   0%,
   100% {
