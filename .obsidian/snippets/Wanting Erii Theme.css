@@ -1,0 +1,700 @@
+/* ============================================================
+   WANTING ERII THEME
+   Pink glass Obsidian skin matching the local Codex theme.
+   Loaded after the existing Home Page / Honey Gold snippets.
+   ============================================================ */
+
+/* @settings
+
+name: Wanting Erii Theme
+id: wanting-erii-theme
+settings:
+  -
+    id: wt-glass-opacity
+    title: Glass opacity
+    type: variable-number-slider
+    default: 86
+    min: 68
+    max: 98
+    step: 1
+    format: "%"
+  -
+    id: wt-radius
+    title: Corner radius
+    type: variable-number-slider
+    default: 16
+    min: 8
+    max: 28
+    step: 1
+    format: px
+*/
+
+body {
+  --wt-glass-opacity: 86%;
+  --wt-radius: 16px;
+  --wt-wallpaper: url("wanting-theme/wanting-background.png");
+  --wt-erii-sprite: url("wanting-theme/erii-spritesheet.webp");
+  --wt-mingfei: url("wanting-theme/mingfei-official.jpg");
+  --wt-rose-50: #fff7fa;
+  --wt-rose-100: #fdebf2;
+  --wt-rose-200: #f8d7e4;
+  --wt-rose-300: #efb7cc;
+  --wt-rose-400: #e793b2;
+  --wt-rose-500: #d8759c;
+  --wt-rose-600: #c45f87;
+  --wt-rose-700: #9f456c;
+  --wt-plum: #5a3448;
+  --wt-muted: #8f7080;
+  --wt-line: rgba(192, 97, 135, .24);
+  --wt-shadow: 0 12px 38px rgba(118, 48, 80, .14);
+  --wt-shadow-soft: 0 5px 18px rgba(118, 48, 80, .10);
+}
+
+body.theme-light {
+  --accent-h: 337;
+  --accent-s: 55%;
+  --accent-l: 62%;
+  --background-primary: rgba(255, 249, 251, .90);
+  --background-primary-alt: rgba(253, 238, 244, .92);
+  --background-secondary: rgba(249, 224, 235, .88);
+  --background-secondary-alt: rgba(245, 211, 226, .90);
+  --background-modifier-hover: rgba(216, 117, 156, .13);
+  --background-modifier-active-hover: rgba(216, 117, 156, .20);
+  --background-modifier-border: var(--wt-line);
+  --background-modifier-border-hover: rgba(188, 83, 125, .38);
+  --background-modifier-border-focus: var(--wt-rose-500);
+  --interactive-normal: rgba(255, 244, 248, .92);
+  --interactive-hover: var(--wt-rose-100);
+  --interactive-accent: var(--wt-rose-500);
+  --interactive-accent-hover: var(--wt-rose-600);
+  --text-normal: var(--wt-plum);
+  --text-muted: var(--wt-muted);
+  --text-faint: #b89baa;
+  --text-accent: var(--wt-rose-700);
+  --text-accent-hover: var(--wt-rose-600);
+  --text-on-accent: #fffafd;
+  --text-selection: rgba(231, 147, 178, .28);
+  --bold-color: var(--wt-rose-700);
+  background:
+    linear-gradient(110deg, rgba(255, 239, 246, .18), rgba(255, 249, 251, .08)),
+    var(--wt-wallpaper) center / cover fixed no-repeat !important;
+}
+
+body.theme-dark {
+  --accent-h: 337;
+  --accent-s: 58%;
+  --accent-l: 67%;
+  --background-primary: rgba(40, 25, 34, .91);
+  --background-primary-alt: rgba(48, 29, 39, .92);
+  --background-secondary: rgba(53, 31, 43, .91);
+  --background-secondary-alt: rgba(60, 35, 48, .92);
+  --background-modifier-hover: rgba(231, 147, 178, .14);
+  --background-modifier-active-hover: rgba(231, 147, 178, .22);
+  --background-modifier-border: rgba(231, 147, 178, .20);
+  --interactive-normal: rgba(57, 34, 47, .94);
+  --interactive-hover: rgba(216, 117, 156, .20);
+  --interactive-accent: var(--wt-rose-400);
+  --interactive-accent-hover: #f1adc7;
+  --text-normal: #f7eaf0;
+  --text-muted: #c7aeb9;
+  --text-faint: #967b87;
+  --text-accent: #f0a8c3;
+  --text-accent-hover: #ffd2e1;
+  --text-on-accent: #3b2030;
+  --text-selection: rgba(231, 147, 178, .25);
+  --bold-color: #f0a8c3;
+  background:
+    linear-gradient(110deg, rgba(39, 20, 31, .55), rgba(63, 30, 47, .36)),
+    var(--wt-wallpaper) center / cover fixed no-repeat !important;
+}
+
+/* ---------- Global glass surfaces ---------- */
+body :is(.workspace, .workspace-split, .workspace-tabs, .workspace-leaf) {
+  background: transparent !important;
+}
+
+body.theme-light :is(
+  .workspace-ribbon,
+  .workspace-sidedock-vault-profile,
+  .mod-sidedock .workspace-leaf-content,
+  .nav-files-container,
+  .nav-header,
+  .side-dock-settings,
+  .workspace-tab-header-container
+) {
+  background: rgba(255, 241, 247, .84) !important;
+  backdrop-filter: blur(18px) saturate(1.08);
+  -webkit-backdrop-filter: blur(18px) saturate(1.08);
+}
+
+body.theme-dark :is(
+  .workspace-ribbon,
+  .workspace-sidedock-vault-profile,
+  .mod-sidedock .workspace-leaf-content,
+  .nav-files-container,
+  .nav-header,
+  .side-dock-settings,
+  .workspace-tab-header-container
+) {
+  background: rgba(45, 26, 37, .88) !important;
+  backdrop-filter: blur(18px) saturate(1.05);
+  -webkit-backdrop-filter: blur(18px) saturate(1.05);
+}
+
+body.theme-light :is(
+  .mod-root .workspace-leaf-content,
+  .view-content,
+  .markdown-reading-view,
+  .markdown-source-view,
+  .markdown-preview-view
+) {
+  background: rgba(255, 250, 252, var(--wt-glass-opacity)) !important;
+  backdrop-filter: blur(14px) saturate(1.06);
+  -webkit-backdrop-filter: blur(14px) saturate(1.06);
+}
+
+body.theme-dark :is(
+  .mod-root .workspace-leaf-content,
+  .view-content,
+  .markdown-reading-view,
+  .markdown-source-view,
+  .markdown-preview-view
+) {
+  background: rgba(40, 25, 34, var(--wt-glass-opacity)) !important;
+  backdrop-filter: blur(14px) saturate(1.04);
+  -webkit-backdrop-filter: blur(14px) saturate(1.04);
+}
+
+body :is(.modal, .menu, .suggestion-container, .popover, .prompt) {
+  border: 1px solid var(--wt-line) !important;
+  border-radius: var(--wt-radius) !important;
+  box-shadow: var(--wt-shadow) !important;
+}
+
+body.theme-light :is(.modal, .menu, .suggestion-container, .popover, .prompt) {
+  background: rgba(255, 248, 251, .97) !important;
+}
+
+body.theme-dark :is(.modal, .menu, .suggestion-container, .popover, .prompt) {
+  background: rgba(48, 29, 40, .97) !important;
+}
+
+body button,
+body .clickable-icon,
+body input,
+body textarea,
+body select {
+  border-radius: calc(var(--wt-radius) * .7) !important;
+}
+
+body .workspace-tab-header.is-active {
+  color: var(--wt-rose-700) !important;
+  background: linear-gradient(180deg, rgba(255,255,255,.72), rgba(247,213,227,.72)) !important;
+  box-shadow: inset 0 -2px 0 var(--wt-rose-400);
+}
+
+body.theme-dark .workspace-tab-header.is-active {
+  color: #ffd1e1 !important;
+  background: rgba(216, 117, 156, .16) !important;
+}
+
+/* ---------- Home ---------- */
+body .home.markdown-preview-view,
+body .home.markdown-source-view.mod-cm6 .cm-scroller {
+  background:
+    linear-gradient(90deg, rgba(255, 236, 244, .34), rgba(255, 250, 252, .14)),
+    var(--wt-wallpaper) center / cover fixed no-repeat !important;
+  min-height: 100vh;
+}
+
+body .home.markdown-preview-view::before,
+body .home.markdown-preview-view::after,
+body .home.markdown-source-view.mod-cm6 .cm-scroller::before,
+body .home.markdown-source-view.mod-cm6 .cm-scroller::after {
+  background: radial-gradient(circle, rgba(255, 191, 215, .24), transparent 66%) !important;
+}
+
+body .home.markdown-preview-sizer,
+body .home.markdown-source-view.mod-cm6 .cm-sizer {
+  width: calc(100% - 28px) !important;
+  max-width: none !important;
+  margin: 14px !important;
+  padding: 22px 28px 26px !important;
+  border: 1px solid rgba(255, 220, 233, .58);
+  border-radius: calc(var(--wt-radius) * 1.4) !important;
+  background: linear-gradient(135deg, rgba(255, 246, 250, .78), rgba(249, 218, 231, .62)) !important;
+  box-shadow: var(--wt-shadow);
+  backdrop-filter: blur(18px) saturate(1.1);
+  -webkit-backdrop-filter: blur(18px) saturate(1.1);
+}
+
+body .home .inline-title,
+body .home .view-header-title {
+  display: none !important;
+}
+
+body .home :is(h1, .cm-header-1) {
+  color: var(--wt-rose-700) !important;
+  font-family: "LXGW WenKai", "Noto Serif SC", "Microsoft YaHei UI", sans-serif !important;
+  font-weight: 650 !important;
+  letter-spacing: .04em;
+  text-shadow: 0 4px 20px rgba(184, 73, 117, .18) !important;
+  animation: wt-title-breathe 5.5s ease-in-out infinite !important;
+}
+
+body .home p strong {
+  color: var(--wt-rose-700) !important;
+}
+
+/* Replace the old rabbit hero with a clean Erii pet frame. */
+body .home.markdown-preview-view .markdown-preview-sizer::before,
+body .home.markdown-source-view.mod-cm6 .cm-sizer::before {
+  content: "" !important;
+  position: absolute !important;
+  top: 10px !important;
+  right: clamp(18px, 4vw, 54px) !important;
+  width: clamp(112px, 12vw, 150px) !important;
+  height: clamp(112px, 12vw, 150px) !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: var(--wt-erii-sprite) 0 0 / 800% auto no-repeat !important;
+  opacity: .98 !important;
+  filter: drop-shadow(0 10px 18px rgba(135, 47, 84, .22)) !important;
+  animation: wt-erii-float 4.8s ease-in-out infinite !important;
+  pointer-events: none !important;
+  z-index: 4 !important;
+}
+
+body .home .callout[data-callout="home-stack"] {
+  width: 100% !important;
+  margin: 10px 0 0 !important;
+  padding: 14px 18px 18px !important;
+  border: 1px solid rgba(205, 104, 145, .30) !important;
+  border-radius: calc(var(--wt-radius) * 1.25) !important;
+  background: linear-gradient(145deg, rgba(255, 245, 249, .90), rgba(249, 217, 231, .82)) !important;
+  box-shadow: var(--wt-shadow-soft) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+}
+
+body .home .callout[data-callout="home-stack"] .callout-title {
+  display: none !important;
+}
+
+body .home .callout[data-callout="home-stack"] .callout-content > p {
+  gap: 12px !important;
+}
+
+body .home .callout[data-callout="home-stack"] .internal-link {
+  position: relative !important;
+  min-height: 58px;
+  padding: 8px 16px 8px 12px !important;
+  border: 1px solid rgba(196, 95, 135, .24) !important;
+  border-radius: 999px !important;
+  color: var(--wt-rose-700) !important;
+  background: linear-gradient(180deg, rgba(255,255,255,.86), rgba(250,224,235,.84)) !important;
+  box-shadow: 0 4px 14px rgba(129, 49, 82, .08), inset 0 1px 0 rgba(255,255,255,.72) !important;
+}
+
+body .home .callout[data-callout="home-stack"] .internal-link:hover {
+  color: #fffafd !important;
+  border-color: transparent !important;
+  background: linear-gradient(180deg, var(--wt-rose-400), var(--wt-rose-600)) !important;
+  box-shadow: 0 9px 22px rgba(174, 70, 113, .24) !important;
+  transform: translateY(-2px) scale(1.02) !important;
+}
+
+body .home .callout[data-callout="home-stack"] .internal-link::before {
+  content: "" !important;
+  display: inline-block !important;
+  width: 2.15em !important;
+  height: 2.15em !important;
+  min-width: 2.15em !important;
+  margin-right: .18em !important;
+  border: 2px solid rgba(255,255,255,.84);
+  border-radius: 50% !important;
+  background-color: rgba(255, 236, 244, .84) !important;
+  box-shadow: 0 3px 9px rgba(120, 44, 75, .13);
+}
+
+body .home .callout[data-callout="home-stack"] .internal-link::after {
+  content: var(--wt-badge, "✦") !important;
+  position: absolute;
+  left: 2.55em;
+  bottom: .18em;
+  display: grid;
+  place-items: center;
+  width: 1.15em;
+  height: 1.15em;
+  border-radius: 50%;
+  color: #fff;
+  background: var(--wt-rose-500);
+  font-size: .66em;
+  line-height: 1;
+  box-shadow: 0 2px 5px rgba(90, 38, 61, .18);
+}
+
+/* Erii icons use the first clean pet frame; Mingfei icons use an official portrait crop. */
+body .home .internal-link[data-href="行业mapping/行业mapping"],
+body .home .internal-link[data-href="Daily notes/Bases/Calendar.base"],
+body .home .internal-link[data-href="Daily notes/Bases/On This Day.base"],
+body .home .internal-link[data-href="配置/index"] {
+  --wt-badge: "樱";
+}
+
+body .home .internal-link[data-href="行业mapping/行业mapping"]::before,
+body .home .internal-link[data-href="Daily notes/Bases/Calendar.base"]::before,
+body .home .internal-link[data-href="Daily notes/Bases/On This Day.base"]::before,
+body .home .internal-link[data-href="配置/index"]::before {
+  background: rgba(255, 236, 244, .84) var(--wt-erii-sprite) 0 0 / 800% auto no-repeat !important;
+}
+
+body .home .internal-link[data-href="岗位mapping/岗位mapping"],
+body .home .internal-link[data-href="行业报告/行业报告"],
+body .home .internal-link[data-href="skill/sp-skill/SKILL"],
+body .home .internal-link[data-href="蒸馏/index"] {
+  --wt-badge: "路";
+}
+
+body .home .internal-link[data-href="岗位mapping/岗位mapping"]::before,
+body .home .internal-link[data-href="行业报告/行业报告"]::before,
+body .home .internal-link[data-href="skill/sp-skill/SKILL"]::before,
+body .home .internal-link[data-href="蒸馏/index"]::before {
+  background: var(--wt-mingfei) 22% 20% / 280% auto no-repeat !important;
+}
+
+body .home .block-language-dataview,
+body .home .dataview.list-view-ul {
+  border: 1px solid rgba(205, 104, 145, .20) !important;
+  background: rgba(255, 249, 251, .78) !important;
+  box-shadow: none !important;
+}
+
+body .home .dataview.list-view-ul li {
+  color: var(--wt-muted) !important;
+  background: rgba(255, 251, 252, .82) !important;
+  border-bottom-color: rgba(205, 104, 145, .18) !important;
+}
+
+body .home .dataview.list-view-ul li:hover {
+  background: rgba(248, 215, 228, .72) !important;
+}
+
+body .home .dataview.list-view-ul li a {
+  color: var(--wt-rose-700) !important;
+}
+
+/* ---------- File explorer character icons ---------- */
+:is(
+  .nav-folder-title[data-path="技术术语"],
+  .nav-file-title[data-path="乌萨奇.md"],
+  .nav-folder-title[data-path="简历库"],
+  .nav-folder-title[data-path="AI信息收集系统"],
+  .nav-folder-title[data-path="Daily notes"],
+  .nav-folder-title[data-path="岗位mapping"],
+  .nav-folder-title[data-path="行业mapping"],
+  .nav-folder-title[data-path="OneNote"],
+  .nav-folder-title[data-path="行业报告"],
+  .nav-folder-title[data-path="图片归档"],
+  .nav-folder-title[data-path="蒸馏"],
+  .nav-folder-title[data-path="配置"],
+  .nav-folder-title[data-path="skill"],
+  .nav-folder-title[data-path="99_低频归档"]
+) :is(.nav-folder-title-content, .nav-file-title-content)::before {
+  content: "" !important;
+  display: inline-block !important;
+  width: 1.62em !important;
+  height: 1.62em !important;
+  min-width: 1.62em !important;
+  margin-right: .34em !important;
+  vertical-align: -.45em !important;
+  border: 1px solid rgba(255,255,255,.78);
+  border-radius: 50% !important;
+  box-shadow: 0 2px 7px rgba(110, 41, 70, .12);
+}
+
+:is(
+  .nav-file-title[data-path="乌萨奇.md"],
+  .nav-folder-title[data-path="AI信息收集系统"],
+  .nav-folder-title[data-path="Daily notes"],
+  .nav-folder-title[data-path="行业mapping"],
+  .nav-folder-title[data-path="图片归档"],
+  .nav-folder-title[data-path="配置"],
+  .nav-folder-title[data-path="99_低频归档"]
+) :is(.nav-folder-title-content, .nav-file-title-content)::before {
+  background: rgba(255, 236, 244, .88) var(--wt-erii-sprite) 0 0 / 800% auto no-repeat !important;
+}
+
+:is(
+  .nav-folder-title[data-path="技术术语"],
+  .nav-folder-title[data-path="简历库"],
+  .nav-folder-title[data-path="岗位mapping"],
+  .nav-folder-title[data-path="OneNote"],
+  .nav-folder-title[data-path="行业报告"],
+  .nav-folder-title[data-path="蒸馏"],
+  .nav-folder-title[data-path="skill"]
+) :is(.nav-folder-title-content, .nav-file-title-content)::before {
+  background: var(--wt-mingfei) 22% 20% / 280% auto no-repeat !important;
+}
+
+body .nav-folder-title,
+body .nav-file-title {
+  margin: 1px 4px;
+  border-radius: 12px !important;
+  transition: color .18s ease, background .18s ease, transform .18s ease !important;
+}
+
+body .nav-folder-title:hover,
+body .nav-file-title:hover {
+  color: var(--wt-rose-700) !important;
+  background: rgba(231, 147, 178, .14) !important;
+  transform: translateX(2px);
+}
+
+body .nav-file-title.is-active,
+body .nav-folder-title.is-active {
+  color: var(--wt-rose-700) !important;
+  background: linear-gradient(90deg, rgba(248, 215, 228, .78), rgba(255, 245, 249, .58)) !important;
+  box-shadow: inset 3px 0 0 var(--wt-rose-500);
+}
+
+body .nav-folder-title .nav-folder-title-content {
+  color: var(--wt-rose-700) !important;
+  font-weight: 600;
+}
+
+/* ---------- Daily notes: weekday colors harmonized with the theme ---------- */
+body.theme-light .daily {
+  --paper: rgba(255, 247, 250, .88);
+  --paper-card: rgba(255, 252, 253, .94);
+  --ink: #5b3b4b;
+  --muted: #987786;
+  --line: rgba(194, 105, 140, .22);
+  --accent: #e06d98;
+  --accent-soft: rgba(245, 198, 216, .42);
+  background: transparent !important;
+}
+
+body.theme-dark .daily {
+  --paper: rgba(45, 27, 38, .91);
+  --paper-card: rgba(55, 32, 44, .94);
+  --ink: #f5e6ec;
+  --muted: #c5a8b5;
+  --line: rgba(231, 147, 178, .20);
+  --accent: #e99ab8;
+  --accent-soft: rgba(216, 117, 156, .16);
+  background: transparent !important;
+}
+
+body .daily :is(.markdown-preview-sizer, .cm-contentContainer) {
+  border: 1px solid color-mix(in srgb, var(--accent) 24%, transparent);
+  border-radius: calc(var(--wt-radius) * 1.25);
+  background: linear-gradient(145deg, var(--paper-card), var(--paper)) !important;
+  box-shadow: 0 10px 30px color-mix(in srgb, var(--accent) 12%, transparent);
+}
+
+body .daily.sunday,
+body .daily.Sunday,
+body .daily.星期日 {
+  --accent: #e66f9c;
+  --accent-soft: rgba(245, 191, 213, .42);
+}
+
+body .daily.monday,
+body .daily.Monday,
+body .daily.星期一 {
+  --accent: #da667d;
+  --accent-soft: rgba(241, 188, 199, .42);
+}
+
+body .daily.tuesday,
+body .daily.Tuesday,
+body .daily.星期二 {
+  --accent: #9880c5;
+  --accent-soft: rgba(210, 199, 235, .42);
+}
+
+body .daily.wednesday,
+body .daily.Wednesday,
+body .daily.星期三 {
+  --accent: #dc8f72;
+  --accent-soft: rgba(244, 207, 191, .44);
+}
+
+body .daily.thursday,
+body .daily.Thursday,
+body .daily.星期四 {
+  --accent: #bd7098;
+  --accent-soft: rgba(230, 195, 214, .42);
+}
+
+body .daily.friday,
+body .daily.Friday,
+body .daily.星期五 {
+  --accent: #7d9d91;
+  --accent-soft: rgba(202, 224, 216, .42);
+}
+
+body .daily.saturday,
+body .daily.Saturday,
+body .daily.星期六 {
+  --accent: #ae5d7d;
+  --accent-soft: rgba(226, 183, 201, .42);
+}
+
+body .weekly {
+  --paper: rgba(251, 240, 247, .90);
+  --paper-card: rgba(255, 249, 252, .95);
+  --ink: #593e4e;
+  --muted: #997788;
+  --line: rgba(176, 111, 150, .22);
+  --accent: #b06f96;
+  --accent-soft: rgba(229, 199, 217, .40);
+}
+
+body .monthly {
+  --paper: rgba(245, 241, 251, .90);
+  --paper-card: rgba(252, 249, 255, .95);
+  --ink: #51465f;
+  --muted: #8a7b9c;
+  --line: rgba(141, 127, 176, .22);
+  --accent: #8d7fb0;
+  --accent-soft: rgba(214, 207, 232, .42);
+}
+
+body .quarterly {
+  --paper: rgba(255, 243, 239, .90);
+  --paper-card: rgba(255, 250, 248, .95);
+  --ink: #63473f;
+  --muted: #9b7a70;
+  --line: rgba(210, 138, 122, .22);
+  --accent: #d28a7a;
+  --accent-soft: rgba(241, 205, 197, .42);
+}
+
+body .yearly {
+  --paper: rgba(247, 238, 247, .90);
+  --paper-card: rgba(253, 248, 253, .95);
+  --ink: #574257;
+  --muted: #917891;
+  --line: rgba(138, 98, 143, .22);
+  --accent: #8a628f;
+  --accent-soft: rgba(219, 199, 221, .42);
+}
+
+/* ---------- Claudian / chat panels ---------- */
+body.theme-light :is(
+  .claudian-container,
+  .claudian-input-container,
+  .claudian-input-wrapper,
+  .claudian-model-dropdown,
+  .claudian-opencode-model-picker,
+  .claudian-mention-dropdown,
+  .claudian-mention-dropdown-fixed,
+  .claudian-mcp-selector-dropdown,
+  .claudian-external-context-dropdown,
+  .claudian-history-menu,
+  .claudian-history-list
+) {
+  background: rgba(255, 248, 251, .94) !important;
+  border-color: var(--wt-line) !important;
+}
+
+body.theme-dark :is(
+  .claudian-container,
+  .claudian-input-container,
+  .claudian-input-wrapper,
+  .claudian-model-dropdown,
+  .claudian-opencode-model-picker,
+  .claudian-mention-dropdown,
+  .claudian-mention-dropdown-fixed,
+  .claudian-mcp-selector-dropdown,
+  .claudian-external-context-dropdown,
+  .claudian-history-menu,
+  .claudian-history-list
+) {
+  background: rgba(47, 28, 40, .95) !important;
+  border-color: rgba(231, 147, 178, .20) !important;
+}
+
+body .claudian-container button.mod-cta,
+body .claudian-container .mod-cta {
+  color: #fff !important;
+  background: linear-gradient(180deg, var(--wt-rose-400), var(--wt-rose-600)) !important;
+}
+
+/* ---------- Status, tags, scrollbars ---------- */
+body.theme-light .status-bar {
+  color: var(--wt-muted) !important;
+  background: linear-gradient(90deg, rgba(253,235,242,.96), rgba(255,248,251,.96)) !important;
+  border-top: 1px solid var(--wt-line) !important;
+}
+
+body.theme-dark .status-bar {
+  color: #c9aeba !important;
+  background: linear-gradient(90deg, rgba(54,31,44,.96), rgba(44,26,36,.96)) !important;
+  border-top: 1px solid rgba(231,147,178,.18) !important;
+}
+
+body .status-bar::before {
+  background: linear-gradient(90deg, transparent, var(--wt-rose-400), #ffd2e1, var(--wt-rose-500), transparent) !important;
+}
+
+body .status-bar::after {
+  content: "✦ SAKURA" !important;
+  color: var(--wt-rose-600) !important;
+}
+
+body a.tag {
+  color: var(--wt-rose-700) !important;
+  background: rgba(248, 215, 228, .64) !important;
+  border: 1px solid rgba(196, 95, 135, .20);
+}
+
+body ::-webkit-scrollbar-thumb {
+  background: rgba(205, 104, 145, .28) !important;
+  border-radius: 999px;
+}
+
+body ::-webkit-scrollbar-thumb:hover {
+  background: rgba(196, 95, 135, .48) !important;
+}
+
+@keyframes wt-title-breathe {
+  0%, 100% { text-shadow: 0 4px 18px rgba(184, 73, 117, .16); }
+  50% { text-shadow: 0 5px 28px rgba(216, 117, 156, .36); }
+}
+
+@keyframes wt-erii-float {
+  0%, 100% { transform: translateY(0) rotate(-1deg); }
+  50% { transform: translateY(-7px) rotate(2deg); }
+}
+
+@media (max-width: 900px) {
+  body .home.markdown-preview-sizer,
+  body .home.markdown-source-view.mod-cm6 .cm-sizer {
+    margin: 8px !important;
+    width: calc(100% - 16px) !important;
+    padding: 16px !important;
+  }
+
+  body .home.markdown-preview-view .markdown-preview-sizer::before,
+  body .home.markdown-source-view.mod-cm6 .cm-sizer::before {
+    width: 92px !important;
+    height: 92px !important;
+    opacity: .68 !important;
+  }
+
+  body .home .callout[data-callout="home-stack"] .callout-content > p {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body .home :is(h1, .cm-header-1),
+  body .home.markdown-preview-view .markdown-preview-sizer::before,
+  body .home.markdown-source-view.mod-cm6 .cm-sizer::before {
+    animation: none !important;
+  }
+}

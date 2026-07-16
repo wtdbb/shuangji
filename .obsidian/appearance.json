@@ -1,6 +1,6 @@
 {
   "cssTheme": "Minimal",
-  "accentColor": "#dca82f",
+  "accentColor": "#d8759c",
   "enabledCssSnippets": [
     "Daily Note Themes",
     "dash-nav",
@@ -8,7 +8,8 @@
     "General Tweaks",
     "popover-width",
     "Home Page",
-    "Honey Gold UI"
+    "Honey Gold UI",
+    "Wanting Erii Theme"
   ],
   "theme": "moonstone",
   "nativeMenus": true,
