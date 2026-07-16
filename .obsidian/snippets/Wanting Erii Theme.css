@@ -34,7 +34,7 @@ body {
   --wt-radius: 16px;
   --wt-wallpaper: url("app://local/C:/Users/EDY/Documents/CodexVault/.obsidian/snippets/wanting-theme/wanting-background.webp");
   --wt-erii-sprite: url("app://local/C:/Users/EDY/Documents/CodexVault/.obsidian/snippets/wanting-theme/erii-icon.webp");
-  --wt-mingfei: url("app://local/C:/Users/EDY/Documents/CodexVault/.obsidian/snippets/wanting-theme/mingfei-official.jpg");
+  --wt-mingfei: url("app://local/C:/Users/EDY/Documents/CodexVault/.obsidian/snippets/wanting-theme/mingfei-icon.webp");
   --wt-rose-50: #fff7fa;
   --wt-rose-100: #fdebf2;
   --wt-rose-200: #f8d7e4;
@@ -430,7 +430,7 @@ body .home .internal-link[data-href="岗位mapping/岗位mapping"]::before,
 body .home .internal-link[data-href="行业报告/行业报告"]::before,
 body .home .internal-link[data-href="skill/sp-skill/SKILL"]::before,
 body .home .internal-link[data-href="蒸馏/index"]::before {
-  background: var(--wt-mingfei) 22% 20% / 280% auto no-repeat !important;
+  background: var(--wt-mingfei) center / cover no-repeat !important;
 }
 
 body .home .block-language-dataview,
@@ -508,7 +508,7 @@ body .home .dataview.list-view-ul li a {
     .nav-folder-title[data-path="skill"]
   )
   :is(.nav-folder-title-content, .nav-file-title-content)::before {
-  background: var(--wt-mingfei) 22% 20% / 280% auto no-repeat !important;
+  background: var(--wt-mingfei) center / cover no-repeat !important;
 }
 
 body .nav-folder-title,
@@ -997,7 +997,7 @@ body.theme-dark
     .internal-link[data-href="skill/sp-skill/SKILL"],
     .internal-link[data-href="蒸馏/index"]
   )::before {
-  background: var(--wt-mingfei) 17% 28% / 280% auto no-repeat !important;
+  background: var(--wt-mingfei) center / cover no-repeat !important;
 }
 
 body.theme-light
@@ -1207,7 +1207,7 @@ body.theme-dark
   vertical-align: -6px !important;
   border: 1px solid rgba(255, 255, 255, 0.82) !important;
   border-radius: 50% !important;
-  background: var(--wt-mingfei) 17% 28% / 280% auto no-repeat !important;
+  background: var(--wt-mingfei) center / cover no-repeat !important;
   box-shadow: 0 2px 7px rgba(110, 41, 70, 0.12) !important;
   filter: none !important;
 }
