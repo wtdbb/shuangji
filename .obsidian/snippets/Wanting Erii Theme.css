@@ -1212,6 +1212,58 @@ body.theme-dark
   filter: none !important;
 }
 
+/* Weekday colors keep changing, but stay inside the rose theme family. */
+body.theme-light .daily {
+  --paper: rgba(255, 247, 250, 0.95) !important;
+  --paper-card: rgba(255, 252, 253, 0.97) !important;
+  --ink: #593b4b !important;
+  --muted: #9a7888 !important;
+  --line: rgba(196, 95, 135, 0.2) !important;
+}
+
+body.theme-dark .daily {
+  --paper: rgba(45, 27, 38, 0.94) !important;
+  --paper-card: rgba(55, 32, 44, 0.96) !important;
+  --ink: #f5e6ec !important;
+  --muted: #c5a8b5 !important;
+  --line: rgba(231, 147, 178, 0.2) !important;
+}
+
+body :is(.daily.sunday, .daily.Sunday, .daily.星期日) {
+  --accent: #e66f9c !important;
+  --accent-soft: rgba(245, 191, 213, 0.42) !important;
+}
+
+body :is(.daily.monday, .daily.Monday, .daily.星期一) {
+  --accent: #da667d !important;
+  --accent-soft: rgba(241, 188, 199, 0.42) !important;
+}
+
+body :is(.daily.tuesday, .daily.Tuesday, .daily.星期二) {
+  --accent: #9880c5 !important;
+  --accent-soft: rgba(210, 199, 235, 0.42) !important;
+}
+
+body :is(.daily.wednesday, .daily.Wednesday, .daily.星期三) {
+  --accent: #dc8f72 !important;
+  --accent-soft: rgba(244, 207, 191, 0.44) !important;
+}
+
+body :is(.daily.thursday, .daily.Thursday, .daily.星期四) {
+  --accent: #bd7098 !important;
+  --accent-soft: rgba(230, 195, 214, 0.42) !important;
+}
+
+body :is(.daily.friday, .daily.Friday, .daily.星期五) {
+  --accent: #7d9d91 !important;
+  --accent-soft: rgba(202, 224, 216, 0.42) !important;
+}
+
+body :is(.daily.saturday, .daily.Saturday, .daily.星期六) {
+  --accent: #ae5d7d !important;
+  --accent-soft: rgba(226, 183, 201, 0.42) !important;
+}
+
 @keyframes wt-title-breathe {
   0%,
   100% {
