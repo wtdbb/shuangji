@@ -15515,10 +15515,10 @@
     "技术术语": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "干股.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "技术术语/干股.md": {
       "isPinned": false,
