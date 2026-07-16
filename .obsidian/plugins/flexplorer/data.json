@@ -15537,8 +15537,14 @@
     "岗位mapping/海外/珍艾碧丝（Pearl Abyss）": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
+      "customOrder": [
+        "多可比（DokeV）.md"
+      ],
       "sortOrder": "custom"
+    },
+    "岗位mapping/海外/珍艾碧丝（Pearl Abyss）/多可比（DokeV）.md": {
+      "isPinned": false,
+      "isHidden": false
     }
   },
   "pinnedFiles": [],
