@@ -1,0 +1,573 @@
+/* ============================================================
+   WANTING ERII RED GLASS
+   Final-priority material and color pass for the Erii theme.
+   ============================================================ */
+
+body {
+  --wt-red-950: #260009;
+  --wt-red-900: #3b0713;
+  --wt-red-800: #5c0a20;
+  --wt-red-700: #7c0c29;
+  --wt-red-600: #9f1234;
+  --wt-red-500: #bf1d45;
+  --wt-red-400: #df4968;
+  --wt-red-300: #ed8299;
+  --wt-red-200: #f6bdca;
+  --wt-red-100: #fbe1e7;
+  --wt-red-50: #fff4f6;
+  --wt-red-line: rgba(255, 202, 214, 0.38);
+  --wt-red-line-strong: rgba(255, 222, 230, 0.58);
+  --wt-red-glass: rgba(68, 3, 20, 0.43);
+  --wt-red-glass-strong: rgba(55, 2, 16, 0.58);
+  --wt-light-glass: rgba(255, 247, 249, 0.2);
+  --wt-light-glass-strong: rgba(255, 247, 249, 0.34);
+  --wt-red-shadow:
+    0 18px 46px rgba(39, 0, 11, 0.24),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4),
+    inset 0 -1px 0 rgba(77, 3, 23, 0.2);
+  --wt-red-shadow-soft:
+    0 9px 24px rgba(53, 0, 15, 0.16),
+    inset 0 1px 0 rgba(255, 255, 255, 0.34);
+
+  --accent-h: 344;
+  --accent-s: 78%;
+  --accent-l: 41%;
+  --interactive-accent: var(--wt-red-600);
+  --interactive-accent-hover: var(--wt-red-500);
+  --text-accent: var(--wt-red-700);
+  --text-accent-hover: var(--wt-red-500);
+  --text-on-accent: #fff8fa;
+  --bold-color: var(--wt-red-700);
+  --link-color: var(--wt-red-700);
+  --link-color-hover: var(--wt-red-500);
+  --checkbox-color: var(--wt-red-600);
+  --checkbox-color-hover: var(--wt-red-500);
+  --background-modifier-border: rgba(126, 12, 41, 0.2);
+  --background-modifier-border-hover: rgba(126, 12, 41, 0.38);
+  --background-modifier-border-focus: var(--wt-red-500);
+  --background-modifier-hover: rgba(191, 29, 69, 0.12);
+  --background-modifier-active-hover: rgba(191, 29, 69, 0.2);
+  --text-selection: rgba(223, 73, 104, 0.25);
+
+  /* Legacy Honey Gold variables are remapped so old selectors cannot leak yellow. */
+  --honey-50: var(--wt-red-50);
+  --honey-100: var(--wt-red-100);
+  --honey-200: var(--wt-red-200);
+  --honey-300: var(--wt-red-300);
+  --honey-400: var(--wt-red-400);
+  --honey-500: var(--wt-red-500);
+  --honey-600: var(--wt-red-600);
+  --honey-700: var(--wt-red-700);
+  --color-yellow: var(--wt-red-500);
+  --color-yellow-rgb: 191, 29, 69;
+  --color-orange: var(--wt-red-400);
+  --color-orange-rgb: 223, 73, 104;
+
+  --editing-toolbar-background-color: rgba(64, 3, 19, 0.6);
+  --editing-toolbar-icon-color: rgba(255, 245, 248, 0.94);
+}
+
+body.theme-light,
+body.theme-dark {
+  --background-primary: rgba(255, 248, 250, 0.2);
+  --background-primary-alt: rgba(255, 242, 246, 0.24);
+  --background-secondary: rgba(69, 4, 21, 0.42);
+  --background-secondary-alt: rgba(53, 2, 16, 0.52);
+  --background-primary-rgb: 255, 248, 250;
+  --background-secondary-rgb: 69, 4, 21;
+  --hg-paper: rgba(255, 248, 250, 0.2);
+  --hg-paper-2: rgba(255, 240, 244, 0.24);
+  --hg-card: rgba(255, 250, 251, 0.34);
+  --hg-line: rgba(126, 12, 41, 0.22);
+  --hg-ink: #42101e;
+  --hg-muted: #855666;
+  --text-normal: #42101e;
+  --text-muted: #855666;
+  --text-faint: #ad8591;
+  background:
+    linear-gradient(115deg, rgba(92, 0, 24, 0.13), rgba(127, 7, 34, 0.03)),
+    var(--wt-wallpaper) center / cover fixed no-repeat !important;
+}
+
+/* Let one continuous wallpaper run behind the entire application. */
+body
+  :is(
+    .app-container,
+    .horizontal-main-container,
+    .workspace,
+    .workspace-split,
+    .workspace-tabs,
+    .workspace-leaf,
+    .workspace-leaf-content,
+    .view-content,
+    .markdown-reading-view,
+    .markdown-source-view,
+    .markdown-preview-view,
+    .cm-editor,
+    .cm-scroller
+  ) {
+  background-color: transparent !important;
+}
+
+body
+  :is(
+    .workspace-ribbon,
+    .titlebar,
+    .workspace-tab-header-container,
+    .workspace-sidedock-vault-profile,
+    .mod-sidedock .workspace-leaf-content,
+    .mod-sidedock .nav-files-container,
+    .mod-sidedock .nav-header,
+    .mod-sidedock .side-dock-settings
+  ) {
+  color: rgba(255, 245, 248, 0.92) !important;
+  background:
+    linear-gradient(135deg, rgba(112, 10, 37, 0.3), rgba(45, 1, 14, 0.48)),
+    rgba(62, 2, 18, 0.34) !important;
+  border-color: rgba(255, 207, 219, 0.18) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    0 12px 34px rgba(32, 0, 10, 0.12) !important;
+  backdrop-filter: blur(18px) saturate(1.28) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(1.28) !important;
+}
+
+body .mod-sidedock {
+  --text-normal: rgba(255, 247, 249, 0.94);
+  --text-muted: rgba(255, 226, 233, 0.76);
+  --text-faint: rgba(255, 218, 227, 0.55);
+  --nav-item-color: rgba(255, 241, 245, 0.86);
+  --nav-item-color-hover: #ffffff;
+  --nav-item-color-active: #ffffff;
+  --nav-item-background-hover: rgba(255, 221, 229, 0.11);
+  --nav-item-background-active: rgba(255, 226, 233, 0.18);
+}
+
+body
+  .mod-sidedock
+  :is(
+    .nav-folder-title,
+    .nav-file-title,
+    .tree-item-self,
+    .workspace-tab-header,
+    .workspace-tab-header-inner,
+    .workspace-tab-header-inner-title
+  ) {
+  color: var(--nav-item-color) !important;
+}
+
+body
+  .mod-sidedock
+  :is(.nav-folder-title, .nav-file-title, .tree-item-self):hover {
+  color: #fff !important;
+  background: rgba(255, 224, 232, 0.12) !important;
+  box-shadow: inset 2px 0 0 rgba(255, 190, 207, 0.72) !important;
+}
+
+body
+  .mod-sidedock
+  :is(
+    .nav-file-title.is-active,
+    .nav-folder-title.is-active,
+    .tree-item-self.is-active
+  ) {
+  color: #fff !important;
+  background:
+    linear-gradient(90deg, rgba(217, 48, 84, 0.34), rgba(255, 224, 232, 0.1)) !important;
+  box-shadow:
+    inset 3px 0 0 #f07491,
+    0 7px 18px rgba(35, 0, 10, 0.16) !important;
+}
+
+body
+  :is(
+    .workspace-ribbon .clickable-icon,
+    .mod-sidedock .clickable-icon,
+    .titlebar-button,
+    .workspace-tab-header-inner-icon,
+    .workspace-tab-header-status-icon,
+    .view-actions .clickable-icon
+  ) {
+  color: rgba(255, 240, 244, 0.88) !important;
+}
+
+body .workspace-tab-header.is-active {
+  color: #fff !important;
+  background:
+    linear-gradient(180deg, rgba(255, 232, 238, 0.2), rgba(190, 25, 64, 0.2)) !important;
+  border-color: rgba(255, 218, 227, 0.28) !important;
+  box-shadow:
+    inset 0 -2px 0 #eb6e8b,
+    inset 0 1px 0 rgba(255, 255, 255, 0.25) !important;
+}
+
+body .mod-root .workspace-leaf-content {
+  background: rgba(255, 248, 250, 0.08) !important;
+}
+
+body .mod-root :is(.view-content, .markdown-reading-view, .markdown-source-view) {
+  background: rgba(255, 248, 250, 0.12) !important;
+  backdrop-filter: blur(2px) saturate(1.08) !important;
+  -webkit-backdrop-filter: blur(2px) saturate(1.08) !important;
+}
+
+body :is(.view-header, .inline-titlebar) {
+  color: #5b0b21 !important;
+  background: rgba(255, 244, 247, 0.25) !important;
+  border-color: rgba(126, 12, 41, 0.16) !important;
+  backdrop-filter: blur(16px) saturate(1.2) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(1.2) !important;
+}
+
+/* Editing Toolbar: red crystal instead of the remaining cream/yellow strip. */
+body
+  :is(
+    #editingToolbarModalBar,
+    #editingToolbarPopoverBar
+  ) {
+  color: rgba(255, 247, 249, 0.94) !important;
+  background:
+    linear-gradient(135deg, rgba(128, 13, 43, 0.46), rgba(48, 1, 15, 0.58)) !important;
+  border: 1px solid rgba(255, 215, 225, 0.26) !important;
+  box-shadow: var(--wt-red-shadow-soft) !important;
+  backdrop-filter: blur(20px) saturate(1.3) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(1.3) !important;
+}
+
+body
+  :is(#editingToolbarModalBar, #editingToolbarPopoverBar)
+  :is(
+    .editingToolbarCommandItem,
+    button[class^="editingToolbarCommandsubItem"]
+  ) {
+  color: rgba(255, 247, 249, 0.92) !important;
+  background: transparent !important;
+}
+
+body
+  :is(#editingToolbarModalBar, #editingToolbarPopoverBar)
+  :is(
+    .editingToolbarCommandItem,
+    button[class^="editingToolbarCommandsubItem"]
+  ):hover {
+  color: #fff !important;
+  background: rgba(255, 222, 230, 0.15) !important;
+}
+
+/* Home page: remove the opaque paper sheet and keep only floating red glass. */
+body .home.markdown-preview-view,
+body .home.markdown-source-view.mod-cm6 .cm-scroller {
+  background: transparent !important;
+}
+
+body .home.markdown-preview-sizer,
+body .home.markdown-source-view.mod-cm6 .cm-sizer {
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+body .home :is(h1, .cm-header-1) {
+  color: #fff8fa !important;
+  font-weight: 560 !important;
+  text-shadow:
+    0 2px 4px rgba(42, 0, 12, 0.5),
+    0 8px 26px rgba(75, 0, 23, 0.5) !important;
+}
+
+body .home p strong {
+  color: rgba(255, 244, 247, 0.95) !important;
+  text-shadow: 0 2px 10px rgba(50, 0, 14, 0.34) !important;
+}
+
+body.theme-light .home .callout[data-callout="home-stack"],
+body.theme-dark .home .callout[data-callout="home-stack"] {
+  border: 1px solid var(--wt-red-line) !important;
+  background:
+    radial-gradient(circle at 14% 0%, rgba(255, 180, 198, 0.15), transparent 30%),
+    linear-gradient(145deg, rgba(105, 8, 34, 0.36), rgba(48, 1, 15, 0.42)) !important;
+  box-shadow: var(--wt-red-shadow) !important;
+  backdrop-filter: blur(18px) saturate(1.28) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(1.28) !important;
+}
+
+body
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  > :is(p:nth-of-type(1), p:nth-of-type(2))
+  .internal-link {
+  color: rgba(255, 246, 249, 0.96) !important;
+  border: 1px solid rgba(255, 213, 223, 0.3) !important;
+  background:
+    linear-gradient(180deg, rgba(255, 239, 243, 0.18), rgba(122, 11, 41, 0.18)) !important;
+  box-shadow:
+    0 9px 22px rgba(34, 0, 10, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25) !important;
+  backdrop-filter: blur(15px) saturate(1.24) !important;
+  -webkit-backdrop-filter: blur(15px) saturate(1.24) !important;
+}
+
+body
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  > :is(p:nth-of-type(1), p:nth-of-type(2))
+  .internal-link:hover {
+  color: #fff !important;
+  border-color: rgba(255, 231, 237, 0.52) !important;
+  background:
+    linear-gradient(180deg, rgba(218, 47, 83, 0.72), rgba(112, 6, 34, 0.78)) !important;
+  box-shadow:
+    0 12px 28px rgba(42, 0, 13, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.34) !important;
+}
+
+body
+  .home
+  .callout[data-callout="home-stack"]
+  .internal-link::after {
+  color: #fff !important;
+  background: var(--wt-red-500) !important;
+  box-shadow: 0 2px 7px rgba(38, 0, 10, 0.36) !important;
+}
+
+body
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  > p:nth-of-type(3) {
+  color: rgba(255, 239, 244, 0.94) !important;
+  background: rgba(255, 230, 236, 0.08) !important;
+  border-color: rgba(255, 214, 224, 0.18) !important;
+}
+
+body
+  .home
+  .callout[data-callout="home-stack"]
+  :is(.block-language-dataview, .dataview.list-view-ul) {
+  color: rgba(255, 235, 241, 0.84) !important;
+  border-color: rgba(255, 211, 222, 0.2) !important;
+  background: rgba(255, 241, 245, 0.08) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+}
+
+body
+  .home
+  .callout[data-callout="home-stack"]
+  .dataview.list-view-ul
+  li {
+  color: rgba(255, 224, 232, 0.76) !important;
+  border-color: rgba(255, 211, 222, 0.16) !important;
+  background: rgba(255, 244, 247, 0.1) !important;
+}
+
+body
+  .home
+  .callout[data-callout="home-stack"]
+  .dataview.list-view-ul
+  li:hover {
+  background: rgba(255, 225, 233, 0.17) !important;
+}
+
+body
+  .home
+  .callout[data-callout="home-stack"]
+  .dataview.list-view-ul
+  li
+  .internal-link {
+  color: #fff5f8 !important;
+}
+
+/* Daily colors still rotate, but all stay in the same red cinematic palette. */
+body :is(.daily, .weekly, .monthly, .quarterly, .yearly) {
+  --paper: rgba(255, 247, 249, 0.2) !important;
+  --paper-card: rgba(255, 249, 250, 0.34) !important;
+  --ink: #45101e !important;
+  --muted: #89596a !important;
+  --line: rgba(126, 12, 41, 0.22) !important;
+  --code-normal: var(--accent) !important;
+  --text-normal: var(--ink) !important;
+  --text-muted: var(--muted) !important;
+  --text-accent: var(--accent) !important;
+  --text-accent-hover: var(--wt-red-500) !important;
+  --interactive-accent: var(--accent) !important;
+  --interactive-accent-hover: var(--wt-red-500) !important;
+  --tag-color: var(--accent) !important;
+  --tag-background: var(--accent-soft) !important;
+  --checkbox-color: var(--accent) !important;
+  --checkbox-color-hover: var(--wt-red-500) !important;
+  background-color: transparent !important;
+}
+
+body :is(.daily.sunday, .daily.Sunday, .daily.星期日) {
+  --accent: #b31342 !important;
+  --accent-soft: rgba(215, 62, 95, 0.18) !important;
+}
+
+body :is(.daily.monday, .daily.Monday, .daily.星期一) {
+  --accent: #c52a3a !important;
+  --accent-soft: rgba(219, 75, 84, 0.18) !important;
+}
+
+body :is(.daily.tuesday, .daily.Tuesday, .daily.星期二) {
+  --accent: #8f1d36 !important;
+  --accent-soft: rgba(160, 40, 65, 0.18) !important;
+}
+
+body :is(.daily.wednesday, .daily.Wednesday, .daily.星期三) {
+  --accent: #b94152 !important;
+  --accent-soft: rgba(199, 82, 98, 0.18) !important;
+}
+
+body :is(.daily.thursday, .daily.Thursday, .daily.星期四) {
+  --accent: #9d2142 !important;
+  --accent-soft: rgba(177, 46, 76, 0.18) !important;
+}
+
+body :is(.daily.friday, .daily.Friday, .daily.星期五) {
+  --accent: #c65360 !important;
+  --accent-soft: rgba(212, 101, 110, 0.18) !important;
+}
+
+body :is(.daily.saturday, .daily.Saturday, .daily.星期六) {
+  --accent: #74142c !important;
+  --accent-soft: rgba(126, 27, 52, 0.18) !important;
+}
+
+body
+  :is(.daily, .weekly, .monthly, .quarterly, .yearly)
+  :is(h1, h2, h3, h5, .HyperMD-header-1, .HyperMD-header-2, .HyperMD-header-3, .HyperMD-header-5) {
+  color: var(--accent) !important;
+  text-shadow: 0 3px 16px color-mix(in srgb, var(--accent) 18%, transparent) !important;
+}
+
+body
+  :is(.daily, .weekly, .monthly, .quarterly, .yearly)
+  :is(h4, .HyperMD-header-4) {
+  color: #fff8fa !important;
+  border-color: color-mix(in srgb, var(--accent) 36%, transparent) !important;
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--accent) 86%, #f27b91),
+    color-mix(in srgb, var(--accent) 88%, #4c0014)
+  ) !important;
+  box-shadow:
+    0 7px 18px color-mix(in srgb, var(--accent) 24%, transparent),
+    inset 0 1px 0 rgba(255, 255, 255, 0.28) !important;
+}
+
+body
+  :is(.daily, .weekly, .monthly, .quarterly, .yearly)
+  :is(a, .internal-link, .cm-hmd-internal-link, .cm-link) {
+  color: var(--accent) !important;
+  border-bottom-color: color-mix(in srgb, var(--accent) 28%, transparent) !important;
+  background-image: none !important;
+}
+
+body
+  :is(.daily, .weekly, .monthly, .quarterly, .yearly)
+  :is(blockquote, .callout, code, .cm-inline-code, a.tag, pre) {
+  border-color: color-mix(in srgb, var(--accent) 32%, transparent) !important;
+  background: var(--accent-soft) !important;
+  color: var(--ink) !important;
+}
+
+body
+  .markdown-preview-view:is(.daily, .weekly, .monthly, .quarterly, .yearly),
+body
+  .markdown-source-view.mod-cm6:is(.daily, .weekly, .monthly, .quarterly, .yearly)
+  .cm-scroller {
+  background: transparent !important;
+}
+
+/* Remaining UI chrome and plugin surfaces. */
+body
+  :is(
+    .menu,
+    .modal,
+    .popover,
+    .prompt,
+    .suggestion-container,
+    .tooltip,
+    .bases-toolbar,
+    .bases-thead,
+    .metadata-container,
+    .multi-select-container
+  ) {
+  border-color: rgba(126, 12, 41, 0.22) !important;
+  background: rgba(255, 247, 249, 0.8) !important;
+  box-shadow: var(--wt-red-shadow-soft) !important;
+  backdrop-filter: blur(20px) saturate(1.2) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(1.2) !important;
+}
+
+body
+  :is(
+    input,
+    textarea,
+    select,
+    .search-input-container input,
+    .metadata-input,
+    .multi-select-input
+  ) {
+  color: #4a1020 !important;
+  border-color: rgba(126, 12, 41, 0.2) !important;
+  background: rgba(255, 248, 250, 0.42) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.42) !important;
+}
+
+body .mod-sidedock :is(input, textarea, select, .search-input-container input) {
+  color: #fff8fa !important;
+  border-color: rgba(255, 218, 227, 0.2) !important;
+  background: rgba(255, 236, 241, 0.1) !important;
+}
+
+body .status-bar {
+  color: rgba(255, 232, 238, 0.78) !important;
+  border-top: 1px solid rgba(255, 211, 222, 0.18) !important;
+  background:
+    linear-gradient(90deg, rgba(74, 3, 23, 0.7), rgba(43, 1, 13, 0.62)) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(18px) saturate(1.2) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(1.2) !important;
+}
+
+body .status-bar::before {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--wt-red-500),
+    #ef839a,
+    var(--wt-red-600),
+    transparent
+  ) !important;
+}
+
+body .status-bar::after {
+  content: "✦ ERII" !important;
+  color: #ed8198 !important;
+}
+
+body a.tag {
+  color: var(--wt-red-700) !important;
+  border-color: rgba(126, 12, 41, 0.2) !important;
+  background: rgba(218, 65, 96, 0.13) !important;
+}
+
+body ::-webkit-scrollbar-thumb {
+  background: rgba(150, 16, 50, 0.38) !important;
+}
+
+body ::-webkit-scrollbar-thumb:hover {
+  background: rgba(190, 26, 66, 0.58) !important;
+}
+
+@media (max-width: 900px) {
+  body .home.markdown-preview-sizer,
+  body .home.markdown-source-view.mod-cm6 .cm-sizer {
+    padding-inline: 12px !important;
+  }
+}
