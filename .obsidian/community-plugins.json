@@ -1,1 +1,19 @@
-[]
+[
+  "calendar",
+  "colored-tags",
+  "colored-text",
+  "dataview",
+  "editing-toolbar",
+  "flexplorer",
+  "notebook-navigator",
+  "obsidian-custom-frames",
+  "obsidian-excalidraw-plugin",
+  "obsidian-minimal-settings",
+  "obsidian-quiet-outline",
+  "periodic-notes",
+  "realclaudian",
+  "simple-banner",
+  "simple-columns",
+  "templater-obsidian",
+  "terminal"
+]
