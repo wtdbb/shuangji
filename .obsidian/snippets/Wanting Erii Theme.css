@@ -32,9 +32,9 @@ settings:
 body {
   --wt-glass-opacity: 86%;
   --wt-radius: 16px;
-  --wt-wallpaper: url("wanting-theme/wanting-background.png");
-  --wt-erii-sprite: url("wanting-theme/erii-spritesheet.webp");
-  --wt-mingfei: url("wanting-theme/mingfei-official.jpg");
+  --wt-wallpaper: url("app://local/C:/Users/EDY/Documents/CodexVault/.obsidian/snippets/wanting-theme/wanting-background.png");
+  --wt-erii-sprite: url("app://local/C:/Users/EDY/Documents/CodexVault/.obsidian/snippets/wanting-theme/erii-spritesheet.webp");
+  --wt-mingfei: url("app://local/C:/Users/EDY/Documents/CodexVault/.obsidian/snippets/wanting-theme/mingfei-official.jpg");
   --wt-rose-50: #fff7fa;
   --wt-rose-100: #fdebf2;
   --wt-rose-200: #f8d7e4;
@@ -272,8 +272,8 @@ body .home.markdown-source-view.mod-cm6 .cm-sizer {
   border-radius: calc(var(--wt-radius) * 1.4) !important;
   background: linear-gradient(
     135deg,
-    rgba(255, 246, 250, 0.5),
-    rgba(249, 218, 231, 0.34)
+    rgba(255, 246, 250, 0.34),
+    rgba(249, 218, 231, 0.2)
   ) !important;
   box-shadow: var(--wt-shadow);
   backdrop-filter: blur(18px) saturate(1.1);
@@ -1053,6 +1053,29 @@ body.theme-dark
   color: var(--wt-muted) !important;
   background: rgba(255, 251, 252, 0.8) !important;
   border-bottom-color: rgba(205, 104, 145, 0.18) !important;
+}
+
+body.theme-light
+  .home
+  .callout[data-callout="home-stack"]
+  .dataview.list-view-ul
+  li
+  .internal-link,
+body.theme-dark
+  .home
+  .callout[data-callout="home-stack"]
+  .dataview.list-view-ul
+  li
+  .internal-link {
+  color: var(--wt-rose-700) !important;
+  background: none !important;
+  background-image: none !important;
+  font-weight: 720 !important;
+}
+
+body.theme-light .home .cm-active.cm-line,
+body.theme-dark .home .cm-active.cm-line {
+  background: rgba(231, 147, 178, 0.08) !important;
 }
 
 body.theme-light .home.markdown-preview-view .markdown-preview-sizer::before,
