@@ -3,6 +3,9 @@ body.theme-light,
 body.theme-dark,
 body.theme-light .app-container,
 body.theme-dark .app-container {
+  --titlebar-background: transparent !important;
+  --titlebar-background-focused: transparent !important;
+  --frame-background: transparent !important;
   background:
     linear-gradient(105deg, rgba(73, 2, 25, 0.08), rgba(132, 15, 49, 0.025) 52%, rgba(52, 1, 18, 0.1)),
     var(--wt-wallpaper) center center / cover fixed no-repeat !important;
