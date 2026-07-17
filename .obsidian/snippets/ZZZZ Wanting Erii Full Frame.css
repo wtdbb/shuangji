@@ -3,9 +3,9 @@ body.theme-light,
 body.theme-dark,
 body.theme-light .app-container,
 body.theme-dark .app-container {
-  --titlebar-background: transparent !important;
-  --titlebar-background-focused: transparent !important;
-  --frame-background: transparent !important;
+  --titlebar-background: rgba(78, 4, 29, 0.9) !important;
+  --titlebar-background-focused: rgba(91, 6, 34, 0.92) !important;
+  --frame-background: rgba(63, 2, 23, 0.92) !important;
   background:
     linear-gradient(105deg, rgba(73, 2, 25, 0.08), rgba(132, 15, 49, 0.025) 52%, rgba(52, 1, 18, 0.1)),
     var(--wt-wallpaper) center center / cover fixed no-repeat !important;
@@ -26,30 +26,27 @@ body.theme-dark .app-container .workspace-tab-header-container {
   -webkit-backdrop-filter: blur(9px) saturate(1.08) !important;
 }
 
-/* Electron paints the top frame separately, so mirror the fixed wallpaper over it. */
-body.theme-light::after,
-body.theme-dark::after {
-  content: "" !important;
-  position: fixed !important;
-  z-index: 9990 !important;
-  top: 0 !important;
-  right: 0 !important;
-  left: 0 !important;
-  height: var(--titlebar-height, 40px) !important;
-  background-image:
-    linear-gradient(90deg, rgba(83, 4, 29, 0.2), rgba(58, 2, 20, 0.13)),
-    var(--wt-wallpaper) !important;
-  background-position: center center !important;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-  background-attachment: fixed !important;
-  pointer-events: none !important;
-}
-
 body.theme-light :is(.titlebar-button-container, .titlebar-text),
 body.theme-dark :is(.titlebar-button-container, .titlebar-text) {
   position: relative !important;
-  z-index: 9991 !important;
+  z-index: 10 !important;
+}
+
+body.theme-light :is(.titlebar-button, .titlebar-button svg),
+body.theme-dark :is(.titlebar-button, .titlebar-button svg) {
+  color: #fff5f8 !important;
+  stroke: currentColor !important;
+  opacity: 1 !important;
+}
+
+body.theme-light .titlebar-button:hover,
+body.theme-dark .titlebar-button:hover {
+  background: rgba(255, 174, 196, 0.16) !important;
+}
+
+body.theme-light .titlebar-button.mod-close:hover,
+body.theme-dark .titlebar-button.mod-close:hover {
+  background: rgba(220, 38, 79, 0.82) !important;
 }
 
 body.theme-light .app-container .workspace-ribbon,
