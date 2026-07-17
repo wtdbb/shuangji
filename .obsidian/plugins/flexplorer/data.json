@@ -5,7 +5,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "技术术语",
         "Sakura.md",
         "简历库",
         "AI信息收集系统",
@@ -1006,6 +1005,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "技术术语 1",
         "技术术语",
         "游戏技术术语.md",
         "游戏技术术语.docx"
@@ -15514,15 +15514,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "技术术语": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "已上线游戏项目判断框架.md",
-        "干股.md"
-      ]
-    },
     "技术术语/干股.md": {
       "isPinned": false,
       "isHidden": false
@@ -15570,6 +15561,15 @@
     "Sakura.md": {
       "isPinned": false,
       "isHidden": false
+    },
+    "OneNote/技术术语 1": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "已上线游戏项目判断框架.md",
+        "干股.md"
+      ]
     }
   },
   "pinnedFiles": [],
