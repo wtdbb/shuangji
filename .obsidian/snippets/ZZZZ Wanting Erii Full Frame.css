@@ -12,7 +12,13 @@ body.theme-light :is(.titlebar, .titlebar-inner, .titlebar-button-container),
 body.theme-dark :is(.titlebar, .titlebar-inner, .titlebar-button-container),
 body.theme-light .app-container .workspace-tab-header-container,
 body.theme-dark .app-container .workspace-tab-header-container {
-  background: linear-gradient(90deg, rgba(83, 4, 29, 0.18), rgba(58, 2, 20, 0.12)) !important;
+  background-image:
+    linear-gradient(90deg, rgba(83, 4, 29, 0.18), rgba(58, 2, 20, 0.12)),
+    var(--wt-wallpaper) !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
   backdrop-filter: blur(9px) saturate(1.08) !important;
   -webkit-backdrop-filter: blur(9px) saturate(1.08) !important;
 }
