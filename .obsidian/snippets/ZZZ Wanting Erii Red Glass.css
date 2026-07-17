@@ -844,8 +844,8 @@ body ::-webkit-scrollbar-thumb:hover {
    ============================================================ */
 
 body {
-  --wt-erii-sheet: url("app://local/C:/Users/EDY/Documents/CodexVault/.obsidian/snippets/wanting-theme/erii-spritesheet.webp");
-  --wt-mingfei-wide: url("app://local/C:/Users/EDY/Documents/CodexVault/.obsidian/snippets/wanting-theme/mingfei-official.jpg");
+  --wt-erii-sheet: var(--wt-erii-sheet-data);
+  --wt-mingfei-wide: var(--wt-mingfei-wide-data);
 }
 
 /* Sidebar assignments: Erii poses and Mingfei crops deliberately alternate. */
