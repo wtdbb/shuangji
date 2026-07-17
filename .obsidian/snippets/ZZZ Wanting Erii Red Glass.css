@@ -978,6 +978,123 @@ body.theme-dark
   background-repeat: no-repeat !important;
 }
 
+/* FINAL LAYOUT PASS: compact footer, continuous wallpaper, animated signature. */
+body.theme-light .app-container,
+body.theme-dark .app-container {
+  background:
+    linear-gradient(110deg, rgba(55, 1, 19, 0.14), rgba(125, 14, 48, 0.06) 48%, rgba(45, 1, 15, 0.16)),
+    var(--wt-wallpaper) center center / cover fixed no-repeat !important;
+}
+
+/* The home note must reveal the single app wallpaper instead of painting a second crop. */
+body.theme-light .app-container :is(
+    .home.markdown-preview-view,
+    .home.markdown-preview-view .markdown-preview-sizer,
+    .home.markdown-source-view.mod-cm6,
+    .home.markdown-source-view.mod-cm6 .cm-scroller,
+    .home.markdown-source-view.mod-cm6 .cm-sizer
+  ),
+body.theme-dark .app-container :is(
+    .home.markdown-preview-view,
+    .home.markdown-preview-view .markdown-preview-sizer,
+    .home.markdown-source-view.mod-cm6,
+    .home.markdown-source-view.mod-cm6 .cm-scroller,
+    .home.markdown-source-view.mod-cm6 .cm-sizer
+  ) {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+/* Let the same full-window image continue through both side docks. */
+body.theme-light .app-container :is(
+    .workspace-split.mod-left-split,
+    .workspace-split.mod-right-split
+  ),
+body.theme-dark .app-container :is(
+    .workspace-split.mod-left-split,
+    .workspace-split.mod-right-split
+  ) {
+  background: linear-gradient(145deg, rgba(82, 3, 28, 0.2), rgba(35, 1, 12, 0.27)) !important;
+}
+
+body.theme-light .app-container :is(
+    .workspace-split.mod-left-split,
+    .workspace-split.mod-right-split
+  ) :is(.workspace-tabs, .workspace-leaf, .workspace-leaf-content),
+body.theme-dark .app-container :is(
+    .workspace-split.mod-left-split,
+    .workspace-split.mod-right-split
+  ) :is(.workspace-tabs, .workspace-leaf, .workspace-leaf-content) {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+body.theme-light .app-container :is(
+    .workspace-split.mod-left-split,
+    .workspace-split.mod-right-split
+  ) :is(.nav-files-container, .workspace-leaf-content[data-type="backlink"], .workspace-leaf-content[data-type="outgoing-link"]),
+body.theme-dark .app-container :is(
+    .workspace-split.mod-left-split,
+    .workspace-split.mod-right-split
+  ) :is(.nav-files-container, .workspace-leaf-content[data-type="backlink"], .workspace-leaf-content[data-type="outgoing-link"]) {
+  background: linear-gradient(180deg, rgba(91, 5, 31, 0.14), rgba(42, 1, 15, 0.2)) !important;
+  backdrop-filter: blur(12px) saturate(1.08) !important;
+  -webkit-backdrop-filter: blur(12px) saturate(1.08) !important;
+}
+
+/* Colored Text remains available from commands; only its oversized footer controls go away. */
+body .app-container .status-bar .status-bar-item[aria-label="Colored Text"],
+body .app-container .status-bar .status-bar-item:has(.status-color) {
+  display: none !important;
+}
+
+body.theme-light .app-container .status-bar,
+body.theme-dark .app-container .status-bar {
+  width: max-content !important;
+  max-width: calc(100vw - 20px) !important;
+  gap: 1px !important;
+}
+
+body.theme-light .app-container .status-bar::after,
+body.theme-dark .app-container .status-bar::after {
+  content: "SAKURA" !important;
+  order: -999 !important;
+  flex: 0 0 auto !important;
+  margin: 0 8px 0 3px !important;
+  background:
+    linear-gradient(105deg, rgba(91, 3, 32, 0.94) 0%, rgba(219, 63, 106, 0.9) 44%, rgba(112, 5, 39, 0.95) 76%, rgba(91, 3, 32, 0.94) 100%) !important;
+  background-size: 240% 100% !important;
+  animation: wt-sakura-status-glint 3.2s cubic-bezier(0.45, 0, 0.2, 1) infinite !important;
+}
+
+@keyframes wt-sakura-status-glint {
+  0%,
+  100% {
+    background-position: 0% 50%;
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.14),
+      0 2px 8px rgba(38, 0, 13, 0.18),
+      0 0 0 rgba(245, 103, 143, 0);
+    filter: brightness(0.98);
+  }
+
+  50% {
+    background-position: 100% 50%;
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.22),
+      0 3px 11px rgba(38, 0, 13, 0.24),
+      0 0 13px rgba(245, 103, 143, 0.2);
+    filter: brightness(1.08);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.theme-light .app-container .status-bar::after,
+  body.theme-dark .app-container .status-bar::after {
+    animation: none !important;
+  }
+}
+
 /* ============================================================
    FINAL RED CRYSTAL POLISH
    Lightweight character poses, stronger contrast, and a status
