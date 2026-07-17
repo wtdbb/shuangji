@@ -6,7 +6,7 @@
       "sortOrder": "custom",
       "customOrder": [
         "技术术语",
-        "乌萨奇.md",
+        "Sakura.md",
         "简历库",
         "AI信息收集系统",
         "Daily notes",
@@ -8104,10 +8104,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "乌萨奇.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "图片归档/乌萨奇图标": {
       "isPinned": false,
       "isHidden": false,
@@ -15568,6 +15564,10 @@
       "isHidden": false
     },
     "Daily notes/Calendar/Journal/Daily/2026-07-20.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Sakura.md": {
       "isPinned": false,
       "isHidden": false
     }
