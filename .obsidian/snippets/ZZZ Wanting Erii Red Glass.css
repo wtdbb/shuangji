@@ -812,7 +812,7 @@ body .status-bar::before {
 }
 
 body .status-bar::after {
-  content: "✦ ERII" !important;
+  content: "✦ SAKURA" !important;
   color: #ed8198 !important;
 }
 
