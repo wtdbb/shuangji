@@ -978,6 +978,324 @@ body.theme-dark
   background-repeat: no-repeat !important;
 }
 
+/* ============================================================
+   FINAL RED CRYSTAL POLISH
+   Lightweight character poses, stronger contrast, and a status
+   signature that belongs to the chrome instead of floating on it.
+   ============================================================ */
+
+/* Each Erii entry now uses a small standalone frame. This avoids the
+   Chromium data-URI limit that left the old spritesheet icons blank. */
+body .nav-folder-title[data-path="AI信息收集系统"] {
+  --wt-nav-image: var(--wt-erii-pose-01);
+  --wt-nav-size: contain;
+  --wt-nav-position: center;
+}
+
+body .nav-folder-title[data-path="Daily notes"] {
+  --wt-nav-image: var(--wt-erii-pose-02);
+  --wt-nav-size: contain;
+  --wt-nav-position: center;
+}
+
+body .nav-folder-title[data-path="行业mapping"] {
+  --wt-nav-image: var(--wt-erii-pose-03);
+  --wt-nav-size: contain;
+  --wt-nav-position: center;
+}
+
+body .nav-folder-title[data-path="图片归档"] {
+  --wt-nav-image: var(--wt-erii-pose-04);
+  --wt-nav-size: contain;
+  --wt-nav-position: center;
+}
+
+body .nav-folder-title[data-path="配置"] {
+  --wt-nav-image: var(--wt-erii-pose-05);
+  --wt-nav-size: contain;
+  --wt-nav-position: center;
+}
+
+body .nav-folder-title[data-path="skill"] {
+  --wt-nav-image: var(--wt-erii-pose-06);
+  --wt-nav-size: contain;
+  --wt-nav-position: center;
+}
+
+body .nav-folder-title[data-path="99_低频归档"] {
+  --wt-nav-image: var(--wt-erii-pose-07);
+  --wt-nav-size: contain;
+  --wt-nav-position: center;
+}
+
+body :is(.nav-file-title[data-path="乌萨奇.md"], .nav-file-title[data-path="Sakura.md"]) {
+  --wt-nav-image: var(--wt-erii-pose-08);
+  --wt-nav-size: contain;
+  --wt-nav-position: center;
+}
+
+body.theme-light
+  .app-container
+  .workspace
+  :is(
+    .nav-file-title[data-path="乌萨奇.md"],
+    .nav-file-title[data-path="Sakura.md"],
+    .nav-folder-title[data-path="技术术语"],
+    .nav-folder-title[data-path="简历库"],
+    .nav-folder-title[data-path="AI信息收集系统"],
+    .nav-folder-title[data-path="Daily notes"],
+    .nav-folder-title[data-path="岗位mapping"],
+    .nav-folder-title[data-path="行业mapping"],
+    .nav-folder-title[data-path="OneNote"],
+    .nav-folder-title[data-path="行业报告"],
+    .nav-folder-title[data-path="图片归档"],
+    .nav-folder-title[data-path="蒸馏"],
+    .nav-folder-title[data-path="配置"],
+    .nav-folder-title[data-path="skill"],
+    .nav-folder-title[data-path="99_低频归档"]
+  )
+  :is(.nav-file-title-content, .nav-folder-title-content)::before,
+body.theme-dark
+  .app-container
+  .workspace
+  :is(
+    .nav-file-title[data-path="乌萨奇.md"],
+    .nav-file-title[data-path="Sakura.md"],
+    .nav-folder-title[data-path="技术术语"],
+    .nav-folder-title[data-path="简历库"],
+    .nav-folder-title[data-path="AI信息收集系统"],
+    .nav-folder-title[data-path="Daily notes"],
+    .nav-folder-title[data-path="岗位mapping"],
+    .nav-folder-title[data-path="行业mapping"],
+    .nav-folder-title[data-path="OneNote"],
+    .nav-folder-title[data-path="行业报告"],
+    .nav-folder-title[data-path="图片归档"],
+    .nav-folder-title[data-path="蒸馏"],
+    .nav-folder-title[data-path="配置"],
+    .nav-folder-title[data-path="skill"],
+    .nav-folder-title[data-path="99_低频归档"]
+  )
+  :is(.nav-file-title-content, .nav-folder-title-content)::before {
+  content: "" !important;
+  display: inline-block !important;
+  width: 26px !important;
+  height: 26px !important;
+  min-width: 26px !important;
+  margin-right: 7px !important;
+  vertical-align: -7px !important;
+  border: 1px solid rgba(255, 220, 229, 0.58) !important;
+  border-radius: 9px !important;
+  background-color: rgba(82, 3, 25, 0.72) !important;
+  background-image: var(--wt-nav-image) !important;
+  background-position: var(--wt-nav-position) !important;
+  background-size: var(--wt-nav-size) !important;
+  background-repeat: no-repeat !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    0 4px 10px rgba(35, 0, 10, 0.25) !important;
+}
+
+/* Unique home-navigation portraits. */
+body .home .internal-link[data-href="行业mapping/行业mapping"] {
+  --wt-home-image: var(--wt-erii-pose-03);
+  --wt-home-size: contain;
+  --wt-home-position: center;
+}
+
+body .home .internal-link[data-href="Daily notes/Bases/Calendar.base"] {
+  --wt-home-image: var(--wt-erii-pose-04);
+  --wt-home-size: contain;
+  --wt-home-position: center;
+}
+
+body .home .internal-link[data-href="Daily notes/Bases/On This Day.base"] {
+  --wt-home-image: var(--wt-erii-pose-05);
+  --wt-home-size: contain;
+  --wt-home-position: center;
+}
+
+body .home .internal-link[data-href="skill/sp-skill/SKILL"] {
+  --wt-home-image: var(--wt-erii-pose-06);
+  --wt-home-size: contain;
+  --wt-home-position: center;
+}
+
+body .home .internal-link[data-href="配置/index"] {
+  --wt-home-image: var(--wt-erii-pose-07);
+  --wt-home-size: contain;
+  --wt-home-position: center;
+}
+
+body .home .internal-link[data-href="蒸馏/index"] {
+  --wt-home-image: var(--wt-erii-pose-08);
+  --wt-home-size: contain;
+  --wt-home-position: center;
+}
+
+body.theme-light
+  .app-container
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  :is(
+    .internal-link[data-href="行业mapping/行业mapping"],
+    .internal-link[data-href="岗位mapping/岗位mapping"],
+    .internal-link[data-href="Daily notes/Bases/Calendar.base"],
+    .internal-link[data-href="行业报告/行业报告"],
+    .internal-link[data-href="Daily notes/Bases/On This Day.base"],
+    .internal-link[data-href="skill/sp-skill/SKILL"],
+    .internal-link[data-href="配置/index"],
+    .internal-link[data-href="蒸馏/index"]
+  )::before,
+body.theme-dark
+  .app-container
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  :is(
+    .internal-link[data-href="行业mapping/行业mapping"],
+    .internal-link[data-href="岗位mapping/岗位mapping"],
+    .internal-link[data-href="Daily notes/Bases/Calendar.base"],
+    .internal-link[data-href="行业报告/行业报告"],
+    .internal-link[data-href="Daily notes/Bases/On This Day.base"],
+    .internal-link[data-href="skill/sp-skill/SKILL"],
+    .internal-link[data-href="配置/index"],
+    .internal-link[data-href="蒸馏/index"]
+  )::before {
+  background-color: rgba(82, 3, 25, 0.7) !important;
+  background-image: var(--wt-home-image) !important;
+  background-position: var(--wt-home-position) !important;
+  background-size: var(--wt-home-size) !important;
+  background-repeat: no-repeat !important;
+}
+
+/* The narrow ribbon and vault profile now share the same red-crystal shell. */
+body.theme-light .app-container .workspace-ribbon,
+body.theme-dark .app-container .workspace-ribbon {
+  color: rgba(255, 239, 244, 0.9) !important;
+  border-right: 1px solid rgba(255, 204, 217, 0.15) !important;
+  background:
+    radial-gradient(circle at 50% 8%, rgba(236, 77, 116, 0.24), transparent 34%),
+    linear-gradient(180deg, rgba(125, 10, 43, 0.88), rgba(43, 1, 14, 0.94)) !important;
+  box-shadow:
+    inset -1px 0 0 rgba(255, 255, 255, 0.06),
+    10px 0 24px rgba(30, 0, 10, 0.12) !important;
+  backdrop-filter: blur(18px) saturate(1.18) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(1.18) !important;
+}
+
+body.theme-light .app-container .workspace-ribbon .clickable-icon,
+body.theme-dark .app-container .workspace-ribbon .clickable-icon {
+  color: rgba(255, 238, 243, 0.88) !important;
+  opacity: 0.9 !important;
+}
+
+body.theme-light .app-container .workspace-ribbon .clickable-icon:hover,
+body.theme-dark .app-container .workspace-ribbon .clickable-icon:hover {
+  color: #fff !important;
+  background: rgba(246, 102, 138, 0.22) !important;
+}
+
+body.theme-light .app-container .workspace-sidedock-vault-profile,
+body.theme-dark .app-container .workspace-sidedock-vault-profile {
+  color: rgba(255, 235, 241, 0.9) !important;
+  border-top: 1px solid rgba(255, 210, 222, 0.14) !important;
+  background: linear-gradient(180deg, rgba(83, 3, 27, 0.82), rgba(48, 1, 16, 0.92)) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06) !important;
+}
+
+body.theme-light .app-container .workspace-sidedock-vault-profile :is(.workspace-drawer-vault-name, .clickable-icon),
+body.theme-dark .app-container .workspace-sidedock-vault-profile :is(.workspace-drawer-vault-name, .clickable-icon) {
+  color: rgba(255, 238, 243, 0.92) !important;
+}
+
+/* Recent items use dark translucent surfaces so white labels remain readable. */
+body.theme-light .app-container .home .dataview.list-view-ul li,
+body.theme-dark .app-container .home .dataview.list-view-ul li {
+  color: rgba(255, 222, 231, 0.82) !important;
+  border: 1px solid rgba(255, 195, 211, 0.16) !important;
+  background:
+    radial-gradient(circle at 14% 0%, rgba(231, 72, 111, 0.17), transparent 42%),
+    linear-gradient(100deg, rgba(95, 5, 31, 0.78), rgba(47, 1, 16, 0.68)) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 7px 18px rgba(36, 0, 12, 0.13) !important;
+}
+
+body.theme-light .app-container .home .dataview.list-view-ul li:hover,
+body.theme-dark .app-container .home .dataview.list-view-ul li:hover {
+  color: #fff3f6 !important;
+  border-color: rgba(255, 182, 202, 0.3) !important;
+  background: linear-gradient(100deg, rgba(133, 12, 48, 0.86), rgba(70, 3, 25, 0.8)) !important;
+}
+
+body.theme-light .app-container .home .dataview.list-view-ul li a,
+body.theme-dark .app-container .home .dataview.list-view-ul li a {
+  color: #fff7f9 !important;
+  text-shadow: 0 1px 5px rgba(35, 0, 10, 0.28) !important;
+}
+
+/* One continuous footer chrome with an inset Sakura maker's mark. */
+body.theme-light .app-container .status-bar,
+body.theme-dark .app-container .status-bar {
+  min-height: 30px !important;
+  padding-block: 3px !important;
+  color: rgba(255, 226, 234, 0.84) !important;
+  border-top: 1px solid rgba(255, 205, 218, 0.19) !important;
+  background:
+    radial-gradient(circle at 68% -160%, rgba(245, 102, 139, 0.34), transparent 38%),
+    linear-gradient(90deg, rgba(57, 1, 19, 0.96), rgba(111, 8, 40, 0.94) 52%, rgba(46, 1, 16, 0.97)) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.07),
+    0 -8px 24px rgba(29, 0, 10, 0.16) !important;
+  backdrop-filter: blur(20px) saturate(1.22) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(1.22) !important;
+}
+
+body.theme-light .app-container .status-bar::before,
+body.theme-dark .app-container .status-bar::before {
+  height: 1px !important;
+  opacity: 0.72 !important;
+  background: linear-gradient(90deg, transparent, rgba(255, 147, 175, 0.78), transparent) !important;
+}
+
+body.theme-light .app-container .status-bar::after,
+body.theme-dark .app-container .status-bar::after {
+  content: "✦ SAKURA" !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 20px !important;
+  margin: 0 7px !important;
+  padding: 0 10px !important;
+  color: #fff1f5 !important;
+  border: 1px solid rgba(255, 194, 210, 0.24) !important;
+  border-radius: 7px !important;
+  background:
+    radial-gradient(circle at 22% 0%, rgba(255, 162, 187, 0.24), transparent 42%),
+    linear-gradient(180deg, rgba(154, 19, 59, 0.78), rgba(82, 4, 29, 0.82)) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.16),
+    0 3px 9px rgba(26, 0, 9, 0.2) !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+  letter-spacing: 0.12em !important;
+  text-shadow: 0 1px 3px rgba(30, 0, 10, 0.42) !important;
+}
+
+body.theme-light .app-container .status-bar .status-bar-item,
+body.theme-dark .app-container .status-bar .status-bar-item {
+  color: rgba(255, 228, 235, 0.86) !important;
+  border-radius: 6px !important;
+}
+
+body.theme-light .app-container .status-bar .status-bar-item:hover,
+body.theme-dark .app-container .status-bar .status-bar-item:hover {
+  color: #fff !important;
+  background: rgba(248, 107, 143, 0.16) !important;
+}
+
 /* Home buttons use eight different compositions rather than two repeated heads. */
 body .home .internal-link[data-href="行业mapping/行业mapping"] {
   --wt-home-image: var(--wt-erii-sheet);
