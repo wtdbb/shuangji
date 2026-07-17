@@ -836,3 +836,228 @@ body ::-webkit-scrollbar-thumb:hover {
     padding-inline: 12px !important;
   }
 }
+
+/* ============================================================
+   CHARACTER ICON VARIANTS
+   Reuse the local high-resolution Erii animation sheet and the
+   official Mingfei key art so every navigation item has its own pose.
+   ============================================================ */
+
+body {
+  --wt-erii-sheet: url("app://local/C:/Users/EDY/Documents/CodexVault/.obsidian/snippets/wanting-theme/erii-spritesheet.webp");
+  --wt-mingfei-wide: url("app://local/C:/Users/EDY/Documents/CodexVault/.obsidian/snippets/wanting-theme/mingfei-official.jpg");
+}
+
+/* Sidebar assignments: Erii poses and Mingfei crops deliberately alternate. */
+body .nav-folder-title[data-path="技术术语"] {
+  --wt-nav-image: var(--wt-mingfei-wide);
+  --wt-nav-size: 300% auto;
+  --wt-nav-position: 25% 12%;
+}
+
+body .nav-folder-title[data-path="简历库"] {
+  --wt-nav-image: var(--wt-mingfei-wide);
+  --wt-nav-size: 220% auto;
+  --wt-nav-position: 18% 36%;
+}
+
+body .nav-folder-title[data-path="AI信息收集系统"] {
+  --wt-nav-image: var(--wt-erii-sheet);
+  --wt-nav-size: 800% 900%;
+  --wt-nav-position: 0% 0%;
+}
+
+body .nav-folder-title[data-path="Daily notes"] {
+  --wt-nav-image: var(--wt-erii-sheet);
+  --wt-nav-size: 800% 900%;
+  --wt-nav-position: 28.571% 37.5%;
+}
+
+body .nav-folder-title[data-path="岗位mapping"] {
+  --wt-nav-image: var(--wt-mingfei-wide);
+  --wt-nav-size: 260% auto;
+  --wt-nav-position: 31% 24%;
+}
+
+body .nav-folder-title[data-path="行业mapping"] {
+  --wt-nav-image: var(--wt-erii-sheet);
+  --wt-nav-size: 800% 900%;
+  --wt-nav-position: 57.143% 62.5%;
+}
+
+body .nav-folder-title[data-path="OneNote"] {
+  --wt-nav-image: var(--wt-mingfei-wide);
+  --wt-nav-size: 175% auto;
+  --wt-nav-position: 12% 48%;
+}
+
+body .nav-folder-title[data-path="行业报告"] {
+  --wt-nav-image: var(--wt-mingfei-wide);
+  --wt-nav-size: 360% auto;
+  --wt-nav-position: 43% 30%;
+}
+
+body .nav-folder-title[data-path="图片归档"] {
+  --wt-nav-image: var(--wt-erii-sheet);
+  --wt-nav-size: 800% 900%;
+  --wt-nav-position: 0% 12.5%;
+}
+
+body .nav-folder-title[data-path="蒸馏"] {
+  --wt-nav-image: var(--wt-mingfei-wide);
+  --wt-nav-size: 205% auto;
+  --wt-nav-position: 27% 58%;
+}
+
+body .nav-folder-title[data-path="配置"] {
+  --wt-nav-image: var(--wt-erii-sheet);
+  --wt-nav-size: 800% 900%;
+  --wt-nav-position: 28.571% 50%;
+}
+
+body .nav-folder-title[data-path="skill"] {
+  --wt-nav-image: var(--wt-erii-sheet);
+  --wt-nav-size: 800% 900%;
+  --wt-nav-position: 42.857% 87.5%;
+}
+
+body .nav-folder-title[data-path="99_低频归档"] {
+  --wt-nav-image: var(--wt-erii-sheet);
+  --wt-nav-size: 800% 900%;
+  --wt-nav-position: 71.429% 75%;
+}
+
+body .nav-file-title[data-path="乌萨奇.md"] {
+  --wt-nav-image: var(--wt-erii-sheet);
+  --wt-nav-size: 800% 900%;
+  --wt-nav-position: 57.143% 100%;
+}
+
+body.theme-light
+  .workspace
+  :is(
+    .nav-file-title[data-path="乌萨奇.md"],
+    .nav-folder-title[data-path="技术术语"],
+    .nav-folder-title[data-path="简历库"],
+    .nav-folder-title[data-path="AI信息收集系统"],
+    .nav-folder-title[data-path="Daily notes"],
+    .nav-folder-title[data-path="岗位mapping"],
+    .nav-folder-title[data-path="行业mapping"],
+    .nav-folder-title[data-path="OneNote"],
+    .nav-folder-title[data-path="行业报告"],
+    .nav-folder-title[data-path="图片归档"],
+    .nav-folder-title[data-path="蒸馏"],
+    .nav-folder-title[data-path="配置"],
+    .nav-folder-title[data-path="skill"],
+    .nav-folder-title[data-path="99_低频归档"]
+  )
+  :is(.nav-file-title-content, .nav-folder-title-content)::before,
+body.theme-dark
+  .workspace
+  :is(
+    .nav-file-title[data-path="乌萨奇.md"],
+    .nav-folder-title[data-path="技术术语"],
+    .nav-folder-title[data-path="简历库"],
+    .nav-folder-title[data-path="AI信息收集系统"],
+    .nav-folder-title[data-path="Daily notes"],
+    .nav-folder-title[data-path="岗位mapping"],
+    .nav-folder-title[data-path="行业mapping"],
+    .nav-folder-title[data-path="OneNote"],
+    .nav-folder-title[data-path="行业报告"],
+    .nav-folder-title[data-path="图片归档"],
+    .nav-folder-title[data-path="蒸馏"],
+    .nav-folder-title[data-path="配置"],
+    .nav-folder-title[data-path="skill"],
+    .nav-folder-title[data-path="99_低频归档"]
+  )
+  :is(.nav-file-title-content, .nav-folder-title-content)::before {
+  background-color: rgba(255, 238, 243, 0.88) !important;
+  background-image: var(--wt-nav-image) !important;
+  background-position: var(--wt-nav-position) !important;
+  background-size: var(--wt-nav-size) !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Home buttons use eight different compositions rather than two repeated heads. */
+body .home .internal-link[data-href="行业mapping/行业mapping"] {
+  --wt-home-image: var(--wt-erii-sheet);
+  --wt-home-size: 800% 900%;
+  --wt-home-position: 28.571% 37.5%;
+}
+
+body .home .internal-link[data-href="岗位mapping/岗位mapping"] {
+  --wt-home-image: var(--wt-mingfei-wide);
+  --wt-home-size: 300% auto;
+  --wt-home-position: 25% 12%;
+}
+
+body .home .internal-link[data-href="Daily notes/Bases/Calendar.base"] {
+  --wt-home-image: var(--wt-erii-sheet);
+  --wt-home-size: 800% 900%;
+  --wt-home-position: 57.143% 62.5%;
+}
+
+body .home .internal-link[data-href="行业报告/行业报告"] {
+  --wt-home-image: var(--wt-mingfei-wide);
+  --wt-home-size: 220% auto;
+  --wt-home-position: 18% 36%;
+}
+
+body .home .internal-link[data-href="Daily notes/Bases/On This Day.base"] {
+  --wt-home-image: var(--wt-erii-sheet);
+  --wt-home-size: 800% 900%;
+  --wt-home-position: 71.429% 75%;
+}
+
+body .home .internal-link[data-href="skill/sp-skill/SKILL"] {
+  --wt-home-image: var(--wt-mingfei-wide);
+  --wt-home-size: 360% auto;
+  --wt-home-position: 43% 30%;
+}
+
+body .home .internal-link[data-href="配置/index"] {
+  --wt-home-image: var(--wt-erii-sheet);
+  --wt-home-size: 800% 900%;
+  --wt-home-position: 28.571% 50%;
+}
+
+body .home .internal-link[data-href="蒸馏/index"] {
+  --wt-home-image: var(--wt-mingfei-wide);
+  --wt-home-size: 175% auto;
+  --wt-home-position: 12% 48%;
+}
+
+body.theme-light
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  :is(
+    .internal-link[data-href="行业mapping/行业mapping"],
+    .internal-link[data-href="岗位mapping/岗位mapping"],
+    .internal-link[data-href="Daily notes/Bases/Calendar.base"],
+    .internal-link[data-href="行业报告/行业报告"],
+    .internal-link[data-href="Daily notes/Bases/On This Day.base"],
+    .internal-link[data-href="skill/sp-skill/SKILL"],
+    .internal-link[data-href="配置/index"],
+    .internal-link[data-href="蒸馏/index"]
+  )::before,
+body.theme-dark
+  .home
+  .callout[data-callout="home-stack"]
+  .callout-content
+  :is(
+    .internal-link[data-href="行业mapping/行业mapping"],
+    .internal-link[data-href="岗位mapping/岗位mapping"],
+    .internal-link[data-href="Daily notes/Bases/Calendar.base"],
+    .internal-link[data-href="行业报告/行业报告"],
+    .internal-link[data-href="Daily notes/Bases/On This Day.base"],
+    .internal-link[data-href="skill/sp-skill/SKILL"],
+    .internal-link[data-href="配置/index"],
+    .internal-link[data-href="蒸馏/index"]
+  )::before {
+  background-color: rgba(255, 238, 243, 0.88) !important;
+  background-image: var(--wt-home-image) !important;
+  background-position: var(--wt-home-position) !important;
+  background-size: var(--wt-home-size) !important;
+  background-repeat: no-repeat !important;
+}
