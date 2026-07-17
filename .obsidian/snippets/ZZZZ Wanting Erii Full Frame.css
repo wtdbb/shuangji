@@ -26,10 +26,20 @@ body.theme-dark .app-container .workspace-tab-header-container {
   -webkit-backdrop-filter: blur(9px) saturate(1.08) !important;
 }
 
-body.theme-light :is(.titlebar-button-container, .titlebar-text),
-body.theme-dark :is(.titlebar-button-container, .titlebar-text) {
+body.theme-light .titlebar-text,
+body.theme-dark .titlebar-text {
   position: relative !important;
   z-index: 10 !important;
+}
+
+body.theme-light .titlebar-button-container,
+body.theme-dark .titlebar-button-container {
+  position: absolute !important;
+  inset: 0 0 auto auto !important;
+  z-index: 10 !important;
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 body.theme-light :is(.titlebar-button, .titlebar-button svg),
