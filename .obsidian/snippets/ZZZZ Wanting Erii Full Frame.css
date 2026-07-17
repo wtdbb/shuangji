@@ -141,3 +141,82 @@ body.theme-dark .app-container .status-bar::after {
   font-size: 9px !important;
   letter-spacing: 0.1em !important;
 }
+
+/* Claudian composer: replace the low-contrast white panel with red glass. */
+body .app-container .claudian-input-wrapper {
+  --text-normal: #fff7f9;
+  --text-muted: #f0b8c7;
+  --text-faint: #d98aa1;
+  --claudian-brand: #ff9fba;
+  --claudian-brand-rgb: 255, 116, 154;
+  --background-primary: rgba(77, 3, 28, 0.9);
+  --background-secondary: rgba(94, 8, 37, 0.96);
+  --background-modifier-border: rgba(255, 184, 202, 0.42);
+  --background-modifier-hover: rgba(255, 142, 174, 0.17);
+  --claudian-input-wrapper-border-color: rgba(255, 191, 207, 0.58);
+  background:
+    radial-gradient(circle at 15% 0%, rgba(255, 171, 194, 0.16), transparent 42%),
+    linear-gradient(145deg, rgba(105, 8, 40, 0.93), rgba(55, 1, 21, 0.95)) !important;
+  border-color: var(--claudian-input-wrapper-border-color) !important;
+  box-shadow:
+    0 14px 30px rgba(42, 0, 15, 0.28),
+    inset 0 1px 0 rgba(255, 230, 237, 0.14) !important;
+  backdrop-filter: blur(18px) saturate(1.15) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(1.15) !important;
+}
+
+body .app-container .claudian-input-wrapper textarea.claudian-input,
+body .app-container .claudian-input-wrapper textarea.claudian-input:hover,
+body .app-container .claudian-input-wrapper textarea.claudian-input:focus {
+  color: #fff7f9 !important;
+  caret-color: #ffb6cb !important;
+  background: transparent !important;
+  -webkit-text-fill-color: #fff7f9 !important;
+}
+
+body .app-container .claudian-input-wrapper textarea.claudian-input::placeholder {
+  color: #ef9eb7 !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #ef9eb7 !important;
+}
+
+body .app-container .claudian-input-wrapper :is(
+  .claudian-model-btn,
+  .claudian-model-label,
+  .claudian-thinking-current,
+  .claudian-thinking-label-text,
+  .claudian-mode-label,
+  .claudian-permission-label,
+  .claudian-context-meter-percent,
+  .claudian-service-tier-button
+) {
+  color: #ffdce6 !important;
+  -webkit-text-fill-color: #ffdce6 !important;
+}
+
+body .app-container .claudian-input-wrapper :is(
+  .claudian-input-toolbar,
+  .claudian-context-row
+) {
+  color: #fff7f9 !important;
+  background: transparent !important;
+}
+
+body .app-container :is(
+  .claudian-model-dropdown,
+  .claudian-thinking-options,
+  .claudian-external-context-dropdown,
+  .claudian-mcp-selector-dropdown
+) {
+  --text-normal: #fff7f9;
+  --text-muted: #efb2c3;
+  --text-faint: #d98aa1;
+  --claudian-brand: #ff9fba;
+  --claudian-brand-rgb: 255, 116, 154;
+  --background-secondary: rgba(72, 2, 26, 0.98);
+  --background-modifier-border: rgba(255, 184, 202, 0.4);
+  --background-modifier-hover: rgba(255, 142, 174, 0.18);
+  background: rgba(72, 2, 26, 0.98) !important;
+  border-color: rgba(255, 184, 202, 0.4) !important;
+  color: #fff7f9 !important;
+}
