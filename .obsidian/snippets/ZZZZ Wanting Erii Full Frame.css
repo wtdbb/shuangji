@@ -32,10 +32,8 @@ body.theme-dark .titlebar-text {
   z-index: 10 !important;
 }
 
-body.theme-light .titlebar-button-container,
-body.theme-dark .titlebar-button-container {
-  position: absolute !important;
-  inset: 0 0 auto auto !important;
+body.theme-light .titlebar-button-container.mod-right,
+body.theme-dark .titlebar-button-container.mod-right {
   z-index: 10 !important;
   display: flex !important;
   visibility: visible !important;
