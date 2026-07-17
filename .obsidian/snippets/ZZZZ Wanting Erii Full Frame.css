@@ -122,6 +122,11 @@ body.theme-dark .app-container .status-bar .status-bar-item {
   font-size: 11px !important;
 }
 
+body.theme-light .app-container .status-bar .status-bar-item:nth-last-child(-n + 2),
+body.theme-dark .app-container .status-bar .status-bar-item:nth-last-child(-n + 2) {
+  display: none !important;
+}
+
 body.theme-light .app-container .status-bar::after,
 body.theme-dark .app-container .status-bar::after {
   height: 18px !important;
