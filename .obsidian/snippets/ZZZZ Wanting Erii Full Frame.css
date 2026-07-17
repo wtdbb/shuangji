@@ -111,6 +111,7 @@ body.theme-light .app-container .status-bar,
 body.theme-dark .app-container .status-bar {
   min-height: 27px !important;
   padding-block: 2px !important;
+  max-width: calc(100vw - 28px) !important;
   gap: 0 !important;
 }
 
@@ -122,8 +123,13 @@ body.theme-dark .app-container .status-bar .status-bar-item {
   font-size: 11px !important;
 }
 
-body.theme-light .app-container .status-bar .status-bar-item:nth-last-child(-n + 2),
-body.theme-dark .app-container .status-bar .status-bar-item:nth-last-child(-n + 2) {
+/* Keep the useful counters, but remove Obsidian Git's redundant footer controls. */
+body .app-container .status-bar .status-bar-item[class*="obsidian-git-statusbar-"],
+body .app-container .status-bar .status-bar-item.git-changes-status-bar,
+body .app-container .status-bar .status-bar-item[aria-label^="Git "],
+body .app-container .status-bar .status-bar-item[aria-label^="Last Commit"],
+body .app-container .status-bar .status-bar-item[aria-label="Git is ready"],
+body .app-container .status-bar .status-bar-item[aria-label="Git is offline"] {
   display: none !important;
 }
 
