@@ -978,6 +978,102 @@ body.theme-dark
   background-repeat: no-repeat !important;
 }
 
+/* FINAL FULL-FRAME PASS: one wallpaper beneath every Obsidian surface. */
+body.theme-light,
+body.theme-dark,
+body.theme-light .app-container,
+body.theme-dark .app-container {
+  background:
+    linear-gradient(105deg, rgba(73, 2, 25, 0.08), rgba(132, 15, 49, 0.025) 52%, rgba(52, 1, 18, 0.1)),
+    var(--wt-wallpaper) center center / cover fixed no-repeat !important;
+}
+
+body.theme-light .app-container :is(.titlebar, .workspace-tab-header-container),
+body.theme-dark .app-container :is(.titlebar, .workspace-tab-header-container) {
+  background: linear-gradient(90deg, rgba(83, 4, 29, 0.18), rgba(58, 2, 20, 0.12)) !important;
+  backdrop-filter: blur(9px) saturate(1.08) !important;
+  -webkit-backdrop-filter: blur(9px) saturate(1.08) !important;
+}
+
+body.theme-light .app-container .workspace-ribbon,
+body.theme-dark .app-container .workspace-ribbon {
+  background:
+    radial-gradient(circle at 50% 8%, rgba(236, 77, 116, 0.18), transparent 36%),
+    linear-gradient(180deg, rgba(105, 6, 37, 0.3), rgba(45, 1, 16, 0.36)) !important;
+  backdrop-filter: blur(12px) saturate(1.12) !important;
+  -webkit-backdrop-filter: blur(12px) saturate(1.12) !important;
+}
+
+body.theme-light .app-container :is(.workspace-split.mod-left-split, .workspace-split.mod-right-split),
+body.theme-dark .app-container :is(.workspace-split.mod-left-split, .workspace-split.mod-right-split) {
+  background: linear-gradient(145deg, rgba(76, 3, 27, 0.11), rgba(37, 1, 13, 0.15)) !important;
+  backdrop-filter: blur(8px) saturate(1.08) !important;
+  -webkit-backdrop-filter: blur(8px) saturate(1.08) !important;
+}
+
+body.theme-light .app-container
+  :is(.workspace-split.mod-left-split, .workspace-split.mod-right-split)
+  :is(
+    .workspace-tabs,
+    .workspace-leaf,
+    .workspace-leaf-content,
+    .view-content,
+    .nav-files-container,
+    .nav-header,
+    .side-dock-settings,
+    .backlink-pane,
+    .outgoing-link-pane
+  ),
+body.theme-dark .app-container
+  :is(.workspace-split.mod-left-split, .workspace-split.mod-right-split)
+  :is(
+    .workspace-tabs,
+    .workspace-leaf,
+    .workspace-leaf-content,
+    .view-content,
+    .nav-files-container,
+    .nav-header,
+    .side-dock-settings,
+    .backlink-pane,
+    .outgoing-link-pane
+  ) {
+  background: linear-gradient(180deg, rgba(91, 5, 31, 0.055), rgba(42, 1, 15, 0.085)) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+body.theme-light .app-container .workspace-sidedock-vault-profile,
+body.theme-dark .app-container .workspace-sidedock-vault-profile {
+  background: linear-gradient(180deg, rgba(83, 3, 27, 0.26), rgba(48, 1, 16, 0.32)) !important;
+  backdrop-filter: blur(10px) saturate(1.1) !important;
+  -webkit-backdrop-filter: blur(10px) saturate(1.1) !important;
+}
+
+/* Keep the footer inside its content width without dropping useful counters. */
+body.theme-light .app-container .status-bar,
+body.theme-dark .app-container .status-bar {
+  min-height: 27px !important;
+  padding-block: 2px !important;
+  gap: 0 !important;
+}
+
+body.theme-light .app-container .status-bar .status-bar-item,
+body.theme-dark .app-container .status-bar .status-bar-item {
+  min-width: 0 !important;
+  margin-inline: 0 !important;
+  padding-inline: 3px !important;
+  font-size: 11px !important;
+}
+
+body.theme-light .app-container .status-bar::after,
+body.theme-dark .app-container .status-bar::after {
+  height: 18px !important;
+  margin: 0 5px 0 2px !important;
+  padding-inline: 8px !important;
+  font-size: 9px !important;
+  letter-spacing: 0.1em !important;
+}
+
 /* FINAL LAYOUT PASS: compact footer, continuous wallpaper, animated signature. */
 body.theme-light .app-container,
 body.theme-dark .app-container {
