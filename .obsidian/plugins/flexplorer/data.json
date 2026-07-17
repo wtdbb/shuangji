@@ -1101,6 +1101,9 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-07-20.md",
+        "2026-07-19.md",
+        "2026-07-18.md",
         "2026-07-17.md",
         "2026-07-16.md",
         "2026-07-15.md",
@@ -15553,6 +15556,18 @@
       "isHidden": false
     },
     "Daily notes/Calendar/Journal/Daily/2026-07-17.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-07-18.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-07-19.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-07-20.md": {
       "isPinned": false,
       "isHidden": false
     }
