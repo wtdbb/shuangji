@@ -15585,6 +15585,7 @@
     "岗位mapping/分部/二线/字节/朝夕光年（杭州心光工作室）": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "高能手办团.md",
         "飞吧龙骑士.md",
@@ -15592,8 +15593,7 @@
         "镭明闪击.md",
         "朝夕光年（杭州心光工作室）介绍.md",
         "朝夕光年（杭州心光工作室）.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/分部/二线/字节/朝夕光年（杭州心光工作室）/朝夕光年（杭州心光工作室）.md": {
       "isPinned": false,
