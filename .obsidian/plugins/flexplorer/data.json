@@ -4814,16 +4814,12 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "网易游戏.md",
         "无限大（Ananta）.md",
+        "网易游戏.md",
         "SGRA银之心工作室.md"
       ]
     },
     "岗位mapping/分部/一线/网易/杭州网易/网易游戏/SGRA银之心工作室.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "岗位mapping/分部/一线/网易/杭州网易/网易游戏/无限大（Ananta）.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -15621,6 +15617,10 @@
       "isHidden": false
     },
     "OneNote/技术术语/文案配表.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/分部/一线/网易/杭州网易/网易游戏/无限大（Ananta）.md": {
       "isPinned": false,
       "isHidden": false
     }
