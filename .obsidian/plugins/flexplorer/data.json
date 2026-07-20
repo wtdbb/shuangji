@@ -14350,6 +14350,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "文案配表.md",
         "第四章 Unity 客户端",
         "第十章 工程化、构建与发布",
         "第十四章 候选人技术实力判断",
@@ -15616,6 +15617,10 @@
       "isHidden": false
     },
     "岗位mapping/分部/二线/字节/朝夕光年（杭州心光工作室）/高能手办团.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/文案配表.md": {
       "isPinned": false,
       "isHidden": false
     }
