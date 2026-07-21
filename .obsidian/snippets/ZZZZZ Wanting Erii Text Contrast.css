@@ -59,3 +59,47 @@ body .workspace-split.mod-root
   background: rgba(255, 153, 183, 0.34) !important;
 }
 
+/* ============================================================
+   CLAUDIAN CHAT — remove low-contrast red and purple text
+   ============================================================ */
+
+body .app-container .claudian-container {
+  --text-normal: #fff8fa;
+  --text-muted: #f5ced8;
+  --text-faint: #dda6b5;
+  --text-accent: #9ff3e0;
+  --text-accent-hover: #d9fff6;
+  --link-color: #9ff3e0;
+  --link-color-hover: #d9fff6;
+  --bold-color: #ffdc8a;
+}
+
+/* Links become mint instead of dark red/purple. */
+body .app-container .claudian-container
+  .claudian-message-content
+  :is(a, a.internal-link, a.external-link) {
+  color: #9ff3e0 !important;
+  text-decoration-color: rgba(159, 243, 224, 0.66) !important;
+  text-shadow: 0 1px 2px rgba(31, 0, 12, 0.72);
+}
+
+body .app-container .claudian-container
+  .claudian-message-content
+  :is(a, a.internal-link, a.external-link):hover {
+  color: #d9fff6 !important;
+  text-decoration-color: #d9fff6 !important;
+}
+
+/* Important conclusions use warm gold instead of purple. */
+body .app-container .claudian-container
+  .claudian-message-content
+  :is(strong, b) {
+  color: #ffdc8a !important;
+  text-shadow: 0 1px 2px rgba(31, 0, 12, 0.78);
+}
+
+body .app-container .claudian-container
+  .claudian-message-content
+  li::marker {
+  color: #ffcf70 !important;
+}

@@ -156,8 +156,8 @@ body.theme-light
     .workspace-tab-header-container
   ) {
   background: rgba(255, 241, 247, 0.84) !important;
-  backdrop-filter: blur(18px) saturate(1.08);
-  -webkit-backdrop-filter: blur(18px) saturate(1.08);
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
 }
 
 body.theme-dark
@@ -171,8 +171,8 @@ body.theme-dark
     .workspace-tab-header-container
   ) {
   background: rgba(45, 26, 37, 0.88) !important;
-  backdrop-filter: blur(18px) saturate(1.05);
-  -webkit-backdrop-filter: blur(18px) saturate(1.05);
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
 }
 
 body.theme-light
@@ -184,8 +184,8 @@ body.theme-light
     .markdown-preview-view
   ) {
   background: rgba(255, 250, 252, var(--wt-glass-opacity)) !important;
-  backdrop-filter: blur(14px) saturate(1.06);
-  -webkit-backdrop-filter: blur(14px) saturate(1.06);
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
 }
 
 body.theme-dark
@@ -197,8 +197,8 @@ body.theme-dark
     .markdown-preview-view
   ) {
   background: rgba(40, 25, 34, var(--wt-glass-opacity)) !important;
-  backdrop-filter: blur(14px) saturate(1.04);
-  -webkit-backdrop-filter: blur(14px) saturate(1.04);
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
 }
 
 body :is(.modal, .menu, .suggestion-container, .popover, .prompt) {
@@ -276,8 +276,8 @@ body .home.markdown-source-view.mod-cm6 .cm-sizer {
     rgba(249, 218, 231, 0.2)
   ) !important;
   box-shadow: var(--wt-shadow);
-  backdrop-filter: blur(18px) saturate(1.1);
-  -webkit-backdrop-filter: blur(18px) saturate(1.1);
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
 }
 
 body .home .inline-title,
@@ -292,7 +292,7 @@ body .home :is(h1, .cm-header-1) {
   font-weight: 650 !important;
   letter-spacing: 0.04em;
   text-shadow: 0 4px 20px rgba(184, 73, 117, 0.18) !important;
-  animation: wt-title-breathe 5.5s ease-in-out infinite !important;
+  animation: none !important;
 }
 
 body .home p strong {
@@ -313,7 +313,7 @@ body .home.markdown-source-view.mod-cm6 .cm-sizer::before {
   background: var(--wt-erii-sprite) center / contain no-repeat !important;
   opacity: 0.98 !important;
   filter: drop-shadow(0 10px 18px rgba(135, 47, 84, 0.22)) !important;
-  animation: wt-erii-float 4.8s ease-in-out infinite !important;
+  animation: none !important;
   pointer-events: none !important;
   z-index: 4 !important;
 }
@@ -330,8 +330,8 @@ body .home .callout[data-callout="home-stack"] {
     rgba(249, 217, 231, 0.82)
   ) !important;
   box-shadow: var(--wt-shadow-soft) !important;
-  backdrop-filter: blur(16px) !important;
-  -webkit-backdrop-filter: blur(16px) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
 }
 
 body .home .callout[data-callout="home-stack"] .callout-title {

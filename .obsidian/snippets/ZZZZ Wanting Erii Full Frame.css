@@ -21,9 +21,9 @@ body.theme-dark .app-container .workspace-tab-header-container {
   background-position: center center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  background-attachment: fixed !important;
-  backdrop-filter: blur(9px) saturate(1.08) !important;
-  -webkit-backdrop-filter: blur(9px) saturate(1.08) !important;
+  background-attachment: scroll !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
 }
 
 body.theme-light .titlebar-text,
@@ -62,15 +62,15 @@ body.theme-dark .app-container .workspace-ribbon {
   background:
     radial-gradient(circle at 50% 8%, rgba(236, 77, 116, 0.18), transparent 36%),
     linear-gradient(180deg, rgba(105, 6, 37, 0.3), rgba(45, 1, 16, 0.36)) !important;
-  backdrop-filter: blur(12px) saturate(1.12) !important;
-  -webkit-backdrop-filter: blur(12px) saturate(1.12) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
 }
 
 body.theme-light .app-container :is(.workspace-split.mod-left-split, .workspace-split.mod-right-split),
 body.theme-dark .app-container :is(.workspace-split.mod-left-split, .workspace-split.mod-right-split) {
   background: linear-gradient(145deg, rgba(76, 3, 27, 0.11), rgba(37, 1, 13, 0.15)) !important;
-  backdrop-filter: blur(8px) saturate(1.08) !important;
-  -webkit-backdrop-filter: blur(8px) saturate(1.08) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
 }
 
 body.theme-light .app-container
@@ -107,8 +107,8 @@ body.theme-dark .app-container
 body.theme-light .app-container .workspace-sidedock-vault-profile,
 body.theme-dark .app-container .workspace-sidedock-vault-profile {
   background: linear-gradient(180deg, rgba(83, 3, 27, 0.26), rgba(48, 1, 16, 0.32)) !important;
-  backdrop-filter: blur(10px) saturate(1.1) !important;
-  -webkit-backdrop-filter: blur(10px) saturate(1.1) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
 }
 
 /* Compact the footer slightly while retaining counters and sync state. */
@@ -166,8 +166,8 @@ body .app-container .claudian-input-wrapper {
   box-shadow:
     0 14px 30px rgba(42, 0, 15, 0.28),
     inset 0 1px 0 rgba(255, 230, 237, 0.14) !important;
-  backdrop-filter: blur(18px) saturate(1.15) !important;
-  -webkit-backdrop-filter: blur(18px) saturate(1.15) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
 }
 
 body .app-container .claudian-input-wrapper textarea.claudian-input,
@@ -239,8 +239,8 @@ body .app-container .metadata-container {
   box-shadow:
     0 12px 30px rgba(37, 0, 14, 0.2),
     inset 0 1px 0 rgba(255, 229, 236, 0.1) !important;
-  backdrop-filter: blur(18px) saturate(1.12) !important;
-  -webkit-backdrop-filter: blur(18px) saturate(1.12) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
 }
 
 body .app-container .metadata-container :is(
