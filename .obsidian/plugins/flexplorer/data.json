@@ -15643,6 +15643,7 @@
     "岗位mapping/JD库": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "其他",
         "运营",
@@ -15652,8 +15653,7 @@
         "策划",
         "模板",
         "JD库.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/JD库/JD库.md": {
       "isPinned": false,
@@ -15662,18 +15662,18 @@
     "岗位mapping/JD库/模板": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "JD模板.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/JD库/策划": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "高级战斗策划-英雄互娱-北京.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/JD库/模板/JD模板.md": {
       "isPinned": false,
@@ -15686,32 +15686,32 @@
     "岗位mapping/JD库/程序": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
     "岗位mapping/JD库/美术": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
     "岗位mapping/JD库/测试": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
     "岗位mapping/JD库/运营": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     },
     "岗位mapping/JD库/其他": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
-      "sortOrder": "custom"
+      "sortOrder": "custom",
+      "customOrder": []
     }
   },
   "pinnedFiles": [],
