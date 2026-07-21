@@ -1,0 +1,70 @@
+/*
+ * Performance override for the Wanting/Erii red-glass theme.
+ * Loaded last so the visual palette stays intact while expensive live blur
+ * and decorative motion no longer keep the Electron compositor busy.
+ */
+
+:root {
+  --wanting-performance-surface: rgb(75 18 39 / 0.82);
+  --wanting-performance-surface-soft: rgb(105 45 66 / 0.7);
+}
+
+body,
+body * {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+.workspace,
+.workspace-split,
+.workspace-tabs,
+.workspace-leaf,
+.workspace-leaf-content,
+.workspace-tab-container,
+.workspace-tab-header-container,
+.view-header,
+.status-bar,
+.modal,
+.menu,
+.popover,
+.suggestion-container,
+.prompt,
+.metadata-container,
+.claudian-view,
+[class*="claudian"] {
+  will-change: auto !important;
+}
+
+.workspace-tab-header-container,
+.view-header,
+.status-bar,
+.modal,
+.menu,
+.popover,
+.suggestion-container,
+.prompt {
+  background-color: var(--wanting-performance-surface) !important;
+}
+
+.metadata-container,
+.metadata-properties,
+.workspace-leaf-content[data-type="empty"] {
+  background-color: var(--wanting-performance-surface-soft) !important;
+}
+
+/* Keep controls responsive without long all-property transitions. */
+.workspace button,
+.workspace [role="button"],
+.workspace .clickable-icon,
+.workspace .nav-file-title,
+.workspace .nav-folder-title {
+  transition-duration: 80ms !important;
+  transition-property: color, background-color, border-color, opacity, transform !important;
+}
+
+/* Decorative layers remain visible but static. Loading indicators are untouched. */
+.workspace :is(.sakura-petal, .petal, [class*="decorative"], [class*="floating"]),
+.workspace::before,
+.workspace::after {
+  animation: none !important;
+}
