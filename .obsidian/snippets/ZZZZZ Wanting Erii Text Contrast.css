@@ -1,0 +1,61 @@
+/* ============================================================
+   WANTING ERII — MAIN NOTE TEXT CONTRAST
+   Keeps the wallpaper visible while making Markdown body text
+   readable over both bright and dark areas of the image.
+   ============================================================ */
+
+body .workspace-split.mod-root
+  :is(
+    .markdown-source-view.mod-cm6,
+    .markdown-reading-view,
+    .markdown-preview-view
+  ) {
+  --text-normal: #fff7fa;
+  --text-muted: #f2ccd6;
+  --text-faint: #dba9b7;
+  --bold-color: #ffc0d0;
+  --italic-color: #ffd6e0;
+  --link-color: #ffd1dc;
+  --link-color-hover: #ffffff;
+}
+
+/* Body copy: pale rose-white plus a wine shadow for mixed wallpaper. */
+body .workspace-split.mod-root
+  .markdown-source-view.mod-cm6
+  .cm-line:not(.HyperMD-header),
+body .workspace-split.mod-root
+  :is(.markdown-reading-view, .markdown-preview-view)
+  :is(p, li, td, th, blockquote) {
+  color: var(--text-normal) !important;
+  text-shadow:
+    0 1px 2px rgba(39, 0, 13, 0.96),
+    0 0 7px rgba(39, 0, 13, 0.58);
+}
+
+/* Keep secondary syntax visible without making it compete with body text. */
+body .workspace-split.mod-root
+  .markdown-source-view.mod-cm6
+  :is(.cm-formatting, .cm-comment, .cm-fold-indicator),
+body .workspace-split.mod-root
+  :is(.markdown-reading-view, .markdown-preview-view)
+  :is(.footnote-link, .footnote-backref) {
+  color: var(--text-muted) !important;
+}
+
+/* Tags already have a solid coloured pill and read better without shadow. */
+body .workspace-split.mod-root
+  :is(.markdown-source-view.mod-cm6, .markdown-reading-view, .markdown-preview-view)
+  :is(a.tag, .cm-hashtag) {
+  text-shadow: none !important;
+}
+
+/* Selection remains obvious against the brighter body copy. */
+body .workspace-split.mod-root
+  .markdown-source-view.mod-cm6
+  .cm-selectionBackground,
+body .workspace-split.mod-root
+  .markdown-source-view.mod-cm6.cm-focused
+  .cm-selectionBackground {
+  background: rgba(255, 153, 183, 0.34) !important;
+}
+
