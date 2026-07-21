@@ -474,6 +474,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "JD库",
         "策划品类兼容口径.md",
         "华东",
         "华北",
@@ -15638,6 +15639,79 @@
     "OneNote/技术术语/游戏程序团队如何从0到1研发新游戏.md": {
       "isPinned": false,
       "isHidden": false
+    },
+    "岗位mapping/JD库": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "其他",
+        "运营",
+        "测试",
+        "美术",
+        "程序",
+        "策划",
+        "模板",
+        "JD库.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/JD库/JD库.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/JD库/模板": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "JD模板.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/JD库/策划": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "高级战斗策划-英雄互娱-北京.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/JD库/模板/JD模板.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/JD库/策划/高级战斗策划-英雄互娱-北京.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/JD库/程序": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/JD库/美术": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/JD库/测试": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/JD库/运营": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/JD库/其他": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
     }
   },
   "pinnedFiles": [],
