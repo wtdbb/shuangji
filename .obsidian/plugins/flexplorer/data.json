@@ -14347,6 +14347,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "游戏程序团队如何从0到1研发新游戏.md",
         "游戏开发全流程.md",
         "文案配表.md",
         "第四章 Unity 客户端",
@@ -15631,6 +15632,10 @@
       "isHidden": false
     },
     "Daily notes/Calendar/Journal/Daily/2026-07-21.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/游戏程序团队如何从0到1研发新游戏.md": {
       "isPinned": false,
       "isHidden": false
     }
