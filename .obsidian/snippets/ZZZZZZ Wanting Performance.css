@@ -68,3 +68,26 @@ body * {
 .workspace::after {
   animation: none !important;
 }
+
+/*
+ * Top-frame fix: the full-frame snippet previously painted the wallpaper once
+ * on the app and again inside the title bar / tab header. That second crop
+ * looked like an extra horizontal strip and even repeated near window buttons.
+ * Keep only a light glass tint here so the single app wallpaper stays seamless.
+ */
+body.theme-light :is(.titlebar, .titlebar-inner, .titlebar-button-container),
+body.theme-dark :is(.titlebar, .titlebar-inner, .titlebar-button-container),
+body.theme-light .app-container .workspace-tab-header-container,
+body.theme-dark .app-container .workspace-tab-header-container {
+  background-image: none !important;
+  background-color: rgba(66, 3, 25, 0.16) !important;
+  background-attachment: initial !important;
+  background-position: initial !important;
+  background-size: initial !important;
+  background-repeat: initial !important;
+}
+
+body.theme-light :is(.titlebar-button, .titlebar-button svg),
+body.theme-dark :is(.titlebar-button, .titlebar-button svg) {
+  filter: drop-shadow(0 1px 2px rgba(31, 0, 12, 0.76));
+}
