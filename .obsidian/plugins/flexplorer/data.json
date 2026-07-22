@@ -15277,6 +15277,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "于海浩-大世界NPC客户端开发推荐报告.md",
         "刘玥含-Merge出海剧情策划推荐报告.md",
         "吕盈-女性向游戏文案策划推荐报告.md",
         "钱勤-游戏客户端开发推荐报告.md",
@@ -15758,6 +15759,10 @@
       "isHidden": false
     },
     "岗位mapping/北京/北京像素软件科技有限公司/北京像素软件科技有限公司.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/推荐报告/于海浩-大世界NPC客户端开发推荐报告.md": {
       "isPinned": false,
       "isHidden": false
     }
