@@ -7,7 +7,7 @@
       "customOrder": [
         "Sakura.md",
         "简历库",
-        "AI信息收集系统",
+        "信息收集系统",
         "Daily notes",
         "岗位mapping",
         "行业mapping",
@@ -1127,18 +1127,6 @@
       "customOrder": [
         "2026-06-W04.md"
       ]
-    },
-    "AI信息收集系统": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "automation-pending.md"
-      ]
-    },
-    "AI信息收集系统/automation-pending.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "岗位mapping/分部": {
       "isPinned": false,
@@ -15712,6 +15700,28 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": []
+    },
+    "信息收集系统": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "UE 客户端要求.png",
+        "字节付费.png",
+        "automation-pending.md"
+      ]
+    },
+    "信息收集系统/automation-pending.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "信息收集系统/字节付费.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "信息收集系统/UE 客户端要求.png": {
+      "isPinned": false,
+      "isHidden": false
     }
   },
   "pinnedFiles": [],
