@@ -14143,6 +14143,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "于海浩 客户端.pdf",
         "文案策划 程路.pdf",
         "简历 - 刘玥含.pdf",
         "吕盈-作品集-压缩版.zip",
@@ -15735,6 +15736,10 @@
       "isHidden": false
     },
     "配置/Obsidian搜索快捷键.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/于海浩 客户端.pdf": {
       "isPinned": false,
       "isHidden": false
     }
