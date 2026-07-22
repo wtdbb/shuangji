@@ -14341,6 +14341,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "OB（Open Beta）.md",
         "游戏程序团队如何从0到1研发新游戏.md",
         "游戏开发全流程.md",
         "文案配表.md",
@@ -15763,6 +15764,10 @@
       "isHidden": false
     },
     "简历库/推荐报告/于海浩-大世界NPC客户端开发推荐报告.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/OB（Open Beta）.md": {
       "isPinned": false,
       "isHidden": false
     }
