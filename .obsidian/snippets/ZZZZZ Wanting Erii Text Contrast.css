@@ -103,3 +103,58 @@ body .app-container .claudian-container
   li::marker {
   color: #ffcf70 !important;
 }
+
+/* ============================================================
+   GLOBAL SEARCH — readable result cards in the red sidebar
+   ============================================================ */
+
+body .app-container
+  :is(.mod-sidedock, .mod-left-split, .mod-right-split)
+  .search-result-file-match {
+  color: #fff7fa !important;
+  background: rgba(67, 2, 24, 0.84) !important;
+  border: 1px solid rgba(255, 194, 210, 0.28) !important;
+  box-shadow:
+    0 6px 16px rgba(31, 0, 11, 0.18),
+    inset 0 1px 0 rgba(255, 235, 241, 0.08) !important;
+}
+
+body .app-container
+  :is(.mod-sidedock, .mod-left-split, .mod-right-split)
+  .search-result-file-match:hover {
+  color: #ffffff !important;
+  background: rgba(91, 6, 34, 0.92) !important;
+  border-color: rgba(255, 209, 221, 0.46) !important;
+}
+
+body .app-container
+  :is(.mod-sidedock, .mod-left-split, .mod-right-split)
+  :is(
+    .search-result-file-match,
+    .search-result-file-match-content,
+    .search-result-file-title,
+    .search-result-file-title .tree-item-inner,
+    .search-info-text,
+    .search-empty-state
+  ) {
+  color: #fff7fa !important;
+  text-shadow: 0 1px 2px rgba(31, 0, 11, 0.72);
+}
+
+/* The exact query term uses dark wine text on a solid warm-gold marker. */
+body .app-container
+  :is(.mod-sidedock, .mod-left-split, .mod-right-split)
+  .search-result-file-matched-text {
+  color: #3a0717 !important;
+  background: #ffe08a !important;
+  border-radius: 3px !important;
+  padding-inline: 2px !important;
+  text-shadow: none !important;
+  box-shadow: 0 0 0 1px rgba(255, 240, 184, 0.36) !important;
+}
+
+body .app-container
+  :is(.mod-sidedock, .mod-left-split, .mod-right-split)
+  .search-result-file-title .tree-item-flair {
+  color: #ffd3df !important;
+}

@@ -617,6 +617,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Obsidian搜索快捷键.md",
         "CONTEXT.md",
         "Habits Tracker.md",
         "笔记模板.md.md",
@@ -15730,6 +15731,10 @@
       "isHidden": false
     },
     "岗位mapping/广州/沐瞳/潮汐守望者（Watcher of Realms）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "配置/Obsidian搜索快捷键.md": {
       "isPinned": false,
       "isHidden": false
     }
