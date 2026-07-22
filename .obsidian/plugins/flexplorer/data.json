@@ -891,6 +891,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "北京像素软件科技有限公司",
         "乐元素",
         "北京.md",
         "北京介绍.md",
@@ -15740,6 +15741,23 @@
       "isHidden": false
     },
     "简历库/于海浩 客户端.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/北京像素软件科技有限公司": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "北京像素软件科技有限公司.md",
+        "星际理想国（原硅基宇宙）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/北京/北京像素软件科技有限公司/星际理想国（原硅基宇宙）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/北京像素软件科技有限公司/北京像素软件科技有限公司.md": {
       "isPinned": false,
       "isHidden": false
     }
