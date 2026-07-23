@@ -1104,6 +1104,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-07-23.md",
         "2026-07-22.md",
         "2026-07-21.md",
         "2026-07-20.md",
@@ -15768,6 +15769,10 @@
       "isHidden": false
     },
     "OneNote/技术术语/OB（Open Beta）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-07-23.md": {
       "isPinned": false,
       "isHidden": false
     }
