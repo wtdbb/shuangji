@@ -15281,6 +15281,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "张嘉文-大世界任务策划推荐报告.md",
+        "张晓雪-女性向游戏文案策划推荐报告.md",
         "于海浩-大世界NPC客户端开发推荐报告.md",
         "刘玥含-Merge出海剧情策划推荐报告.md",
         "吕盈-女性向游戏文案策划推荐报告.md",
@@ -15783,6 +15785,14 @@
       "isHidden": false
     },
     "简历库/张晓雪-文案策划.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/推荐报告/张晓雪-女性向游戏文案策划推荐报告.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/推荐报告/张嘉文-大世界任务策划推荐报告.md": {
       "isPinned": false,
       "isHidden": false
     }
