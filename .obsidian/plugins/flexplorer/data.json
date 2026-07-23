@@ -14145,6 +14145,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "张嘉文简历(1).pdf",
         "于海浩 客户端.pdf",
         "文案策划 程路.pdf",
         "简历 - 刘玥含.pdf",
@@ -15773,6 +15774,10 @@
       "isHidden": false
     },
     "Daily notes/Calendar/Journal/Daily/2026-07-23.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/张嘉文简历(1).pdf": {
       "isPinned": false,
       "isHidden": false
     }
