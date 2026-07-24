@@ -14147,6 +14147,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "数值策划-吴铭.pdf",
         "张晓雪-文案策划.pdf",
         "张嘉文简历(1).pdf",
         "于海浩 客户端.pdf",
@@ -15803,6 +15804,10 @@
       "isHidden": false
     },
     "Daily notes/Calendar/Journal/Daily/2026-07-24.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/数值策划-吴铭.pdf": {
       "isPinned": false,
       "isHidden": false
     }
