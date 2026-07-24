@@ -15759,11 +15759,11 @@
     "岗位mapping/北京/北京像素软件科技有限公司": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "北京像素软件科技有限公司.md",
         "星际理想国（原硅基宇宙）.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/北京/北京像素软件科技有限公司/星际理想国（原硅基宇宙）.md": {
       "isPinned": false,
@@ -15820,10 +15820,10 @@
     "OneNote/猎头沟通话术": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "文案候选人：初创公司与大平台.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "OneNote/猎头沟通话术/文案候选人：初创公司与大平台.md": {
       "isPinned": false,
