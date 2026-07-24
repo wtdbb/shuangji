@@ -1104,6 +1104,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-07-24.md",
         "2026-07-23.md",
         "2026-07-22.md",
         "2026-07-21.md",
@@ -2174,6 +2175,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "仙尘小径.md",
         "Merge女性向休闲项目.md",
         "猎鱼达人3D.md",
         "波克捕鱼.md",
@@ -15793,6 +15795,14 @@
       "isHidden": false
     },
     "简历库/推荐报告/张嘉文-大世界任务策划推荐报告.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/上海/波克城市/仙尘小径.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-07-24.md": {
       "isPinned": false,
       "isHidden": false
     }
