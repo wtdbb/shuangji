@@ -1008,6 +1008,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "猎头沟通话术",
         "技术术语 1",
         "技术术语",
         "游戏技术术语.md",
@@ -15813,6 +15814,18 @@
       "isHidden": false
     },
     "简历库/推荐报告/吴铭-女性向商业化数值策划推荐报告.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/猎头沟通话术": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "文案候选人：初创公司与大平台.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "OneNote/猎头沟通话术/文案候选人：初创公司与大平台.md": {
       "isPinned": false,
       "isHidden": false
     }
