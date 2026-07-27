@@ -1105,6 +1105,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-07-27.md",
         "2026-07-24.md",
         "2026-07-23.md",
         "2026-07-22.md",
@@ -15286,6 +15287,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "陈俊-Unity Gameplay客户端开发推荐报告.md",
         "吴铭-女性向商业化数值策划推荐报告.md",
         "张嘉文-大世界任务策划推荐报告.md",
         "张晓雪-女性向游戏文案策划推荐报告.md",
@@ -15831,6 +15833,14 @@
       "isHidden": false
     },
     "简历库/陈俊 - Unity 客户端开发工程师简历.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/推荐报告/陈俊-Unity Gameplay客户端开发推荐报告.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-07-27.md": {
       "isPinned": false,
       "isHidden": false
     }
