@@ -1105,6 +1105,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-07-29.md",
         "2026-07-28.md",
         "2026-07-27.md",
         "2026-07-24.md",
@@ -15856,6 +15857,10 @@
       "isHidden": false
     },
     "Daily notes/Calendar/Journal/Daily/2026-07-28.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-07-29.md": {
       "isPinned": false,
       "isHidden": false
     }
