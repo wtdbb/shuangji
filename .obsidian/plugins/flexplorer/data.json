@@ -14151,6 +14151,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "高任--ue4游戏开发.pdf",
         "吴玥瑶-文案策划.pdf",
         "陈俊 - Unity 客户端开发工程师简历.pdf",
         "数值策划-吴铭.pdf",
@@ -15861,6 +15862,10 @@
       "isHidden": false
     },
     "Daily notes/Calendar/Journal/Daily/2026-07-29.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/高任--ue4游戏开发.pdf": {
       "isPinned": false,
       "isHidden": false
     }
