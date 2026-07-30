@@ -15295,6 +15295,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "王晓彤-Unity性能优化客户端开发推荐报告.md",
         "王歆宇-UE5战斗Gameplay客户端开发推荐报告.md",
         "高任-UE5战斗Gameplay客户端开发推荐报告.md",
         "吴玥瑶-二次元游戏文案策划推荐报告.md",
@@ -15896,6 +15897,10 @@
       "isHidden": false
     },
     "简历库/王晓彤 unity客户端.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/推荐报告/王晓彤-Unity性能优化客户端开发推荐报告.md": {
       "isPinned": false,
       "isHidden": false
     }
