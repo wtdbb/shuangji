@@ -1105,6 +1105,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-07-31.md",
         "2026-07-30.md",
         "2026-07-29.md",
         "2026-07-28.md",
@@ -15296,6 +15297,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "王浩洋-Unity平台SDK与CI-CD推荐报告.md",
         "王晓彤-Unity性能优化客户端开发推荐报告.md",
         "王歆宇-UE5战斗Gameplay客户端开发推荐报告.md",
         "高任-UE5战斗Gameplay客户端开发推荐报告.md",
@@ -15906,6 +15908,14 @@
       "isHidden": false
     },
     "简历库/王浩洋 客户端.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/推荐报告/王浩洋-Unity平台SDK与CI-CD推荐报告.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-07-31.md": {
       "isPinned": false,
       "isHidden": false
     }
