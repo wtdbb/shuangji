@@ -14153,6 +14153,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "刘阳阳_数值策划.pdf",
         "王浩洋 客户端.pdf",
         "王晓彤 unity客户端.pdf",
         "【UE客户端开发_上海 30-50K】王歆宇 5年.pdf",
@@ -15916,6 +15917,10 @@
       "isHidden": false
     },
     "Daily notes/Calendar/Journal/Daily/2026-07-31.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/刘阳阳_数值策划.pdf": {
       "isPinned": false,
       "isHidden": false
     }
