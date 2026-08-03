@@ -14361,6 +14361,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "PS与Xbox主机平台经验.md",
         "服务器中台.md",
         "OB（Open Beta）.md",
         "游戏程序团队如何从0到1研发新游戏.md",
@@ -15931,6 +15932,10 @@
       "isHidden": false
     },
     "Daily notes/Calendar/Journal/Daily/2026-08-03.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/PS与Xbox主机平台经验.md": {
       "isPinned": false,
       "isHidden": false
     }
