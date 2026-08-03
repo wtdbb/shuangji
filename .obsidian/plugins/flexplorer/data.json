@@ -1105,6 +1105,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-08-03.md",
         "2026-07-31.md",
         "2026-07-30.md",
         "2026-07-29.md",
@@ -15298,6 +15299,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "刘阳阳-卡牌商业化数值策划推荐报告.md",
         "王浩洋-Unity平台SDK与CI-CD推荐报告.md",
         "王晓彤-Unity性能优化客户端开发推荐报告.md",
         "王歆宇-UE5战斗Gameplay客户端开发推荐报告.md",
@@ -15921,6 +15923,14 @@
       "isHidden": false
     },
     "简历库/刘阳阳_数值策划.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/推荐报告/刘阳阳-卡牌商业化数值策划推荐报告.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-08-03.md": {
       "isPinned": false,
       "isHidden": false
     }
