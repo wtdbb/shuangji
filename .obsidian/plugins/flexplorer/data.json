@@ -14154,6 +14154,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "AI策划-张天元.pdf",
         "刘阳阳_数值策划.pdf",
         "王浩洋 客户端.pdf",
         "王晓彤 unity客户端.pdf",
@@ -15936,6 +15937,10 @@
       "isHidden": false
     },
     "OneNote/技术术语/PS与Xbox主机平台经验.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/AI策划-张天元.pdf": {
       "isPinned": false,
       "isHidden": false
     }
