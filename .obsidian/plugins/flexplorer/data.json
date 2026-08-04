@@ -14156,6 +14156,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "客户端 邓默凡.pdf",
         "系统策划-徐志鹏-13996009931(2).pdf",
         "AI策划-张天元.pdf",
         "刘阳阳_数值策划.pdf",
@@ -15966,6 +15967,10 @@
       "isHidden": false
     },
     "简历库/推荐报告/徐志鹏-系统策划推荐报告.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/客户端 邓默凡.pdf": {
       "isPinned": false,
       "isHidden": false
     }
