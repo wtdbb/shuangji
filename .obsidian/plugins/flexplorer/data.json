@@ -15304,6 +15304,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "徐志鹏-系统策划推荐报告.md",
         "刘阳阳-卡牌商业化数值策划推荐报告.md",
         "王浩洋-Unity平台SDK与CI-CD推荐报告.md",
         "王晓彤-Unity性能优化客户端开发推荐报告.md",
@@ -15961,6 +15962,10 @@
       "isHidden": false
     },
     "简历库/系统策划-徐志鹏-13996009931(2).pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/推荐报告/徐志鹏-系统策划推荐报告.md": {
       "isPinned": false,
       "isHidden": false
     }
