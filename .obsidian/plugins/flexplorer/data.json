@@ -14158,6 +14158,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "王世友 ue.pdf",
         "陈育辉 关卡策划.pdf",
         "客户端 邓默凡.pdf",
         "系统策划-徐志鹏-13996009931(2).pdf",
@@ -16014,6 +16015,10 @@
       "sortOrder": "custom"
     },
     "岗位mapping/北京/欢乐扬帆（Fun Formula）/欢乐扬帆（Fun Formula）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/王世友 ue.pdf": {
       "isPinned": false,
       "isHidden": false
     }
