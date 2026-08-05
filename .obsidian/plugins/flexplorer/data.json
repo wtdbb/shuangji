@@ -14158,6 +14158,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "候选人评估",
         "王世友 ue.pdf",
         "陈育辉 关卡策划.pdf",
         "客户端 邓默凡.pdf",
@@ -16019,6 +16020,18 @@
       "isHidden": false
     },
     "简历库/王世友 ue.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/候选人评估": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "王世友-UE客户端候选人评估.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "简历库/候选人评估/王世友-UE客户端候选人评估.md": {
       "isPinned": false,
       "isHidden": false
     }
