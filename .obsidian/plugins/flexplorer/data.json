@@ -1105,6 +1105,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-08-05.md",
         "2026-08-04.md",
         "2026-08-03.md",
         "2026-07-31.md",
@@ -14366,6 +14367,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "UE包体与热更方向.md",
         "PS与Xbox主机平台经验.md",
         "服务器中台.md",
         "OB（Open Beta）.md",
@@ -15981,6 +15983,14 @@
       "isHidden": false
     },
     "简历库/推荐报告/邓默凡-Unity资源入版客户端开发推荐报告.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/UE包体与热更方向.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-08-05.md": {
       "isPinned": false,
       "isHidden": false
     }
