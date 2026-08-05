@@ -15308,6 +15308,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "陈育辉-大世界FPS关卡策划推荐报告.md",
         "邓默凡-Unity资源入版客户端开发推荐报告.md",
         "邓默凡-Unity Gameplay客户端开发推荐报告.md",
         "徐志鹏-系统策划推荐报告.md",
@@ -15996,6 +15997,10 @@
       "isHidden": false
     },
     "简历库/陈育辉 关卡策划.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/推荐报告/陈育辉-大世界FPS关卡策划推荐报告.md": {
       "isPinned": false,
       "isHidden": false
     }
