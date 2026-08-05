@@ -891,6 +891,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "欢乐扬帆（Fun Formula）",
         "北京像素软件科技有限公司",
         "乐元素",
         "北京.md",
@@ -16001,6 +16002,18 @@
       "isHidden": false
     },
     "简历库/推荐报告/陈育辉-大世界FPS关卡策划推荐报告.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "岗位mapping/北京/欢乐扬帆（Fun Formula）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "欢乐扬帆（Fun Formula）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "岗位mapping/北京/欢乐扬帆（Fun Formula）/欢乐扬帆（Fun Formula）.md": {
       "isPinned": false,
       "isHidden": false
     }
