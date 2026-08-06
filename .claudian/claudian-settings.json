@@ -157,7 +157,7 @@
   "settingsProvider": "claude",
   "savedProviderModel": {
     "claude": "opus",
-    "codex": "gpt-5.5",
+    "codex": "gpt-5.6-sol",
     "opencode": "opencode:google/gemini-3.1-pro-preview"
   },
   "savedProviderEffort": {
@@ -176,10 +176,10 @@
   },
   "lastCustomModel": "",
   "maxTabs": 3,
-  "tabBarPosition": "input",
   "enableAutoScroll": true,
   "deferMathRenderingDuringStreaming": true,
   "expandFileEditsByDefault": false,
   "chatViewPlacement": "right-sidebar",
-  "hiddenProviderCommands": {}
+  "hiddenProviderCommands": {},
+  "tabBarPosition": "input"
 }
