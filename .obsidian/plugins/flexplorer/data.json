@@ -1106,6 +1106,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-08-06.md",
         "2026-08-05.md",
         "2026-08-04.md",
         "2026-08-03.md",
@@ -14371,6 +14372,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "游戏资源入版与版本发布.md",
         "UE包体与热更方向.md",
         "PS与Xbox主机平台经验.md",
         "服务器中台.md",
@@ -16032,6 +16034,14 @@
       "sortOrder": "custom"
     },
     "简历库/候选人评估/王世友-UE客户端候选人评估.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "OneNote/技术术语/游戏资源入版与版本发布.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-08-06.md": {
       "isPinned": false,
       "isHidden": false
     }
