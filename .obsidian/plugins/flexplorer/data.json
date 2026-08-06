@@ -16033,6 +16033,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "张翼飞-客户端主程匹配评估.md",
         "韩凌云-UE战斗客户端JD匹配评估.md",
         "王世友-UE客户端候选人评估.md"
       ],
@@ -16067,6 +16068,10 @@
       "isHidden": false
     },
     "简历库/张翼飞.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/候选人评估/张翼飞-客户端主程匹配评估.md": {
       "isPinned": false,
       "isHidden": false
     }
