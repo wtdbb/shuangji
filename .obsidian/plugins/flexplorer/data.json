@@ -1106,6 +1106,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-08-07.md",
         "2026-08-06.md",
         "2026-08-05.md",
         "2026-08-04.md",
@@ -16734,8 +16735,18 @@
     "简历库/候选人筛选": {
       "isPinned": false,
       "isHidden": false,
-      "customOrder": [],
+      "customOrder": [
+        "985客户端候选人清单.md"
+      ],
       "sortOrder": "custom"
+    },
+    "简历库/候选人筛选/985客户端候选人清单.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-08-07.md": {
+      "isPinned": false,
+      "isHidden": false
     }
   },
   "pinnedFiles": [],
