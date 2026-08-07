@@ -14159,6 +14159,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "候选人筛选",
         "张文康-工作2年-【脉脉招聘】.pdf",
         "张若萌 1年以内.pdf",
         "张清华 10年以上 (1).pdf",
@@ -16729,6 +16730,12 @@
     "简历库/张文康-工作2年-【脉脉招聘】.pdf": {
       "isPinned": false,
       "isHidden": false
+    },
+    "简历库/候选人筛选": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [],
+      "sortOrder": "custom"
     }
   },
   "pinnedFiles": [],
