@@ -16149,10 +16149,10 @@
     "岗位mapping/北京/欢乐扬帆（Fun Formula）": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "欢乐扬帆（Fun Formula）.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "岗位mapping/北京/欢乐扬帆（Fun Formula）/欢乐扬帆（Fun Formula）.md": {
       "isPinned": false,
@@ -16165,12 +16165,12 @@
     "简历库/候选人评估": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "张翼飞-客户端主程匹配评估.md",
         "韩凌云-UE战斗客户端JD匹配评估.md",
         "王世友-UE客户端候选人评估.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "简历库/候选人评估/王世友-UE客户端候选人评估.md": {
       "isPinned": false,
@@ -16735,10 +16735,10 @@
     "简历库/候选人筛选": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "985客户端候选人清单.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "简历库/候选人筛选/985客户端候选人清单.md": {
       "isPinned": false,
