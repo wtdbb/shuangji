@@ -1114,6 +1114,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-08-12.md",
         "2026-08-07.md",
         "2026-08-06.md",
         "2026-08-05.md",
@@ -16176,6 +16177,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "杜定坤-简历修改建议.md",
         "张翼飞-客户端主程匹配评估.md",
         "韩凌云-UE战斗客户端JD匹配评估.md",
         "王世友-UE客户端候选人评估.md"
@@ -16790,6 +16792,14 @@
       "isHidden": false
     },
     "简历库/杜定坤_Unity客户端主程_简历.docx": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/候选人评估/杜定坤-简历修改建议.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-08-12.md": {
       "isPinned": false,
       "isHidden": false
     }
