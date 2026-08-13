@@ -1114,6 +1114,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-08-13.md",
         "2026-08-12.md",
         "2026-08-07.md",
         "2026-08-06.md",
@@ -15461,6 +15462,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "王雪辰-Unity Gameplay客户端开发推荐报告.md",
         "杜定坤-Unity客户端工具链推荐报告.md",
         "王世友-UE客户端系统开发推荐报告.md",
         "陈育辉-大世界FPS关卡策划推荐报告.md",
@@ -16815,6 +16817,14 @@
       "isHidden": false
     },
     "简历库/王雪辰 - 游戏客户端程序.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/推荐报告/王雪辰-Unity Gameplay客户端开发推荐报告.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-08-13.md": {
       "isPinned": false,
       "isHidden": false
     }
