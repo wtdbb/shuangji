@@ -14169,6 +14169,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "王雪辰 - 游戏客户端程序.pdf",
         "杜定坤_Unity多项目生产工具负责人_简历(1).pdf",
         "杜定坤_Unity客户端主程_简历.docx",
         "候选人筛选",
@@ -16810,6 +16811,10 @@
       "isHidden": false
     },
     "简历库/推荐报告/杜定坤-Unity客户端工具链推荐报告.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/王雪辰 - 游戏客户端程序.pdf": {
       "isPinned": false,
       "isHidden": false
     }
