@@ -15463,6 +15463,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "游勇-Unity客户端工具链推荐报告.md",
         "王雪辰-Unity Gameplay客户端开发推荐报告.md",
         "杜定坤-Unity客户端工具链推荐报告.md",
         "王世友-UE客户端系统开发推荐报告.md",
@@ -16830,6 +16831,10 @@
       "isHidden": false
     },
     "简历库/游勇-U3D客户端.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/推荐报告/游勇-Unity客户端工具链推荐报告.md": {
       "isPinned": false,
       "isHidden": false
     }
