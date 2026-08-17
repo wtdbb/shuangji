@@ -14170,6 +14170,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "游勇-U3D客户端.pdf",
         "王雪辰 - 游戏客户端程序.pdf",
         "杜定坤_Unity多项目生产工具负责人_简历(1).pdf",
         "杜定坤_Unity客户端主程_简历.docx",
@@ -16825,6 +16826,10 @@
       "isHidden": false
     },
     "Daily notes/Calendar/Journal/Daily/2026-08-13.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/游勇-U3D客户端.pdf": {
       "isPinned": false,
       "isHidden": false
     }
