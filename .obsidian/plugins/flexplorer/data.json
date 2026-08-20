@@ -14170,6 +14170,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "刘逸南_游戏测试开发工程师.pdf",
         "游勇-U3D客户端.pdf",
         "王雪辰 - 游戏客户端程序.pdf",
         "杜定坤_Unity多项目生产工具负责人_简历(1).pdf",
@@ -16835,6 +16836,10 @@
       "isHidden": false
     },
     "简历库/推荐报告/游勇-Unity客户端工具链推荐报告.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/刘逸南_游戏测试开发工程师.pdf": {
       "isPinned": false,
       "isHidden": false
     }
