@@ -1114,6 +1114,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-08-24.md",
         "2026-08-21.md",
         "2026-08-13.md",
         "2026-08-12.md",
@@ -15466,6 +15467,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "耿帅-Unity客户端开发推荐报告.md",
         "刘逸南-游戏测试开发推荐报告.md",
         "游勇-Unity客户端工具链推荐报告.md",
         "王雪辰-Unity Gameplay客户端开发推荐报告.md",
@@ -16855,6 +16857,14 @@
       "isHidden": false
     },
     "简历库/耿帅-U3D客户端.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/推荐报告/耿帅-Unity客户端开发推荐报告.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Daily notes/Calendar/Journal/Daily/2026-08-24.md": {
       "isPinned": false,
       "isHidden": false
     }
