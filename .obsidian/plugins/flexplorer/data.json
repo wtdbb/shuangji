@@ -14171,6 +14171,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "耿帅-U3D客户端.pdf",
         "刘逸南_游戏测试开发工程师.pdf",
         "游勇-U3D客户端.pdf",
         "王雪辰 - 游戏客户端程序.pdf",
@@ -16850,6 +16851,10 @@
       "isHidden": false
     },
     "Daily notes/Calendar/Journal/Daily/2026-08-21.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/耿帅-U3D客户端.pdf": {
       "isPinned": false,
       "isHidden": false
     }
