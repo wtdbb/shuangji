@@ -15468,6 +15468,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "曾伟-游戏中台SDK负责人推荐报告.md",
         "耿帅-Unity客户端开发推荐报告.md",
         "刘逸南-游戏测试开发推荐报告.md",
         "游勇-Unity客户端工具链推荐报告.md",
@@ -16870,6 +16871,10 @@
       "isHidden": false
     },
     "简历库/曾伟-游戏中台SDK2026.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历库/推荐报告/曾伟-游戏中台SDK负责人推荐报告.md": {
       "isPinned": false,
       "isHidden": false
     }
