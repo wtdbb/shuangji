@@ -583,6 +583,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "index.md",
         "尘白禁区发行制作人离职；沙特土豪近4000亿顺利收购EA 丨 HOT周报.md",
         "6月29日—7月5日共有27款游戏开测｜GameRes.md",
         "声明.md",
@@ -590,8 +591,7 @@
         "4000+新游一涌而出：谁暴死，谁爆红？.md",
         "突发，上海二游厂商宣布裁员项目重做_腾讯新闻.md",
         "我确信，吹哥确实造出了解谜游戏史上最高的山.md",
-        "腾讯网易同时出手，本周新游市场又热闹了.md",
-        "index.md"
+        "腾讯网易同时出手，本周新游市场又热闹了.md"
       ]
     },
     "行业报告/日报输出": {
@@ -746,10 +746,6 @@
       "customOrder": []
     },
     "行业报告/视频链接/index.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "行业报告/公众号原内容/index.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -16885,6 +16881,10 @@
       "isHidden": false
     },
     "Daily notes/Calendar/Journal/Daily/2026-09-04.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "行业报告/公众号原内容/index.md": {
       "isPinned": false,
       "isHidden": false
     }
